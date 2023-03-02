@@ -1,0 +1,2217 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+media_folder: theme/assets/images
+public_folder: /assets/images
+collections:
+  - name: pages
+    label: Pages
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    folder: cms/pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '{{slug}}.html'
+      - &ref_0
+        label: Seo
+        name: seo
+        widget: object
+        collapsed: true
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: No index
+            name: noindex
+            widget: boolean
+            default: false
+            required: false
+          - label: Open Graph Title
+            name: og:title
+            widget: string
+            required: false
+          - label: Open Graph Image
+            name: og:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Twitter Title
+            name: twitter:title
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Card
+            name: twitter:card
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Site
+            name: twitter:site
+            widget: string
+            required: false
+          - label: Twitter Creator
+            name: twitter:creator
+            widget: string
+            required: false
+          - label: Additional HTML tags
+            name: additional_tags
+            widget: text
+            required: false
+  - name: post
+    label: Blog Posts
+    folder: cms/post
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Post Body
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_date-published
+        label: Date Published
+        widget: datetime
+        required: false
+      - hint: A summary of the blog post that appears on blog post grid
+        name: f_post-summary
+        label: Post Summary
+        widget: text
+        required: false
+      - hint: ''
+        name: f_main-image
+        label: Main Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_image-description
+        label: Image Description
+        widget: string
+        required: false
+      - hint: ''
+        name: f_featured
+        label: Featured?
+        widget: boolean
+        required: false
+      - hint: ''
+        name: f_color
+        label: Color
+        widget: color
+        required: false
+        enableAlpha: true
+        allowInput: true
+      - hint: ''
+        name: f_tag-1
+        label: Tag 1
+        widget: string
+        required: false
+      - hint: ''
+        name: f_tag-2
+        label: Tag 2
+        widget: string
+        required: false
+      - hint: ''
+        name: f_tag-3
+        label: Tag 3
+        widget: string
+        required: false
+      - hint: ''
+        name: f_post-body-1
+        label: Post Body 1
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: post
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[post].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - label: Theme Settings
+    name: settings
+    identifier_field: title
+    extension: json
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    files:
+      - label: General
+        name: site
+        file: cms/_data/settings/site.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: General
+          - hint: Full domain url (needed for a correct sitemap file)
+            name: domain
+            label: Domain
+            widget: string
+            required: false
+          - name: favicon
+            label: Favicon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: apple_touch_icon
+            label: Apple Touch Icon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: header_additional_content
+            label: Additional Content Header
+            hint: Content here will be placed before </head> tag
+            widget: text
+            required: false
+          - name: footer_additional_content
+            label: Additional Content Footer
+            hint: Content here will be placed before </body> tag
+            widget: text
+            required: false
+          - name: images_optimization
+            label: Images Optimization
+            widget: object
+            collapsed: false
+            fields:
+              - label: Image Formats
+                name: formats
+                widget: select
+                multiple: true
+                options:
+                  - label: Avif
+                    value: avif
+                  - label: Webp
+                    value: webp
+              - label: Image Dimensions
+                name: dimensions
+                widget: select
+                multiple: true
+                options:
+                  - label: '500'
+                    value: 500
+                  - label: '800'
+                    value: 800
+                  - label: '1080'
+                    value: 1080
+                  - label: '1600'
+                    value: 1600
+                  - label: '2000'
+                    value: 2000
+                  - label: '2600'
+                    value: 2600
+      - label: Colors
+        name: colors
+        file: cms/_data/colors.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Colors
+      - label: Texts
+        name: texts
+        file: cms/_data/texts.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Texts
+          - hint: 'Original text: About FFDW, key: -377645da'
+            label: Text
+            name: '-377645da'
+            widget: string
+          - hint: 'Original text: Explore, key: 15309273'
+            label: Text
+            name: '15309273'
+            widget: string
+          - hint: 'Original text: Get Involved, key: 4422b111'
+            label: Text
+            name: 4422b111
+            widget: string
+          - hint: 'Original text: Awards, key: 75a5bdd6'
+            label: Text
+            name: 75a5bdd6
+            widget: string
+          - hint: 'Original text: Rebuilding the Internet. For good., key: -266c47e1'
+            label: Text
+            name: '-266c47e1'
+            widget: string
+          - hint: 'Original text: Learn More, key: -52bd880f'
+            label: Text
+            name: '-52bd880f'
+            widget: string
+          - hint: >-
+              Original text: Filecoin Foundation for the Decentralized Web, key:
+              45041158
+            label: Text
+            name: '45041158'
+            widget: string
+          - hint: >-
+              Original text: FFDW exists to advance humankind by furthering the
+              future of the web through education, research, and development.,
+              key: 3c2aad72
+            label: Text
+            name: 3c2aad72
+            widget: text
+          - hint: 'Original text: Centralized, key: 5a746465'
+            label: Text
+            name: 5a746465
+            widget: string
+          - hint: 'Original text: We exist to build a better web , key: 24e0d621'
+            label: Text
+            name: 24e0d621
+            widget: string
+          - hint: >-
+              Original text: The Filecoin Foundation for the Decentralized Web
+              is a 501(c)(3) nonprofit organization committed to preserving
+              humanity’s most important information by fostering the development
+              of open-source software and open protocols., key: 643ccfa6
+            label: Text
+            name: 643ccfa6
+            widget: text
+          - hint: 'Original text: Distributed, key: -4d0bc17d'
+            label: Text
+            name: '-4d0bc17d'
+            widget: string
+          - hint: 'Original text: Explore the DWeb , key: -511f302c'
+            label: Text
+            name: '-511f302c'
+            widget: string
+          - hint: |-
+              Original text: Welcome to the next
+                          generation of the web , key: -76ace9c3
+            label: Text
+            name: '-76ace9c3'
+            widget: string
+          - hint: >-
+              Original text: We support programs that educate the public about
+              how the internet works and what a decentralized future means for
+              business, governments, and consumers alike. Learn more about the
+              benefits of decentralization and the promise of Web3, through
+              interactive tutorials, white papers, video resources, and more. ,
+              key: -42f300b6
+            label: Text
+            name: '-42f300b6'
+            widget: text
+          - hint: 'Original text: Education , key: 5d936998'
+            label: Text
+            name: 5d936998
+            widget: string
+          - hint: >-
+              Original text: We support programs that educate the public about
+              how the internet works and what a Web3 future means for business,
+              governments, and consumers alike. , key: -24326496
+            label: Text
+            name: '-24326496'
+            widget: text
+          - hint: 'Original text: Research , key: -10eb6e3b'
+            label: Text
+            name: '-10eb6e3b'
+            widget: string
+          - hint: >-
+              Original text: We explore the ways to improve and expand
+              decentralized web data and retrieval and storage with outputs that
+              are freely and publicly accessible. , key: -2974136e
+            label: Text
+            name: '-2974136e'
+            widget: text
+          - hint: 'Original text: Development , key: 6a655e65'
+            label: Text
+            name: 6a655e65
+            widget: string
+          - hint: >-
+              Original text: We drive the creation and development of
+              technologies that will enable decentralized file storage of
+              humanity’s most important information. , key: -5c874037
+            label: Text
+            name: '-5c874037'
+            widget: text
+          - hint: 'Original text: Funding , key: 563300e3'
+            label: Text
+            name: '563300e3'
+            widget: string
+          - hint: >-
+              Original text: We are dedicated to funding the development of
+              open-source tools that will be the backbone of tomorrow’s
+              decentralized web. , key: 47297931
+            label: Text
+            name: '47297931'
+            widget: text
+          - hint: 'Original text: Frequently Asked Questions , key: 5bebd180'
+            label: Text
+            name: 5bebd180
+            widget: string
+          - hint: 'Original text: What is your non-profit status?, key: -4294797c'
+            label: Text
+            name: '-4294797c'
+            widget: string
+          - hint: >-
+              Original text: FFDW has applied for 501(c)(3) tax exempt, private
+              opening foundation status. Maintaining adherence to mission is
+              important from source (FFDW) to destination (end recipient), no
+              matter the type of funding instrument (contract, grant, donation)
+              used to provide resources to end recipients., key: -31bb3584
+            label: Text
+            name: '-31bb3584'
+            widget: text
+          - hint: >-
+              Original text: What’s the relationship between the Filecoin
+              Foundation for the Decentralized Web and the Filecoin Foundation?,
+              key: 5bcd84b7
+            label: Text
+            name: 5bcd84b7
+            widget: text
+          - hint: >-
+              Original text: The creators of Filecoin envisioned an independent
+              foundation that would serve as the long-term governance body for
+              the Filecoin ecosystem. Its original mandate was to “grow an open
+              ecosystem for decentralized storage” and to “give developers an
+              open and sustainable platform to build, enhance and monetize those
+              services.” The Filecoin Foundation (FF) is an independent
+              organization that facilitates governance of the Filecoin network,
+              funds critical development projects, supports the growth of the
+              Filecoin ecosystem, and advocates for Filecoin and the
+              decentralized web. FF does this by coordinating and supporting the
+              creation and improvement of open-source software and open
+              protocols for decentralized data storage and retrieval networks.
+              The Filecoin Foundation for the Decentralized Web (FFDW) focuses
+              on charitable activities related to preserving important datasets,
+              such as building and supporting the decentralized web community,
+              funding research and development, and educating the public about
+              the decentralized web., key: -57f995b0
+            label: Text
+            name: '-57f995b0'
+            widget: text
+          - hint: 'Original text: EXPLORE THE DWEB, key: -c5c2614'
+            label: Text
+            name: '-c5c2614'
+            widget: string
+          - hint: >-
+              Original text: We exist to ensure the power of humanity’s most
+              important information is never compromised, abused, or ruled by
+              any single entity. , key: cf551ee
+            label: Text
+            name: cf551ee
+            widget: text
+          - hint: >-
+              Original text: If you’re working on a project that will help
+              create a better DWeb, , key: 1245353
+            label: Text
+            name: '1245353'
+            widget: string
+          - hint: 'Original text: we want to hear from you., key: -c828546'
+            label: Text
+            name: '-c828546'
+            widget: string
+          - hint: 'Original text: The Starling Lab Award Spotlight , key: 53a85ab'
+            label: Text
+            name: 53a85ab
+            widget: string
+          - hint: "Original text: The Filecoin Foundation for the Decentralized Web announces a multi-year commitment to The Starling Lab, \_a research center developing a comprehensive set of tools and principles that empower organizations to securely capture, store, and verify human history., key: -16deb6fd"
+            label: Text
+            name: '-16deb6fd'
+            widget: text
+          - hint: >-
+              Original text: Join the conversation and build a better Internet.
+              , key: -1d4fcef
+            label: Text
+            name: '-1d4fcef'
+            widget: string
+          - hint: |-
+              Original text: Or, sign up to hear
+                            from us , key: 2c93387c
+            label: Text
+            name: 2c93387c
+            widget: string
+          - hint: 'Original text: Email , key: 7bec1424'
+            label: Text
+            name: 7bec1424
+            widget: string
+          - hint: 'Original text: Submit > , key: -73c6b776'
+            label: Text
+            name: '-73c6b776'
+            widget: string
+          - hint: 'Original text: Latest News From FFDW, key: 51c98c95'
+            label: Text
+            name: 51c98c95
+            widget: string
+          - hint: |-
+              Original text: Updates from our organization
+                        and across the Web3 universe. , key: -37f05f4c
+            label: Text
+            name: '-37f05f4c'
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
+            widget: string
+          - hint: 'Original text: Previous, key: -4811e0e9'
+            label: Text
+            name: '-4811e0e9'
+            widget: string
+          - hint: 'Original text: Next, key: 24ff13'
+            label: Text
+            name: 24ff13
+            widget: string
+          - hint: 'Original text: VIEW MORE, key: 469dcff0'
+            label: Text
+            name: 469dcff0
+            widget: string
+          - hint: 'Original text: Explore the DWeb, key: 26ac69cc'
+            label: Text
+            name: 26ac69cc
+            widget: string
+          - hint: 'Original text: Grants, key: 7f9c4ef7'
+            label: Text
+            name: 7f9c4ef7
+            widget: string
+          - hint: 'Original text: Blog, key: 1fa3c2'
+            label: Text
+            name: 1fa3c2
+            widget: string
+          - hint: 'Original text: Contact Us, key: 7f2746de'
+            label: Text
+            name: 7f2746de
+            widget: string
+          - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
+            label: Text
+            name: '-3fbde6f6'
+            widget: string
+          - hint: 'Original text: Terms of use, key: 38629897'
+            label: Text
+            name: '38629897'
+            widget: string
+          - hint: 'Original text: lINKEDIN >, key: -9d29e84'
+            label: Text
+            name: '-9d29e84'
+            widget: string
+          - hint: 'Original text: Twitter >, key: 6f12fdb1'
+            label: Text
+            name: 6f12fdb1
+            widget: string
+          - hint: 'Original text:  Youtube >, key: 19653641'
+            label: Text
+            name: '19653641'
+            widget: string
+          - hint: 'Original text: Style Guide, key: -7aba473'
+            label: Text
+            name: '-7aba473'
+            widget: string
+          - hint: >-
+              Original text: Pro-tips: Paste this content into a dedicated page
+              named “Style guide”. Convert each color style below to global
+              swatches so they can be used in text, borders, backgrounds, and
+              gradients. To do this, select a color style element, navigate to
+              the Background Color section in the Style panel, edit the color,
+              and add it as a global swatch., key: -7f38981d
+            label: Text
+            name: '-7f38981d'
+            widget: text
+          - hint: 'Original text: Text styles, key: 35c0a715'
+            label: Text
+            name: 35c0a715
+            widget: string
+          - hint: 'Original text: Heading, key: -6d5fea1e'
+            label: Text
+            name: '-6d5fea1e'
+            widget: string
+          - hint: >-
+              Original text: Manrope Bold 76px/139.9999976158142%, key:
+              -239ea916
+            label: Text
+            name: '-239ea916'
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 16px/120.00000476837158%, key:
+              -222101e
+            label: Text
+            name: '-222101e'
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 49px/139.9999976158142%, key:
+              -7b411c6e
+            label: Text
+            name: '-7b411c6e'
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 39px/139.9999976158142%, key:
+              3a8d4a51
+            label: Text
+            name: 3a8d4a51
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 31px/139.9999976158142%, key:
+              65f7559
+            label: Text
+            name: 65f7559
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 25px/139.9999976158142%, key:
+              -29bb396c
+            label: Text
+            name: '-29bb396c'
+            widget: string
+          - hint: 'Original text: Lorem ipsum dolor, key: 2dcf2cff'
+            label: Text
+            name: 2dcf2cff
+            widget: string
+          - hint: >-
+              Original text: Manrope Regular 20px/160.0000023841858%, key:
+              -17eaa8be
+            label: Text
+            name: '-17eaa8be'
+            widget: string
+          - hint: >-
+              Original text: Manrope SemiBold 16px/139.9999976158142%, key:
+              1298e7f2
+            label: Text
+            name: 1298e7f2
+            widget: string
+          - hint: 'Original text: Manrope Bold 13px/200%, key: -4846424f'
+            label: Text
+            name: '-4846424f'
+            widget: string
+          - hint: 'Original text: Color styles, key: -6aca5fa1'
+            label: Text
+            name: '-6aca5fa1'
+            widget: string
+          - hint: 'Original text: FFDW Black - #070517, key: -6b852d6c'
+            label: Text
+            name: '-6b852d6c'
+            widget: string
+          - hint: 'Original text: FFDW Purple - #B5B5FA, key: ac403ba'
+            label: Text
+            name: ac403ba
+            widget: string
+          - hint: 'Original text: FFDW Green - #BAFE36, key: 48627f47'
+            label: Text
+            name: 48627f47
+            widget: string
+          - hint: 'Original text: FFDW Red - #FB383F, key: 62c69e48'
+            label: Text
+            name: 62c69e48
+            widget: string
+          - hint: >-
+              Original text: FFDW G>P - stop 1 / 0% / #BAFE36 stop 2 / 100% /
+              #B5B5FA , key: 72b0c01d
+            label: Text
+            name: 72b0c01d
+            widget: string
+          - hint: >-
+              Original text: FFDW P>G - stop 1 / 0% / #B5B5FA stop 2 / 100% /
+              #BAFE36 , key: 4003965d
+            label: Text
+            name: 4003965d
+            widget: string
+          - hint: >-
+              Original text: FFDW R>G - stop 1 / 0% / #FB383F stop 2 / 100% /
+              #BAFE36 , key: 271bb708
+            label: Text
+            name: 271bb708
+            widget: string
+          - hint: >-
+              Original text: FFDW G>R - stop 1 / 0% / #BAFE36 stop 2 / 100% /
+              #FB383F , key: 3ef9af48
+            label: Text
+            name: 3ef9af48
+            widget: string
+          - hint: >-
+              Original text: FFDW R>P - stop 1 / 0% / #FB383F stop 2 / 100% /
+              #B5B5FA , key: -6ea6f4a1
+            label: Text
+            name: '-6ea6f4a1'
+            widget: string
+          - hint: >-
+              Original text: FFDW P>R - stop 1 / 0% / #B5B5FA stop 2 / 100% /
+              #FB383F , key: 7689d9df
+            label: Text
+            name: 7689d9df
+            widget: string
+          - hint: 'Original text: FFDW Blue-Black - #070517, key: 83c9cbb'
+            label: Text
+            name: 83c9cbb
+            widget: string
+          - hint: 'Original text: White - #FFFFFF, key: -5999f427'
+            label: Text
+            name: '-5999f427'
+            widget: string
+          - hint: |-
+              Original text: Nurturing the
+                            growth of the
+                            decentralized web, key: -9e7e5ae
+            label: Text
+            name: '-9e7e5ae'
+            widget: string
+          - hint: >-
+              Original text: Building and supporting the decentralized
+              community, key: 715e87c6
+            label: Text
+            name: 715e87c6
+            widget: string
+          - hint: >-
+              Original text: Filecoin Foundation for the Decentralized Web
+              (FFDW) is a 501(c)(3) non-profit whose mission is to ensure the
+              permanent preservation of humanity’s most important information by
+              stewarding the development of open-source software and open
+              protocols for decentralized data storage and retrieval networks.,
+              key: -208e8061
+            label: Text
+            name: '-208e8061'
+            widget: text
+          - hint: 'Original text: Promise > Vision, key: 506e07af'
+            label: Text
+            name: 506e07af
+            widget: string
+          - hint: >-
+              Original text: We exist to advance humankind by bringing Web3 to
+              life through education, research, and development., key: -68f4aae6
+            label: Text
+            name: '-68f4aae6'
+            widget: text
+          - hint: >-
+              Original text: Where open minds, open source, and open protocols,
+              meet., key: 2bebe058
+            label: Text
+            name: 2bebe058
+            widget: string
+          - hint: >-
+              Original text: On today’s centralized web, a handful of
+              corporations own the majority of the global cloud data storage
+              market. But humanity’s most important information should never be
+              compromised, abused, or ruled by any single entity.We want the web
+              to continue to grow and flourish and we believe that the more
+              people, teams, organizations support a project, the more likely it
+              is to succeed. FFDW sees Filecoin as a foundational technology for
+              the broader decentralized web ecosystem and seeks to support that
+              entire decentralized web community., key: 5bfdcb0e
+            label: Text
+            name: 5bfdcb0e
+            widget: text
+          - hint: 'Original text: Board of Directors, key: -61582da8'
+            label: Text
+            name: '-61582da8'
+            widget: string
+          - hint: >-
+              Original text: Determined to bring Web3 to life, FFDW’s board
+              brings a wealth of experience and expertise to guide our work.,
+              key: 54a4374f
+            label: Text
+            name: 54a4374f
+            widget: text
+          - hint: >-
+              Original text: Marta Belcher | General Counsel, Protocol Labs ,
+              key: -51afe47b
+            label: Text
+            name: '-51afe47b'
+            widget: string
+          - hint: >-
+              Original text: Marta Belcher is the General Counsel and Head of
+              Policy at Protocol Labs and the Board Chair of the Filecoin
+              Foundation and the Filecoin Foundation for the Decentralized Web.
+              She also serves as special counsel to the Electronic Frontier
+              Foundation. Marta is a pioneer in cryptocurrency law and has
+              spoken on the topic around the world, including in U.S. Congress,
+              European Parliament, the New York Senate, the OECD, and in Davos
+              during the World Economic Forum. Marta has drafted amicus briefs
+              in the U.S. Supreme Court and U.S. appellate courts for
+              high-profile public interest organizations, including EFF, the
+              Center for Democracy & Technology, Public Knowledge, the Cato
+              Institute, the National Consumers' League, Project Gutenberg, and
+              the Blockchain Association. Marta has been recognized twice by the
+              Financial Times Innovative Lawyer awards, was named to Law360's
+              list of Top Attorneys Under 40, and was #18 on CryptoWeekly’s list
+              of Most Influential Women in Crypto., key: d3d0803
+            label: Text
+            name: d3d0803
+            widget: text
+          - hint: >-
+              Original text: Rainey Reitman | Board President, Freedom of the
+              Press Foundation, key: -318fcfdc
+            label: Text
+            name: '-318fcfdc'
+            widget: string
+          - hint: >-
+              Original text: Rainey Reitman's advocacy has focused on defending
+              the rights of whistleblowers, protecting press freedom, fighting
+              mass government surveillance, and documenting how financial
+              exclusion has been used to silence speakers. She is a co-founder
+              and the President of the Board of Directors of the Freedom of the
+              Press Foundation, a nonprofit defending the rights of journalists.
+              She worked for the Electronic Frontier Foundation (EFF) for 11
+              years, first as their Activism Director and then as their Chief
+              Program Officer, and she currently serves as an advisor to EFF.
+              Rainey also co-founded and served for six years as a steering
+              committee member of the Chelsea Manning Support Network. She
+              currently runs a consulting service for mission-driven
+              organizations called Groundwork Strategy, key: -6e543de8
+            label: Text
+            name: '-6e543de8'
+            widget: text
+          - hint: >-
+              Original text: Brian Behlendorf | General Manager, Open Source
+              Security Foundation, key: -7825cf4a
+            label: Text
+            name: '-7825cf4a'
+            widget: string
+          - hint: >-
+              Original text: Brian Behlendorf has been an advocate for open
+              technologies and the role they can play in a more advanced and
+              just society for nearly 30 years. He is general manager of the
+              Open Source Security Foundation. Previously, he was executive
+              director for Hyperledger, an initiative hosted at the Linux
+              Foundation, and actively advising and growing other LF initiatives
+              around supply chain traceability, public health, identity, and
+              more. He serves on the boards of director for the Electronic
+              Frontier Foundation (since 2013) and the Mozilla Foundation (since
+              2003), defending the fight for the open web and a human rights
+              centered Internet.
+                            He also chairs the technical advisory council for ID2020. Previously he has served as the Chief Technology Officer for the World Economic Forum, advised the Obama administration through the White House’s Office of Science and Technology Policy, and co-founded a series of companies in the open source software domain. Oh, and many moons ago he co-founded the Apache web server project, which he shepherded into the 501c3 Apache Software Foundation., key: 705f24e
+            label: Text
+            name: 705f24e
+            widget: text
+          - hint: >-
+              Original text: Kristin Smith | Executive Director, Blockchain
+              Association, key: 50e92886
+            label: Text
+            name: '50e92886'
+            widget: string
+          - hint: >-
+              Original text: Kristin is the Executive Director of the Blockchain
+              Association, the Washington DC-based trade association
+              representing the most prominent and reputable organizations in the
+              crypto industry. The mission of the Blockchain Association is to
+              improve the public policy environment so that blockchain networks
+              can thrive in the United States. Kristin sets the association’s
+              public policy strategy and leads engagement with industry and
+              outreach to policymakers.
+                            Prior to leading the Blockchain Association, Kristin assisted blockchain and technology companies achieve their public policy objectives in Washington. She served as a Senate and congressional aide on Capitol Hill for nearly ten years, much of which was spent focusing on technology policy. She co-founded HODLpac and serves on the organization’s board of directors. Kristin is also featured on Fortune’s 2020 40 Under 40 list., key: 5dfa935b
+            label: Text
+            name: 5dfa935b
+            widget: text
+          - hint: 'Original text: Advisors , key: 552a9dad'
+            label: Text
+            name: 552a9dad
+            widget: string
+          - hint: >-
+              Original text: FFDW has assembled an outstanding group of
+              advisors., key: -413ab3b5
+            label: Text
+            name: '-413ab3b5'
+            widget: string
+          - hint: 'Original text: Sheila Warren, key: -7b057bdb'
+            label: Text
+            name: '-7b057bdb'
+            widget: string
+          - hint: >-
+              Original text: Head of Blockchain and Data Policy, World Economic
+              Forum, key: 597be7d4
+            label: Text
+            name: 597be7d4
+            widget: string
+          - hint: 'Original text: Brewster Kahle, key: 62330d7b'
+            label: Text
+            name: 62330d7b
+            widget: string
+          - hint: 'Original text: Founder, Internet Archive, key: 6dff2a26'
+            label: Text
+            name: 6dff2a26
+            widget: string
+          - hint: 'Original text: Joe Lubin , key: 7d421a2'
+            label: Text
+            name: 7d421a2
+            widget: string
+          - hint: >-
+              Original text: Founder of ConsenSys, Cofounder of Ethereum, key:
+              -491e40ac
+            label: Text
+            name: '-491e40ac'
+            widget: string
+          - hint: 'Original text: Wendy Hanamura, key: 56d0b04e'
+            label: Text
+            name: 56d0b04e
+            widget: string
+          - hint: >-
+              Original text: Director of Partnerships, Internet Archive, key:
+              186e189b
+            label: Text
+            name: 186e189b
+            widget: string
+          - hint: 'Original text: Georgia Quinn, key: 10b2bd43'
+            label: Text
+            name: 10b2bd43
+            widget: string
+          - hint: 'Original text: General Counsel, Anchorage, key: -27dccbc7'
+            label: Text
+            name: '-27dccbc7'
+            widget: string
+          - hint: 'Original text: Alex Feerst, key: 27937d4f'
+            label: Text
+            name: 27937d4f
+            widget: string
+          - hint: 'Original text: CEO, Murmuration Labs, key: -917dcce'
+            label: Text
+            name: '-917dcce'
+            widget: string
+          - hint: 'Original text: Sandra Ro, key: -2578dc36'
+            label: Text
+            name: '-2578dc36'
+            widget: string
+          - hint: >-
+              Original text: CEO, Global Blockchain Business Council, key:
+              453b09b1
+            label: Text
+            name: 453b09b1
+            widget: string
+          - hint: 'Original text: Katie Biber, key: 1275aa82'
+            label: Text
+            name: 1275aa82
+            widget: string
+          - hint: 'Original text: General Counsel, Brex, key: 51510194'
+            label: Text
+            name: '51510194'
+            widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
+            widget: string
+          - hint: 'Original text: Careers, key: -7bc27f6b'
+            label: Text
+            name: '-7bc27f6b'
+            widget: string
+          - hint: >-
+              Original text: Filecoin Foundation for the Decentralized Web is
+              hiring for roles as we build, support, and fund projects advancing
+              the DWeb., key: -448d96a6
+            label: Text
+            name: '-448d96a6'
+            widget: text
+          - hint: 'Original text: GET IN TOUCH, key: -12b421f2'
+            label: Text
+            name: '-12b421f2'
+            widget: string
+          - hint: "Original text: Explore The DWeb \_, key: -5bf4f894"
+            label: Text
+            name: '-5bf4f894'
+            widget: string
+          - hint: 'Original text: Learn About Web3 , key: 4e0e9212'
+            label: Text
+            name: 4e0e9212
+            widget: string
+          - hint: >-
+              Original text: We support programs that educate the public about
+              how the internet works and what a decentralized future means for
+              business, governments, and consumers alike., key: b63da23
+            label: Text
+            name: b63da23
+            widget: text
+          - hint: >-
+              Original text: The Internet has always been inherently about
+              decentralization., key: 66134b8c
+            label: Text
+            name: 66134b8c
+            widget: string
+          - hint: >-
+              Original text: The first Internet protocols decentralized
+              computing and allowed users to consume digital content. The second
+              iteration ushered in the World Wide Web by enabling users to
+              consume, create and share digital content together., key: 3dc9f9bc
+            label: Text
+            name: 3dc9f9bc
+            widget: text
+          - hint: >-
+              Original text: After a period when a few large, centralized
+              companies consolidated this environment into a handful of
+              platforms, engineers and technologists are now building the next
+              evolution of the Internet. New protocols and new applications will
+              allow users to independently consume, create, and engage with
+              digital content. These changes will radically transform the
+              Internet as we now experience it, resulting in enormous potential
+              to create a better Internet., key: -13c56f2b
+            label: Text
+            name: '-13c56f2b'
+            widget: text
+          - hint: 'Original text: Video Resources , key: f8d5fa0'
+            label: Text
+            name: f8d5fa0
+            widget: string
+          - hint: 'Original text: Exploring the Decentralized Web, key: 2ac33ab9'
+            label: Text
+            name: 2ac33ab9
+            widget: string
+          - hint: >-
+              Original text: Episode 1: Evolution of the Internet, key:
+              -70c263fe
+            label: Text
+            name: '-70c263fe'
+            widget: string
+          - hint: >-
+              Original text: Episode 2: Return to Decentralization, key:
+              37be95b8
+            label: Text
+            name: 37be95b8
+            widget: string
+          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
+            label: Text
+            name: 261dcf3
+            widget: string
+          - hint: >-
+              Original text: Leveraging of the Dweb to Enhance Free Speech with
+              the Latest FFDW Dev Gran, key: -34fd45bb
+            label: Text
+            name: '-34fd45bb'
+            widget: string
+          - hint: >-
+              Original text: Exploring the Decentralized Web - Trailer, key:
+              -a40a887
+            label: Text
+            name: '-a40a887'
+            widget: string
+          - hint: 'Original text: Collaborators , key: 2e94e0b3'
+            label: Text
+            name: 2e94e0b3
+            widget: string
+          - hint: |-
+              Original text: Some of the groups
+                            we work with to
+                            grow Web3, key: -34763b50
+            label: Text
+            name: '-34763b50'
+            widget: string
+          - hint: 'Original text: BOARD & ADVISORS, key: 1914bd07'
+            label: Text
+            name: 1914bd07
+            widget: string
+          - hint: 'Original text: Interactive Tutorials, key: -22370f29'
+            label: Text
+            name: '-22370f29'
+            widget: string
+          - hint: >-
+              Original text: ProtoSchool’s self-guided interactive tutorials
+              introduce you to DWeb concepts, protocols, and tools. , key:
+              -599d8075
+            label: Text
+            name: '-599d8075'
+            widget: text
+          - hint: >-
+              Original text: Content Addressing on the Decentralized Web, key:
+              -18aacb0d
+            label: Text
+            name: '-18aacb0d'
+            widget: string
+          - hint: >-
+              Original text: Learn how hashing and content addressing enable
+              verifiable data sharing with peers on the decentralized web., key:
+              6478ec0d
+            label: Text
+            name: 6478ec0d
+            widget: text
+          - hint: 'Original text: Anatomy of a CID, key: -603be5c5'
+            label: Text
+            name: '-603be5c5'
+            widget: string
+          - hint: >-
+              Original text: Explore the ins and outs of CIDs (Content
+              Identifiers), the unique labels used to point to data stored on
+              distributed information systems including IPFS, IPLD, libp2p,
+              and…, key: -7cb7500d
+            label: Text
+            name: '-7cb7500d'
+            widget: text
+          - hint: >-
+              Original text: Merkle DAGs: Structuring Data for the Distributed
+              Web, key: 65d126f0
+            label: Text
+            name: 65d126f0
+            widget: string
+          - hint: >-
+              Original text: Learn how we can use CIDs to create
+              content-addressable data structures for the distributed web!, key:
+              f08e01b
+            label: Text
+            name: f08e01b
+            widget: text
+          - hint: 'Original text: Blogging on the Decentralized Web, key: 312322cb'
+            label: Text
+            name: 312322cb
+            widget: string
+          - hint: >-
+              Original text: Cool content addresses don’t change. Create a chain
+              of links from one CID to another with the IPFS DAG API., key:
+              be0ac8b
+            label: Text
+            name: be0ac8b
+            widget: text
+          - hint: >-
+              Original text: P2P Data Links with Content Addressing, key:
+              1b1e74a4
+            label: Text
+            name: 1b1e74a4
+            widget: string
+          - hint: >-
+              Original text: Store, fetch, and create verifiable links between
+              peer-hosted datasets using the IPFS DAG API and CIDs. It’s graphs
+              with friends!, key: -1093fb8a
+            label: Text
+            name: '-1093fb8a'
+            widget: text
+          - hint: 'Original text: Mutable File System, key: 1a45f739'
+            label: Text
+            name: 1a45f739
+            widget: string
+          - hint: >-
+              Original text: The Mutable File System (MFS) lets you work with
+              files and directories as if you were using a traditional
+              name-based file system., key: 1b657b89
+            label: Text
+            name: 1b657b89
+            widget: text
+          - hint: 'Original text: Together, let’s bring Web3 to life, key: -1d4777d9'
+            label: Text
+            name: '-1d4777d9'
+            widget: string
+          - hint: 'Original text: Get Involved with FFDW , key: 4db2e3c2'
+            label: Text
+            name: 4db2e3c2
+            widget: string
+          - hint: >-
+              Original text: Working with the community to advance Web3 through
+              education, research, and development. , key: -35556ffd
+            label: Text
+            name: '-35556ffd'
+            widget: string
+          - hint: >-
+              Original text: FFDW’s mission is to ensure the permanent
+              preservation of humanity’s most important information by
+              stewarding the development of open-source software and open
+              protocols for decentralized data storage and retrieval networks.
+              We work to build and support the decentralized web community, fund
+              research and development, and educate the public about the
+              decentralized web, in order to preserve humanity’s most important
+              information., key: 6bb691d9
+            label: Text
+            name: 6bb691d9
+            widget: text
+          - hint: 'Original text: Join our team, key: -29d26b39'
+            label: Text
+            name: '-29d26b39'
+            widget: string
+          - hint: >-
+              Original text: If you’re passionate about decentralization, check
+              out our open roles., key: -e2b39e3
+            label: Text
+            name: '-e2b39e3'
+            widget: string
+          - hint: 'Original text: Follow us on social media, key: -613962c1'
+            label: Text
+            name: '-613962c1'
+            widget: string
+          - hint: >-
+              Original text: Learn more about our hosted and sponsored events,
+              and catch our latest announcements., key: -b2bdf27
+            label: Text
+            name: '-b2bdf27'
+            widget: string
+          - hint: 'Original text: Apply for an award, key: -5d70ca4d'
+            label: Text
+            name: '-5d70ca4d'
+            widget: string
+          - hint: >-
+              Original text: FFDW currently reviews project applications
+              quarterly. Proposals should be submitted as attachments to an
+              email., key: -2fbb277
+            label: Text
+            name: '-2fbb277'
+            widget: text
+          - hint: 'Original text: Explore our educational resources, key: -26aca129'
+            label: Text
+            name: '-26aca129'
+            widget: string
+          - hint: >-
+              Original text: From videos to podcasts, Github repos to
+              self-guided tutorials, we have the resources you need to dive into
+              Web3., key: -342c0a24
+            label: Text
+            name: '-342c0a24'
+            widget: text
+          - hint: 'Original text: Project Proposals and Awards, key: -2eafcb1b'
+            label: Text
+            name: '-2eafcb1b'
+            widget: string
+          - hint: >-
+              Original text: Ensuring humanity’s most important information is
+              never compromised, abused, or ruled by any single entity. , key:
+              -1ce165d0
+            label: Text
+            name: '-1ce165d0'
+            widget: text
+          - hint: 'Original text: MEET OUR AWARDEES, key: -657e4dfd'
+            label: Text
+            name: '-657e4dfd'
+            widget: string
+          - hint: >-
+              Original text: Apply for a Grant or Project Proposals , key:
+              -2f2bef49
+            label: Text
+            name: '-2f2bef49'
+            widget: string
+          - hint: 'Original text: We’re here to build Web3 with you., key: -31a1fd8f'
+            label: Text
+            name: '-31a1fd8f'
+            widget: string
+          - hint: >-
+              Original text: FFDW collaborates with organizations that
+              accelerate the adoption of open, decentralized technologies, help
+              build communities that support and sustain open, decentralized
+              technologies, and communicate to wider audiences the benefits of
+              adopting open, decentralized technologies., key: -5f006297
+            label: Text
+            name: '-5f006297'
+            widget: text
+          - hint: >-
+              Original text: Projects that educate the public about how the
+              internet works and how a decentralized web is a better web for
+              businesses, citizens, and governments., key: -62e2bd5b
+            label: Text
+            name: '-62e2bd5b'
+            widget: text
+          - hint: >-
+              Original text: Projects that support efforts to store research
+              data using decentralized web storage, and make that data easily
+              shared and accessed., key: 2ce5b6f5
+            label: Text
+            name: 2ce5b6f5
+            widget: text
+          - hint: >-
+              Original text: Projects that drive the creation and development of
+              technologies that will enable decentralized file storage of
+              humanity’s most important information., key: -53129068
+            label: Text
+            name: '-53129068'
+            widget: text
+          - hint: 'Original text: Careers , key: 372922b'
+            label: Text
+            name: 372922b
+            widget: string
+          - hint: >-
+              Original text: We’re working to build a more robust, more
+              resilient web. A place to store and safeguard humanity’s most
+              important information. If you’re passionate about
+              decentralization, we want to hear from you. , key: -5123af24
+            label: Text
+            name: '-5123af24'
+            widget: text
+          - hint: 'Original text: FFDW Awards & Programs, key: -6eefba'
+            label: Text
+            name: '-6eefba'
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. Duis
+              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+              commodo diam libero vitae erat. Aenean faucibus nibh et justo
+              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+              tristique posuere., key: -5286fc08
+            label: Text
+            name: '-5286fc08'
+            widget: text
+          - hint: 'Original text: FFDW Blog , key: 23493f91'
+            label: Text
+            name: 23493f91
+            widget: string
+          - hint: >-
+              Original text: Updates from our organization and across the Web3
+              universe. , key: -6631df6
+            label: Text
+            name: '-6631df6'
+            widget: string
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
+          - hint: >-
+              Original link: https://proto.school/content-addressing, key:
+              -353bd978
+            label: Link
+            name: '-353bd978'
+            widget: string
+          - hint: >-
+              Original link: https://proto.school/anatomy-of-a-cid, key:
+              34b3b4f4
+            label: Link
+            name: 34b3b4f4
+            widget: string
+          - hint: 'Original link: https://proto.school/merkle-dags, key: -b16077a'
+            label: Link
+            name: '-b16077a'
+            widget: string
+          - hint: 'Original link: https://proto.school/blog, key: 7eda7f68'
+            label: Link
+            name: 7eda7f68
+            widget: string
+          - hint: 'Original link: https://proto.school/basics, key: 319f284b'
+            label: Link
+            name: 319f284b
+            widget: string
+          - hint: >-
+              Original link: https://proto.school/mutable-file-system, key:
+              4976ef3
+            label: Link
+            name: 4976ef3
+            widget: string
+          - hint: 'Original link: https://ffdweb.org/awards, key: 6296bbd0'
+            label: Link
+            name: 6296bbd0
+            widget: string
+          - hint: 'Original link: https://ffdweb.org/explore, key: -39a0ac47'
+            label: Link
+            name: '-39a0ac47'
+            widget: string
+      - label: Images
+        name: images
+        file: cms/_data/images.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Images
+          - label: Image
+            name: 3ebc9f8c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: id3f32f9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i66104f9d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5fb59
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i46ca28e6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1a0c5c5'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: deda7a0
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-290479d6'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-192ae44'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-18496c3'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 633ff6ae
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2920a8d8'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-29129157'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: ba43831
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7d11d430
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: e17ee23
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-28f66255'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-28e84ad4'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1767f42'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1cb0c48'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '0'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-16867c1'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 634e0e2f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 635c25b0
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 37fb563
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-172413ba'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-295906dc'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7296ab2e'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 101fa572
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-294aef5b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-293cd7da'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-727a7c2c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-292ec059'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-15a5040'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-726c64ab'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6d4ddace'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6d6a09d0'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6d5bf24f'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6d3fc34d'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4833f92c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4817ca2a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4825e1ab'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4809b2a9'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 222a5b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6c0896b9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 37ddb6d5
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 26277db9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-39bb3def'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 55e5e4e0
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6b8b7655
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 9a11810
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 293d1cc
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6f3a1d3e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-23f508'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1bcf4c7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1aedd46'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 636a3d31
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: c8a503c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-14c38bf'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1633a9'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-81c28'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3041dc
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3e595d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 37ebce56
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1282d150'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1412da
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 637854b2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+publish_mode: editorial_workflow
