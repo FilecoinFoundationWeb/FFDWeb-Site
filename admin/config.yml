@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  branch: main
   accept_roles:
     - admin
     - editor
@@ -1593,19 +1592,6 @@ collections:
                 required: false
           - label: Image
             name: '-1cb0c48'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '0'
             widget: object
             fields:
               - name: url

@@ -1,0 +1,47 @@
+<div class="vertical-section blog">
+    <div class="container">
+      <div class="div-block-2">
+        <h3 class="_16px-header">{{ texts.51c98c95 }}</h3>
+        <h4 class="_49px-header">{{ texts.-37f05f4c }}</h4>
+      </div>
+    </div>
+    <div class="container">
+      {%- assign collection = collections.post | sort: "-created-on" -%}{%- assign pagination = collection | paginate: 3 -%}<div class="w-dyn-list">
+        {%- unless pagination.length == 0 -%}<div role="list" class="blog-list-wrap w-dyn-items">
+          {%- for item in pagination[0] -%}<div role="listitem" class="blog-item w-dyn-item">
+            <div class="divider-red"></div>
+            <div class="div-block-5"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" src="{{ item.data.f_main-image.url }}" alt="{{ item.data.f_image-description }}" class="blog-preview-image">
+              <div class="div-block-3">
+                <div class="blog-preview-title">{{ item.data.title }}</div>
+                <p class="paragraph blog-summary">{{ item.data.f_post-summary }}</p>
+                <div class="div-block-4">
+                  <div class="blog-preview-caption">{{ item.data.f_date-published | formatDate: "MMMM d, yyyy" }}</div>
+                  <div class="blog-tag">{{ item.data.f_tag-1 }}</div>
+                </div>
+              </div>
+            </div>
+          </div>{%- endfor -%}
+        </div>{%- endunless -%}
+        {%- if pagination.length == 0 -%}<div class="status-message cc-no-data w-dyn-empty">
+          <div>{{ texts.3d503d2b }}</div>
+        </div>{%- endif -%}
+        <div role="navigation" aria-label="List" class="w-pagination-wrapper">
+          <a href="{{ links.23 }}" aria-label="Previous Page" class="w-pagination-previous" style="display: none;"><svg class="w-pagination-previous-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)">
+              <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M8 10L4 6l4-4"></path>
+            </svg>
+            <div class="w-inline-block">{{ texts.-4811e0e9 }}</div>
+          </a>
+          {%- if pagination[1] -%}<a href="{{ links.23 }}" aria-label="Next Page" class="w-pagination-next">
+            <div class="w-inline-block">{{ texts.24ff13 }}</div><svg class="w-pagination-next-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)">
+              <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path>
+            </svg>
+          </a>{%- endif -%}
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <a href="{{ links.23 }}" class="button-2 blog">
+        <div class="button-text">{{ texts.469dcff0 }}</div>
+      </a>
+    </div>
+  </div>
