@@ -14,3 +14,138 @@ functions = "functions"
   to = "/blog/2022-ffdw-report"
   status = 200
 
+[[redirects]]
+  from = "/announcing-filecoin-foundation-for-the-decentralized-web-s-first-open-request-for-proposals"
+  to = "/blog/announcing-filecoin-foundation-for-the-decentralized-web-s-first-open-request-for-proposals"
+  status = 200
+
+[[redirects]]
+  from = "/announcing-the-decentralized-future-council"
+  to = "/blog/announcing-the-decentralized-future-council"
+  status = 200
+
+[[redirects]]
+  from = "/announcing-the-starling-lab"
+  to = "/blog/announcing-the-starling-lab"
+  status = 200
+
+[[redirects]]
+  from = "/big-ideas-driving-the-decentralized-web"
+  to = "/blog/big-ideas-driving-the-decentralized-web"
+  status = 200
+
+[[redirects]]
+  from = "/building-distributed-press-a-publishing-tool-for-the-decentralized-web"
+  to = "/blog/building-distributed-press-a-publishing-tool-for-the-decentralized-web"
+  status = 200
+
+[[redirects]]
+  from = "/can-filecoin-be-the-storage-network-for-human-rights-data"
+  to = "/blog/can-filecoin-be-the-storage-network-for-human-rights-data"
+  status = 200
+
+[[redirects]]
+  from = "/check-out-our-docuseries-exploring-the-decentralized-web"
+  to = "/blog/check-out-our-docuseries-exploring-the-decentralized-web"
+  status = 200
+
+[[redirects]]
+  from = "/decentralization-in-all-the-things"
+  to = "/blog/decentralization-in-all-the-things"
+  status = 200
+
+[[redirects]]
+  from = "/empowering-a-more-informed-transparent-society-with-decentralized-technology"
+  to = "/blog/empowering-a-more-informed-transparent-society-with-decentralized-technology"
+  status = 200
+
+[[redirects]]
+  from = "/exploring-the-decentralized-web-episodes-5-8"
+  to = "/blog/exploring-the-decentralized-web-episodes-5-8"
+  status = 200
+
+[[redirects]]
+  from = "/exploring-the-decentralized-web-episodes-9-12"
+  to = "/blog/exploring-the-decentralized-web-episodes-9-12"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-connect-humanity-empowering-an-equitable-digital-future"
+  to = "/blog/ffdw-and-connect-humanity-empowering-an-equitable-digital-future"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-easier-data-initiative-collaborate-to-upload-spatial-data-to-filecoin-network"
+  to = "/blog/ffdw-and-easier-data-initiative-collaborate-to-upload-spatial-data-to-filecoin-network"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-human-rights-data-analysis-group-hrdag-collaborate-to-advance-decentralized-storage"
+  to = "/blog/ffdw-and-human-rights-data-analysis-group-hrdag-collaborate-to-advance-decentralized-storage"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-muckrock-collaborate-to-bring-flagship-web-resource-to-the-decentralized-web"
+  to = "/blog/ffdw-and-muckrock-collaborate-to-bring-flagship-web-resource-to-the-decentralized-web"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-openarchive-collaborate-to-deploy-decentralized-archive-for-human-rights-data"
+  to = "/blog/ffdw-and-openarchive-collaborate-to-deploy-decentralized-archive-for-human-rights-data"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-and-witness-collaborate-to-preserve-authentic-human-rights-records"
+  to = "/blog/ffdw-and-witness-collaborate-to-preserve-authentic-human-rights-records"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-supports-mit-open-learning-in-preserving-humanity-s-most-important-information"
+  to = "/blog/ffdw-supports-mit-open-learning-in-preserving-humanity-s-most-important-information"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-supports-spritely-networked-communities-institute-to-develop-decentralized-social-media"
+  to = "/blog/ffdw-supports-spritely-networked-communities-institute-to-develop-decentralized-social-media"
+  status = 200
+
+[[redirects]]
+  from = "/ffdw-works-with-prelinger-archives-to-make-rare-historic-films-more-accessible-using-the-decentralized-web"
+  to = "/blog/ffdw-works-with-prelinger-archives-to-make-rare-historic-films-more-accessible-using-the-decentralized-web"
+  status = 200
+
+[[redirects]]
+  from = "/filecoin-foundation-for-the-decentralized-web-and-techcongress-will-work-together-to-place-more-technologists-on-capitol-hill"
+  to = "/blog/filecoin-foundation-for-the-decentralized-web-and-techcongress-will-work-together-to-place-more-technologists-on-capitol-hill"
+  status = 200
+
+[[redirects]]
+  from = "/filecoin-foundation-for-the-decentralized-web-boosts-harvard-library-innovation-lab-s-work-to-democratize-open-knowledge"
+  to = "/blog/filecoin-foundation-for-the-decentralized-web-boosts-harvard-library-innovation-lab-s-work-to-democratize-open-knowledge"
+  status = 200
+
+[[redirects]]
+  from = "/guardian-project-annoucement"
+  to = "/blog/guardian-project-annoucement"
+  status = 200
+
+[[redirects]]
+  from = "/leveraging-the-dweb-to-enhance-free-speech"
+  to = "/blog/leveraging-the-dweb-to-enhance-free-speech"
+  status = 200
+
+[[redirects]]
+  from = "/melba-roy-mouton-a-hidden-figure-whose-legacy-paved-the-way-for-web3"
+  to = "/blog/melba-roy-mouton-a-hidden-figure-whose-legacy-paved-the-way-for-web3"
+  status = 200
+
+[[redirects]]
+  from = "/the-future-of-decentralized-apps-a-q-a-with-guardian-project"
+  to = "/blog/the-future-of-decentralized-apps-a-q-a-with-guardian-project"
+  status = 200
+
+[[redirects]]
+  from = "/web3-sci-fi-christopher-kulendran-thomas-s-another-world-to-debut-at-london-s-institute-of-contemporary-arts"
+  to = "/blog/web3-sci-fi-christopher-kulendran-thomas-s-another-world-to-debut-at-london-s-institute-of-contemporary-arts"
+  status = 200
+
