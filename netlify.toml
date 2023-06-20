@@ -12,7 +12,7 @@ functions = "functions"
 [[redirects]]
   from = "/2022-ffdw-report"
   to = "/blog/2022-ffdw-report"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/announcing-filecoin-foundation-for-the-decentralized-web-s-first-open-request-for-proposals"
