@@ -58,5 +58,3 @@ We will have more to share soon. In the meantime, you can participate in this pr
 * We'd also love to hear what you would like to see in this project moving forward. You can email us directly at [makerlabs@techsoup.org](mailto:makerlabs@techsoup.org).
 
 We have a lot of work to do. Let's get started.
-
-<!--EndFragment-->
