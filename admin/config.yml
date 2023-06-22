@@ -2123,6 +2123,18 @@ collections:
             label: Text
             name: '-61e1a33e'
             widget: string
+          - hint: "Original text: This RFP\_has now closed, and this page remains accessible only for reference purposes., key: -6bcfae84"
+            label: Text
+            name: '-6bcfae84'
+            widget: string
+          - hint: 'Original text: Please return to , key: -7ea1c015'
+            label: Text
+            name: '-7ea1c015'
+            widget: string
+          - hint: 'Original text: ffdweb.org, key: 45576d26'
+            label: Text
+            name: 45576d26
+            widget: string
           - hint: >-
               Original text: The Filecoin Foundation for the Decentralized Web
               (FFDW) is launching a request for proposals (RFP) to identify the

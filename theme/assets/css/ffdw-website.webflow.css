@@ -734,6 +734,10 @@ blockquote {
   position: relative;
 }
 
+.nav-link.hide {
+  display: none;
+}
+
 .visible-on-current {
   position: absolute;
   top: 0;
