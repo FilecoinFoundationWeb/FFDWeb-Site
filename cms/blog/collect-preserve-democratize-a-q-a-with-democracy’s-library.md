@@ -4,6 +4,8 @@ created-on: 2023-06-22T10:05:25.820Z
 updated-on: 2023-06-22T10:05:25.840Z
 published-on: 2023-06-22T10:05:25.854Z
 f_post-date: 2023-06-22T10:05:25.866Z
+f_image:
+  url: /assets/images/0509-demo-qa.png
 tags: blog
 layout: "[blog].html"
 date: 2023-06-22T10:05:25.878Z
