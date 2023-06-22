@@ -32,7 +32,7 @@ See the [FFDWeb.org Terms of Use](https://ffdweb.org/terms) for licensing inform
 
 ## Acknowledgments
 
-- The Filecoin Foundation website is built on the power of [Webflow](https://webflow.com/), [Udesly](https://www.udesly.com/), [NetlifyCMS](https://decapcms.org/), [Fleek](https://fleek.co/), [Filecoin](https://filecoin.io/), and [IPFS](https://ipfs.tech/).
+- The FFDW website is built on the power of [Webflow](https://webflow.com/), [Udesly](https://www.udesly.com/), [NetlifyCMS](https://decapcms.org/), [Fleek](https://fleek.co/), [Filecoin](https://filecoin.io/), and [IPFS](https://ipfs.tech/).
 - Thanks to the open-source community for their valuable contributions and support.
 
 ## Contact
