@@ -1,14 +1,14 @@
 ---
 title: "Collect, Preserve, Democratize: A Q&A With Democracy’s Library"
-created-on: 2023-06-22T10:05:25.820Z
-updated-on: 2023-06-22T10:05:25.840Z
-published-on: 2023-06-22T10:05:25.854Z
-f_post-date: 2023-06-22T10:05:25.866Z
+created-on: 2023-05-09T10:05:25.820Z
+updated-on: 2023-05-09T10:05:00.000Z
+published-on: 2023-05-09T10:05:00.000Z
+f_post-date: 2023-05-09T10:05:00.000Z
 f_image:
   url: /assets/images/0509-demo-qa.png
 tags: blog
 layout: "[blog].html"
-date: 2023-06-22T10:05:25.878Z
+date: 2023-05-09T10:05:00.000Z
 seo:
   noindex: false
   twitter:title: summary
