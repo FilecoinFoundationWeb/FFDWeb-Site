@@ -16,7 +16,7 @@ Every year, the United States federal government spends [billions of dollars](h
 
 Unfortunately, many highly valuable assets are not readily available and accessible to those who need them the most. Paywalls and disjointed, non-standardized information keep data siloed and difficult to decipher and use.
 
-FFDW supports programs that  lower barriers to entry and access to critical knowledge.
+FFDW supports programs that lower barriers to entry and access to critical knowledge.
 
 Recently, FFDW spoke with Jamie Joyce, US Project Lead at [Democracy's Library](https://blog.archive.org/2022/10/19/announcing-democracys-library/), an organization striving to collect and preserve our democracy's data in one place, providing a central repository of veritable information for all stakeholders. Read on for more information about Democracy's Library and its quest to empower the future of government.
 
