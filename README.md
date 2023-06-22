@@ -1,8 +1,7 @@
 # Filecoin Foundation for the Decentralized Web Website
 
 
-![FFDW logo](https://fil-foundation.on.fleek.co/logos/FFDWeb/SVG%20%28Vector%29/FFDW_full_white.svg#gh-dark-mode-only)
-![FFDW logo](https://fil-foundation.on.fleek.co/logos/FFDWeb/SVG%20%28Vector%29/FFDW_full_black.svg#gh-light-mode-only)
+![FFDW logo](https://fil-foundation.on.fleek.co/logos/FFDWeb/SVG%20%28Vector%29/FFDW_full_white.svg)
 
 
 The FFDW website is a decentralized website built on [Webflow](https://webflow.com/) and exported to a Jamstack project using [Udesly](https://www.udesly.com/). It leverages [NetlifyCMS](https://decapcms.org/) as a Git-based CMS to enable contributors to edit dynamic content without the need for knowledge of Git or Markdown. The final site is published to [Fleek](https://fleek.co/), allowing it to be hosted on the Filecoin network and accessed via [IPFS](https://ipfs.tech/).
