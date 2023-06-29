@@ -3286,6 +3286,10 @@ collections:
             label: Link
             name: 74bd83c
             widget: string
+          - hint: 'Original link: /explore#partners, key: -12091936'
+            label: Link
+            name: '-12091936'
+            widget: string
       - label: Images
         name: images
         file: cms/_data/images.json
