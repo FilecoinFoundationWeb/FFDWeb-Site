@@ -1983,7 +1983,7 @@ blockquote {
 }
 
 .button-link-with-icon.inline-flex.purple {
-  color: #b5b5fa;
+  color: #070517;
   padding-left: 0;
 }
 
@@ -3188,7 +3188,8 @@ blockquote {
 .card {
   width: auto;
   height: auto;
-  border: 3px solid #fb383f;
+  background-image: linear-gradient(to right, #fb383f, #b5b5fa);
+  border: 3px #000;
   flex-direction: column;
   justify-content: flex-start;
   display: flex;
@@ -3272,15 +3273,15 @@ blockquote {
   grid-row-gap: 0px;
   object-fit: contain;
   object-position: 50% 50%;
-  border-bottom: 3px solid #fb383f;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .projectpartner_title {
+  color: #070517;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .projectpartner_title.green {
@@ -3393,6 +3394,10 @@ blockquote {
 }
 
 @media screen and (min-width: 1920px) {
+  .button-text, .icon-arrow.visible.move-on-hover {
+    color: #070517;
+  }
+
   .sectional.collaborators-section {
     display: none;
   }
@@ -3403,6 +3408,14 @@ blockquote {
 
   .div-block-12 {
     max-width: none;
+  }
+
+  .info {
+    border: 1px #000;
+  }
+
+  .projectpartner_title {
+    color: #070517;
   }
 }
 
