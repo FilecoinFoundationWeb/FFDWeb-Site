@@ -12,6 +12,7 @@ f_blurb: OpenArchive is a nonprofit dedicated to advancing human rights by
 f_logo:
   url: /assets/images/partnerlogo_openarchive.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-openarchive-collaborate-to-deploy-decentralized-archive-for-human-rights-data/
+f_external-link: https://www.ffdweb.org/blog/ffdw-and-openarchive-collaborate-to-deploy-decentralized-archive-for-human-rights-data/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:43:38.723Z
