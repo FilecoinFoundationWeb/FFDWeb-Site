@@ -1,5 +1,5 @@
 ---
-title: GrayArea Foundation for the Arts
+title: Gray Area Foundation for the Arts
 created-on: 2023-06-30T16:01:20.514Z
 updated-on: 2023-06-30T16:01:20.534Z
 published-on: 2023-06-30T16:01:20.549Z
