@@ -7,5 +7,7 @@ f_blurb: FFDW supports the Movement for a Better Internet, a collaborative
   effort to ensure the future of the internet is grounded in public interest
   values. The movement brings people together to ensure the next generation of
   the web is better for people everywhere.
+f_logo:
+  url: https://www.movementforabetterinternet.org/images/logo-4-line.svg
 date: 2023-06-29T22:54:51.688Z
 ---
