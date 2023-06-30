@@ -12,6 +12,8 @@ f_blurb: This project between FFDW and the Guardian Project is aimed at breaking
   across the globe. This project also accelerates the adoption of decentralized
   storage technology for F-Droid, the leading free and open-source app
   publishing platform.
+f_logo:
+  url: /assets/images/partnerlogo_gaurdian.png
 f_blog-link: https://www.ffdweb.org/blog/the-future-of-decentralized-apps-a-q-a-with-guardian-project/
 f_external-link: https://www.ffdweb.org/blog/guardian-project-annoucement/
 tags: project-partners
