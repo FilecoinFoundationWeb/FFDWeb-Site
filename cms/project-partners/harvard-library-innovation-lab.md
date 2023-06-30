@@ -11,6 +11,8 @@ f_blurb: As a specialized lab within the Harvard Law Library, LIL explores new
   technologies can help advance discovery and preservation of human knowledge,
   including using decentralized storage technologies like Filecoin and the
   Interplanetary File System (IPFS).
+f_logo:
+  url: /assets/images/partnerlogo_harvardlibrary.png
 f_blog-link: https://www.ffdweb.org/blog/filecoin-foundation-for-the-decentralized-web-boosts-harvard-library-innovation-lab-s-work-to-democratize-open-knowledge/
 f_external-link: " https://lil.law.harvard.edu/"
 tags: project-partners
