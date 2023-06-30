@@ -1,15 +1,23 @@
 ---
-title: Blockchain Law Center For Social Good
-created-on: 2023-06-29T12:11:18.251Z
-updated-on: 2023-06-29T12:11:18.258Z
-published-on: 2023-06-29T12:11:18.263Z
-f_blurb: Promote blockchain technology’s potential to benefit all members of
-  society by educating stakeholders, conducting research and developing policies
-  on, and building community support for blockchain technologies.  A “train the
-  trainer” blockchain education program for community college professors and CA
-  government staff.
+title: Belgrade Institute for Philosophy and Social Theory
+created-on: 2023-06-29T22:57:26.578Z
+updated-on: 2023-06-29T22:57:26.606Z
+published-on: 2023-06-29T22:57:26.623Z
+f_blurb: With FFDW’s support, this project is collecting, digitizing,
+  preserving, interpreting, and distributing information related to cultural
+  heritage that various political and cultural authorities have treated as
+  “undesirable” or “unworthy” of support. Further, the project works with the
+  Filecoin community to demonstrate the importance of libraries and archives
+  that cannot be burned or destroyed at the order of a government or a single
+  individual.
 f_logo:
-  url: https://pbs.twimg.com/profile_images/1644147756360175616/gPAqHBj1_400x400.jpg
-f_external-link: https://www.ggu.edu/
-date: 2023-06-29T12:11:18.270Z
+  url: https://pbs.twimg.com/profile_images/1440639924772880397/1LOPdGfv_400x400.jpg
+f_blog-link: " https://ifdt.bg.ac.rs/"
+tags: project-partners
+layout: "[project-partners].html"
+date: 2023-06-29T22:57:26.638Z
+seo:
+  noindex: false
+  twitter:title: summary
+  twitter:card: summary
 ---
