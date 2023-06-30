@@ -7,6 +7,8 @@ f_blurb: "Stack Shift’s mission is to advance the spread of distributed work a
   help remote talent in Africa expand their networks and explore high-impact
   jobs at fast-growing firms. With the support of FFDW, Stack Shift is placing
   accelerator participants at DWeb startups. "
+f_logo:
+  url: /assets/images/partnerlogo_stackshift.png
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:55:26.102Z
