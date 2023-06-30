@@ -11,6 +11,7 @@ f_blurb: MIT Open Learning is an organization focused on transforming teaching
 f_logo:
   url: /assets/images/partnerlogo_mit.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-supports-mit-open-learning-in-preserving-humanity-s-most-important-information/
+f_external-link: https://www.ffdweb.org/blog/ffdw-supports-mit-open-learning-in-preserving-humanity-s-most-important-information/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:41:50.969Z
