@@ -336,9 +336,7 @@ blockquote {
 }
 
 .button-text {
-  z-index: 15;
-  white-space: nowrap;
-  position: relative;
+  z-index: auto;
 }
 
 .button-text.primary-links-list {
@@ -1960,10 +1958,12 @@ blockquote {
 }
 
 .button-link-with-icon.inline-flex.green {
+  z-index: auto;
   color: #bafe36;
   text-transform: uppercase;
   cursor: pointer;
   padding-left: 0;
+  position: static;
 }
 
 .button-link-with-icon.inline-flex.green:hover {
@@ -3242,21 +3242,15 @@ blockquote {
 
 .div-block-107 {
   z-index: 101;
-  width: 30vw;
+  width: 40vw;
   height: auto;
   grid-row-gap: 25px;
-  background-color: #070517;
   flex-direction: column;
   flex: 0 auto;
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
   display: flex;
-  position: static;
-  top: 100%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
 }
 
 .div-block-108 {
@@ -3344,17 +3338,18 @@ blockquote {
 }
 
 .partner-modal {
-  z-index: 1000;
+  z-index: 100;
   background-color: #070517;
+  border: 5px solid #fb383f;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  top: 20%;
+  bottom: 20%;
+  left: 20%;
+  right: 20%;
 }
 
 .grid-3 {
@@ -3367,12 +3362,13 @@ blockquote {
 }
 
 .div-block-102 {
+  z-index: 102;
   justify-content: flex-end;
   align-items: center;
   padding-top: 20px;
   padding-right: 20px;
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 0%;
   bottom: auto;
   left: 0%;
@@ -3394,7 +3390,7 @@ blockquote {
 }
 
 @media screen and (min-width: 1920px) {
-  .button-text, .icon-arrow.visible.move-on-hover {
+  .icon-arrow.visible.move-on-hover {
     color: #070517;
   }
 
@@ -4401,6 +4397,11 @@ blockquote {
   .div-block-107 {
     width: 60vw;
   }
+
+  .partner-modal {
+    left: 10%;
+    right: 10%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4794,24 +4795,19 @@ blockquote {
   }
 
   .div-block-107 {
-    width: 80vw;
+    width: 75vw;
   }
 
   .partner-modal {
-    display: none;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
     overflow: scroll;
   }
 
   .grid-3 {
     grid-template-columns: 1fr;
-  }
-
-  .div-block-102 {
-    position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
   }
 
   .places-section.restaurants {

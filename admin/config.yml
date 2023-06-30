@@ -3024,22 +3024,6 @@ collections:
             label: Text
             name: 57bd0b6f
             widget: string
-          - hint: 'Original text: FFDW Project Partners, key: -5f0f4ac1'
-            label: Text
-            name: '-5f0f4ac1'
-            widget: string
-          - hint: >-
-              Original text: Learn about all the projects that FFDW has
-              partnered with, key: 51606302
-            label: Text
-            name: '51606302'
-            widget: string
-          - hint: >-
-              Original text: This is some text inside of a div block., key:
-              7635fb4f
-            label: Text
-            name: 7635fb4f
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3080,9 +3064,9 @@ collections:
             label: Link
             name: '-3a46281a'
             widget: string
-          - hint: 'Original link: #, key: 23'
+          - hint: 'Original link: /explore#partners, key: -12091936'
             label: Link
-            name: '23'
+            name: '-12091936'
             widget: string
           - hint: 'Original link: /blog, key: 2c48051'
             label: Link
@@ -3103,6 +3087,10 @@ collections:
           - hint: 'Original link: /awards, key: 6285b2a5'
             label: Link
             name: 6285b2a5
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
           - hint: 'Original link: /contact, key: 4b0e6111'
             label: Link
@@ -3166,10 +3154,6 @@ collections:
           - hint: 'Original link: https://www.google.com, key: -614d2a6e'
             label: Link
             name: '-614d2a6e'
-            widget: string
-          - hint: 'Original link: #partners, key: -73c61632'
-            label: Link
-            name: '-73c61632'
             widget: string
           - hint: >-
               Original link: https://proto.school/content-addressing/, key:
@@ -3285,10 +3269,6 @@ collections:
           - hint: 'Original link: https://ffdweb.org/blog, key: 74bd83c'
             label: Link
             name: 74bd83c
-            widget: string
-          - hint: 'Original link: /explore#partners, key: -12091936'
-            label: Link
-            name: '-12091936'
             widget: string
       - label: Images
         name: images

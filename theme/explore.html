@@ -831,10 +831,10 @@ body:has(.navbar .w--open) {
     <section id="partners" class="section-projectpartners cms">
       <div class="container-projectpartners">
         <div class="columns-4 f2wf-columns-9">
-          {%- assign collection = collections.project-partners | sort: "-created-on" -%}<div class="collection-list-wrapper-2 w-dyn-list">
+          {%- assign collection = collections.project-partners | sort: "title" -%}<div class="collection-list-wrapper-2 w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
               {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item">
-                <div class="partner-modal">
+                <div data-w-id="ec74e749-8bdc-7741-66bf-d8edfc6a97d3" class="partner-modal">
                   <div class="div-block-102"><img class="modalclose" src="{{ images.423ffbb4.url }}" width="40" height="40" alt="{{ images.423ffbb4.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" data-w-id="ec74e749-8bdc-7741-66bf-d8edfc6a97d5" loading="lazy"></div>
                   <div class="div-block-107">
                     <div class="projectpartner_title green">{{ item.data.title }}</div>
@@ -854,7 +854,7 @@ body:has(.navbar .w--open) {
                   </div>
                 </div>
                 <div class="card">
-                  <div class="image-wrapper-6"><img loading="lazy" width="264" height="264" alt="{{ item.data.f_logo.alt }}" src="{{ item.data.f_logo.url }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;42vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;313.3333435058594px&quot;}]" class="image-42"></div>
+                  <div class="image-wrapper-6"><img loading="lazy" width="264" height="264" alt="{{ item.data.f_logo.alt }}" src="{{ item.data.f_logo.url }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;268px&quot;}]" class="image-42"></div>
                   <div class="info">
                     <div class="div-block-108">
                       <div class="projectpartner_title">{{ item.data.title }}</div>
@@ -1074,7 +1074,7 @@ body:has(.navbar .w--open) {
             <a data-w-id="f337412c-f77d-98b2-66d9-f5314f586589" href="{{ item.url }}" class="blog-card_link w-inline-block">
               <div class="blog-card-border-top gradient-red-green"></div>
               <div class="blog-card">
-                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;232px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
+                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;17vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;167.2604217529297px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
                   <div class="blog-card_panel-text">
                     <div class="blog-card_title">{{ item.data.title }}</div>
                     <div class="blog-card_information">
