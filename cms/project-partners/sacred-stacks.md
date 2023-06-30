@@ -9,6 +9,8 @@ f_blurb: Sacred Stacks is an initiative within the Media Design Lab at the
   experimentation, collective study, and social transformation. In this
   collaboration, we explore how decentralized tools and selfgovernance practices
   can make these communities even stronger.
+f_logo:
+  url: /assets/images/partnerlogo_boulder.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-sacred-stacks-building-community-with-decentralized-tools/
 tags: project-partners
 layout: "[project-partners].html"
