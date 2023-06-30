@@ -11,6 +11,8 @@ f_blurb: Shift Collective is a nonprofit that helps cultural memory
   be tested in collaboration with institutional and community archives partners.
   The goal is to design an early prototype for community-centered,
   non-extractive, affordable, and accessible long-term, decentralized storage.
+f_logo:
+  url: /assets/images/partnerlogo_shift.png
 f_external-link: https://www.shiftcollective.us/ffdw
 tags: project-partners
 layout: "[project-partners].html"
