@@ -11,7 +11,8 @@ f_blurb: The Decentralized Future Council (DFC) is a collaboration between the
   including privacy, security, democracy, online trust and safety, and more.
 f_logo:
   url: /assets/images/partnerlogo_decentfuturecoucil.png
-f_blog-link: https://www.decentralizedfuturecouncil.org/
+f_blog-link: ""
+f_external-link: https://www.decentralizedfuturecouncil.org/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T15:07:12.709Z
