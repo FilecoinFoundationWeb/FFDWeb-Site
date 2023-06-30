@@ -15,6 +15,8 @@ f_blurb: "The Internet Archive runs dozens of projects, including: the Wayback
   being lost. Filecoin Foundation's contribution to the Internet Archive
   advances the mission of both organizations to preserve humanity's most
   valuable information and improve access to information online."
+f_logo:
+  url: /assets/images/partnerlogo_internetarchive.png
 f_external-link: https://archive.org/
 tags: project-partners
 layout: "[project-partners].html"
