@@ -10,6 +10,8 @@ f_blurb: WITNESS is an international nonprofit organization that helps people
   lengths to capture human rights accounts, building upon a 30-year history
   bridging the needs of communities with the global technology systems in which
   they live and work.
+f_logo:
+  url: /assets/images/partnerlogo_witness.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-witness-collaborate-to-preserve-authentic-human-rights-records/
 tags: project-partners
 layout: "[project-partners].html"
