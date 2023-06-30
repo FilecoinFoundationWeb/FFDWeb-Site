@@ -11,6 +11,8 @@ f_blurb: Distributed Press is an initiative to build an open source, no-code
   platform and enable all creators to publish to the DWeb. New technical
   features of Distributed Press will be showcased in COMPOST, a magazine
   centering stories about the digital commons.
+f_logo:
+  url: /assets/images/partnerlogo_distributedpress.png
 f_blog-link: https://www.ffdweb.org/blog/building-distributed-press-a-publishing-tool-for-the-decentralized-web/
 tags: project-partners
 layout: "[project-partners].html"
