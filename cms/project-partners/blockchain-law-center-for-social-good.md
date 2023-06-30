@@ -9,7 +9,7 @@ f_blurb: Promote blockchain technology’s potential to benefit all members of
   trainer” blockchain education program for community college professors and CA
   government staff.
 f_logo:
-  url: https://pbs.twimg.com/profile_images/1644147756360175616/gPAqHBj1_400x400.jpg
+  url: /assets/images/partnerlogo_blsgc.png
 f_external-link: https://www.blockchainlawsg.org/
 tags: project-partners
 layout: "[project-partners].html"
