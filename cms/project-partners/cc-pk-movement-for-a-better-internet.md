@@ -8,7 +8,7 @@ f_blurb: FFDW supports the Movement for a Better Internet, a collaborative
   values. The movement brings people together to ensure the next generation of
   the web is better for people everywhere.
 f_logo:
-  url: https://www.movementforabetterinternet.org/images/logo-4-line.svg
+  url: /assets/images/partnerlogo_movementbetterinternet.png
 f_external-link: https://www.movementforabetterinternet.org/
 tags: project-partners
 layout: "[project-partners].html"
