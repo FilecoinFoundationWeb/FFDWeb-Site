@@ -13,6 +13,7 @@ f_blurb: In partnership with researchers from the University of Maryland’s
 f_logo:
   url: /assets/images/partnerlogo_easier.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-easier-data-initiative-collaborate-to-upload-spatial-data-to-filecoin-network/
+f_external-link: https://www.ffdweb.org/blog/ffdw-and-easier-data-initiative-collaborate-to-upload-spatial-data-to-filecoin-network/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:00:00.995Z
