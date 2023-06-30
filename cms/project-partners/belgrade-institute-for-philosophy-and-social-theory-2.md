@@ -11,7 +11,7 @@ f_blurb: With FFDW’s support, this project is collecting, digitizing,
   that cannot be burned or destroyed at the order of a government or a single
   individual.
 f_logo:
-  url: https://pbs.twimg.com/profile_images/1440639924772880397/1LOPdGfv_400x400.jpg
+  url: /assets/images/partnerlogo_belgrade.png
 f_blog-link: " https://ifdt.bg.ac.rs/"
 tags: project-partners
 layout: "[project-partners].html"
