@@ -13,7 +13,8 @@ f_blurb: Gray Area is a 21st-century countercultural hub catalyzing creative
   technology into their creative practices.
 f_logo:
   url: /assets/images/partnerlogo_grayarea.png
-f_blog-link: https://grayarea.org/
+f_blog-link: ""
+f_external-link: https://grayarea.org/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:01:20.558Z
