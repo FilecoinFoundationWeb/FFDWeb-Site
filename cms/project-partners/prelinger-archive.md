@@ -8,6 +8,8 @@ f_blurb: The Prelinger Archives is using its award from FFDW to digitize a vast
   to make rare and one-of-a-kind films accessible to the general public. This
   project will also support uploading the data onto a decentralized repository
   in order to increase the resilience and longevity of digital preservation.
+f_logo:
+  url: /assets/images/partnerlogo_prelinger.png
 f_blog-link: https://ffdweb.org/blog/ffdw-works-with-prelinger-archives-to-make-rare-historic-films-more-accessible-using-the-decentralized-web/
 tags: project-partners
 layout: "[project-partners].html"
