@@ -9,6 +9,7 @@ f_blurb: FFDW supports the Movement for a Better Internet, a collaborative
   the web is better for people everywhere.
 f_logo:
   url: https://www.movementforabetterinternet.org/images/logo-4-line.svg
+f_blog-link: "#"
 f_external-link: https://www.movementforabetterinternet.org/
 date: 2023-06-29T22:54:51.688Z
 ---
