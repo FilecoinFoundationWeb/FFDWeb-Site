@@ -9,6 +9,8 @@ f_blurb: OpenArchive is a nonprofit dedicated to advancing human rights by
   exploring decentralized backends for the Save app. This will enable people on
   the ground capturing images and footage of world events to leverage IPFS and
   Filecoin and other decentralized storage options via their mobile device.
+f_logo:
+  url: /assets/images/partnerlogo_openarchive.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-openarchive-collaborate-to-deploy-decentralized-archive-for-human-rights-data/
 tags: project-partners
 layout: "[project-partners].html"
