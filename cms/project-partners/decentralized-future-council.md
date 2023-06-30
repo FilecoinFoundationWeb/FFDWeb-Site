@@ -9,6 +9,8 @@ f_blurb: The Decentralized Future Council (DFC) is a collaboration between the
   cryptocurrency. The Council works to educate policymakers about new and
   upcoming challenges that correspond with these emerging technologies,
   including privacy, security, democracy, online trust and safety, and more.
+f_logo:
+  url: /assets/images/partnerlogo_decentfuturecoucil.png
 f_blog-link: https://www.decentralizedfuturecouncil.org/
 tags: project-partners
 layout: "[project-partners].html"
