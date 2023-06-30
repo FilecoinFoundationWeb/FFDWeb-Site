@@ -3155,11 +3155,12 @@ blockquote {
 }
 
 .info {
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  min-height: 175px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   flex-direction: column;
   flex: 1;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: stretch;
   padding: 10px 20px 20px;
   display: flex;
@@ -3257,6 +3258,7 @@ blockquote {
   grid-column-gap: 4px;
   grid-row-gap: 4px;
   flex-direction: column;
+  justify-content: space-between;
   display: flex;
 }
 
