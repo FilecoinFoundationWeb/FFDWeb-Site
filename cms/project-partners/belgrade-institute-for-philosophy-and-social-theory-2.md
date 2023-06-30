@@ -12,7 +12,8 @@ f_blurb: With FFDW’s support, this project is collecting, digitizing,
   individual.
 f_logo:
   url: /assets/images/partnerlogo_belgrade.png
-f_blog-link: " https://ifdt.bg.ac.rs/"
+f_blog-link: ""
+f_external-link: " https://ifdt.bg.ac.rs/"
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-29T22:57:26.638Z
