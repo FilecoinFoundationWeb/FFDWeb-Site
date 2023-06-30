@@ -12,6 +12,8 @@ f_blurb: The three-year FFDW award supports infrastructure, user experience, and
   preserve historically critical information, such as its comprehensive database
   of press freedom violations in the United States and government data that
   belongs in the public sphere.
+f_logo:
+  url: /assets/images/partnerlogo_freedompress.png
 f_blog-link: https://freedom.press/news/filecoin-foundation-for-the-decentralized-web-funds-freedom-of-the-press-foundation-with-largest-grant-in-our-history/
 f_external-link: https://decrypt.co/82056/filecoin-group-grants-million-edward-snowden-press-freedom-foundation
 tags: project-partners
