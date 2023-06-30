@@ -11,6 +11,7 @@ f_blurb: The Prelinger Archives is using its award from FFDW to digitize a vast
 f_logo:
   url: /assets/images/partnerlogo_prelinger.png
 f_blog-link: https://ffdweb.org/blog/ffdw-works-with-prelinger-archives-to-make-rare-historic-films-more-accessible-using-the-decentralized-web/
+f_external-link: https://ffdweb.org/blog/ffdw-works-with-prelinger-archives-to-make-rare-historic-films-more-accessible-using-the-decentralized-web/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:44:12.628Z
