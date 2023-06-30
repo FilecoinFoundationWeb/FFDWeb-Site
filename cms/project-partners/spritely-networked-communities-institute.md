@@ -12,6 +12,7 @@ f_blurb: Spritely’s mission is to put people directly in control of their onli
 f_logo:
   url: /assets/images/partnerlogo_spritely.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-supports-spritely-networked-communities-institute-to-develop-decentralized-social-media/
+f_external-link: https://www.ffdweb.org/blog/ffdw-supports-spritely-networked-communities-institute-to-develop-decentralized-social-media/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:52:58.034Z
