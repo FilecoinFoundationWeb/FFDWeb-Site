@@ -14,6 +14,7 @@ f_blurb: As we pursue our goal of supporting an internet for everyone, it is
   advancement of digital equity.
 f_logo:
   url: https://pbs.twimg.com/profile_images/1511746714688016387/EB6IZmuH_400x400.jpg
+f_blog-link: https://ffdweb.org/blog/ffdw-and-connect-humanity-empowering-an-equitable-digital-future/
 f_external-link: https://connecthumanity.fund/
 tags: project-partners
 layout: "[project-partners].html"
