@@ -677,8 +677,8 @@ body:has(.navbar .w--open) {
               <div aria-label="Explore the DWeb" class="h1-variant-4">{{ texts.15309273 }}</div>
               <div aria-hidden="true" class="h2-variant-4"><span class="h2-variant-4-artifact gradient-red-green"> </span>{{ texts.3dcd0abf }}</div>
               <div class="content-artifacts-1"></div>
-              <div class="content-artifacts-2"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;800.6666870117188px&quot;}]" sizes="(max-width: 767px) 100vw, 800.6666870117188px" src="{{ images.-68d8e0df.url }}" alt="{{ images.-68d8e0df.alt | trim | escape }}" class="header-variant-4_image">
-              <div class="header-variant-4_mobile-image"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;84vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 767px) 84vw, 100vw" src="{{ images.-68d8e0df.url }}" alt="{{ images.-68d8e0df.alt | trim | escape }}" class="absolute-image"></div>
+              <div class="content-artifacts-2"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;800.65625px&quot;}]" sizes="(max-width: 991px) 100vw, 800.6640625px" src="{{ images.-68d8e0df.url }}" alt="{{ images.-68d8e0df.alt | trim | escape }}" class="header-variant-4_image">
+              <div class="header-variant-4_mobile-image"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;84vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 991px) 84vw, 100vw" src="{{ images.-68d8e0df.url }}" alt="{{ images.-68d8e0df.alt | trim | escape }}" class="absolute-image"></div>
             </div>
           </div>
         </div>
@@ -774,7 +774,7 @@ body:has(.navbar .w--open) {
       <div class="container-flex">
         <div class="col-3">
           <div class="image-with-artifact">
-            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;327.5208435058594px&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;23vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" src="{{ images.4f5c1a68.url }}" alt="{{ images.4f5c1a68.alt | trim | escape }}" class="hide-mobile">
+            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" src="{{ images.4f5c1a68.url }}" alt="{{ images.4f5c1a68.alt | trim | escape }}" class="hide-mobile">
             <div class="image-artifact hide-mobile"></div>
           </div>
         </div>
@@ -788,7 +788,7 @@ body:has(.navbar .w--open) {
           </div>
         </div>
         <div class="col-3">
-          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;327.5208435058594px&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;23vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" src="{{ images.7ceda466.url }}" alt="{{ images.7ceda466.alt | trim | escape }}" class="hide-mobile">
+          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" src="{{ images.7ceda466.url }}" alt="{{ images.7ceda466.alt | trim | escape }}" class="hide-mobile">
             <div class="image-artifact bottom-artifact"></div>
             <div class="image-artifact right-image"></div>
           </div>
@@ -817,7 +817,7 @@ body:has(.navbar .w--open) {
         </div>
       </div>
     </div>
-    <div id="resources" class="sectional reach-sectional">
+    <section id="partners" class="sectional reach-sectional">
       <div class="container-flex reverse-tablet">
         <div class="col-6">
           <div class="column-content">
@@ -827,15 +827,15 @@ body:has(.navbar .w--open) {
           <div class="spacer-1"></div>
         </div>
       </div>
-    </div>
-    <section id="partners" class="section-projectpartners cms">
+    </section>
+    <div class="section-projectpartners cms">
       <div class="container-projectpartners">
         <div class="columns-4 f2wf-columns-9">
           {%- assign collection = collections.project-partners | sort: "title" -%}<div class="collection-list-wrapper-2 w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
               {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item">
                 <div data-w-id="ec74e749-8bdc-7741-66bf-d8edfc6a97d3" class="partner-modal">
-                  <div class="div-block-102"><img class="modalclose" src="{{ images.423ffbb4.url }}" width="40" height="40" alt="{{ images.423ffbb4.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" data-w-id="ec74e749-8bdc-7741-66bf-d8edfc6a97d5" loading="lazy"></div>
+                  <div class="div-block-102"><img src="{{ images.423ffbb4.url }}" loading="lazy" width="40" height="40" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" data-w-id="ec74e749-8bdc-7741-66bf-d8edfc6a97d5" alt="{{ images.423ffbb4.alt | trim | escape }}" class="modalclose"></div>
                   <div class="div-block-107">
                     <div class="projectpartner_title green">{{ item.data.title }}</div>
                     <p>{{ item.data.f_blurb }}</p>
@@ -881,7 +881,7 @@ body:has(.navbar .w--open) {
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <div class="sectional tutorials-sectional">
       <div class="container-flex relative">
         <div class="col-9">
@@ -1016,32 +1016,32 @@ body:has(.navbar .w--open) {
       <div class="video-section-artifact"></div>
       <div class="video-grid">
         <div class="video-card">
-          <a video-link="" href="{{ links.-3fda2f0 }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.-3fda2f0 }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.37be95b8 }}</div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.79c1fc2f }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.79c1fc2f }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.-70c263fe }}<br></div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.-43dcc8ea }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.-43dcc8ea }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.-6aab7131 }}<br></div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.2d64286a }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.2d64286a }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.6c88abc8 }}</div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.6035b89a }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.6035b89a }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.-a40a887 }}</div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.-63b2bdbb }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.3958435058594px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
+          <a video-link="" href="{{ links.-63b2bdbb }}" class="video-image-wrapper w-inline-block"><img src="{{ images.-777be7eb.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt="{{ images.-777be7eb.alt | trim | escape }}"><img src="{{ images.20830900.url }}" loading="lazy" alt="{{ images.20830900.alt | trim | escape }}" class="play-icon"></a>
           <div class="video-title">{{ texts.261dcf3 }}<br></div>
           <div class="video-artifact"></div>
         </div>
@@ -1074,7 +1074,7 @@ body:has(.navbar .w--open) {
             <a data-w-id="f337412c-f77d-98b2-66d9-f5314f586589" href="{{ item.url }}" class="blog-card_link w-inline-block">
               <div class="blog-card-border-top gradient-red-green"></div>
               <div class="blog-card">
-                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;17vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;167.2604217529297px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
+                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;232px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;15vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;176.421875px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
                   <div class="blog-card_panel-text">
                     <div class="blog-card_title">{{ item.data.title }}</div>
                     <div class="blog-card_information">

@@ -140,6 +140,12 @@ collections:
         label: External Link
         widget: string
         required: false
+      - hint: Mark this as active for completed projects.
+        name: f_past-collaborations
+        label: Past Collaborations
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -4085,7 +4091,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-5e500234'
+            name: '-31527de4'
             widget: object
             fields:
               - name: url
