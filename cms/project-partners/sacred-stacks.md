@@ -13,6 +13,7 @@ f_logo:
   url: /assets/images/partnerlogo_boulder.png
 f_blog-link: https://www.ffdweb.org/blog/ffdw-and-sacred-stacks-building-community-with-decentralized-tools/
 f_external-link: https://www.ffdweb.org/blog/ffdw-and-sacred-stacks-building-community-with-decentralized-tools/
+f_past-collaborations: true
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:45:37.096Z
