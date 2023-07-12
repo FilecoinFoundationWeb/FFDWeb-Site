@@ -2995,7 +2995,7 @@ blockquote {
 }
 
 .section-projectpartners.cms.nomarginbottom {
-  padding-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .collection-list-3 {
@@ -3040,7 +3040,7 @@ blockquote {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
 }
 

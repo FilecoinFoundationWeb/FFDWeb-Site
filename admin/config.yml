@@ -4162,6 +4162,10 @@ collections:
             label: Text
             name: '7431e780'
             widget: string
+          - hint: 'Original text: Past collaborations, key: -275aeb84'
+            label: Text
+            name: '-275aeb84'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
