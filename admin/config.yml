@@ -4509,6 +4509,10 @@ collections:
             label: Link
             name: '-2795e16'
             widget: string
+          - hint: 'Original link: #partners, key: -73c61632'
+            label: Link
+            name: '-73c61632'
+            widget: string
       - label: Images
         name: images
         file: cms/_data/images.json
