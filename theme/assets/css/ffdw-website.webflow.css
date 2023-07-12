@@ -1041,6 +1041,7 @@ blockquote {
 
 .sectional.reach-sectional.nomargintop {
   padding-top: 0;
+  padding-bottom: 6rem;
 }
 
 .sectional.form-sectional {
@@ -2990,12 +2991,8 @@ blockquote {
   display: flex;
 }
 
-.section-projectpartners.cms {
+.section-projectpartners.cms, .section-projectpartners.cms.nomarginbottom {
   padding-bottom: 9rem;
-}
-
-.section-projectpartners.cms.nomarginbottom {
-  padding-bottom: 6rem;
 }
 
 .collection-list-3 {
