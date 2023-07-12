@@ -4460,7 +4460,7 @@ blockquote {
   }
 
   .navigation_dropdown-content {
-    display: none;
+    display: flex;
   }
 
   .logo-button--footer {
