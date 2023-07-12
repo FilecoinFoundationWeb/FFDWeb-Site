@@ -4152,6 +4152,16 @@ collections:
             label: Text
             name: 57bd0b6f
             widget: string
+          - hint: >-
+              Original text: Learn about all the projects that FFDW is currently
+              partnering with, key: -689d2127
+            label: Text
+            name: '-689d2127'
+            widget: string
+          - hint: 'Original text: Pastcollaborations, key: 7431e780'
+            label: Text
+            name: '7431e780'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
