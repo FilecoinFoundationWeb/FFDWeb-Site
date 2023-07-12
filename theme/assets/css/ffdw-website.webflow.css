@@ -4459,8 +4459,16 @@ blockquote {
     margin-bottom: 1rem;
   }
 
+  .navigation_dropdown-content {
+    display: none;
+  }
+
   .logo-button--footer {
     padding-top: 3rem;
+  }
+
+  .nav-link.hide {
+    display: none;
   }
 
   .tablet-subnav {
