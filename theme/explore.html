@@ -850,7 +850,7 @@ body:has(.navbar .w--open) {
                             </g>
                           </svg></div>
                       </a>
-                      <a id="button-link-with-icon" href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block">
+                      <a html:attribute="target|_blank" href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block">
                         <div class="button-text purple">{{ texts.213ed55b }}</div>
                         <div class="icon-arrow visible move-on-hover up w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                             <g transform="translate(-1044 -997)">
@@ -1562,6 +1562,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
   <script>document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")</script>
+  <style>
+.button-link-with-icon.inline-flex.purple:empty {
+ display: none;
+}
+</style>
   <script>
 document.querySelectorAll('.blog-card_tags-wrapper .w-dyn-item').forEach( tag => {
   const wrapper = tag.closest('.blog-post').querySelector('.blog-card_information');
