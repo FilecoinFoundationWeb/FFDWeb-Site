@@ -345,6 +345,10 @@ blockquote {
   margin-right: .5rem;
 }
 
+.button-text.purple {
+  color: #b5b5fa;
+}
+
 .artifact {
   z-index: 0;
   height: 1.5rem;
@@ -1950,6 +1954,7 @@ blockquote {
 
 .button-link-with-icon.inline-flex {
   align-items: center;
+  padding-left: 0;
   transition: all .25s ease-in-out;
 }
 
@@ -1983,8 +1988,7 @@ blockquote {
 }
 
 .button-link-with-icon.inline-flex.purple {
-  color: #b5b5fa;
-  padding-left: 0;
+  color: #070517;
 }
 
 .col-5-1 {
