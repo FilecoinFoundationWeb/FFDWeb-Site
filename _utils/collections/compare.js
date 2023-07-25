@@ -82,7 +82,21 @@ const operators = {
 
 module.exports = function compareItemByFilter(item, filter, currentItem) {
     let [fieldPath, operator, value] = filter;
-    const itemValue = get(item.data, fieldPath, "");
+    let itemValue = get(item.data, fieldPath, "");
+
+    if (fieldPath == "slug" && !itemValue) {
+        itemValue = item.inputPath;
+        itemValue = itemValue.split('/')
+        itemValue = itemValue[itemValue.length - 1].replace('.md', '');
+        itemValue = itemValue.replace(";", "")
+    }
+
+    if (Array.isArray(itemValue)) {
+        itemValue = itemValue.map(e => e.replace('.md', ''));
+    } else if (typeof itemValue == "string") {
+       itemValue = itemValue.replace('.md', '');
+    }
+    
 
     if (value.startsWith("cms/cms/")) {
         value = value.replace("cms/cms/", "cms/")
@@ -97,7 +111,7 @@ module.exports = function compareItemByFilter(item, filter, currentItem) {
 
     } else if (value.includes("DYN_CONTEXT")) {
         if (currentItem) {
-            value = currentItem.inputPath.replace("./", "");
+            value = currentItem.inputPath.replace("./", "").replace(".md", "");
         }
     }
 
@@ -108,8 +122,9 @@ module.exports = function compareItemByFilter(item, filter, currentItem) {
         value = value.replace(";", "")
     }
 
-    if (typeof value == "string" && value.toString().includes('.md')) {
-        value = value.substring(0, value.indexOf('.md') + 3);
+
+    if (typeof value == "string" && value.toString().endsWith('.md')) {
+        value = value.replace('.md', '');
     }
 
     if (Array.isArray(value)) {
@@ -120,8 +135,9 @@ module.exports = function compareItemByFilter(item, filter, currentItem) {
                 v = v.replace(";", "")
             }
 
-            if (typeof v == "string" && v.toString().includes('.md')) {
-                v = v.substring(0, v.indexOf('.md') + 3);
+            if (typeof v == "string" && v.toString().endsWith('.md')) {
+                v = v.replace('.md', '');
+                
             }
             return v;
         });

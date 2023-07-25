@@ -337,6 +337,7 @@ blockquote {
 
 .button-text {
   z-index: auto;
+  text-transform: uppercase;
 }
 
 .button-text.primary-links-list {
@@ -1319,11 +1320,6 @@ blockquote {
   position: relative;
 }
 
-.col-6 {
-  max-width: 50%;
-  flex: 0 50%;
-}
-
 .col-image-artifact-wrapper {
   padding-top: 144px;
   position: relative;
@@ -1953,7 +1949,6 @@ blockquote {
 }
 
 .button-link-with-icon.inline-flex {
-  color: #e8e7e1;
   align-items: center;
   transition: all .25s ease-in-out;
 }
@@ -1988,7 +1983,7 @@ blockquote {
 }
 
 .button-link-with-icon.inline-flex.purple {
-  color: #070517;
+  color: #b5b5fa;
   padding-left: 0;
 }
 
@@ -3396,6 +3391,11 @@ blockquote {
 
 .places-section.restaurants {
   margin-top: 75px;
+}
+
+.div-block-109 {
+  flex-direction: column;
+  display: flex;
 }
 
 @media screen and (min-width: 1920px) {
