@@ -349,6 +349,10 @@ blockquote {
   color: #b5b5fa;
 }
 
+.button-text.black {
+  color: #070517;
+}
+
 .artifact {
   z-index: 0;
   height: 1.5rem;
@@ -1987,6 +1991,10 @@ blockquote {
   color: #b5b5fa;
 }
 
+.button-link-with-icon.inline-flex.black {
+  color: #070517;
+}
+
 .col-5-1 {
   max-width: 41.6667%;
   flex: 0 41.6667%;
@@ -3354,6 +3362,10 @@ blockquote {
   bottom: 20%;
   left: 20%;
   right: 20%;
+}
+
+.partner-modal.past {
+  display: none;
 }
 
 .grid-3 {
