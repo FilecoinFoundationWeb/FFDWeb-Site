@@ -13,8 +13,8 @@ f_blurb: Distributed Press is an initiative to build an open source, no-code
   centering stories about the digital commons.
 f_logo:
   url: /assets/images/partnerlogo_distributedpress.png
-f_blog-link: ""
-f_external-link: https://www.ffdweb.org/blog/building-distributed-press-a-publishing-tool-for-the-decentralized-web/
+f_blog-link: https://www.ffdweb.org/blog/building-distributed-press-a-publishing-tool-for-the-decentralized-web/
+f_external-link: https://distributed.press/
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T15:08:16.192Z
