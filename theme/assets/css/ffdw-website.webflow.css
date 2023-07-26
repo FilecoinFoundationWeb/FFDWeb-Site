@@ -822,6 +822,7 @@ blockquote {
 }
 
 .icon-arrow.visible.move-on-hover.up {
+  display: block;
   transform: rotate(-135deg);
 }
 

@@ -3260,6 +3260,331 @@ collections:
             label: Text
             name: 57bd0b6f
             widget: string
+          - hint: 'Original text: FIL, key: 10fe9'
+            label: Text
+            name: 10fe9
+            widget: string
+          - hint: 'Original text:  VEGAS, key: 3b77698a'
+            label: Text
+            name: 3b77698a
+            widget: string
+          - hint: 'Original text: SAVE THE, key: -4cec7cd2'
+            label: Text
+            name: '-4cec7cd2'
+            widget: string
+          - hint: 'Original text:  DATE, key: 1e2d7ce'
+            label: Text
+            name: 1e2d7ce
+            widget: string
+          - hint: 'Original text: REGISTER, key: 5821ea3'
+            label: Text
+            name: 5821ea3
+            widget: string
+          - hint: 'Original text: October 2-6, 2023, key: -5dddf3d2'
+            label: Text
+            name: '-5dddf3d2'
+            widget: string
+          - hint: 'Original text: Park MGM | Las Vegas, NV, key: 798c88dd'
+            label: Text
+            name: 798c88dd
+            widget: string
+          - hint: 'Original text: OUR NETWORK, key: 21b3c91a'
+            label: Text
+            name: 21b3c91a
+            widget: string
+          - hint: 'Original text: filecoin.io, key: 46615ca7'
+            label: Text
+            name: 46615ca7
+            widget: string
+          - hint: 'Original text: fil.org, key: -330f0881'
+            label: Text
+            name: '-330f0881'
+            widget: string
+          - hint: 'Original text: protocol.ai, key: -18777cc2'
+            label: Text
+            name: '-18777cc2'
+            widget: string
+          - hint: 'Original text: ABOUT, key: 3b32b6d'
+            label: Text
+            name: 3b32b6d
+            widget: string
+          - hint: 'Original text: Code of Conduct, key: -24630032'
+            label: Text
+            name: '-24630032'
+            widget: string
+          - hint: >-
+              Original text: Copyright © 2023 Filecoin Foundation, key:
+              -4ad5204b
+            label: Text
+            name: '-4ad5204b'
+            widget: string
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: 'Original text: Password, key: 4c641ebb'
+            label: Text
+            name: 4c641ebb
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
+          - hint: >-
+              Original text: Register here to join the Filecoin community and
+              our partners this , key: -432370df
+            label: Text
+            name: '-432370df'
+            widget: string
+          - hint: 'Original text: October 2-6, key: -688f6c05'
+            label: Text
+            name: '-688f6c05'
+            widget: string
+          - hint: 'Original text:  at , key: 10062d'
+            label: Text
+            name: 10062d
+            widget: string
+          - hint: 'Original text: FIL Vegas, key: 19cc2eb3'
+            label: Text
+            name: 19cc2eb3
+            widget: string
+          - hint: "Original text: Pro-tips: Paste this content into a dedicated page named “Style guide”. Convert each color style below to global swatches so they can be used in text, borders, backgrounds, and gradients. To do this, select a color style element, navigate to the Background Color section in the Style panel, edit the color, \_and add it as a global swatch., key: 194d59a7"
+            label: Text
+            name: 194d59a7
+            widget: text
+          - hint: 'Original text: Text styles, key: 35c0a715'
+            label: Text
+            name: 35c0a715
+            widget: string
+          - hint: 'Original text: 76px Heading, key: -19c8c17'
+            label: Text
+            name: '-19c8c17'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 700 , key: 42a8ecad'
+            label: Text
+            name: 42a8ecad
+            widget: string
+          - hint: 'Original text: 76px/139.9999976158142%, key: 23dbfcf1'
+            label: Text
+            name: 23dbfcf1
+            widget: string
+          - hint: 'Original text: 16px Heading, key: -2fc66c51'
+            label: Text
+            name: '-2fc66c51'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 600, key: 2b70ca12'
+            label: Text
+            name: 2b70ca12
+            widget: string
+          - hint: 'Original text: 16px/120.00000476837158%, key: 2cf42189'
+            label: Text
+            name: 2cf42189
+            widget: string
+          - hint: 'Original text: 49px Heading, key: -5a0363f1'
+            label: Text
+            name: '-5a0363f1'
+            widget: string
+          - hint: 'Original text: 49px/139.9999976158142%, key: -27279ef5'
+            label: Text
+            name: '-27279ef5'
+            widget: string
+          - hint: 'Original text: 39px Heading, key: -61b50950'
+            label: Text
+            name: '-61b50950'
+            widget: string
+          - hint: 'Original text: 39px/139.9999976158142%, key: -71593836'
+            label: Text
+            name: '-71593836'
+            widget: string
+          - hint: 'Original text: 31px Heading, key: -8da9f58'
+            label: Text
+            name: '-8da9f58'
+            widget: string
+          - hint: 'Original text: 31px/139.9999976158142%, key: 5a78f2d2'
+            label: Text
+            name: 5a78f2d2
+            widget: string
+          - hint: 'Original text: 25px Heading, key: 4306864d'
+            label: Text
+            name: 4306864d
+            widget: string
+          - hint: 'Original text: 25px/139.9999976158142%, key: 2a5e440d'
+            label: Text
+            name: 2a5e440d
+            widget: string
+          - hint: 'Original text: Paragraph, key: -145e16b2'
+            label: Text
+            name: '-145e16b2'
+            widget: string
+          - hint: 'Original text: Suisse Intl 300, key: -6899ff4e'
+            label: Text
+            name: '-6899ff4e'
+            widget: string
+          - hint: 'Original text: 16px/160.0000023841858%, key: 52877153'
+            label: Text
+            name: '52877153'
+            widget: string
+          - hint: 'Original text: Caption, key: -7bd7ce3a'
+            label: Text
+            name: '-7bd7ce3a'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 300, key: 2b70becf'
+            label: Text
+            name: 2b70becf
+            widget: string
+          - hint: 'Original text: 16px/139.9999976158142%, key: 66b2656b'
+            label: Text
+            name: 66b2656b
+            widget: string
+          - hint: 'Original text: Button text, key: -8ec9ac5'
+            label: Text
+            name: '-8ec9ac5'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 700, key: 2b70cdd3'
+            label: Text
+            name: 2b70cdd3
+            widget: string
+          - hint: 'Original text: 13px/200%, key: 7226bf8'
+            label: Text
+            name: 7226bf8
+            widget: string
+          - hint: 'Original text: Color styles, key: -6aca5fa1'
+            label: Text
+            name: '-6aca5fa1'
+            widget: string
+          - hint: 'Original text: C‍, key: 282a'
+            label: Text
+            name: 282a
+            widget: string
+          - hint: 'Original text: Color 2, key: -642e816b'
+            label: Text
+            name: '-642e816b'
+            widget: string
+          - hint: 'Original text: Color 3, key: -642e816a'
+            label: Text
+            name: '-642e816a'
+            widget: string
+          - hint: 'Original text: Color 4, key: -642e8169'
+            label: Text
+            name: '-642e8169'
+            widget: string
+          - hint: 'Original text: THIS IS A , key: -2406a54d'
+            label: Text
+            name: '-2406a54d'
+            widget: string
+          - hint: 'Original text: HEADER!, key: 5a32fb34'
+            label: Text
+            name: 5a32fb34
+            widget: string
+          - hint: 'Original text: BUTTON, key: 75751b32'
+            label: Text
+            name: 75751b32
+            widget: string
+          - hint: 'Original text: Date, key: 2063ce'
+            label: Text
+            name: 2063ce
+            widget: string
+          - hint: 'Original text: Location, key: 752a03d5'
+            label: Text
+            name: 752a03d5
+            widget: string
+          - hint: 'Original text: FIL CITY, key: cbfb42'
+            label: Text
+            name: cbfb42
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Integer velit sapien, volutpat ut vulputate eget, mollis ac
+              augue. Vivamus sollicitudin quam id consequat ultrices. Mauris
+              maximus et turpis malesuada fermentum. Sed vel bibendum nisi. Sed
+              ac tellus lacus. Integer consequat dui lorem., key: 2ec64499
+            label: Text
+            name: 2ec64499
+            widget: text
+          - hint: 'Original text: EXPLORE, key: -233c798d'
+            label: Text
+            name: '-233c798d'
+            widget: string
+          - hint: 'Original text: FIL CITY Events, key: 3d156bd7'
+            label: Text
+            name: 3d156bd7
+            widget: string
+          - hint: 'Original text: DISCOVER, key: 3eee67e9'
+            label: Text
+            name: 3eee67e9
+            widget: string
+          - hint: 'Original text: FIL CITY Speakers, key: -42668c6e'
+            label: Text
+            name: '-42668c6e'
+            widget: string
+          - hint: >-
+              Original text: This is some text inside of a div block., key:
+              7635fb4f
+            label: Text
+            name: 7635fb4f
+            widget: string
+          - hint: 'Original text: Close Bio, key: 5a97d2a0'
+            label: Text
+            name: 5a97d2a0
+            widget: string
+          - hint: 'Original text: Read Bio, key: -2ff36c82'
+            label: Text
+            name: '-2ff36c82'
+            widget: string
+          - hint: 'Original text: MORE SPEAKERS TBA, key: 1d5c84b2'
+            label: Text
+            name: 1d5c84b2
+            widget: string
+          - hint: 'Original text: JOIN US, key: -2a7b5aac'
+            label: Text
+            name: '-2a7b5aac'
+            widget: string
+          - hint: 'Original text: FIL CITY Schedule, key: 133c65d5'
+            label: Text
+            name: 133c65d5
+            widget: string
+          - hint: 'Original text: Tue, july 18, key: 20d739d7'
+            label: Text
+            name: 20d739d7
+            widget: string
+          - hint: 'Original text: Wed, july 19, key: -aa8733a'
+            label: Text
+            name: '-aa8733a'
+            widget: string
+          - hint: 'Original text: Thu, july 20, key: -2a2ec7ef'
+            label: Text
+            name: '-2a2ec7ef'
+            widget: string
+          - hint: 'Original text: READ MORE, key: 62025f9f'
+            label: Text
+            name: 62025f9f
+            widget: string
+          - hint: 'Original text: CLOSE, key: 3d3e5d8'
+            label: Text
+            name: 3d3e5d8
+            widget: string
+          - hint: 'Original text: TRAVEL, key: -6c068ce6'
+            label: Text
+            name: '-6c068ce6'
+            widget: string
+          - hint: 'Original text: FIL Paris Venues, key: 76105330'
+            label: Text
+            name: '76105330'
+            widget: string
+          - hint: 'Original text: FIL CITY Network Base, key: 666641e1'
+            label: Text
+            name: '666641e1'
+            widget: string
+          - hint: 'Original text: Location , key: 301676eb'
+            label: Text
+            name: 301676eb
+            widget: string
+          - hint: 'Original text: Register now, key: -5c165007'
+            label: Text
+            name: '-5c165007'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3505,6 +3830,35 @@ collections:
           - hint: 'Original link: https://ffdweb.org/blog, key: 74bd83c'
             label: Link
             name: 74bd83c
+            widget: string
+          - hint: 'Original link: /register/, key: -21da9563'
+            label: Link
+            name: '-21da9563'
+            widget: string
+          - hint: 'Original link: https://filecoin.io/, key: 1f2c24b7'
+            label: Link
+            name: 1f2c24b7
+            widget: string
+          - hint: 'Original link: https://fil.org/, key: 2058645f'
+            label: Link
+            name: 2058645f
+            widget: string
+          - hint: 'Original link: https://protocol.ai/, key: -5d162f00'
+            label: Link
+            name: '-5d162f00'
+            widget: string
+          - hint: >-
+              Original link:
+              https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md,
+              key: -10a93b9c
+            label: Link
+            name: '-10a93b9c'
+            widget: string
+          - hint: >-
+              Original link: https://fil.org/policy/#site-navigation, key:
+              9d271d5
+            label: Link
+            name: 9d271d5
             widget: string
       - label: Images
         name: images
@@ -4567,4 +4921,174 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
+          - label: Image
+            name: 58d585b3
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 15b91432
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 376e3c93
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 48f9cd8a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2b016fa5
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-47604a3d'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-20d39043'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-511e0c64'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 64fe6f3f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2d1e3765
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5c60e1dd'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 101fa572
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+local_backend: true
 publish_mode: editorial_workflow
