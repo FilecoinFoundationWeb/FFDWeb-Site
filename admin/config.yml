@@ -2058,6 +2058,284 @@ collections:
             label: Text
             name: '-b380f47'
             widget: text
+          - hint: 'Original text: Style Guide, key: -7aba473'
+            label: Text
+            name: '-7aba473'
+            widget: string
+          - hint: 'Original text: Typography, key: 5500514f'
+            label: Text
+            name: 5500514f
+            widget: string
+          - hint: 'Original text: Headline, key: -3e9c0e0c'
+            label: Text
+            name: '-3e9c0e0c'
+            widget: string
+          - hint: 'Original text: H1, key: 8e9'
+            label: Text
+            name: '8e9'
+            widget: string
+          - hint: 'Original text: H2, key: 8ea'
+            label: Text
+            name: 8ea
+            widget: string
+          - hint: 'Original text: H3, key: 8eb'
+            label: Text
+            name: 8eb
+            widget: string
+          - hint: 'Original text: H4, key: 8ec'
+            label: Text
+            name: 8ec
+            widget: string
+          - hint: 'Original text: H5, key: 8ed'
+            label: Text
+            name: 8ed
+            widget: string
+          - hint: 'Original text: H6, key: 8ee'
+            label: Text
+            name: 8ee
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. Duis
+              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+              commodo diam libero vitae erat. Aenean faucibus nibh et justo
+              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+              tristique posuere., key: -5286fc08
+            label: Text
+            name: '-5286fc08'
+            widget: text
+          - hint: 'Original text: P, key: 50'
+            label: Text
+            name: '50'
+            widget: string
+          - hint: 'Original text: .text-style-p1, key: -4a191571'
+            label: Text
+            name: '-4a191571'
+            widget: string
+          - hint: 'Original text: .text-style-p3, key: -4a19156f'
+            label: Text
+            name: '-4a19156f'
+            widget: string
+          - hint: 'Original text: .label-1, key: -594e5856'
+            label: Text
+            name: '-594e5856'
+            widget: string
+          - hint: 'Original text: .label-2, key: -594e5855'
+            label: Text
+            name: '-594e5855'
+            widget: string
+          - hint: 'Original text: Block Quote, key: 3f3470e9'
+            label: Text
+            name: 3f3470e9
+            widget: string
+          - hint: 'Original text: blockquote, key: 4dad4a0f'
+            label: Text
+            name: 4dad4a0f
+            widget: string
+          - hint: 'Original text: A, key: 41'
+            label: Text
+            name: '41'
+            widget: string
+          - hint: 'Original text: List Item, key: 2af10155'
+            label: Text
+            name: 2af10155
+            widget: string
+          - hint: 'Original text: List, key: 2424be'
+            label: Text
+            name: 2424be
+            widget: string
+          - hint: 'Original text: H1 Headline, key: -13ad40b5'
+            label: Text
+            name: '-13ad40b5'
+            widget: string
+          - hint: "Original text: H2\_Headline, key: 2d3b0ea"
+            label: Text
+            name: 2d3b0ea
+            widget: string
+          - hint: 'Original text: H4 Headline, key: -36d0ed58'
+            label: Text
+            name: '-36d0ed58'
+            widget: string
+          - hint: 'Original text: RichText, key: -58a047b7'
+            label: Text
+            name: '-58a047b7'
+            widget: string
+          - hint: 'Original text: .richtext-content, key: 71edc2e3'
+            label: Text
+            name: 71edc2e3
+            widget: string
+          - hint: 'Original text: Forms, key: 40e9c0f'
+            label: Text
+            name: 40e9c0f
+            widget: string
+          - hint: 'Original text: .form-wrapper, key: 7029bb8'
+            label: Text
+            name: 7029bb8
+            widget: string
+          - hint: 'Original text: Colors, key: 78a3a990'
+            label: Text
+            name: 78a3a990
+            widget: string
+          - hint: 'Original text: Haiti, key: 4244ce5'
+            label: Text
+            name: 4244ce5
+            widget: string
+          - hint: 'Original text: .bg-haiti, key: 3d247ab'
+            label: Text
+            name: 3d247ab
+            widget: string
+          - hint: 'Original text: #070517, key: -6f7f9cab'
+            label: Text
+            name: '-6f7f9cab'
+            widget: string
+          - hint: 'Original text: Cararra, key: -7bc4202c'
+            label: Text
+            name: '-7bc4202c'
+            widget: string
+          - hint: 'Original text: .bg-cararra, key: 5056411a'
+            label: Text
+            name: 5056411a
+            widget: string
+          - hint: 'Original text: #E8E7E1, key: -4b922a6c'
+            label: Text
+            name: '-4b922a6c'
+            widget: string
+          - hint: 'Original text: Electric Violet, key: 71860e2'
+            label: Text
+            name: '71860e2'
+            widget: string
+          - hint: 'Original text: .bg-electric-violet, key: 78443255'
+            label: Text
+            name: '78443255'
+            widget: string
+          - hint: 'Original text: #4A22FC, key: -681e6f13'
+            label: Text
+            name: '-681e6f13'
+            widget: string
+          - hint: 'Original text: Perfume, key: 3ac29524'
+            label: Text
+            name: 3ac29524
+            widget: string
+          - hint: 'Original text: .bg-perfume, key: 6dcf66a'
+            label: Text
+            name: 6dcf66a
+            widget: string
+          - hint: 'Original text: #B5B5FA, key: -50dc5f3c'
+            label: Text
+            name: '-50dc5f3c'
+            widget: string
+          - hint: 'Original text: Green Yellow, key: 2d3fe471'
+            label: Text
+            name: 2d3fe471
+            widget: string
+          - hint: 'Original text: .bg-green-yellow, key: -3ac68ae8'
+            label: Text
+            name: '-3ac68ae8'
+            widget: string
+          - hint: 'Original text: #BAFE36, key: -503139fc'
+            label: Text
+            name: '-503139fc'
+            widget: string
+          - hint: 'Original text: Coral Red, key: 1299afe2'
+            label: Text
+            name: 1299afe2
+            widget: string
+          - hint: 'Original text: .bg-coral-red, key: 41a7389b'
+            label: Text
+            name: 41a7389b
+            widget: string
+          - hint: 'Original text: #FB383F, key: -495893c9'
+            label: Text
+            name: '-495893c9'
+            widget: string
+          - hint: 'Original text: Spaces, key: -6c05e3b3'
+            label: Text
+            name: '-6c05e3b3'
+            widget: string
+          - hint: 'Original text: Container, key: 5ef36c61'
+            label: Text
+            name: 5ef36c61
+            widget: string
+          - hint: 'Original text: .container, key: -334c5fed'
+            label: Text
+            name: '-334c5fed'
+            widget: string
+          - hint: 'Original text: Container/ No Padding, key: 1e65a024'
+            label: Text
+            name: 1e65a024
+            widget: string
+          - hint: 'Original text: .container.no-padding, key: 3cfa0c0'
+            label: Text
+            name: 3cfa0c0
+            widget: string
+          - hint: 'Original text: Container Full, key: -c4550f2'
+            label: Text
+            name: '-c4550f2'
+            widget: string
+          - hint: 'Original text: .container--full, key: 5c065e02'
+            label: Text
+            name: 5c065e02
+            widget: string
+          - hint: 'Original text: Container Full / Maxed, key: 6aca4aa0'
+            label: Text
+            name: 6aca4aa0
+            widget: string
+          - hint: 'Original text: .container--full.maxed, key: 7c12a17'
+            label: Text
+            name: 7c12a17
+            widget: string
+          - hint: 'Original text: Gradients, key: 1d190f23'
+            label: Text
+            name: 1d190f23
+            widget: string
+          - hint: "Original text: Purple\_Green, key: -1e581ee1"
+            label: Text
+            name: '-1e581ee1'
+            widget: string
+          - hint: 'Original text: .gradient:purple-green, key: 4240664e'
+            label: Text
+            name: 4240664e
+            widget: string
+          - hint: 'Original text: Green Purple, key: 1ec887b9'
+            label: Text
+            name: 1ec887b9
+            widget: string
+          - hint: 'Original text: .gradient:green-purple, key: 28278262'
+            label: Text
+            name: '28278262'
+            widget: string
+          - hint: 'Original text: Red Purple, key: 7e6cea6b'
+            label: Text
+            name: 7e6cea6b
+            widget: string
+          - hint: 'Original text: .gradient:red-purple, key: 2ef2d414'
+            label: Text
+            name: 2ef2d414
+            widget: string
+          - hint: 'Original text: Purple Red, key: 3f24722d'
+            label: Text
+            name: 3f24722d
+            widget: string
+          - hint: 'Original text: .gradient:purple-red, key: 964a69c'
+            label: Text
+            name: 964a69c
+            widget: string
+          - hint: 'Original text: Red Green, key: 5e6a5a74'
+            label: Text
+            name: 5e6a5a74
+            widget: string
+          - hint: 'Original text: .gradient:red-green, key: 641c17ab'
+            label: Text
+            name: 641c17ab
+            widget: string
+          - hint: 'Original text: Green Red, key: -d727e4c'
+            label: Text
+            name: '-d727e4c'
+            widget: string
+          - hint: 'Original text: .gradient:green-red, key: -1fac5055'
+            label: Text
+            name: '-1fac5055'
+            widget: string
           - hint: >-
               Original text: Filecoin Foundation and Filecoin Foundation for the
               Decentralized Web (collectively, "Filecoin Foundation," "we,"
@@ -2723,284 +3001,6 @@ collections:
             label: Text
             name: '-17bd96e1'
             widget: text
-          - hint: 'Original text: Style Guide, key: -7aba473'
-            label: Text
-            name: '-7aba473'
-            widget: string
-          - hint: 'Original text: Typography, key: 5500514f'
-            label: Text
-            name: 5500514f
-            widget: string
-          - hint: 'Original text: Headline, key: -3e9c0e0c'
-            label: Text
-            name: '-3e9c0e0c'
-            widget: string
-          - hint: 'Original text: H1, key: 8e9'
-            label: Text
-            name: '8e9'
-            widget: string
-          - hint: 'Original text: H2, key: 8ea'
-            label: Text
-            name: 8ea
-            widget: string
-          - hint: 'Original text: H3, key: 8eb'
-            label: Text
-            name: 8eb
-            widget: string
-          - hint: 'Original text: H4, key: 8ec'
-            label: Text
-            name: 8ec
-            widget: string
-          - hint: 'Original text: H5, key: 8ed'
-            label: Text
-            name: 8ed
-            widget: string
-          - hint: 'Original text: H6, key: 8ee'
-            label: Text
-            name: 8ee
-            widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Suspendisse varius enim in eros elementum tristique. Duis
-              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-              commodo diam libero vitae erat. Aenean faucibus nibh et justo
-              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
-              tristique posuere., key: -5286fc08
-            label: Text
-            name: '-5286fc08'
-            widget: text
-          - hint: 'Original text: P, key: 50'
-            label: Text
-            name: '50'
-            widget: string
-          - hint: 'Original text: .text-style-p1, key: -4a191571'
-            label: Text
-            name: '-4a191571'
-            widget: string
-          - hint: 'Original text: .text-style-p3, key: -4a19156f'
-            label: Text
-            name: '-4a19156f'
-            widget: string
-          - hint: 'Original text: .label-1, key: -594e5856'
-            label: Text
-            name: '-594e5856'
-            widget: string
-          - hint: 'Original text: .label-2, key: -594e5855'
-            label: Text
-            name: '-594e5855'
-            widget: string
-          - hint: 'Original text: Block Quote, key: 3f3470e9'
-            label: Text
-            name: 3f3470e9
-            widget: string
-          - hint: 'Original text: blockquote, key: 4dad4a0f'
-            label: Text
-            name: 4dad4a0f
-            widget: string
-          - hint: 'Original text: A, key: 41'
-            label: Text
-            name: '41'
-            widget: string
-          - hint: 'Original text: List Item, key: 2af10155'
-            label: Text
-            name: 2af10155
-            widget: string
-          - hint: 'Original text: List, key: 2424be'
-            label: Text
-            name: 2424be
-            widget: string
-          - hint: 'Original text: H1 Headline, key: -13ad40b5'
-            label: Text
-            name: '-13ad40b5'
-            widget: string
-          - hint: "Original text: H2\_Headline, key: 2d3b0ea"
-            label: Text
-            name: 2d3b0ea
-            widget: string
-          - hint: 'Original text: H4 Headline, key: -36d0ed58'
-            label: Text
-            name: '-36d0ed58'
-            widget: string
-          - hint: 'Original text: RichText, key: -58a047b7'
-            label: Text
-            name: '-58a047b7'
-            widget: string
-          - hint: 'Original text: .richtext-content, key: 71edc2e3'
-            label: Text
-            name: 71edc2e3
-            widget: string
-          - hint: 'Original text: Forms, key: 40e9c0f'
-            label: Text
-            name: 40e9c0f
-            widget: string
-          - hint: 'Original text: .form-wrapper, key: 7029bb8'
-            label: Text
-            name: 7029bb8
-            widget: string
-          - hint: 'Original text: Colors, key: 78a3a990'
-            label: Text
-            name: 78a3a990
-            widget: string
-          - hint: 'Original text: Haiti, key: 4244ce5'
-            label: Text
-            name: 4244ce5
-            widget: string
-          - hint: 'Original text: .bg-haiti, key: 3d247ab'
-            label: Text
-            name: 3d247ab
-            widget: string
-          - hint: 'Original text: #070517, key: -6f7f9cab'
-            label: Text
-            name: '-6f7f9cab'
-            widget: string
-          - hint: 'Original text: Cararra, key: -7bc4202c'
-            label: Text
-            name: '-7bc4202c'
-            widget: string
-          - hint: 'Original text: .bg-cararra, key: 5056411a'
-            label: Text
-            name: 5056411a
-            widget: string
-          - hint: 'Original text: #E8E7E1, key: -4b922a6c'
-            label: Text
-            name: '-4b922a6c'
-            widget: string
-          - hint: 'Original text: Electric Violet, key: 71860e2'
-            label: Text
-            name: '71860e2'
-            widget: string
-          - hint: 'Original text: .bg-electric-violet, key: 78443255'
-            label: Text
-            name: '78443255'
-            widget: string
-          - hint: 'Original text: #4A22FC, key: -681e6f13'
-            label: Text
-            name: '-681e6f13'
-            widget: string
-          - hint: 'Original text: Perfume, key: 3ac29524'
-            label: Text
-            name: 3ac29524
-            widget: string
-          - hint: 'Original text: .bg-perfume, key: 6dcf66a'
-            label: Text
-            name: 6dcf66a
-            widget: string
-          - hint: 'Original text: #B5B5FA, key: -50dc5f3c'
-            label: Text
-            name: '-50dc5f3c'
-            widget: string
-          - hint: 'Original text: Green Yellow, key: 2d3fe471'
-            label: Text
-            name: 2d3fe471
-            widget: string
-          - hint: 'Original text: .bg-green-yellow, key: -3ac68ae8'
-            label: Text
-            name: '-3ac68ae8'
-            widget: string
-          - hint: 'Original text: #BAFE36, key: -503139fc'
-            label: Text
-            name: '-503139fc'
-            widget: string
-          - hint: 'Original text: Coral Red, key: 1299afe2'
-            label: Text
-            name: 1299afe2
-            widget: string
-          - hint: 'Original text: .bg-coral-red, key: 41a7389b'
-            label: Text
-            name: 41a7389b
-            widget: string
-          - hint: 'Original text: #FB383F, key: -495893c9'
-            label: Text
-            name: '-495893c9'
-            widget: string
-          - hint: 'Original text: Spaces, key: -6c05e3b3'
-            label: Text
-            name: '-6c05e3b3'
-            widget: string
-          - hint: 'Original text: Container, key: 5ef36c61'
-            label: Text
-            name: 5ef36c61
-            widget: string
-          - hint: 'Original text: .container, key: -334c5fed'
-            label: Text
-            name: '-334c5fed'
-            widget: string
-          - hint: 'Original text: Container/ No Padding, key: 1e65a024'
-            label: Text
-            name: 1e65a024
-            widget: string
-          - hint: 'Original text: .container.no-padding, key: 3cfa0c0'
-            label: Text
-            name: 3cfa0c0
-            widget: string
-          - hint: 'Original text: Container Full, key: -c4550f2'
-            label: Text
-            name: '-c4550f2'
-            widget: string
-          - hint: 'Original text: .container--full, key: 5c065e02'
-            label: Text
-            name: 5c065e02
-            widget: string
-          - hint: 'Original text: Container Full / Maxed, key: 6aca4aa0'
-            label: Text
-            name: 6aca4aa0
-            widget: string
-          - hint: 'Original text: .container--full.maxed, key: 7c12a17'
-            label: Text
-            name: 7c12a17
-            widget: string
-          - hint: 'Original text: Gradients, key: 1d190f23'
-            label: Text
-            name: 1d190f23
-            widget: string
-          - hint: "Original text: Purple\_Green, key: -1e581ee1"
-            label: Text
-            name: '-1e581ee1'
-            widget: string
-          - hint: 'Original text: .gradient:purple-green, key: 4240664e'
-            label: Text
-            name: 4240664e
-            widget: string
-          - hint: 'Original text: Green Purple, key: 1ec887b9'
-            label: Text
-            name: 1ec887b9
-            widget: string
-          - hint: 'Original text: .gradient:green-purple, key: 28278262'
-            label: Text
-            name: '28278262'
-            widget: string
-          - hint: 'Original text: Red Purple, key: 7e6cea6b'
-            label: Text
-            name: 7e6cea6b
-            widget: string
-          - hint: 'Original text: .gradient:red-purple, key: 2ef2d414'
-            label: Text
-            name: 2ef2d414
-            widget: string
-          - hint: 'Original text: Purple Red, key: 3f24722d'
-            label: Text
-            name: 3f24722d
-            widget: string
-          - hint: 'Original text: .gradient:purple-red, key: 964a69c'
-            label: Text
-            name: 964a69c
-            widget: string
-          - hint: 'Original text: Red Green, key: 5e6a5a74'
-            label: Text
-            name: 5e6a5a74
-            widget: string
-          - hint: 'Original text: .gradient:red-green, key: 641c17ab'
-            label: Text
-            name: 641c17ab
-            widget: string
-          - hint: 'Original text: Green Red, key: -d727e4c'
-            label: Text
-            name: '-d727e4c'
-            widget: string
-          - hint: 'Original text: .gradient:green-red, key: -1fac5055'
-            label: Text
-            name: '-1fac5055'
-            widget: string
           - hint: 'Original text: Terms & Conditions, key: 4f912d2b'
             label: Text
             name: 4f912d2b
@@ -3491,6 +3491,10 @@ collections:
             label: Link
             name: 54ce0b32
             widget: string
+          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
+            label: Link
+            name: '-614d2a6e'
+            widget: string
           - hint: >-
               Original link:
               http://www.allaboutcookies.org/manage-cookies/index.html, key:
@@ -3501,10 +3505,6 @@ collections:
           - hint: 'Original link: mailto:privacypolicy@fil.org, key: 5fe860f1'
             label: Link
             name: 5fe860f1
-            widget: string
-          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
-            label: Link
-            name: '-614d2a6e'
             widget: string
       - label: Images
         name: images
