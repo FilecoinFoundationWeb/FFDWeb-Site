@@ -5090,5 +5090,4 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
-local_backend: true
 publish_mode: editorial_workflow
