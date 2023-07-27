@@ -838,7 +838,7 @@ body:has(.navbar .w--open) {
                     <div class="projectpartner_title green">{{ item.data.title }}</div>
                     <p>{{ item.data.f_blurb }}</p>
                     <div class="div-block-109">
-                      <a href="{{ item.data.f_external-link }}" class="button-link-with-icon inline-flex green w-inline-block" target="_blank">
+                      <a html:attribute="target|_blank" href="{{ item.data.f_external-link }}" class="button-link-with-icon inline-flex green w-inline-block">
                         <div class="button-text">{{ texts.65416d77 }}</div>
                         <div class="icon-arrow visible move-on-hover up w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                             <g transform="translate(-1044 -997)">
@@ -850,7 +850,7 @@ body:has(.navbar .w--open) {
                             </g>
                           </svg></div>
                       </a>
-                      {%- if item.data.f_blog-link -%}<a href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block" target="_blank">
+                      {%- if item.data.f_blog-link -%}<a html:attribute="target|_blank" href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block">
                         <div class="button-text purple">{{ texts.213ed55b }}</div>
                         <div class="icon-arrow visible move-on-hover up w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                             <g transform="translate(-1044 -997)">
@@ -915,7 +915,7 @@ body:has(.navbar .w--open) {
                     <div class="projectpartner_title green">{{ item.data.title }}</div>
                     <p>{{ item.data.f_blurb }}</p>
                     <div class="div-block-109">
-                      <a href="{{ item.data.f_external-link }}" class="button-link-with-icon inline-flex green w-inline-block" target="_blank">
+                      <a html:attribute="target|_blank" href="{{ item.data.f_external-link }}" class="button-link-with-icon inline-flex green w-inline-block">
                         <div class="button-text">{{ texts.65416d77 }}</div>
                         <div class="icon-arrow visible move-on-hover up w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                             <g transform="translate(-1044 -997)">
@@ -927,7 +927,7 @@ body:has(.navbar .w--open) {
                             </g>
                           </svg></div>
                       </a>
-                      {%- if item.data.f_blog-link -%}<a href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block" target="_blank">
+                      {%- if item.data.f_blog-link -%}<a html:attribute="target|_blank" href="{{ item.data.f_blog-link }}" class="button-link-with-icon inline-flex purple w-inline-block">
                         <div class="button-text purple">{{ texts.213ed55b }}</div>
                         <div class="icon-arrow visible move-on-hover up w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                             <g transform="translate(-1044 -997)">

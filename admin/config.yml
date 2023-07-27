@@ -969,1095 +969,14 @@ collections:
             label: Text
             name: 7fc2
             widget: string
-          - hint: 'Original text: 404 Page Not Found, key: -26269094'
-            label: Text
-            name: '-26269094'
-            widget: string
-          - hint: 'Original text: Whoops, this page doesn’t exist! , key: 57bd0b6f'
-            label: Text
-            name: 57bd0b6f
-            widget: string
-          - hint: 'Original text: Ada Lovelace, key: -3462bf75'
-            label: Text
-            name: '-3462bf75'
-            widget: string
-          - hint: >-
-              Original text: Nurturing the growth of the decentralized web, key:
-              -3e2f2b1a
-            label: Text
-            name: '-3e2f2b1a'
-            widget: string
-          - hint: >-
-              Original text: Building and supporting the decentralized
-              community, key: 715e87c6
-            label: Text
-            name: 715e87c6
-            widget: string
-          - hint: >-
-              Original text: Filecoin Foundation for the Decentralized Web
-              (FFDW) is a 501(c)(3) non-profit whose mission is to ensure the
-              permanent preservation of humanity’s most important information by
-              stewarding the development of open-source software and open
-              protocols for decentralized data storage and retrieval networks.,
-              key: -208e8061
-            label: Text
-            name: '-208e8061'
-            widget: text
-          - hint: >-
-              Original text: We exist to advance humankind by bringing Web3 to
-              life through education, research, and development., key: -68f4aae6
-            label: Text
-            name: '-68f4aae6'
-            widget: text
-          - hint: >-
-              Original text: Where open minds, open source, and open protocols,
-              meet., key: 2bebe058
-            label: Text
-            name: 2bebe058
-            widget: string
-          - hint: >-
-              Original text: On today’s centralized web, a handful of
-              corporations own the majority of the global cloud data storage
-              market. But humanity’s most important information should never be
-              compromised, abused, or ruled by any single entity., key: 4d2ecccb
-            label: Text
-            name: 4d2ecccb
-            widget: text
-          - hint: >-
-              Original text: We want the web to continue to grow and flourish
-              and we believe that the more people, teams, organizations support
-              a project, the more likely it is to succeed. FFDW sees Filecoin as
-              a foundational technology for the broader decentralized web
-              ecosystem and seeks to support that entire decentralized web
-              community., key: 74da6179
-            label: Text
-            name: 74da6179
-            widget: text
-          - hint: 'Original text: Board of Directors, key: -61582da8'
-            label: Text
-            name: '-61582da8'
-            widget: string
-          - hint: >-
-              Original text: Determined to bring Web3 to life, FFDW’s board
-              brings a wealth of experience and expertise to guide our work.,
-              key: 54a4374f
-            label: Text
-            name: 54a4374f
-            widget: text
-          - hint: 'Original text: Marta Belcher, key: 26c060c6'
-            label: Text
-            name: 26c060c6
-            widget: string
-          - hint: 'Original text: General Counsel, Protocol Labs, key: 486f9bbd'
-            label: Text
-            name: 486f9bbd
-            widget: string
-          - hint: >-
-              Original text: Marta Belcher is the General Counsel and Head of
-              Policy at Protocol Labs and the Board Chair of the Filecoin
-              Foundation and the Filecoin Foundation for the Decentralized Web.
-              She also serves as special counsel to the Electronic Frontier
-              Foundation. Marta is a pioneer in cryptocurrency law and has
-              spoken on the topic around the world, including in U.S. Congress,
-              European Parliament, the New York Senate, the OECD, and in Davos
-              during the World Economic Forum. Marta has drafted amicus briefs
-              in the U.S. Supreme Court and U.S. appellate courts for
-              high-profile public interest organizations, including EFF, the
-              Center for Democracy & Technology, Public Knowledge, the Cato
-              Institute, the National Consumers' League, Project Gutenberg, and
-              the Blockchain Association. Marta has been recognized twice by the
-              Financial Times Innovative Lawyer awards, was named to Law360's
-              list of Top Attorneys Under 40, and was #18 on CryptoWeekly’s list
-              of Most Influential Women in Crypto., key: d3d0803
-            label: Text
-            name: d3d0803
-            widget: text
-          - hint: 'Original text: Rainey Reitman, key: -fa026dc'
-            label: Text
-            name: '-fa026dc'
-            widget: string
-          - hint: >-
-              Original text: Board President, Freedom of the Press Foundation,
-              key: -8e47b7c
-            label: Text
-            name: '-8e47b7c'
-            widget: string
-          - hint: >-
-              Original text: Rainey Reitman's advocacy has focused on defending
-              the rights of whistleblowers, protecting press freedom, fighting
-              mass government surveillance, and documenting how financial
-              exclusion has been used to silence speakers. She is a co-founder
-              and the President of the Board of Directors of the , key: 3a741a7c
-            label: Text
-            name: 3a741a7c
-            widget: text
-          - hint: 'Original text: Freedom of the Press Foundation, key: -66bb9782'
-            label: Text
-            name: '-66bb9782'
-            widget: string
-          - hint: >-
-              Original text: , a nonprofit defending the rights of journalists.
-              She worked for the , key: -103918c7
-            label: Text
-            name: '-103918c7'
-            widget: string
-          - hint: 'Original text: Electronic Frontier Foundation, key: -3748a0de'
-            label: Text
-            name: '-3748a0de'
-            widget: string
-          - hint: >-
-              Original text:  (EFF) for 11 years, first as their Activism
-              Director and then as their Chief Program Officer, and she
-              currently serves as an advisor to EFF. Rainey also co-founded and
-              served for six years as a steering committee member of the Chelsea
-              Manning Support Network. She currently runs a consulting service
-              for mission-driven organizations called , key: -3c3de380
-            label: Text
-            name: '-3c3de380'
-            widget: text
-          - hint: 'Original text: Groundwork Strategy, key: fe4657b'
-            label: Text
-            name: fe4657b
-            widget: string
-          - hint: 'Original text: Brian Behlendorf, key: -350607f7'
-            label: Text
-            name: '-350607f7'
-            widget: string
-          - hint: >-
-              Original text: General Manager, Open Source Security Foundation,
-              key: -7779b3e5
-            label: Text
-            name: '-7779b3e5'
-            widget: string
-          - hint: >-
-              Original text: Brian Behlendorf has been an advocate for open
-              technologies and the role they can play in a more advanced and
-              just society for nearly 30 years. He is general manager of the
-              Open Source Security Foundation. Previously, he was executive
-              director for Hyperledger, an initiative hosted at the Linux
-              Foundation, and actively advising and growing other LF initiatives
-              around supply chain traceability, public health, identity, and
-              more. He serves on the boards of director for the Electronic
-              Frontier Foundation (since 2013) and the Mozilla Foundation (since
-              2003), defending the fight for the open web and a human rights
-              centered Internet., key: -4663b566
-            label: Text
-            name: '-4663b566'
-            widget: text
-          - hint: >-
-              Original text: He also chairs the technical advisory council for
-              ID2020. Previously he has served as the Chief Technology Officer
-              for the World Economic Forum, advised the Obama administration
-              through the White House’s Office of Science and Technology Policy,
-              and co-founded a series of companies in the open source software
-              domain. Oh, and many moons ago he co-founded the Apache web server
-              project, which he shepherded into the 501c3 Apache Software
-              Foundation., key: -1f3ebe62
-            label: Text
-            name: '-1f3ebe62'
-            widget: text
-          - hint: 'Original text: Kristin Smith, key: -230b5035'
-            label: Text
-            name: '-230b5035'
-            widget: string
-          - hint: >-
-              Original text: Executive Director, Blockchain Association, key:
-              7ef6f82d
-            label: Text
-            name: 7ef6f82d
-            widget: string
-          - hint: >-
-              Original text: Kristin is the Executive Director of the Blockchain
-              Association, the Washington DC-based trade association
-              representing the most prominent and reputable organizations in the
-              crypto industry. The mission of the Blockchain Association is to
-              improve the public policy environment so that blockchain networks
-              can thrive in the United States. Kristin sets the association’s
-              public policy strategy and leads engagement with industry and
-              outreach to policymakers., key: -45a92bfa
-            label: Text
-            name: '-45a92bfa'
-            widget: text
-          - hint: >-
-              Original text: Prior to leading the Blockchain Association,
-              Kristin assisted blockchain and technology companies achieve their
-              public policy objectives in Washington. She served as a Senate and
-              congressional aide on Capitol Hill for nearly ten years, much of
-              which was spent focusing on technology policy. She co-founded
-              HODLpac and serves on the organization’s board of directors.
-              Kristin is also featured on Fortune’s 2020 40 Under 40 list., key:
-              -4a351861
-            label: Text
-            name: '-4a351861'
-            widget: text
-          - hint: 'Original text: Sheila Warren, key: -7b057bdb'
-            label: Text
-            name: '-7b057bdb'
-            widget: string
-          - hint: >-
-              Original text: Chief Executive Officer, Crypto Council for
-              Innovation, key: -36ea7ffd
-            label: Text
-            name: '-36ea7ffd'
-            widget: string
-          - hint: 'Original text: Advisors, key: -268b032d'
-            label: Text
-            name: '-268b032d'
-            widget: string
-          - hint: >-
-              Original text: FFDW has assembled an outstanding group of
-              advisors., key: -413ab3b5
-            label: Text
-            name: '-413ab3b5'
-            widget: string
-          - hint: >-
-              Original text: Head of Blockchain and Data Policy, World Economic
-              Forum, key: 597be7d4
-            label: Text
-            name: 597be7d4
-            widget: string
-          - hint: 'Original text: Brewster Kahle, key: 62330d7b'
-            label: Text
-            name: 62330d7b
-            widget: string
-          - hint: 'Original text: Founder, Internet Archive, key: 6dff2a26'
-            label: Text
-            name: 6dff2a26
-            widget: string
-          - hint: 'Original text: Joe Lubin, key: 40a63e'
-            label: Text
-            name: 40a63e
-            widget: string
-          - hint: >-
-              Original text: Founder of ConsenSys, Cofounder of Ethereum, key:
-              -491e40ac
-            label: Text
-            name: '-491e40ac'
-            widget: string
-          - hint: 'Original text: Wendy Hanamura, key: 56d0b04e'
-            label: Text
-            name: 56d0b04e
-            widget: string
-          - hint: >-
-              Original text: Director of Partnerships, Internet Archive, key:
-              186e189b
-            label: Text
-            name: 186e189b
-            widget: string
-          - hint: 'Original text: Georgia Quinn, key: 10b2bd43'
-            label: Text
-            name: 10b2bd43
-            widget: string
-          - hint: 'Original text: General Counsel, Anchorage, key: -27dccbc7'
-            label: Text
-            name: '-27dccbc7'
-            widget: string
-          - hint: 'Original text: Alex Feerst, key: 27937d4f'
-            label: Text
-            name: 27937d4f
-            widget: string
-          - hint: 'Original text: CEO, Murmuration Labs, key: -917dcce'
-            label: Text
-            name: '-917dcce'
-            widget: string
-          - hint: 'Original text: Sandra Ro, key: -2578dc36'
-            label: Text
-            name: '-2578dc36'
-            widget: string
-          - hint: >-
-              Original text: CEO, Global Blockchain Business Council, key:
-              453b09b1
-            label: Text
-            name: 453b09b1
-            widget: string
-          - hint: 'Original text: Katie Biber, key: 1275aa82'
-            label: Text
-            name: 1275aa82
-            widget: string
-          - hint: 'Original text: General Counsel, Brex, key: 51510194'
-            label: Text
-            name: '51510194'
-            widget: string
-          - hint: >-
-              Original text: Filecoin Foundation for the Decentralized Web is
-              hiring for roles as we build, support, and fund projects advancing
-              the DWeb., key: -448d96a6
-            label: Text
-            name: '-448d96a6'
-            widget: text
-          - hint: 'Original text: GET IN TOUCH, key: -12b421f2'
-            label: Text
-            name: '-12b421f2'
-            widget: string
-          - hint: 'Original text: FFDW Awards, key: 44beb143'
-            label: Text
-            name: 44beb143
-            widget: string
-          - hint: 'Original text: FFDW, key: 20e153'
-            label: Text
-            name: '20e153'
-            widget: string
-          - hint: 'Original text: Awards and Programs, key: -61e1a33e'
-            label: Text
-            name: '-61e1a33e'
-            widget: string
-          - hint: "Original text: This RFP\_has now closed, and this page remains accessible only for reference purposes., key: -6bcfae84"
-            label: Text
-            name: '-6bcfae84'
-            widget: string
-          - hint: 'Original text: Please return to , key: -7ea1c015'
-            label: Text
-            name: '-7ea1c015'
-            widget: string
-          - hint: 'Original text: ffdweb.org, key: 45576d26'
-            label: Text
-            name: 45576d26
-            widget: string
-          - hint: >-
-              Original text: The Filecoin Foundation for the Decentralized Web
-              (FFDW) is launching a request for proposals (RFP) to identify the
-              most compelling initiatives to partner with in three key areas:,
-              key: -5b184db6
-            label: Text
-            name: '-5b184db6'
-            widget: text
-          - hint: 'Original text: Creator and Developer Training, key: 6e3f302d'
-            label: Text
-            name: 6e3f302d
-            widget: string
-          - hint: >-
-              Original text:  — We are interested in proposals for two aspects
-              of creator and developer training. First, empower and inform the
-              next generation of creators and developers, currently in education
-              or in junior roles, so that they can understand, and adopt
-              decentralized technology into their work and lives. Second, give
-              existing Internet developers the tools they need to incorporate
-              decentralized technology into their work. , key: 2c27f684
-            label: Text
-            name: 2c27f684
-            widget: text
-          - hint: 'Original text: (Up to $1.75M per year), key: -75fe4241'
-            label: Text
-            name: '-75fe4241'
-            widget: string
-          - hint: 'Original text: Public education, key: -26cdad2f'
-            label: Text
-            name: '-26cdad2f'
-            widget: string
-          - hint: >-
-              Original text:  — Introduce the public to the decentralized web.
-              These programs should inform diverse global audiences about the
-              values, benefits, and compelling use cases of decentralized
-              technologies. , key: 2ca316b9
-            label: Text
-            name: 2ca316b9
-            widget: text
-          - hint: 'Original text: (Up to $100,000 per year), key: -3c6928fe'
-            label: Text
-            name: '-3c6928fe'
-            widget: string
-          - hint: 'Original text: Universities and GLAM , key: -1eb9e86e'
-            label: Text
-            name: '-1eb9e86e'
-            widget: string
-          - hint: >-
-              Original text: (galleries, libraries, archives, and museums), key:
-              -1a270cb9
-            label: Text
-            name: '-1a270cb9'
-            widget: string
-          - hint: 'Original text:  Institutions, key: 4a3735fb'
-            label: Text
-            name: 4a3735fb
-            widget: string
-          - hint: >-
-              Original text:  — Drive the development and use of technologies to
-              enable a global decentralized library for all. Projects in this
-              area might pursue efforts such as industry-specific platforms that
-              make uploading information to decentralized storage user-friendly
-              and accessible. , key: -55a9f5f0
-            label: Text
-            name: '-55a9f5f0'
-            widget: text
-          - hint: 'Original text: (Up to $800,000 per year), key: -7c416f7'
-            label: Text
-            name: '-7c416f7'
-            widget: string
-          - hint: >-
-              Original text: If your project or initiative would be a good fit
-              for any of these areas, submit a completed , key: -7c33898c
-            label: Text
-            name: '-7c33898c'
-            widget: text
-          - hint: 'Original text: proposal template, key: 177a71e8'
-            label: Text
-            name: 177a71e8
-            widget: string
-          - hint: >-
-              Original text:  by the dates listed below. Please submit your full
-              proposal (including attachments) in Word document(s) if possible.
-              Let us know if you have any questions! Both questions and
-              proposals should be sent to , key: -6089c0c0
-            label: Text
-            name: '-6089c0c0'
-            widget: text
-          - hint: 'Original text: proposals@ffdweb.org, key: -3a4f08fb'
-            label: Text
-            name: '-3a4f08fb'
-            widget: string
-          - hint: 'Original text: Base Components, key: -19b6543b'
-            label: Text
-            name: '-19b6543b'
-            widget: string
-          - hint: 'Original text: Logos, key: 4630008'
-            label: Text
-            name: '4630008'
-            widget: string
-          - hint: 'Original text: Logo White, key: -39839a8c'
-            label: Text
-            name: '-39839a8c'
-            widget: string
-          - hint: 'Original text: Logo Haiti, key: -3a5a29b0'
-            label: Text
-            name: '-3a5a29b0'
-            widget: string
-          - hint: 'Original text: Buttons, key: 719b5761'
-            label: Text
-            name: 719b5761
-            widget: string
-          - hint: 'Original text: Primary Button, key: 1caed350'
-            label: Text
-            name: 1caed350
-            widget: string
-          - hint: 'Original text: Secondary Button, key: -6b1a7c62'
-            label: Text
-            name: '-6b1a7c62'
-            widget: string
-          - hint: 'Original text: Gradient Button, key: 2fedc622'
-            label: Text
-            name: 2fedc622
-            widget: string
-          - hint: "Original text: Gradient Button Red\_Purple, key: -7c6cac57"
-            label: Text
-            name: '-7c6cac57'
-            widget: string
-          - hint: 'Original text: Animated Links, key: 27162fc'
-            label: Text
-            name: 27162fc
-            widget: string
-          - hint: 'Original text: Text Link, key: 3610230d'
-            label: Text
-            name: 3610230d
-            widget: string
-          - hint: 'Original text: Scale In Link, key: 1639f91f'
-            label: Text
-            name: 1639f91f
-            widget: string
-          - hint: 'Original text: .scale-in-link, key: 607170b1'
-            label: Text
-            name: 607170b1
-            widget: string
-          - hint: 'Original text: Footer Link, key: -5ea5b0a1'
-            label: Text
-            name: '-5ea5b0a1'
-            widget: string
-          - hint: 'Original text: Social Link, key: -16c0bf33'
-            label: Text
-            name: '-16c0bf33'
-            widget: string
-          - hint: "Original text: Subnav\_Icon Link, key: -7e90ea1c"
-            label: Text
-            name: '-7e90ea1c'
-            widget: string
           - hint: 'Original text: Blog Index, key: 15e596d4'
             label: Text
             name: 15e596d4
-            widget: string
-          - hint: 'Original text: FFDW Blog, key: -6a377191'
-            label: Text
-            name: '-6a377191'
-            widget: string
-          - hint: 'Original text: Showing results for, key: 141edda4'
-            label: Text
-            name: 141edda4
-            widget: string
-          - hint: 'Original text:  ''query'', key: -2d535cda'
-            label: Text
-            name: '-2d535cda'
-            widget: string
-          - hint: >-
-              Original text: No results found that match the search query., key:
-              55217f42
-            label: Text
-            name: 55217f42
-            widget: string
-          - hint: 'Original text: First, key: 40be290'
-            label: Text
-            name: 40be290
-            widget: string
-          - hint: 'Original text: Back, key: 1f7907'
-            label: Text
-            name: 1f7907
-            widget: string
-          - hint: 'Original text: 1, key: 31'
-            label: Text
-            name: '31'
-            widget: string
-          - hint: 'Original text: 2, key: 32'
-            label: Text
-            name: '32'
-            widget: string
-          - hint: 'Original text: Next, key: 24ff13'
-            label: Text
-            name: 24ff13
-            widget: string
-          - hint: 'Original text: Last, key: 2406b6'
-            label: Text
-            name: 2406b6
-            widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
-          - hint: 'Original text: Here''s where, key: 3f87903'
-            label: Text
-            name: 3f87903
-            widget: string
-          - hint: 'Original text: you , key: 38afe1'
-            label: Text
-            name: 38afe1
-            widget: string
-          - hint: "Original text: \_can, key: 4a3b30"
-            label: Text
-            name: 4a3b30
-            widget: string
-          - hint: 'Original text: find us, key: -32db759b'
-            label: Text
-            name: '-32db759b'
-            widget: string
-          - hint: >-
-              Original text: We support and fund research and development, and
-              educate people about the decentralized web, in order to preserve
-              humanity’s most important information. Interested in joining us in
-              this mission? Reach out., key: -72bf4c4a
-            label: Text
-            name: '-72bf4c4a'
-            widget: text
-          - hint: 'Original text: Questions? Ideas? Drop us a line , key: -45128f13'
-            label: Text
-            name: '-45128f13'
-            widget: string
-          - hint: 'Original text: impact@ffdweb.org, key: 3d7df860'
-            label: Text
-            name: 3d7df860
-            widget: string
-          - hint: 'Original text: Social, key: -6c12fc73'
-            label: Text
-            name: '-6c12fc73'
-            widget: string
-          - hint: 'Original text: LinkedIn, key: 4b0ff13e'
-            label: Text
-            name: 4b0ff13e
-            widget: string
-          - hint: |-
-              Original text: ‍
-                              , key: 4df3279d
-            label: Text
-            name: 4df3279d
-            widget: string
-          - hint: 'Original text: YouTube, key: 280d3723'
-            label: Text
-            name: 280d3723
-            widget: string
-          - hint: >-
-              Original text: Our team of thinkers and doers is growing. If
-              you’re passionate about advancing technology forward, we want to
-              hear from you., key: -29f21189
-            label: Text
-            name: '-29f21189'
-            widget: text
-          - hint: 'Original text: Reach out, key: 33b84301'
-            label: Text
-            name: 33b84301
-            widget: string
-          - hint: >-
-              Original text: We’re working to foster and expand the
-              decentralized web., key: 397ad26d
-            label: Text
-            name: 397ad26d
-            widget: string
-          - hint: 'Original text: *Required, key: 3fa5c5e9'
-            label: Text
-            name: 3fa5c5e9
-            widget: string
-          - hint: 'Original text: *Must be a valid email, key: -1d763cb7'
-            label: Text
-            name: '-1d763cb7'
-            widget: string
-          - hint: 'Original text: *Must be a valid phone number, key: 3b37a9ee'
-            label: Text
-            name: 3b37a9ee
-            widget: string
-          - hint: 'Original text: *Must be at least 50 characters, key: -485217e5'
-            label: Text
-            name: '-485217e5'
             widget: string
           - hint: 'Original text: Share, key: 4c25fbf'
             label: Text
             name: 4c25fbf
             widget: string
-          - hint: 'Original text: Accordion - Variant 1, key: -83633f5'
-            label: Text
-            name: '-83633f5'
-            widget: string
-          - hint: 'Original text: Title, key: 4d13238'
-            label: Text
-            name: 4d13238
-            widget: string
-          - hint: 'Original text: Subtitle, key: -76f64fc8'
-            label: Text
-            name: '-76f64fc8'
-            widget: string
-          - hint: 'Original text: What’s a Rich Text element?, key: -3c0dda4d'
-            label: Text
-            name: '-3c0dda4d'
-            widget: string
-          - hint: >-
-              Original text: The rich text element allows you to create and
-              format headings, paragraphs, blockquotes, images, and video all in
-              one place instead of having to add and format them individually.
-              Just double-click and easily create content., key: 2e633c6a
-            label: Text
-            name: 2e633c6a
-            widget: text
-          - hint: 'Original text: Static and dynamic content editing, key: 57fa6135'
-            label: Text
-            name: 57fa6135
-            widget: string
-          - hint: >-
-              Original text: A rich text element can be used with static or
-              dynamic content. For static content, just drop it into any page
-              and begin editing. For dynamic content, add a rich text field to
-              any collection and then connect a rich text element to that field
-              in the settings panel. Voila!, key: -a016b40
-            label: Text
-            name: '-a016b40'
-            widget: text
-          - hint: >-
-              Original text: How to customize formatting for each rich text,
-              key: -4bffb26e
-            label: Text
-            name: '-4bffb26e'
-            widget: string
-          - hint: >-
-              Original text: Headings, paragraphs, blockquotes, figures, images,
-              and figure captions can all be styled after a class is added to
-              the rich text element using the "When inside of" nested selector
-              system., key: -43ba1153
-            label: Text
-            name: '-43ba1153'
-            widget: text
-          - hint: 'Original text: Accordion - Small, key: -2ba903c4'
-            label: Text
-            name: '-2ba903c4'
-            widget: string
-          - hint: 'Original text: the DWeb, key: 3dcd0abf'
-            label: Text
-            name: 3dcd0abf
-            widget: string
-          - hint: 'Original text: Learn About Web3, key: -16419832'
-            label: Text
-            name: '-16419832'
-            widget: string
-          - hint: >-
-              Original text: We support programs that educate the public about
-              how the internet works and what a decentralized future means for
-              business, governments, and consumers alike., key: b63da23
-            label: Text
-            name: b63da23
-            widget: text
-          - hint: >-
-              Original text: The Internet has always been inherently about
-              decentralization., key: 66134b8c
-            label: Text
-            name: 66134b8c
-            widget: string
-          - hint: >-
-              Original text: The first Internet protocols decentralized
-              computing and allowed users to consume digital content. The second
-              iteration ushered in the World Wide Web by enabling users to
-              consume, create and share digital content together., key: 3dc9f9bc
-            label: Text
-            name: 3dc9f9bc
-            widget: text
-          - hint: >-
-              Original text: After a period when a few large, centralized
-              companies consolidated this environment into a handful of
-              platforms, engineers and technologists are now building the next
-              evolution of the Internet. New protocols and new applications will
-              allow users to independently consume, create, and engage with
-              digital content. These changes will radically transform the
-              Internet as we now experience it, resulting in enormous potential
-              to create a better Internet., key: -13c56f2b
-            label: Text
-            name: '-13c56f2b'
-            widget: text
-          - hint: 'Original text: Project Partners & Collaborations, key: 67d15276'
-            label: Text
-            name: 67d15276
-            widget: string
-          - hint: >-
-              Original text: Learn about all the projects that FFDW is currently
-              partnering and collaborating with., key: 7fc4122b
-            label: Text
-            name: 7fc4122b
-            widget: string
-          - hint: 'Original text: Some of the, key: -512908cc'
-            label: Text
-            name: '-512908cc'
-            widget: string
-          - hint: 'Original text: groups we, key: -58579366'
-            label: Text
-            name: '-58579366'
-            widget: string
-          - hint: 'Original text: work with to, key: 30f69a06'
-            label: Text
-            name: 30f69a06
-            widget: string
-          - hint: 'Original text: grow Web3, key: -5960f494'
-            label: Text
-            name: '-5960f494'
-            widget: string
-          - hint: 'Original text: Boards & Advisors, key: 1c6d4f20'
-            label: Text
-            name: 1c6d4f20
-            widget: string
-          - hint: 'Original text: Explore further, key: 65416d77'
-            label: Text
-            name: 65416d77
-            widget: string
-          - hint: 'Original text: READ THE BLOG, key: 213ed55b'
-            label: Text
-            name: 213ed55b
-            widget: string
-          - hint: "Original text: READ\_MORE, key: 690e201f"
-            label: Text
-            name: 690e201f
-            widget: string
-          - hint: 'Original text: Past partnerships & collaborations, key: -7c21e355'
-            label: Text
-            name: '-7c21e355'
-            widget: string
-          - hint: 'Original text: Interactive Tutorials, key: -22370f29'
-            label: Text
-            name: '-22370f29'
-            widget: string
-          - hint: >-
-              Original text: ProtoSchool’s self-guided interactive tutorials
-              introduce you to DWeb concepts, protocols, and tools., key:
-              36ea6735
-            label: Text
-            name: 36ea6735
-            widget: text
-          - hint: 'Original text: beginner, key: 58c70452'
-            label: Text
-            name: 58c70452
-            widget: string
-          - hint: >-
-              Original text: Content Addressing on the Decentralized Web, key:
-              -18aacb0d
-            label: Text
-            name: '-18aacb0d'
-            widget: string
-          - hint: >-
-              Original text: Learn how hashing and content addressing enable
-              verifiable data sharing with peers on the decentralized web., key:
-              6478ec0d
-            label: Text
-            name: 6478ec0d
-            widget: text
-          - hint: 'Original text: Anatomy of a CID, key: -603be5c5'
-            label: Text
-            name: '-603be5c5'
-            widget: string
-          - hint: >-
-              Original text: Explore the ins and outs of CIDs (Content
-              Identifiers), the unique labels used to point to data stored on
-              distributed information systems including IPFS, IPLD, libp2p,
-              and…, key: -7cb7500d
-            label: Text
-            name: '-7cb7500d'
-            widget: text
-          - hint: >-
-              Original text: Merkle DAGs: Structuring Data for the Distributed
-              Web, key: 65d126f0
-            label: Text
-            name: 65d126f0
-            widget: string
-          - hint: >-
-              Original text: Learn how we can use CIDs to create
-              content-addressable data structures for the distributed web!, key:
-              f08e01b
-            label: Text
-            name: f08e01b
-            widget: text
-          - hint: 'Original text: Blogging on the Decentralized Web, key: 312322cb'
-            label: Text
-            name: 312322cb
-            widget: string
-          - hint: >-
-              Original text: Cool content addresses don’t change. Create a chain
-              of links from one CID to another with the IPFS DAG API., key:
-              be0ac8b
-            label: Text
-            name: be0ac8b
-            widget: text
-          - hint: >-
-              Original text: P2P Data Links with Content Addressing, key:
-              1b1e74a4
-            label: Text
-            name: 1b1e74a4
-            widget: string
-          - hint: >-
-              Original text: Store, fetch, and create verifiable links between
-              peer-hosted datasets using the IPFS DAG API and CIDs. It’s graphs
-              with friends!, key: -1093fb8a
-            label: Text
-            name: '-1093fb8a'
-            widget: text
-          - hint: 'Original text: Mutable File System, key: 1a45f739'
-            label: Text
-            name: 1a45f739
-            widget: string
-          - hint: >-
-              Original text: The Mutable File System (MFS) lets you work with
-              files and directories as if you were using a traditional
-              name-based file system., key: 1b657b89
-            label: Text
-            name: 1b657b89
-            widget: text
-          - hint: 'Original text: Video Resources, key: 2188b080'
-            label: Text
-            name: 2188b080
-            widget: string
-          - hint: 'Original text: Exploring the Decentralized Web, key: 2ac33ab9'
-            label: Text
-            name: 2ac33ab9
-            widget: string
-          - hint: >-
-              Original text: Episode 2: Return to Decentralization, key:
-              37be95b8
-            label: Text
-            name: 37be95b8
-            widget: string
-          - hint: >-
-              Original text: Episode 1: Evolution of the Internet, key:
-              -70c263fe
-            label: Text
-            name: '-70c263fe'
-            widget: string
-          - hint: >-
-              Original text: Leveraging of the Dweb to Enhance Free Speech with
-              the Latest FFDW Dev Grant, key: -6aab7131
-            label: Text
-            name: '-6aab7131'
-            widget: string
-          - hint: 'Original text: Introducing The Starling Lab, key: 6c88abc8'
-            label: Text
-            name: 6c88abc8
-            widget: string
-          - hint: >-
-              Original text: Exploring the Decentralized Web - Trailer, key:
-              -a40a887
-            label: Text
-            name: '-a40a887'
-            widget: string
-          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
-            label: Text
-            name: 261dcf3
-            widget: string
-          - hint: 'Original text: Together, let''s bring Web3 to life, key: 7465d535'
-            label: Text
-            name: 7465d535
-            widget: string
-          - hint: 'Original text: Melba Roy Mouton, 1960, key: 24fff47'
-            label: Text
-            name: 24fff47
-            widget: string
-          - hint: >-
-              Original text: Working with the community to advance Web3 through
-              education, research, and development., key: 69a267bd
-            label: Text
-            name: 69a267bd
-            widget: string
-          - hint: >-
-              Original text: FFDW’s mission is to ensure the permanent
-              preservation of humanity’s most important information by
-              stewarding the development of open-source software and open
-              protocols for decentralized data storage and retrieval networks.
-              We work to build and support the decentralized web community, fund
-              research and development, and educate the public about the
-              decentralized web, in order to preserve humanity’s most important
-              information., key: 6bb691d9
-            label: Text
-            name: 6bb691d9
-            widget: text
-          - hint: 'Original text: Join our team, key: -29d26b39'
-            label: Text
-            name: '-29d26b39'
-            widget: string
-          - hint: >-
-              Original text: If you’re passionate about decentralization, check
-              out our open roles., key: -e2b39e3
-            label: Text
-            name: '-e2b39e3'
-            widget: string
-          - hint: 'Original text: view open roles, key: 1698ddc2'
-            label: Text
-            name: 1698ddc2
-            widget: string
-          - hint: 'Original text: Follow us on social media, key: -613962c1'
-            label: Text
-            name: '-613962c1'
-            widget: string
-          - hint: >-
-              Original text: Learn more about our hosted and sponsored events,
-              and catch our latest announcements., key: -b2bdf27
-            label: Text
-            name: '-b2bdf27'
-            widget: string
-          - hint: 'Original text: Follow Us, key: -5ae80293'
-            label: Text
-            name: '-5ae80293'
-            widget: string
-          - hint: 'Original text: Apply for an award, key: -5d70ca4d'
-            label: Text
-            name: '-5d70ca4d'
-            widget: string
-          - hint: >-
-              Original text: FFDW currently reviews project applications
-              quarterly. Proposals should be submitted as attachments to an
-              email., key: -2fbb277
-            label: Text
-            name: '-2fbb277'
-            widget: text
-          - hint: 'Original text: learn more about awards, key: 485cddb8'
-            label: Text
-            name: 485cddb8
-            widget: string
-          - hint: 'Original text: Explore our educational resources, key: -26aca129'
-            label: Text
-            name: '-26aca129'
-            widget: string
-          - hint: >-
-              Original text: From videos to podcasts, Github repos to
-              self-guided tutorials, we have the resources you need to dive into
-              Web3., key: -342c0a24
-            label: Text
-            name: '-342c0a24'
-            widget: text
-          - hint: 'Original text: explore the dweb, key: 58f729ac'
-            label: Text
-            name: 58f729ac
-            widget: string
-          - hint: 'Original text: Project Proposals and Awards, key: -2eafcb1b'
-            label: Text
-            name: '-2eafcb1b'
-            widget: string
-          - hint: 'Original text: Ensuring humanity''s, key: 1b8ad0f2'
-            label: Text
-            name: 1b8ad0f2
-            widget: string
-          - hint: 'Original text: most, key: 333b83'
-            label: Text
-            name: 333b83
-            widget: string
-          - hint: >-
-              Original text: important information is never compromised,, key:
-              -738c3266
-            label: Text
-            name: '-738c3266'
-            widget: string
-          - hint: 'Original text: abused, or ruled by any, key: -562faf9a'
-            label: Text
-            name: '-562faf9a'
-            widget: string
-          - hint: 'Original text: single entity., key: -54080f2d'
-            label: Text
-            name: '-54080f2d'
-            widget: string
-          - hint: 'Original text: Meet our Awardees, key: 351185e3'
-            label: Text
-            name: '351185e3'
-            widget: string
-          - hint: >-
-              Original text: Apply for Awards or Project Proposals, key:
-              1369029e
-            label: Text
-            name: 1369029e
-            widget: string
-          - hint: 'Original text: We’re here to build Web3 with you., key: -31a1fd8f'
-            label: Text
-            name: '-31a1fd8f'
-            widget: string
-          - hint: >-
-              Original text: FFDW collaborates with organizations that
-              accelerate the adoption of open, decentralized technologies, help
-              build communities that support and sustain open, decentralized
-              technologies, and communicate to wider audiences the benefits of
-              adopting open, decentralized technologies., key: -5f006297
-            label: Text
-            name: '-5f006297'
-            widget: text
-          - hint: >-
-              Original text: Projects that educate the public about how the
-              internet works and how a decentralized web is a better web for
-              businesses, citizens, and governments., key: -62e2bd5b
-            label: Text
-            name: '-62e2bd5b'
-            widget: text
-          - hint: >-
-              Original text: Projects that support efforts to store research
-              data using decentralized web storage, and make that data easily
-              shared and accessed., key: 2ce5b6f5
-            label: Text
-            name: 2ce5b6f5
-            widget: text
-          - hint: >-
-              Original text: Projects that drive the creation and development of
-              technologies that will enable decentralized file storage of
-              humanity’s most important information., key: -53129068
-            label: Text
-            name: '-53129068'
-            widget: text
-          - hint: >-
-              Original text: We’re working to build a more robust, more
-              resilient web. A place to store and safeguard humanity’s most
-              important information. If you’re passionate about
-              decentralization, we want to hear from you., key: 5838a7c4
-            label: Text
-            name: 5838a7c4
-            widget: text
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
-            label: Text
-            name: '-5230a9d2'
-            widget: string
-          - hint: 'Original text: Current Page, key: 5dd0e116'
-            label: Text
-            name: 5dd0e116
-            widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
-              et arcu. Vivamus vitae vulputate elit. Fusce lobortis eleifend
-              commodo. Nulla sed nisl velit. Integer ante diam, tincidunt ut
-              blandit sed, vulputate vehicula mi. Proin sit amet tincidunt enim,
-              eu tincidunt mauris. Donec feugiat mollis pulvinar. Proin
-              tincidunt est ultrices ante ultricies, nec malesuada nunc
-              lacinia., key: -b380f47
-            label: Text
-            name: '-b380f47'
-            widget: text
           - hint: >-
               Original text: Filecoin Foundation and Filecoin Foundation for the
               Decentralized Web (collectively, "Filecoin Foundation," "we,"
@@ -2723,6 +1642,70 @@ collections:
             label: Text
             name: '-17bd96e1'
             widget: text
+          - hint: 'Original text: Base Components, key: -19b6543b'
+            label: Text
+            name: '-19b6543b'
+            widget: string
+          - hint: 'Original text: Logos, key: 4630008'
+            label: Text
+            name: '4630008'
+            widget: string
+          - hint: 'Original text: Logo White, key: -39839a8c'
+            label: Text
+            name: '-39839a8c'
+            widget: string
+          - hint: 'Original text: Logo Haiti, key: -3a5a29b0'
+            label: Text
+            name: '-3a5a29b0'
+            widget: string
+          - hint: 'Original text: Buttons, key: 719b5761'
+            label: Text
+            name: 719b5761
+            widget: string
+          - hint: 'Original text: Primary Button, key: 1caed350'
+            label: Text
+            name: 1caed350
+            widget: string
+          - hint: 'Original text: Secondary Button, key: -6b1a7c62'
+            label: Text
+            name: '-6b1a7c62'
+            widget: string
+          - hint: 'Original text: Gradient Button, key: 2fedc622'
+            label: Text
+            name: 2fedc622
+            widget: string
+          - hint: "Original text: Gradient Button Red\_Purple, key: -7c6cac57"
+            label: Text
+            name: '-7c6cac57'
+            widget: string
+          - hint: 'Original text: Animated Links, key: 27162fc'
+            label: Text
+            name: 27162fc
+            widget: string
+          - hint: 'Original text: Text Link, key: 3610230d'
+            label: Text
+            name: 3610230d
+            widget: string
+          - hint: 'Original text: Scale In Link, key: 1639f91f'
+            label: Text
+            name: 1639f91f
+            widget: string
+          - hint: 'Original text: .scale-in-link, key: 607170b1'
+            label: Text
+            name: 607170b1
+            widget: string
+          - hint: 'Original text: Footer Link, key: -5ea5b0a1'
+            label: Text
+            name: '-5ea5b0a1'
+            widget: string
+          - hint: 'Original text: Social Link, key: -16c0bf33'
+            label: Text
+            name: '-16c0bf33'
+            widget: string
+          - hint: "Original text: Subnav\_Icon Link, key: -7e90ea1c"
+            label: Text
+            name: '-7e90ea1c'
+            widget: string
           - hint: 'Original text: Style Guide, key: -7aba473'
             label: Text
             name: '-7aba473'
@@ -2821,6 +1804,14 @@ collections:
             label: Text
             name: '-36d0ed58'
             widget: string
+          - hint: >-
+              Original text: The rich text element allows you to create and
+              format headings, paragraphs, blockquotes, images, and video all in
+              one place instead of having to add and format them individually.
+              Just double-click and easily create content., key: 2e633c6a
+            label: Text
+            name: 2e633c6a
+            widget: text
           - hint: 'Original text: RichText, key: -58a047b7'
             label: Text
             name: '-58a047b7'
@@ -2828,6 +1819,10 @@ collections:
           - hint: 'Original text: .richtext-content, key: 71edc2e3'
             label: Text
             name: 71edc2e3
+            widget: string
+          - hint: 'Original text: *Required, key: 3fa5c5e9'
+            label: Text
+            name: 3fa5c5e9
             widget: string
           - hint: 'Original text: Forms, key: 40e9c0f'
             label: Text
@@ -3000,6 +1995,991 @@ collections:
           - hint: 'Original text: .gradient:green-red, key: -1fac5055'
             label: Text
             name: '-1fac5055'
+            widget: string
+          - hint: 'Original text: Current Page, key: 5dd0e116'
+            label: Text
+            name: 5dd0e116
+            widget: string
+          - hint: 'Original text: Title, key: 4d13238'
+            label: Text
+            name: 4d13238
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
+              et arcu. Vivamus vitae vulputate elit. Fusce lobortis eleifend
+              commodo. Nulla sed nisl velit. Integer ante diam, tincidunt ut
+              blandit sed, vulputate vehicula mi. Proin sit amet tincidunt enim,
+              eu tincidunt mauris. Donec feugiat mollis pulvinar. Proin
+              tincidunt est ultrices ante ultricies, nec malesuada nunc
+              lacinia., key: -b380f47
+            label: Text
+            name: '-b380f47'
+            widget: text
+          - hint: 'Original text: What’s a Rich Text element?, key: -3c0dda4d'
+            label: Text
+            name: '-3c0dda4d'
+            widget: string
+          - hint: 'Original text: Static and dynamic content editing, key: 57fa6135'
+            label: Text
+            name: 57fa6135
+            widget: string
+          - hint: >-
+              Original text: A rich text element can be used with static or
+              dynamic content. For static content, just drop it into any page
+              and begin editing. For dynamic content, add a rich text field to
+              any collection and then connect a rich text element to that field
+              in the settings panel. Voila!, key: -a016b40
+            label: Text
+            name: '-a016b40'
+            widget: text
+          - hint: >-
+              Original text: How to customize formatting for each rich text,
+              key: -4bffb26e
+            label: Text
+            name: '-4bffb26e'
+            widget: string
+          - hint: >-
+              Original text: Headings, paragraphs, blockquotes, figures, images,
+              and figure captions can all be styled after a class is added to
+              the rich text element using the "When inside of" nested selector
+              system., key: -43ba1153
+            label: Text
+            name: '-43ba1153'
+            widget: text
+          - hint: 'Original text: the DWeb, key: 3dcd0abf'
+            label: Text
+            name: 3dcd0abf
+            widget: string
+          - hint: 'Original text: Learn About Web3, key: -16419832'
+            label: Text
+            name: '-16419832'
+            widget: string
+          - hint: >-
+              Original text: We support programs that educate the public about
+              how the internet works and what a decentralized future means for
+              business, governments, and consumers alike., key: b63da23
+            label: Text
+            name: b63da23
+            widget: text
+          - hint: >-
+              Original text: The Internet has always been inherently about
+              decentralization., key: 66134b8c
+            label: Text
+            name: 66134b8c
+            widget: string
+          - hint: >-
+              Original text: The first Internet protocols decentralized
+              computing and allowed users to consume digital content. The second
+              iteration ushered in the World Wide Web by enabling users to
+              consume, create and share digital content together., key: 3dc9f9bc
+            label: Text
+            name: 3dc9f9bc
+            widget: text
+          - hint: >-
+              Original text: After a period when a few large, centralized
+              companies consolidated this environment into a handful of
+              platforms, engineers and technologists are now building the next
+              evolution of the Internet. New protocols and new applications will
+              allow users to independently consume, create, and engage with
+              digital content. These changes will radically transform the
+              Internet as we now experience it, resulting in enormous potential
+              to create a better Internet., key: -13c56f2b
+            label: Text
+            name: '-13c56f2b'
+            widget: text
+          - hint: 'Original text: Project Partners & Collaborations, key: 67d15276'
+            label: Text
+            name: 67d15276
+            widget: string
+          - hint: >-
+              Original text: Learn about all the projects that FFDW is currently
+              partnering and collaborating with., key: 7fc4122b
+            label: Text
+            name: 7fc4122b
+            widget: string
+          - hint: 'Original text: Some of the, key: -512908cc'
+            label: Text
+            name: '-512908cc'
+            widget: string
+          - hint: 'Original text: groups we, key: -58579366'
+            label: Text
+            name: '-58579366'
+            widget: string
+          - hint: 'Original text: work with to, key: 30f69a06'
+            label: Text
+            name: 30f69a06
+            widget: string
+          - hint: 'Original text: grow Web3, key: -5960f494'
+            label: Text
+            name: '-5960f494'
+            widget: string
+          - hint: 'Original text: Boards & Advisors, key: 1c6d4f20'
+            label: Text
+            name: 1c6d4f20
+            widget: string
+          - hint: 'Original text: Explore further, key: 65416d77'
+            label: Text
+            name: 65416d77
+            widget: string
+          - hint: 'Original text: READ THE BLOG, key: 213ed55b'
+            label: Text
+            name: 213ed55b
+            widget: string
+          - hint: "Original text: READ\_MORE, key: 690e201f"
+            label: Text
+            name: 690e201f
+            widget: string
+          - hint: 'Original text: Past partnerships & collaborations, key: -7c21e355'
+            label: Text
+            name: '-7c21e355'
+            widget: string
+          - hint: 'Original text: Interactive Tutorials, key: -22370f29'
+            label: Text
+            name: '-22370f29'
+            widget: string
+          - hint: >-
+              Original text: ProtoSchool’s self-guided interactive tutorials
+              introduce you to DWeb concepts, protocols, and tools., key:
+              36ea6735
+            label: Text
+            name: 36ea6735
+            widget: text
+          - hint: 'Original text: beginner, key: 58c70452'
+            label: Text
+            name: 58c70452
+            widget: string
+          - hint: >-
+              Original text: Content Addressing on the Decentralized Web, key:
+              -18aacb0d
+            label: Text
+            name: '-18aacb0d'
+            widget: string
+          - hint: >-
+              Original text: Learn how hashing and content addressing enable
+              verifiable data sharing with peers on the decentralized web., key:
+              6478ec0d
+            label: Text
+            name: 6478ec0d
+            widget: text
+          - hint: 'Original text: Anatomy of a CID, key: -603be5c5'
+            label: Text
+            name: '-603be5c5'
+            widget: string
+          - hint: >-
+              Original text: Explore the ins and outs of CIDs (Content
+              Identifiers), the unique labels used to point to data stored on
+              distributed information systems including IPFS, IPLD, libp2p,
+              and…, key: -7cb7500d
+            label: Text
+            name: '-7cb7500d'
+            widget: text
+          - hint: >-
+              Original text: Merkle DAGs: Structuring Data for the Distributed
+              Web, key: 65d126f0
+            label: Text
+            name: 65d126f0
+            widget: string
+          - hint: >-
+              Original text: Learn how we can use CIDs to create
+              content-addressable data structures for the distributed web!, key:
+              f08e01b
+            label: Text
+            name: f08e01b
+            widget: text
+          - hint: 'Original text: Blogging on the Decentralized Web, key: 312322cb'
+            label: Text
+            name: 312322cb
+            widget: string
+          - hint: >-
+              Original text: Cool content addresses don’t change. Create a chain
+              of links from one CID to another with the IPFS DAG API., key:
+              be0ac8b
+            label: Text
+            name: be0ac8b
+            widget: text
+          - hint: >-
+              Original text: P2P Data Links with Content Addressing, key:
+              1b1e74a4
+            label: Text
+            name: 1b1e74a4
+            widget: string
+          - hint: >-
+              Original text: Store, fetch, and create verifiable links between
+              peer-hosted datasets using the IPFS DAG API and CIDs. It’s graphs
+              with friends!, key: -1093fb8a
+            label: Text
+            name: '-1093fb8a'
+            widget: text
+          - hint: 'Original text: Mutable File System, key: 1a45f739'
+            label: Text
+            name: 1a45f739
+            widget: string
+          - hint: >-
+              Original text: The Mutable File System (MFS) lets you work with
+              files and directories as if you were using a traditional
+              name-based file system., key: 1b657b89
+            label: Text
+            name: 1b657b89
+            widget: text
+          - hint: 'Original text: Video Resources, key: 2188b080'
+            label: Text
+            name: 2188b080
+            widget: string
+          - hint: 'Original text: Exploring the Decentralized Web, key: 2ac33ab9'
+            label: Text
+            name: 2ac33ab9
+            widget: string
+          - hint: >-
+              Original text: Episode 2: Return to Decentralization, key:
+              37be95b8
+            label: Text
+            name: 37be95b8
+            widget: string
+          - hint: >-
+              Original text: Episode 1: Evolution of the Internet, key:
+              -70c263fe
+            label: Text
+            name: '-70c263fe'
+            widget: string
+          - hint: >-
+              Original text: Leveraging of the Dweb to Enhance Free Speech with
+              the Latest FFDW Dev Grant, key: -6aab7131
+            label: Text
+            name: '-6aab7131'
+            widget: string
+          - hint: 'Original text: Introducing The Starling Lab, key: 6c88abc8'
+            label: Text
+            name: 6c88abc8
+            widget: string
+          - hint: >-
+              Original text: Exploring the Decentralized Web - Trailer, key:
+              -a40a887
+            label: Text
+            name: '-a40a887'
+            widget: string
+          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
+            label: Text
+            name: 261dcf3
+            widget: string
+          - hint: 'Original text: Together, let''s bring Web3 to life, key: 7465d535'
+            label: Text
+            name: 7465d535
+            widget: string
+          - hint: 'Original text: Melba Roy Mouton, 1960, key: 24fff47'
+            label: Text
+            name: 24fff47
+            widget: string
+          - hint: >-
+              Original text: Working with the community to advance Web3 through
+              education, research, and development., key: 69a267bd
+            label: Text
+            name: 69a267bd
+            widget: string
+          - hint: >-
+              Original text: FFDW’s mission is to ensure the permanent
+              preservation of humanity’s most important information by
+              stewarding the development of open-source software and open
+              protocols for decentralized data storage and retrieval networks.
+              We work to build and support the decentralized web community, fund
+              research and development, and educate the public about the
+              decentralized web, in order to preserve humanity’s most important
+              information., key: 6bb691d9
+            label: Text
+            name: 6bb691d9
+            widget: text
+          - hint: 'Original text: Join our team, key: -29d26b39'
+            label: Text
+            name: '-29d26b39'
+            widget: string
+          - hint: >-
+              Original text: If you’re passionate about decentralization, check
+              out our open roles., key: -e2b39e3
+            label: Text
+            name: '-e2b39e3'
+            widget: string
+          - hint: 'Original text: view open roles, key: 1698ddc2'
+            label: Text
+            name: 1698ddc2
+            widget: string
+          - hint: 'Original text: Follow us on social media, key: -613962c1'
+            label: Text
+            name: '-613962c1'
+            widget: string
+          - hint: >-
+              Original text: Learn more about our hosted and sponsored events,
+              and catch our latest announcements., key: -b2bdf27
+            label: Text
+            name: '-b2bdf27'
+            widget: string
+          - hint: 'Original text: Follow Us, key: -5ae80293'
+            label: Text
+            name: '-5ae80293'
+            widget: string
+          - hint: 'Original text: Apply for an award, key: -5d70ca4d'
+            label: Text
+            name: '-5d70ca4d'
+            widget: string
+          - hint: >-
+              Original text: FFDW currently reviews project applications
+              quarterly. Proposals should be submitted as attachments to an
+              email., key: -2fbb277
+            label: Text
+            name: '-2fbb277'
+            widget: text
+          - hint: 'Original text: learn more about awards, key: 485cddb8'
+            label: Text
+            name: 485cddb8
+            widget: string
+          - hint: 'Original text: Explore our educational resources, key: -26aca129'
+            label: Text
+            name: '-26aca129'
+            widget: string
+          - hint: >-
+              Original text: From videos to podcasts, Github repos to
+              self-guided tutorials, we have the resources you need to dive into
+              Web3., key: -342c0a24
+            label: Text
+            name: '-342c0a24'
+            widget: text
+          - hint: 'Original text: explore the dweb, key: 58f729ac'
+            label: Text
+            name: 58f729ac
+            widget: string
+          - hint: 'Original text: Project Proposals and Awards, key: -2eafcb1b'
+            label: Text
+            name: '-2eafcb1b'
+            widget: string
+          - hint: 'Original text: Ensuring humanity''s, key: 1b8ad0f2'
+            label: Text
+            name: 1b8ad0f2
+            widget: string
+          - hint: 'Original text: most, key: 333b83'
+            label: Text
+            name: 333b83
+            widget: string
+          - hint: >-
+              Original text: important information is never compromised,, key:
+              -738c3266
+            label: Text
+            name: '-738c3266'
+            widget: string
+          - hint: 'Original text: abused, or ruled by any, key: -562faf9a'
+            label: Text
+            name: '-562faf9a'
+            widget: string
+          - hint: 'Original text: single entity., key: -54080f2d'
+            label: Text
+            name: '-54080f2d'
+            widget: string
+          - hint: 'Original text: Meet our Awardees, key: 351185e3'
+            label: Text
+            name: '351185e3'
+            widget: string
+          - hint: >-
+              Original text: Apply for Awards or Project Proposals, key:
+              1369029e
+            label: Text
+            name: 1369029e
+            widget: string
+          - hint: 'Original text: We’re here to build Web3 with you., key: -31a1fd8f'
+            label: Text
+            name: '-31a1fd8f'
+            widget: string
+          - hint: >-
+              Original text: FFDW collaborates with organizations that
+              accelerate the adoption of open, decentralized technologies, help
+              build communities that support and sustain open, decentralized
+              technologies, and communicate to wider audiences the benefits of
+              adopting open, decentralized technologies., key: -5f006297
+            label: Text
+            name: '-5f006297'
+            widget: text
+          - hint: >-
+              Original text: Projects that educate the public about how the
+              internet works and how a decentralized web is a better web for
+              businesses, citizens, and governments., key: -62e2bd5b
+            label: Text
+            name: '-62e2bd5b'
+            widget: text
+          - hint: >-
+              Original text: Projects that support efforts to store research
+              data using decentralized web storage, and make that data easily
+              shared and accessed., key: 2ce5b6f5
+            label: Text
+            name: 2ce5b6f5
+            widget: text
+          - hint: >-
+              Original text: Projects that drive the creation and development of
+              technologies that will enable decentralized file storage of
+              humanity’s most important information., key: -53129068
+            label: Text
+            name: '-53129068'
+            widget: text
+          - hint: >-
+              Original text: We’re working to build a more robust, more
+              resilient web. A place to store and safeguard humanity’s most
+              important information. If you’re passionate about
+              decentralization, we want to hear from you., key: 5838a7c4
+            label: Text
+            name: 5838a7c4
+            widget: text
+          - hint: 'Original text: Get in touch, key: -5230a9d2'
+            label: Text
+            name: '-5230a9d2'
+            widget: string
+          - hint: 'Original text: FFDW Awards, key: 44beb143'
+            label: Text
+            name: 44beb143
+            widget: string
+          - hint: 'Original text: FFDW, key: 20e153'
+            label: Text
+            name: '20e153'
+            widget: string
+          - hint: 'Original text: Awards and Programs, key: -61e1a33e'
+            label: Text
+            name: '-61e1a33e'
+            widget: string
+          - hint: "Original text: This RFP\_has now closed, and this page remains accessible only for reference purposes., key: -6bcfae84"
+            label: Text
+            name: '-6bcfae84'
+            widget: string
+          - hint: 'Original text: Please return to , key: -7ea1c015'
+            label: Text
+            name: '-7ea1c015'
+            widget: string
+          - hint: 'Original text: ffdweb.org, key: 45576d26'
+            label: Text
+            name: 45576d26
+            widget: string
+          - hint: >-
+              Original text: The Filecoin Foundation for the Decentralized Web
+              (FFDW) is launching a request for proposals (RFP) to identify the
+              most compelling initiatives to partner with in three key areas:,
+              key: -5b184db6
+            label: Text
+            name: '-5b184db6'
+            widget: text
+          - hint: 'Original text: Creator and Developer Training, key: 6e3f302d'
+            label: Text
+            name: 6e3f302d
+            widget: string
+          - hint: >-
+              Original text:  — We are interested in proposals for two aspects
+              of creator and developer training. First, empower and inform the
+              next generation of creators and developers, currently in education
+              or in junior roles, so that they can understand, and adopt
+              decentralized technology into their work and lives. Second, give
+              existing Internet developers the tools they need to incorporate
+              decentralized technology into their work. , key: 2c27f684
+            label: Text
+            name: 2c27f684
+            widget: text
+          - hint: 'Original text: (Up to $1.75M per year), key: -75fe4241'
+            label: Text
+            name: '-75fe4241'
+            widget: string
+          - hint: 'Original text: Public education, key: -26cdad2f'
+            label: Text
+            name: '-26cdad2f'
+            widget: string
+          - hint: >-
+              Original text:  — Introduce the public to the decentralized web.
+              These programs should inform diverse global audiences about the
+              values, benefits, and compelling use cases of decentralized
+              technologies. , key: 2ca316b9
+            label: Text
+            name: 2ca316b9
+            widget: text
+          - hint: 'Original text: (Up to $100,000 per year), key: -3c6928fe'
+            label: Text
+            name: '-3c6928fe'
+            widget: string
+          - hint: 'Original text: Universities and GLAM , key: -1eb9e86e'
+            label: Text
+            name: '-1eb9e86e'
+            widget: string
+          - hint: >-
+              Original text: (galleries, libraries, archives, and museums), key:
+              -1a270cb9
+            label: Text
+            name: '-1a270cb9'
+            widget: string
+          - hint: 'Original text:  Institutions, key: 4a3735fb'
+            label: Text
+            name: 4a3735fb
+            widget: string
+          - hint: >-
+              Original text:  — Drive the development and use of technologies to
+              enable a global decentralized library for all. Projects in this
+              area might pursue efforts such as industry-specific platforms that
+              make uploading information to decentralized storage user-friendly
+              and accessible. , key: -55a9f5f0
+            label: Text
+            name: '-55a9f5f0'
+            widget: text
+          - hint: 'Original text: (Up to $800,000 per year), key: -7c416f7'
+            label: Text
+            name: '-7c416f7'
+            widget: string
+          - hint: >-
+              Original text: If your project or initiative would be a good fit
+              for any of these areas, submit a completed , key: -7c33898c
+            label: Text
+            name: '-7c33898c'
+            widget: text
+          - hint: 'Original text: proposal template, key: 177a71e8'
+            label: Text
+            name: 177a71e8
+            widget: string
+          - hint: >-
+              Original text:  by the dates listed below. Please submit your full
+              proposal (including attachments) in Word document(s) if possible.
+              Let us know if you have any questions! Both questions and
+              proposals should be sent to , key: -6089c0c0
+            label: Text
+            name: '-6089c0c0'
+            widget: text
+          - hint: 'Original text: proposals@ffdweb.org, key: -3a4f08fb'
+            label: Text
+            name: '-3a4f08fb'
+            widget: string
+          - hint: >-
+              Original text: Nurturing the growth of the decentralized web, key:
+              -3e2f2b1a
+            label: Text
+            name: '-3e2f2b1a'
+            widget: string
+          - hint: 'Original text: Ada Lovelace, key: -3462bf75'
+            label: Text
+            name: '-3462bf75'
+            widget: string
+          - hint: >-
+              Original text: Building and supporting the decentralized
+              community, key: 715e87c6
+            label: Text
+            name: 715e87c6
+            widget: string
+          - hint: >-
+              Original text: Filecoin Foundation for the Decentralized Web
+              (FFDW) is a 501(c)(3) non-profit whose mission is to ensure the
+              permanent preservation of humanity’s most important information by
+              stewarding the development of open-source software and open
+              protocols for decentralized data storage and retrieval networks.,
+              key: -208e8061
+            label: Text
+            name: '-208e8061'
+            widget: text
+          - hint: >-
+              Original text: We exist to advance humankind by bringing Web3 to
+              life through education, research, and development., key: -68f4aae6
+            label: Text
+            name: '-68f4aae6'
+            widget: text
+          - hint: >-
+              Original text: Where open minds, open source, and open protocols,
+              meet., key: 2bebe058
+            label: Text
+            name: 2bebe058
+            widget: string
+          - hint: >-
+              Original text: On today’s centralized web, a handful of
+              corporations own the majority of the global cloud data storage
+              market. But humanity’s most important information should never be
+              compromised, abused, or ruled by any single entity., key: 4d2ecccb
+            label: Text
+            name: 4d2ecccb
+            widget: text
+          - hint: >-
+              Original text: We want the web to continue to grow and flourish
+              and we believe that the more people, teams, organizations support
+              a project, the more likely it is to succeed. FFDW sees Filecoin as
+              a foundational technology for the broader decentralized web
+              ecosystem and seeks to support that entire decentralized web
+              community., key: 74da6179
+            label: Text
+            name: 74da6179
+            widget: text
+          - hint: 'Original text: Board of Directors, key: -61582da8'
+            label: Text
+            name: '-61582da8'
+            widget: string
+          - hint: >-
+              Original text: Determined to bring Web3 to life, FFDW’s board
+              brings a wealth of experience and expertise to guide our work.,
+              key: 54a4374f
+            label: Text
+            name: 54a4374f
+            widget: text
+          - hint: 'Original text: Marta Belcher, key: 26c060c6'
+            label: Text
+            name: 26c060c6
+            widget: string
+          - hint: 'Original text: General Counsel, Protocol Labs, key: 486f9bbd'
+            label: Text
+            name: 486f9bbd
+            widget: string
+          - hint: >-
+              Original text: Marta Belcher is the General Counsel and Head of
+              Policy at Protocol Labs and the Board Chair of the Filecoin
+              Foundation and the Filecoin Foundation for the Decentralized Web.
+              She also serves as special counsel to the Electronic Frontier
+              Foundation. Marta is a pioneer in cryptocurrency law and has
+              spoken on the topic around the world, including in U.S. Congress,
+              European Parliament, the New York Senate, the OECD, and in Davos
+              during the World Economic Forum. Marta has drafted amicus briefs
+              in the U.S. Supreme Court and U.S. appellate courts for
+              high-profile public interest organizations, including EFF, the
+              Center for Democracy & Technology, Public Knowledge, the Cato
+              Institute, the National Consumers' League, Project Gutenberg, and
+              the Blockchain Association. Marta has been recognized twice by the
+              Financial Times Innovative Lawyer awards, was named to Law360's
+              list of Top Attorneys Under 40, and was #18 on CryptoWeekly’s list
+              of Most Influential Women in Crypto., key: d3d0803
+            label: Text
+            name: d3d0803
+            widget: text
+          - hint: 'Original text: Rainey Reitman, key: -fa026dc'
+            label: Text
+            name: '-fa026dc'
+            widget: string
+          - hint: >-
+              Original text: Board President, Freedom of the Press Foundation,
+              key: -8e47b7c
+            label: Text
+            name: '-8e47b7c'
+            widget: string
+          - hint: >-
+              Original text: Rainey Reitman's advocacy has focused on defending
+              the rights of whistleblowers, protecting press freedom, fighting
+              mass government surveillance, and documenting how financial
+              exclusion has been used to silence speakers. She is a co-founder
+              and the President of the Board of Directors of the , key: 3a741a7c
+            label: Text
+            name: 3a741a7c
+            widget: text
+          - hint: 'Original text: Freedom of the Press Foundation, key: -66bb9782'
+            label: Text
+            name: '-66bb9782'
+            widget: string
+          - hint: >-
+              Original text: , a nonprofit defending the rights of journalists.
+              She worked for the , key: -103918c7
+            label: Text
+            name: '-103918c7'
+            widget: string
+          - hint: 'Original text: Electronic Frontier Foundation, key: -3748a0de'
+            label: Text
+            name: '-3748a0de'
+            widget: string
+          - hint: >-
+              Original text:  (EFF) for 11 years, first as their Activism
+              Director and then as their Chief Program Officer, and she
+              currently serves as an advisor to EFF. Rainey also co-founded and
+              served for six years as a steering committee member of the Chelsea
+              Manning Support Network. She currently runs a consulting service
+              for mission-driven organizations called , key: -3c3de380
+            label: Text
+            name: '-3c3de380'
+            widget: text
+          - hint: 'Original text: Groundwork Strategy, key: fe4657b'
+            label: Text
+            name: fe4657b
+            widget: string
+          - hint: 'Original text: Brian Behlendorf, key: -350607f7'
+            label: Text
+            name: '-350607f7'
+            widget: string
+          - hint: >-
+              Original text: General Manager, Open Source Security Foundation,
+              key: -7779b3e5
+            label: Text
+            name: '-7779b3e5'
+            widget: string
+          - hint: >-
+              Original text: Brian Behlendorf has been an advocate for open
+              technologies and the role they can play in a more advanced and
+              just society for nearly 30 years. He is general manager of the
+              Open Source Security Foundation. Previously, he was executive
+              director for Hyperledger, an initiative hosted at the Linux
+              Foundation, and actively advising and growing other LF initiatives
+              around supply chain traceability, public health, identity, and
+              more. He serves on the boards of director for the Electronic
+              Frontier Foundation (since 2013) and the Mozilla Foundation (since
+              2003), defending the fight for the open web and a human rights
+              centered Internet., key: -4663b566
+            label: Text
+            name: '-4663b566'
+            widget: text
+          - hint: >-
+              Original text: He also chairs the technical advisory council for
+              ID2020. Previously he has served as the Chief Technology Officer
+              for the World Economic Forum, advised the Obama administration
+              through the White House’s Office of Science and Technology Policy,
+              and co-founded a series of companies in the open source software
+              domain. Oh, and many moons ago he co-founded the Apache web server
+              project, which he shepherded into the 501c3 Apache Software
+              Foundation., key: -1f3ebe62
+            label: Text
+            name: '-1f3ebe62'
+            widget: text
+          - hint: 'Original text: Kristin Smith, key: -230b5035'
+            label: Text
+            name: '-230b5035'
+            widget: string
+          - hint: >-
+              Original text: Executive Director, Blockchain Association, key:
+              7ef6f82d
+            label: Text
+            name: 7ef6f82d
+            widget: string
+          - hint: >-
+              Original text: Kristin is the Executive Director of the Blockchain
+              Association, the Washington DC-based trade association
+              representing the most prominent and reputable organizations in the
+              crypto industry. The mission of the Blockchain Association is to
+              improve the public policy environment so that blockchain networks
+              can thrive in the United States. Kristin sets the association’s
+              public policy strategy and leads engagement with industry and
+              outreach to policymakers., key: -45a92bfa
+            label: Text
+            name: '-45a92bfa'
+            widget: text
+          - hint: >-
+              Original text: Prior to leading the Blockchain Association,
+              Kristin assisted blockchain and technology companies achieve their
+              public policy objectives in Washington. She served as a Senate and
+              congressional aide on Capitol Hill for nearly ten years, much of
+              which was spent focusing on technology policy. She co-founded
+              HODLpac and serves on the organization’s board of directors.
+              Kristin is also featured on Fortune’s 2020 40 Under 40 list., key:
+              -4a351861
+            label: Text
+            name: '-4a351861'
+            widget: text
+          - hint: 'Original text: Sheila Warren, key: -7b057bdb'
+            label: Text
+            name: '-7b057bdb'
+            widget: string
+          - hint: >-
+              Original text: Chief Executive Officer, Crypto Council for
+              Innovation, key: -36ea7ffd
+            label: Text
+            name: '-36ea7ffd'
+            widget: string
+          - hint: 'Original text: Advisors, key: -268b032d'
+            label: Text
+            name: '-268b032d'
+            widget: string
+          - hint: >-
+              Original text: FFDW has assembled an outstanding group of
+              advisors., key: -413ab3b5
+            label: Text
+            name: '-413ab3b5'
+            widget: string
+          - hint: >-
+              Original text: Head of Blockchain and Data Policy, World Economic
+              Forum, key: 597be7d4
+            label: Text
+            name: 597be7d4
+            widget: string
+          - hint: 'Original text: Brewster Kahle, key: 62330d7b'
+            label: Text
+            name: 62330d7b
+            widget: string
+          - hint: 'Original text: Founder, Internet Archive, key: 6dff2a26'
+            label: Text
+            name: 6dff2a26
+            widget: string
+          - hint: 'Original text: Joe Lubin, key: 40a63e'
+            label: Text
+            name: 40a63e
+            widget: string
+          - hint: >-
+              Original text: Founder of ConsenSys, Cofounder of Ethereum, key:
+              -491e40ac
+            label: Text
+            name: '-491e40ac'
+            widget: string
+          - hint: 'Original text: Wendy Hanamura, key: 56d0b04e'
+            label: Text
+            name: 56d0b04e
+            widget: string
+          - hint: >-
+              Original text: Director of Partnerships, Internet Archive, key:
+              186e189b
+            label: Text
+            name: 186e189b
+            widget: string
+          - hint: 'Original text: Georgia Quinn, key: 10b2bd43'
+            label: Text
+            name: 10b2bd43
+            widget: string
+          - hint: 'Original text: General Counsel, Anchorage, key: -27dccbc7'
+            label: Text
+            name: '-27dccbc7'
+            widget: string
+          - hint: 'Original text: Alex Feerst, key: 27937d4f'
+            label: Text
+            name: 27937d4f
+            widget: string
+          - hint: 'Original text: CEO, Murmuration Labs, key: -917dcce'
+            label: Text
+            name: '-917dcce'
+            widget: string
+          - hint: 'Original text: Sandra Ro, key: -2578dc36'
+            label: Text
+            name: '-2578dc36'
+            widget: string
+          - hint: >-
+              Original text: CEO, Global Blockchain Business Council, key:
+              453b09b1
+            label: Text
+            name: 453b09b1
+            widget: string
+          - hint: 'Original text: Katie Biber, key: 1275aa82'
+            label: Text
+            name: 1275aa82
+            widget: string
+          - hint: 'Original text: General Counsel, Brex, key: 51510194'
+            label: Text
+            name: '51510194'
+            widget: string
+          - hint: >-
+              Original text: Filecoin Foundation for the Decentralized Web is
+              hiring for roles as we build, support, and fund projects advancing
+              the DWeb., key: -448d96a6
+            label: Text
+            name: '-448d96a6'
+            widget: text
+          - hint: 'Original text: GET IN TOUCH, key: -12b421f2'
+            label: Text
+            name: '-12b421f2'
+            widget: string
+          - hint: 'Original text: FFDW Blog, key: -6a377191'
+            label: Text
+            name: '-6a377191'
+            widget: string
+          - hint: 'Original text: Showing results for, key: 141edda4'
+            label: Text
+            name: 141edda4
+            widget: string
+          - hint: 'Original text:  ''query'', key: -2d535cda'
+            label: Text
+            name: '-2d535cda'
+            widget: string
+          - hint: >-
+              Original text: No results found that match the search query., key:
+              55217f42
+            label: Text
+            name: 55217f42
+            widget: string
+          - hint: 'Original text: First, key: 40be290'
+            label: Text
+            name: 40be290
+            widget: string
+          - hint: 'Original text: Back, key: 1f7907'
+            label: Text
+            name: 1f7907
+            widget: string
+          - hint: 'Original text: 1, key: 31'
+            label: Text
+            name: '31'
+            widget: string
+          - hint: 'Original text: 2, key: 32'
+            label: Text
+            name: '32'
+            widget: string
+          - hint: 'Original text: Next, key: 24ff13'
+            label: Text
+            name: 24ff13
+            widget: string
+          - hint: 'Original text: Last, key: 2406b6'
+            label: Text
+            name: 2406b6
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: 'Original text: Here''s where, key: 3f87903'
+            label: Text
+            name: 3f87903
+            widget: string
+          - hint: 'Original text: you , key: 38afe1'
+            label: Text
+            name: 38afe1
+            widget: string
+          - hint: "Original text: \_can, key: 4a3b30"
+            label: Text
+            name: 4a3b30
+            widget: string
+          - hint: 'Original text: find us, key: -32db759b'
+            label: Text
+            name: '-32db759b'
+            widget: string
+          - hint: >-
+              Original text: We support and fund research and development, and
+              educate people about the decentralized web, in order to preserve
+              humanity’s most important information. Interested in joining us in
+              this mission? Reach out., key: -72bf4c4a
+            label: Text
+            name: '-72bf4c4a'
+            widget: text
+          - hint: 'Original text: Questions? Ideas? Drop us a line , key: -45128f13'
+            label: Text
+            name: '-45128f13'
+            widget: string
+          - hint: 'Original text: impact@ffdweb.org, key: 3d7df860'
+            label: Text
+            name: 3d7df860
+            widget: string
+          - hint: 'Original text: Social, key: -6c12fc73'
+            label: Text
+            name: '-6c12fc73'
+            widget: string
+          - hint: 'Original text: LinkedIn, key: 4b0ff13e'
+            label: Text
+            name: 4b0ff13e
+            widget: string
+          - hint: |-
+              Original text: ‍
+                              , key: 4df3279d
+            label: Text
+            name: 4df3279d
+            widget: string
+          - hint: 'Original text: YouTube, key: 280d3723'
+            label: Text
+            name: 280d3723
+            widget: string
+          - hint: >-
+              Original text: Our team of thinkers and doers is growing. If
+              you’re passionate about advancing technology forward, we want to
+              hear from you., key: -29f21189
+            label: Text
+            name: '-29f21189'
+            widget: text
+          - hint: 'Original text: Reach out, key: 33b84301'
+            label: Text
+            name: 33b84301
+            widget: string
+          - hint: >-
+              Original text: We’re working to foster and expand the
+              decentralized web., key: 397ad26d
+            label: Text
+            name: 397ad26d
+            widget: string
+          - hint: 'Original text: *Must be a valid email, key: -1d763cb7'
+            label: Text
+            name: '-1d763cb7'
+            widget: string
+          - hint: 'Original text: *Must be a valid phone number, key: 3b37a9ee'
+            label: Text
+            name: 3b37a9ee
+            widget: string
+          - hint: 'Original text: *Must be at least 50 characters, key: -485217e5'
+            label: Text
+            name: '-485217e5'
             widget: string
           - hint: 'Original text: Terms & Conditions, key: 4f912d2b'
             label: Text
@@ -3260,6 +3240,351 @@ collections:
             label: Text
             name: '-6714307e'
             widget: text
+          - hint: 'Original text: Accordion - Variant 1, key: -83633f5'
+            label: Text
+            name: '-83633f5'
+            widget: string
+          - hint: 'Original text: Subtitle, key: -76f64fc8'
+            label: Text
+            name: '-76f64fc8'
+            widget: string
+          - hint: 'Original text: Accordion - Small, key: -2ba903c4'
+            label: Text
+            name: '-2ba903c4'
+            widget: string
+          - hint: 'Original text: 404 Page Not Found, key: -26269094'
+            label: Text
+            name: '-26269094'
+            widget: string
+          - hint: 'Original text: Whoops, this page doesn’t exist! , key: 57bd0b6f'
+            label: Text
+            name: 57bd0b6f
+            widget: string
+          - hint: 'Original text: FIL, key: 10fe9'
+            label: Text
+            name: 10fe9
+            widget: string
+          - hint: 'Original text:  VEGAS, key: 3b77698a'
+            label: Text
+            name: 3b77698a
+            widget: string
+          - hint: 'Original text: SAVE THE, key: -4cec7cd2'
+            label: Text
+            name: '-4cec7cd2'
+            widget: string
+          - hint: 'Original text:  DATE, key: 1e2d7ce'
+            label: Text
+            name: 1e2d7ce
+            widget: string
+          - hint: 'Original text: REGISTER, key: 5821ea3'
+            label: Text
+            name: 5821ea3
+            widget: string
+          - hint: 'Original text: October 2-6, 2023, key: -5dddf3d2'
+            label: Text
+            name: '-5dddf3d2'
+            widget: string
+          - hint: 'Original text: Park MGM | Las Vegas, NV, key: 798c88dd'
+            label: Text
+            name: 798c88dd
+            widget: string
+          - hint: 'Original text: OUR NETWORK, key: 21b3c91a'
+            label: Text
+            name: 21b3c91a
+            widget: string
+          - hint: 'Original text: filecoin.io, key: 46615ca7'
+            label: Text
+            name: 46615ca7
+            widget: string
+          - hint: 'Original text: fil.org, key: -330f0881'
+            label: Text
+            name: '-330f0881'
+            widget: string
+          - hint: 'Original text: protocol.ai, key: -18777cc2'
+            label: Text
+            name: '-18777cc2'
+            widget: string
+          - hint: 'Original text: ABOUT, key: 3b32b6d'
+            label: Text
+            name: 3b32b6d
+            widget: string
+          - hint: 'Original text: Code of Conduct, key: -24630032'
+            label: Text
+            name: '-24630032'
+            widget: string
+          - hint: >-
+              Original text: Copyright © 2023 Filecoin Foundation, key:
+              -4ad5204b
+            label: Text
+            name: '-4ad5204b'
+            widget: string
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: 'Original text: Password, key: 4c641ebb'
+            label: Text
+            name: 4c641ebb
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
+          - hint: >-
+              Original text: Register here to join the Filecoin community and
+              our partners this , key: -432370df
+            label: Text
+            name: '-432370df'
+            widget: string
+          - hint: 'Original text: October 2-6, key: -688f6c05'
+            label: Text
+            name: '-688f6c05'
+            widget: string
+          - hint: 'Original text:  at , key: 10062d'
+            label: Text
+            name: 10062d
+            widget: string
+          - hint: 'Original text: FIL Vegas, key: 19cc2eb3'
+            label: Text
+            name: 19cc2eb3
+            widget: string
+          - hint: "Original text: Pro-tips: Paste this content into a dedicated page named “Style guide”. Convert each color style below to global swatches so they can be used in text, borders, backgrounds, and gradients. To do this, select a color style element, navigate to the Background Color section in the Style panel, edit the color, \_and add it as a global swatch., key: 194d59a7"
+            label: Text
+            name: 194d59a7
+            widget: text
+          - hint: 'Original text: Text styles, key: 35c0a715'
+            label: Text
+            name: 35c0a715
+            widget: string
+          - hint: 'Original text: 76px Heading, key: -19c8c17'
+            label: Text
+            name: '-19c8c17'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 700 , key: 42a8ecad'
+            label: Text
+            name: 42a8ecad
+            widget: string
+          - hint: 'Original text: 76px/139.9999976158142%, key: 23dbfcf1'
+            label: Text
+            name: 23dbfcf1
+            widget: string
+          - hint: 'Original text: 16px Heading, key: -2fc66c51'
+            label: Text
+            name: '-2fc66c51'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 600, key: 2b70ca12'
+            label: Text
+            name: 2b70ca12
+            widget: string
+          - hint: 'Original text: 16px/120.00000476837158%, key: 2cf42189'
+            label: Text
+            name: 2cf42189
+            widget: string
+          - hint: 'Original text: 49px Heading, key: -5a0363f1'
+            label: Text
+            name: '-5a0363f1'
+            widget: string
+          - hint: 'Original text: 49px/139.9999976158142%, key: -27279ef5'
+            label: Text
+            name: '-27279ef5'
+            widget: string
+          - hint: 'Original text: 39px Heading, key: -61b50950'
+            label: Text
+            name: '-61b50950'
+            widget: string
+          - hint: 'Original text: 39px/139.9999976158142%, key: -71593836'
+            label: Text
+            name: '-71593836'
+            widget: string
+          - hint: 'Original text: 31px Heading, key: -8da9f58'
+            label: Text
+            name: '-8da9f58'
+            widget: string
+          - hint: 'Original text: 31px/139.9999976158142%, key: 5a78f2d2'
+            label: Text
+            name: 5a78f2d2
+            widget: string
+          - hint: 'Original text: 25px Heading, key: 4306864d'
+            label: Text
+            name: 4306864d
+            widget: string
+          - hint: 'Original text: 25px/139.9999976158142%, key: 2a5e440d'
+            label: Text
+            name: 2a5e440d
+            widget: string
+          - hint: 'Original text: Paragraph, key: -145e16b2'
+            label: Text
+            name: '-145e16b2'
+            widget: string
+          - hint: 'Original text: Suisse Intl 300, key: -6899ff4e'
+            label: Text
+            name: '-6899ff4e'
+            widget: string
+          - hint: 'Original text: 16px/160.0000023841858%, key: 52877153'
+            label: Text
+            name: '52877153'
+            widget: string
+          - hint: 'Original text: Caption, key: -7bd7ce3a'
+            label: Text
+            name: '-7bd7ce3a'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 300, key: 2b70becf'
+            label: Text
+            name: 2b70becf
+            widget: string
+          - hint: 'Original text: 16px/139.9999976158142%, key: 66b2656b'
+            label: Text
+            name: 66b2656b
+            widget: string
+          - hint: 'Original text: Button text, key: -8ec9ac5'
+            label: Text
+            name: '-8ec9ac5'
+            widget: string
+          - hint: 'Original text: WIX MadeFor Display 700, key: 2b70cdd3'
+            label: Text
+            name: 2b70cdd3
+            widget: string
+          - hint: 'Original text: 13px/200%, key: 7226bf8'
+            label: Text
+            name: 7226bf8
+            widget: string
+          - hint: 'Original text: Color styles, key: -6aca5fa1'
+            label: Text
+            name: '-6aca5fa1'
+            widget: string
+          - hint: 'Original text: C‍, key: 282a'
+            label: Text
+            name: 282a
+            widget: string
+          - hint: 'Original text: Color 2, key: -642e816b'
+            label: Text
+            name: '-642e816b'
+            widget: string
+          - hint: 'Original text: Color 3, key: -642e816a'
+            label: Text
+            name: '-642e816a'
+            widget: string
+          - hint: 'Original text: Color 4, key: -642e8169'
+            label: Text
+            name: '-642e8169'
+            widget: string
+          - hint: 'Original text: THIS IS A , key: -2406a54d'
+            label: Text
+            name: '-2406a54d'
+            widget: string
+          - hint: 'Original text: HEADER!, key: 5a32fb34'
+            label: Text
+            name: 5a32fb34
+            widget: string
+          - hint: 'Original text: BUTTON, key: 75751b32'
+            label: Text
+            name: 75751b32
+            widget: string
+          - hint: 'Original text: Date, key: 2063ce'
+            label: Text
+            name: 2063ce
+            widget: string
+          - hint: 'Original text: Location, key: 752a03d5'
+            label: Text
+            name: 752a03d5
+            widget: string
+          - hint: 'Original text: FIL CITY, key: cbfb42'
+            label: Text
+            name: cbfb42
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Integer velit sapien, volutpat ut vulputate eget, mollis ac
+              augue. Vivamus sollicitudin quam id consequat ultrices. Mauris
+              maximus et turpis malesuada fermentum. Sed vel bibendum nisi. Sed
+              ac tellus lacus. Integer consequat dui lorem., key: 2ec64499
+            label: Text
+            name: 2ec64499
+            widget: text
+          - hint: 'Original text: EXPLORE, key: -233c798d'
+            label: Text
+            name: '-233c798d'
+            widget: string
+          - hint: 'Original text: FIL CITY Events, key: 3d156bd7'
+            label: Text
+            name: 3d156bd7
+            widget: string
+          - hint: 'Original text: DISCOVER, key: 3eee67e9'
+            label: Text
+            name: 3eee67e9
+            widget: string
+          - hint: 'Original text: FIL CITY Speakers, key: -42668c6e'
+            label: Text
+            name: '-42668c6e'
+            widget: string
+          - hint: >-
+              Original text: This is some text inside of a div block., key:
+              7635fb4f
+            label: Text
+            name: 7635fb4f
+            widget: string
+          - hint: 'Original text: Close Bio, key: 5a97d2a0'
+            label: Text
+            name: 5a97d2a0
+            widget: string
+          - hint: 'Original text: Read Bio, key: -2ff36c82'
+            label: Text
+            name: '-2ff36c82'
+            widget: string
+          - hint: 'Original text: MORE SPEAKERS TBA, key: 1d5c84b2'
+            label: Text
+            name: 1d5c84b2
+            widget: string
+          - hint: 'Original text: JOIN US, key: -2a7b5aac'
+            label: Text
+            name: '-2a7b5aac'
+            widget: string
+          - hint: 'Original text: FIL CITY Schedule, key: 133c65d5'
+            label: Text
+            name: 133c65d5
+            widget: string
+          - hint: 'Original text: Tue, july 18, key: 20d739d7'
+            label: Text
+            name: 20d739d7
+            widget: string
+          - hint: 'Original text: Wed, july 19, key: -aa8733a'
+            label: Text
+            name: '-aa8733a'
+            widget: string
+          - hint: 'Original text: Thu, july 20, key: -2a2ec7ef'
+            label: Text
+            name: '-2a2ec7ef'
+            widget: string
+          - hint: 'Original text: READ MORE, key: 62025f9f'
+            label: Text
+            name: 62025f9f
+            widget: string
+          - hint: 'Original text: CLOSE, key: 3d3e5d8'
+            label: Text
+            name: 3d3e5d8
+            widget: string
+          - hint: 'Original text: TRAVEL, key: -6c068ce6'
+            label: Text
+            name: '-6c068ce6'
+            widget: string
+          - hint: 'Original text: FIL Paris Venues, key: 76105330'
+            label: Text
+            name: '76105330'
+            widget: string
+          - hint: 'Original text: FIL CITY Network Base, key: 666641e1'
+            label: Text
+            name: '666641e1'
+            widget: string
+          - hint: 'Original text: Location , key: 301676eb'
+            label: Text
+            name: 301676eb
+            widget: string
+          - hint: 'Original text: Register now, key: -5c165007'
+            label: Text
+            name: '-5c165007'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3370,50 +3695,26 @@ collections:
             name: '23'
             widget: string
           - hint: >-
-              Original link: https://en.wikipedia.org/wiki/Ada_Lovelace, key:
-              d831731
-            label: Link
-            name: d831731
-            widget: string
-          - hint: 'Original link: https://freedom.press/, key: -32ff58d'
-            label: Link
-            name: '-32ff58d'
-            widget: string
-          - hint: 'Original link: https://eff.org/, key: f877203'
-            label: Link
-            name: f877203
-            widget: string
-          - hint: 'Original link: https://groundwork-consulting.com/, key: 51e648a0'
-            label: Link
-            name: 51e648a0
-            widget: string
-          - hint: >-
-              Original link:
-              https://ffdweb.org/FFDW-proposal-narrative-template-2022.zip, key:
-              737bb10e
-            label: Link
-            name: 737bb10e
-            widget: string
-          - hint: >-
-              Original link: mailto:proposals@ffdweb.org?subject=Proposal, key:
-              -4ce0728b
-            label: Link
-            name: '-4ce0728b'
-            widget: string
-          - hint: 'Original link: mailto:impact@ffdweb.org, key: -306942a8'
-            label: Link
-            name: '-306942a8'
-            widget: string
-          - hint: 'Original link: https://ffdweb.org/blog, key: 74bd83c'
-            label: Link
-            name: 74bd83c
-            widget: string
-          - hint: >-
               Original link:
               https://www.linkedin.com/company/filecoin-foundation-for-the-decentralized-web/about/,
               key: -54074316
             label: Link
             name: '-54074316'
+            widget: string
+          - hint: >-
+              Original link:
+              http://www.allaboutcookies.org/manage-cookies/index.html, key:
+              541286b0
+            label: Link
+            name: 541286b0
+            widget: string
+          - hint: 'Original link: mailto:privacypolicy@fil.org, key: 5fe860f1'
+            label: Link
+            name: 5fe860f1
+            widget: string
+          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
+            label: Link
+            name: '-614d2a6e'
             widget: string
           - hint: >-
               Original link: https://proto.school/content-addressing/, key:
@@ -3493,18 +3794,71 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              http://www.allaboutcookies.org/manage-cookies/index.html, key:
-              541286b0
+              https://ffdweb.org/FFDW-proposal-narrative-template-2022.zip, key:
+              737bb10e
             label: Link
-            name: 541286b0
+            name: 737bb10e
             widget: string
-          - hint: 'Original link: mailto:privacypolicy@fil.org, key: 5fe860f1'
+          - hint: >-
+              Original link: mailto:proposals@ffdweb.org?subject=Proposal, key:
+              -4ce0728b
             label: Link
-            name: 5fe860f1
+            name: '-4ce0728b'
             widget: string
-          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
+          - hint: >-
+              Original link: https://en.wikipedia.org/wiki/Ada_Lovelace, key:
+              d831731
             label: Link
-            name: '-614d2a6e'
+            name: d831731
+            widget: string
+          - hint: 'Original link: https://freedom.press/, key: -32ff58d'
+            label: Link
+            name: '-32ff58d'
+            widget: string
+          - hint: 'Original link: https://eff.org/, key: f877203'
+            label: Link
+            name: f877203
+            widget: string
+          - hint: 'Original link: https://groundwork-consulting.com/, key: 51e648a0'
+            label: Link
+            name: 51e648a0
+            widget: string
+          - hint: 'Original link: mailto:impact@ffdweb.org, key: -306942a8'
+            label: Link
+            name: '-306942a8'
+            widget: string
+          - hint: 'Original link: https://ffdweb.org/blog, key: 74bd83c'
+            label: Link
+            name: 74bd83c
+            widget: string
+          - hint: 'Original link: /register/, key: -21da9563'
+            label: Link
+            name: '-21da9563'
+            widget: string
+          - hint: 'Original link: https://filecoin.io/, key: 1f2c24b7'
+            label: Link
+            name: 1f2c24b7
+            widget: string
+          - hint: 'Original link: https://fil.org/, key: 2058645f'
+            label: Link
+            name: 2058645f
+            widget: string
+          - hint: 'Original link: https://protocol.ai/, key: -5d162f00'
+            label: Link
+            name: '-5d162f00'
+            widget: string
+          - hint: >-
+              Original link:
+              https://github.com/filecoin-project/community/blob/master/CODE_OF_CONDUCT.md,
+              key: -10a93b9c
+            label: Link
+            name: '-10a93b9c'
+            widget: string
+          - hint: >-
+              Original link: https://fil.org/policy/#site-navigation, key:
+              9d271d5
+            label: Link
+            name: 9d271d5
             widget: string
       - label: Images
         name: images
@@ -3892,6 +4246,344 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 2af74145
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2fd3a5f5
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-398f3b7c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 154fb0f9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-68d8e0df'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4f5c1a68
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7ceda466
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5110f307
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6944d895
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 741752ed
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6c0f2284'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-56b9b7cf'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5dc0e354'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7932ea98'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-14ec6aa6'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6716566c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 194d930
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 458fee49
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: df98850
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-93c6a2e'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5042d6c8
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-65213b5a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4f79d18a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 79df8e65
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-13576b53'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4bc84f23'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 761d5191
             widget: object
             fields:
@@ -4139,19 +4831,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-4bc84f23'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: c23db3b
             widget: object
             fields:
@@ -4204,19 +4883,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5042d6c8
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-11887599'
             widget: object
             fields:
@@ -4243,45 +4909,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 2af74145
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 2fd3a5f5
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-398f3b7c'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: 317f733b
             widget: object
             fields:
@@ -4295,7 +4922,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-68d8e0df'
+            name: 58d585b3
             widget: object
             fields:
               - name: url
@@ -4308,7 +4935,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4f5c1a68
+            name: 15b91432
             widget: object
             fields:
               - name: url
@@ -4321,7 +4948,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 7ceda466
+            name: 376e3c93
             widget: object
             fields:
               - name: url
@@ -4334,7 +4961,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5110f307
+            name: 48f9cd8a
             widget: object
             fields:
               - name: url
@@ -4347,7 +4974,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 6944d895
+            name: 2b016fa5
             widget: object
             fields:
               - name: url
@@ -4360,7 +4987,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 741752ed
+            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -4373,7 +5000,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6c0f2284'
+            name: '-47604a3d'
             widget: object
             fields:
               - name: url
@@ -4386,7 +5013,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-56b9b7cf'
+            name: '-20d39043'
             widget: object
             fields:
               - name: url
@@ -4399,7 +5026,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-5dc0e354'
+            name: '-511e0c64'
             widget: object
             fields:
               - name: url
@@ -4412,7 +5039,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7932ea98'
+            name: 64fe6f3f
             widget: object
             fields:
               - name: url
@@ -4425,7 +5052,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-14ec6aa6'
+            name: 2d1e3765
             widget: object
             fields:
               - name: url
@@ -4438,7 +5065,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6716566c'
+            name: '-5c60e1dd'
             widget: object
             fields:
               - name: url
@@ -4451,7 +5078,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 194d930
+            name: 101fa572
             widget: object
             fields:
               - name: url
@@ -4463,109 +5090,4 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
-          - label: Image
-            name: 458fee49
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: df98850
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-93c6a2e'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-65213b5a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4f79d18a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 79df8e65
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-13576b53'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 154fb0f9
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-local_backend: true
 publish_mode: editorial_workflow
