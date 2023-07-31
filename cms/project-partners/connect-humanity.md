@@ -16,6 +16,7 @@ f_logo:
   url: https://pbs.twimg.com/profile_images/1511746714688016387/EB6IZmuH_400x400.jpg
 f_blog-link: https://ffdweb.org/blog/ffdw-and-connect-humanity-empowering-an-equitable-digital-future/
 f_external-link: https://connecthumanity.fund/
+f_past-collaborations: true
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-29T18:53:55.851Z
