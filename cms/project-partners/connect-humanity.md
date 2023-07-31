@@ -19,7 +19,7 @@ f_external-link: https://connecthumanity.fund/
 f_past-collaborations: true
 tags: project-partners
 layout: "[project-partners].html"
-date: 2023-06-29T18:53:55.851Z
+date: 2023-07-31T21:26:18.367Z
 seo:
   noindex: false
   twitter:title: summary
