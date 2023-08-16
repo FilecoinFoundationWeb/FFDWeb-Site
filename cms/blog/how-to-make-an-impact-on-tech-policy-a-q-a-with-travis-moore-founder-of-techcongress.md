@@ -7,7 +7,7 @@ published-on: 2023-08-16T18:51:13.590Z
 f_post-date: 2023-08-16T18:51:13.602Z
 f_featured: false
 f_image:
-  url: https://drive.google.com/file/d/1V97cF8uY50DOQPpyFqtf_tFvzIa-fxgp/view?usp=sharing
+  url: /assets/images/091523-qa-techcongress.png
 tags: blog
 layout: "[blog].html"
 date: 2023-08-16T18:51:13.615Z
