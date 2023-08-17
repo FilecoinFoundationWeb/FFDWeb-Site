@@ -8,6 +8,8 @@ f_blurb: MIT Open Learning is an organization focused on transforming teaching
   support, Open Learning will embark on a three-year project to explore how
   decentralized technology can support Open Learning programs, including NextGen
   OpenCourseWare (OCW), and upload OCW to the decentralized web.
+f_logo:
+  url: /assets/images/open-learning_sub-brand_lockup_two-line_cmyk_black.svg
 f_blog-link: https://www.ffdweb.org/blog/ffdw-supports-mit-open-learning-in-preserving-humanity-s-most-important-information/
 f_external-link: https://openlearning.mit.edu
 f_past-collaborations: false
