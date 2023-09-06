@@ -220,6 +220,16 @@ collections:
         label: Published On
         widget: datetime
         required: false
+      - hint: Which issue does this article belong to?
+        name: f_issue
+        label: Issue
+        widget: number
+        required: true
+      - hint: 'Enter the article number to '
+        name: f_article
+        label: Article
+        widget: number
+        required: true
       - hint: ''
         name: f_description
         label: Subtitle
@@ -246,7 +256,7 @@ collections:
         name: f_author
         label: Author
         widget: string
-        required: false
+        required: true
       - hint: ''
         name: f_author-profile
         label: Author Profile
