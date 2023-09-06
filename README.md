@@ -28,7 +28,7 @@ The FFDW website utilizes NetlifyCMS as a user-friendly content management syste
 
 ## License
 
-See the [FFDWeb.org Terms of Use](https://ffdweb.org/terms) for licensing information.
+The source code and content of the FFDW website are licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Acknowledgments
 
