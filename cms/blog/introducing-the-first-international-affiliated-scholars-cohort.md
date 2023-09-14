@@ -23,8 +23,6 @@ The International Affiliated Scholars (IAS) program is a part of the Center’s 
 
 On Tuesday, September 26 at 8:30 am PT, the Center is hosting a [Virtual Kickoff](https://usfca.zoom.us/webinar/register/WN_M02vHZwAT4y_sHXC6Yzqaw) to welcome the new cohort and introduce the topics they’ll be exploring as part of the program. Each cohort member is poised to challenge norms, fuel cross-disciplinary collaboration, and explore how technology impacts our daily lives. 
 
-
-
 * [Alexandra Andhov](https://www.linkedin.com/in/dr-alexandra-andhov-b1502423/?originalSubdomain=dk): Alexandra Andhov is a distinguished authority in law and technology. She currently holds the position of Associate Professor at the Faculty of Law, University of Copenhagen. Her expertise lies in understanding and regulating emergent technologies, encompassing areas like blockchain, crypto assets, and artificial intelligence. In academia, Andhov infuses her teaching with an entrepreneurial spirit. She has pioneered courses centered on start-up law, blockchain regulation, and computational legal thought. 
 
   Beyond her academic pursuits, Andhov is the founder of the Copenhagen Legal/Tech Lab. This initiative serves as a nexus for research and education, championing legal innovation within the University of Copenhagen's Faculty of Law. In 2019, her academic excellence was further acknowledged during her tenure as a Fulbright Scholar at Cornell Law School.  
@@ -32,7 +30,6 @@ On Tuesday, September 26 at 8:30 am PT, the Center is hosting a [Virtual Kickoff
   At present, Andhov plays a pivotal role on several advisory boards for fintech companies and international NGO Finance Watch. Her proactive involvement with the Nordic start-up ecosystem, coupled with her advisory roles, stands as a testament to her dynamic and forward-thinking approach in her domain.
 * [Oluwaseun Adepoju](https://www.linkedin.com/in/davidadepoju/?originalSubdomain=rw): Oluwaseun David Adepoju is an esteemed technology thought leader with more than a decade of experience in the African technology policy and entrepreneurial innovation ecosystem.
 
-  \
   As a researcher, his publications have appeared in renowned academic journals, including the International Journal of Digital Society and the International Journal of Internet and Secured Transactions. Adepoju's research portfolio shows extensive expertise in various cutting-edge areas, such as blockchain, collaborative technologies, knowledge economies, e-government, digital nomadism, digital literacy, and digital minimalism. 
 
   As an Editor of the Africa Blockchain Report, he curates and presents insights into the dynamic landscape of blockchain innovation across Africa. His invaluable contributions empower a wide array of stakeholders, including organizations, investors, policymakers, governments, and individuals, enabling them to make well-informed decisions regarding the adoption and utilization of blockchain technology. In the German Corporation/MakeITAfrica 2018 technology trend-scouting report, he was highlighted as one of the leading technology advocates in Africa, recognizing his significant contributions to the field.
