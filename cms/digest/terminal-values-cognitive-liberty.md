@@ -4,7 +4,7 @@ created-on: 2023-09-15T17:01:01.677Z
 updated-on: 2023-09-15T17:01:01.686Z
 published-on: 2023-09-15T17:01:01.693Z
 f_issue: 1
-f_article: 0
+f_article: 2
 f_description: Your inalienable right to live rent-free inside your own head
 f_author: Danny O'Brien
 tags: digest
