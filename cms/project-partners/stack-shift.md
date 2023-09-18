@@ -10,6 +10,7 @@ f_blurb: "Stack Shift’s mission is to advance the spread of distributed work a
 f_logo:
   url: /assets/images/partnerlogo_stackshift.png
 f_external-link: https://www.stackshift.com/
+f_past-collaborations: true
 tags: project-partners
 layout: "[project-partners].html"
 date: 2023-06-30T16:55:26.102Z
