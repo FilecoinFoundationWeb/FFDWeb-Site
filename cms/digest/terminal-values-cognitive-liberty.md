@@ -47,7 +47,7 @@ But my route to this terminal value is a little different, and comes from an old
 
 The "PC" that perhaps still sits near you somewhere, if it hasn't shrunk into your laptop or your phone, has always stood for "personal computer". That name is an echo of a line of revolutionary 20th century thought; a profound ideological rebellion from the locked-down, timesharing and centralized mainframe ideologies that preceded it.
 
-The PC was always intended as a machine that augments individual abilities. That ambition has deep roots, from Vannevar Bush's 1945 essay "As We May Think", Doug Engelbart's 1962 paper "Augmenting Human Intellect", through Ted Nelson's 1974 manifesto "Computer Lib," Steve Job's 1980 "Bicycle For The Mind" campaign, to Sherry Turkle's 1984 book "The Second Self" and beyond.
+The PC was always intended as a machine that augments individual abilities. That ambition has deep roots, from Vannevar Bush's 1945 essay "As We May Think," Doug Engelbart's 1962 paper "Augmenting Human Intellect," through Ted Nelson's 1974 manifesto "Computer Lib," Steve Job's 1980 "Bicycle For The Mind" campaign, to Sherry Turkle's 1984 book "The Second Self" and beyond.
 
 In this way of thinking about digital tech, the personal computer is an extension of your brain and its abilities. Its memory is to help you remember; its processing power is there to help you think faster; its network connection is for you to reach out to others; its interfaces are to connect more closely to you. It is yours in the same way as your hands belong to you, as your eyes, as your imagination.
 
