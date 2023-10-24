@@ -1,9 +1,9 @@
 ---
 title: Case Study
 slug: case-study
-updated-on: '2023-07-12T18:35:30.830Z'
-created-on: '2023-07-12T18:35:30.830Z'
-published-on: '2023-07-12T18:37:11.502Z'
+updated-on: '2023-08-30T01:06:59.122Z'
+created-on: '2023-08-30T00:55:05.065Z'
+published-on: '2023-10-20T14:07:03.064Z'
 layout: '[resource-type].html'
 tags: resource-type
 ---

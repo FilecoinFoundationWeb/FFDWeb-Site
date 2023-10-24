@@ -314,16 +314,26 @@ collections:
         label: Published On
         widget: datetime
         required: false
-      - hint: Publication Date
+      - hint: ''
         name: f_date
-        label: Date
+        label: Publication Date
         widget: datetime
         required: false
+      - hint: ''
+        name: f_source
+        label: Source Link
+        widget: string
+        required: true
+      - hint: ''
+        name: f_description
+        label: Description
+        widget: string
+        required: true
       - hint: ''
         name: f_type
         label: Type
         widget: relation
-        required: true
+        required: false
         collection: resource_type
         value_field: cms/resource-type/{{slug}}.md
         search_fields:
@@ -346,37 +356,39 @@ collections:
           - title
         multiple: true
       - hint: ''
-        name: f_source
-        label: Source Link
+        name: f_keywords
+        label: Keywords
         widget: string
-        required: true
-      - hint: ''
-        name: f_description
-        label: Description
-        widget: string
-        required: true
+        required: false
       - hint: ''
         name: f_organization
         label: Organization
         widget: string
         required: true
-      - hint: ''
-        name: f_technicality
+      - hint: 1 to 3
+        name: f_technicality-3
         label: Technicality
-        widget: number
-        required: true
-      - hint: ''
-        name: f_keywords
-        label: Keywords
-        widget: string
-        required: true
-      - hint: ''
-        name: f_language
-        label: Language
-        widget: string
+        widget: select
         required: false
+        options:
+          - label: '1'
+            value: '1'
+          - label: '2'
+            value: '2'
+          - label: '3'
+            value: '3'
       - hint: ''
-        name: f_length
+        name: f_language-2
+        label: Language
+        widget: select
+        required: false
+        options:
+          - label: English
+            value: English
+          - label: N/A
+            value: N/A
+      - hint: ''
+        name: f_length-3
         label: Length
         widget: string
         required: false
@@ -743,6 +755,14 @@ collections:
           - hint: 'Original text: Collaborators, key: 4bd3410d'
             label: Text
             name: 4bd3410d
+            widget: string
+          - hint: 'Original text: DWeb Impact Resources, key: 4b61157b'
+            label: Text
+            name: 4b61157b
+            widget: string
+          - hint: 'Original text: Contribute, key: -6388b573'
+            label: Text
+            name: '-6388b573'
             widget: string
           - hint: 'Original text: Rebuilding, key: 69401a07'
             label: Text
@@ -2799,17 +2819,13 @@ collections:
             label: Text
             name: '-17bd96e1'
             widget: text
-          - hint: 'Original text: DWeb Impact Resources, key: 4b61157b'
-            label: Text
-            name: 4b61157b
-            widget: string
           - hint: >-
               Original text: Welcome to the DWeb Impact Resource Hub! Explore
-              the world of decentralized technologies with blog posts, research
-              papers, news, tutorials, and more from FFDW and beyond., key:
-              63173285
+              the intersection of decentralized technologies and social good
+              with blog posts, research papers, news, tutorials, and more from
+              FFDW and beyond., key: -27ce7a1
             label: Text
-            name: '63173285'
+            name: '-27ce7a1'
             widget: text
           - hint: 'Original text: Topic, key: 4d3dd0f'
             label: Text
@@ -2818,6 +2834,22 @@ collections:
           - hint: 'Original text: Resource Type, key: 667cb80c'
             label: Text
             name: 667cb80c
+            widget: string
+          - hint: 'Original text: Filter, key: 7d6db798'
+            label: Text
+            name: 7d6db798
+            widget: string
+          - hint: 'Original text: Filter by:, key: 1a28363b'
+            label: Text
+            name: 1a28363b
+            widget: string
+          - hint: 'Original text: Clear All, key: 2b99750e'
+            label: Text
+            name: 2b99750e
+            widget: string
+          - hint: 'Original text: Done, key: 2097a2'
+            label: Text
+            name: 2097a2
             widget: string
           - hint: 'Original text: Sort, key: 2769be'
             label: Text
@@ -2847,10 +2879,6 @@ collections:
             label: Text
             name: '-251a220'
             widget: string
-          - hint: 'Original text: Clear All, key: 2b99750e'
-            label: Text
-            name: 2b99750e
-            widget: string
           - hint: >-
               Original text: This is some text inside of a div block., key:
               7635fb4f
@@ -2865,15 +2893,15 @@ collections:
             label: Text
             name: '6846475'
             widget: string
-          - hint: 'Original text: View Resource, key: c532729'
-            label: Text
-            name: c532729
-            widget: string
           - hint: >-
               Original text: Have something great to add to the DWeb Impact
               Resources? We want to know!, key: 1ddcf9aa
             label: Text
             name: 1ddcf9aa
+            widget: string
+          - hint: 'Original text: Submit a Resource, key: -3b1a420b'
+            label: Text
+            name: '-3b1a420b'
             widget: string
           - hint: 'Original text: Style Guide, key: -7aba473'
             label: Text
@@ -3412,6 +3440,20 @@ collections:
             label: Text
             name: '-6714307e'
             widget: text
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: 'Original text: Password, key: 4c641ebb'
+            label: Text
+            name: 4c641ebb
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3479,6 +3521,10 @@ collections:
           - hint: 'Original link: /awards/, key: -11cf5dd6'
             label: Link
             name: '-11cf5dd6'
+            widget: string
+          - hint: 'Original link: /resources#reach-out, key: -5a6e0d79'
+            label: Link
+            name: '-5a6e0d79'
             widget: string
           - hint: 'Original link: /contact/, key: 16bdc13e'
             label: Link
@@ -3657,6 +3703,13 @@ collections:
           - hint: 'Original link: mailto:privacypolicy@fil.org, key: 5fe860f1'
             label: Link
             name: 5fe860f1
+            widget: string
+          - hint: >-
+              Original link:
+              https://airtable.com/appqYx2g5gO6GX8jL/shrhkHIBbGxLnGGZh, key:
+              -463eb30a
+            label: Link
+            name: '-463eb30a'
             widget: string
           - hint: 'Original link: https://www.google.com, key: -614d2a6e'
             label: Link
@@ -4334,32 +4387,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: c23db3b
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 674b369a
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: 4aac9c41
             widget: object
             fields:
@@ -4425,6 +4452,32 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: c23db3b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 674b369a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 2af74145
             widget: object
             fields:
@@ -4464,7 +4517,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 317f733b
+            name: '-3cbca8bd'
             widget: object
             fields:
               - name: url
@@ -4751,6 +4804,45 @@ collections:
                 required: false
           - label: Image
             name: 154fb0f9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7a700be7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 317f733b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
             widget: object
             fields:
               - name: url
