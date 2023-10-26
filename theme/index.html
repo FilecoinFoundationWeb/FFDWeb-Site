@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="64c1876d8c7b9aa0bb54dae0" data-wf-site="643e91257b7faead4d5d968e"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="6532861bb26a790ad5166c25" data-wf-site="643e91257b7faead4d5d968e"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
   
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -12,7 +12,7 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
   <script>document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")</script>
   <!--  Plausible  -->
-  <script defer data-domain="ffdweb.org" src="https://plausible.io/js/script.js"></script>
+  <script defer="" data-domain="ffdweb.org" src="https://plausible.io/js/script.tagged-events.js"></script>
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
@@ -25,188 +25,194 @@ a:not(.w--current) .visible-on-current {
   display: none;
 }
 :hover > .opacity-on-hover {
- opacity: 1;
+  opacity: 1;
 }
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 .color-inherit {
- color:inherit;
+  color: inherit;
 }
 .inline-flex {
- display: inline-flex;
- align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
-.disable-pointer-events, .disable-pointer-events * {
- pointer-events: none;
+.disable-pointer-events,
+.disable-pointer-events * {
+  pointer-events: none;
 }
 .primary-button:hover .artifact {
-	background-color: transparent;
+  background-color: transparent;
 }
 .secondary-button:hover .artifact {
-	background-color: #e8e7e1;
+  background-color: #e8e7e1;
 }
- .secondary-button .artifact {
-	border-color: #e8e7e1;
+.secondary-button .artifact {
+  border-color: #e8e7e1;
 }
 .artifact-1 {
   width: calc(100% - 2px - 3rem);
 }
 .artifact-2 {
- width: calc(100% - 3rem);
+  width: calc(100% - 3rem);
 }
 .artifact-invisible.artifact-2 {
-    top: calc(33.333% - 4px);
-    left: calc(1.5rem + 4px);
-    width: calc(100% - 3rem - 10px);
-    height: 33.333%;
+  top: calc(33.333% - 4px);
+  left: calc(1.5rem + 4px);
+  width: calc(100% - 3rem - 10px);
+  height: 33.333%;
 }
 .artifact-invisible.artifact-3 {
-width: calc(100% - 3rem - 6px);
-height: calc(33.333% + 2px);
+  width: calc(100% - 3rem - 6px);
+  height: calc(33.333% + 2px);
 }
 .artifact-invisible.artifact-1 {
-width: calc(100% - 1.5rem - 8px);
-height: calc(33.333% - 6px);
+  width: calc(100% - 1.5rem - 8px);
+  height: calc(33.333% - 6px);
 }
 .artifact-invisible.artifact-4 {
-height: calc(66.666% + 2px);
+  height: calc(66.666% + 2px);
 }
 .artifact-invisible.artifact-5 {
-height: calc(66.666% - 2px);
+  height: calc(66.666% - 2px);
 }
 .gradient-button:hover .artifact-invisible {
-	opacity: 1;
+  opacity: 1;
 }
 .subnav-icon-link:hover .w-embed {
- opacity: 1;
+  opacity: 1;
 }
 .footer-link:hover .finger-icon {
- opacity: 1;
+  opacity: 1;
 }
 li:before {
-      content: '';
-      position: absolute;
-      left: 0rem;
-      top: 0.5rem;
-      width: 0.625rem;
-      height: 0.625rem;
-      background: linear-gradient(to right, #FB383F, #BAFE36);
+  content: "";
+  position: absolute;
+  left: 0rem;
+  top: 0.5rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  background: linear-gradient(to right, #fb383f, #bafe36);
 }
- table {
-    margin: 3rem 0;
-    border-top: solid 5px white;
-    border-bottom: solid 5px white;
- }
- tr {
+table {
+  margin: 3rem 0;
+  border-top: solid 5px white;
+  border-bottom: solid 5px white;
+}
+tr {
   font-size: 1rem;
- }
- tr:nth-child(odd) {
-      background: #0F0E1C;
- }
- th {
+}
+tr:nth-child(odd) {
+  background: #0f0e1c;
+}
+th {
   font-size: 1.125rem;
   font-weight: 600;
   background: #070517;
   padding: 0.75rem 1rem;
   vertical-align: top;
- }
-  td {
-   padding: 0.5rem 1rem;
-   vertical-align: top;
- }
- @media screen and (max-width: 40rem) {
-   table {
-    transform: scale(0.75) translate(-30%,-20%);
+}
+td {
+  padding: 0.5rem 1rem;
+  vertical-align: top;
+}
+@media screen and (max-width: 40rem) {
+  table {
+    transform: scale(0.75) translate(-30%, -20%);
   }
 }
-  pre {
-    border: solid 1px #27234A;
-    background-color: #0F0E1C;
-    padding: 2rem 1rem;
-    margin-bottom: 5rem;
-  }
-  code {
-    color: #9AB6CE;
-  }
-input:valid + .validation-message, input:placeholder-shown + .validation-message,
-textarea:valid + .validation-message, textarea:placeholder-shown + .validation-message {
- display: none;
+pre {
+  border: solid 1px #27234a;
+  background-color: #0f0e1c;
+  padding: 2rem 1rem;
+  margin-bottom: 5rem;
 }
-input:invalid(:not(:placeholder-shown)) + .validation-message, textarea:invalid(:not(:placeholder-shown)) + .validation-message {
- display: block;
+code {
+  color: #9ab6ce;
+}
+input:valid + .validation-message,
+input:placeholder-shown + .validation-message,
+textarea:valid + .validation-message,
+textarea:placeholder-shown + .validation-message {
+  display: none;
+}
+input:invalid(:not(:placeholder-shown)) + .validation-message,
+textarea:invalid(:not(:placeholder-shown)) + .validation-message {
+  display: block;
 }
 .submitted input:invalid + .error-message {
- display: block;
+  display: block;
 }
 .richtext-content a[href*="watch"] {
- position: relative;
+  position: relative;
 }
 .richtext-content:not(.blog-post-body) a[href*="watch"]:after {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-30px,-26px);
-    z-index: 10;
-    opacity: .8;
-    content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='61' height='53.453'%3E%3Cg data-name='Group 3034' fill='%23e8e7e1'%3E%3Cg data-name='Group 3033'%3E%3Cpath data-name='Rectangle 1279' d='M21.953 11.344h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1280' d='M26.953 16.344h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1281' d='M26.953 32.11h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1282' d='M31.953 28.521h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1283' d='M36.953 24.227h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1284' d='M31.953 19.932h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1285' d='M21.953 37.11h5v5h-5z'/%3E%3C/g%3E%3Cpath data-name='Rectangle 1311' d='M56 5.684h5v43h-5z'/%3E%3Cpath data-name='Rectangle 1314' d='M0 5.684h5v43H0z'/%3E%3Cpath data-name='Rectangle 1312' d='M55.453 0v5h-51V0z'/%3E%3Cpath data-name='Rectangle 1313' d='M55.453 48.453v5h-51v-5z'/%3E%3C/g%3E%3C/svg%3E");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30px, -26px);
+  z-index: 10;
+  opacity: 0.8;
+  content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='61' height='53.453'%3E%3Cg data-name='Group 3034' fill='%23e8e7e1'%3E%3Cg data-name='Group 3033'%3E%3Cpath data-name='Rectangle 1279' d='M21.953 11.344h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1280' d='M26.953 16.344h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1281' d='M26.953 32.11h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1282' d='M31.953 28.521h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1283' d='M36.953 24.227h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1284' d='M31.953 19.932h5v5h-5z'/%3E%3Cpath data-name='Rectangle 1285' d='M21.953 37.11h5v5h-5z'/%3E%3C/g%3E%3Cpath data-name='Rectangle 1311' d='M56 5.684h5v43h-5z'/%3E%3Cpath data-name='Rectangle 1314' d='M0 5.684h5v43H0z'/%3E%3Cpath data-name='Rectangle 1312' d='M55.453 0v5h-51V0z'/%3E%3Cpath data-name='Rectangle 1313' d='M55.453 48.453v5h-51v-5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 .theme-dark a {
- color: #070517;
+  color: #070517;
 }
-.theme-dark .w-richtext a {
- color: inherit;
+.theme-dark .w-richtext a,
+.theme-dark .button-link-with-icon {
+  color: inherit;
 }
-.accordion_title:after, .accordion_title:before {
-    content: ">";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    width: 2rem;
-    height: 100%;
-    transition: transform .25s ease-in-out;
+.accordion_title:after,
+.accordion_title:before {
+  content: ">";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 2rem;
+  height: 100%;
+  transition: transform 0.25s ease-in-out;
 }
 .accordion_title:before {
-    right: calc(100% - 2rem)
+  right: calc(100% - 2rem);
 }
 .accordion_title:after {
-    right: calc(100% - 4rem);
+  right: calc(100% - 4rem);
 }
 @media screen and (min-width: 769px) {
-.accordion_title.reverse:before {
-    right: calc(100% + 3rem)
-}
-.accordion_title.reverse:after {
+  .accordion_title.reverse:before {
+    right: calc(100% + 3rem);
+  }
+  .accordion_title.reverse:after {
     right: calc(100% + 1rem);
-}
+  }
 }
 p:empty {
- height: 0px;
+  height: 0px;
 }
 a:hover .move-on-hover {
- transform: translateX(2rem) rotate(-90deg);
+  transform: translateX(2rem) rotate(-90deg);
 }
 .current .pagination-number-artifact-left {
- background-color: #fff;
+  background-color: #fff;
 }
 .x-hidden {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 .master-container {
   overflow-x: hidden;
 }
 @media screen and (max-width: 25.9375rem) {
- .ti-hidden {
-  display: none;
- }
- [class*=_ti-12] {
-  width: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
- }
+  .ti-hidden {
+    display: none;
+  }
+  [class*="_ti-12"] {
+    width: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 </style>
     </div>
@@ -448,6 +454,9 @@ body:has(.navbar .w--open) {
                   <div class="subnav-artifacts"></div>
                 </div>
               </div>
+              <a href="{{ links.5c7d819 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
+                <div>{{ texts.13ede05 }}</div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
+              </a>
               <div class="nav-link-wrapper-with-subnav">
                 <a href="{{ links.7894e442 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
                   <div>{{ texts.4422b111 }}</div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
@@ -605,6 +614,35 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="tablet-subnav">
+                <a href="{{ links.5c7d819 }}" class="subnav-mobile-link">{{ texts.13ede05 }}</a>
+                <div class="subnav-tablet-links">
+                  <a href="{{ links.5c7d819 }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.4b61157b }}</div>
+                  </a>
+                  <a href="{{ links.-5a6e0d79 }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-6388b573 }}</div>
+                  </a>
+                </div>
+              </div>
+              <div class="tablet-subnav">
                 <a href="{{ links.7894e442 }}" class="subnav-mobile-link">{{ texts.4422b111 }}</a>
                 <div class="subnav-tablet-links">
                   <a href="{{ links.55cb89fe }}" class="subnav-icon-link inline-flex w-inline-block">
@@ -680,7 +718,7 @@ body:has(.navbar .w--open) {
       </div>
       <header class="header-home">
         <div class="container-home">
-          <div class="container-home_panel-left"><img src="{{ images.-1f2ca508.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;66vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;80vw&quot;},{&quot;max&quot;:1919,&quot;size&quot;:&quot;33vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;526.875px&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 991px) 80vw, (max-width: 1919px) 33vw, 526.875px" alt="{{ images.-1f2ca508.alt | trim | escape }}" class="home-header-image"></div>
+          <div class="container-home_panel-left"><img class="home-header-image" src="{{ images.-1f2ca508.url }}" alt="{{ images.-1f2ca508.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;66vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;80vw&quot;},{&quot;max&quot;:1919,&quot;size&quot;:&quot;33vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;526.875px&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 991px) 80vw, (max-width: 1919px) 33vw, 526.875px" loading="lazy"></div>
           <div class="container-home_panel-right">
             <div class="container-home_panel-right-inner-content">
               <h1 aria-label="Rebuilding the internet. For good." class="home-header">{{ texts.69401a07 }}<span class="homepage-image-1"> </span><br>{{ texts.-671413e2 }}<span class="homepage-image-2"> </span><br><span class="homepage-image-3"> </span>{{ texts.6059dcda }}</h1>
@@ -749,7 +787,7 @@ body:has(.navbar .w--open) {
           <div class="col-heading h1"><strong>{{ texts.6b11aa6d }}</strong></div>
           <div class="sectional_description padding-right-4">{{ texts.6fa3cd48 }}</div>
         </div>
-        <div class="col-2-home-image"><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" sizes="(max-width: 767px) 86vw, (max-width: 991px) 43vw, 326.66668701171875px" src="{{ images.439c2a12.url }}" alt="{{ images.439c2a12.alt | trim | escape }}" class="col-image"></div>
+        <div class="col-2-home-image"><img class="col-image" src="{{ images.439c2a12.url }}" alt="{{ images.439c2a12.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" sizes="(max-width: 767px) 86vw, (max-width: 991px) 43vw, 326.66668701171875px" loading="lazy"></div>
       </div>
     </div>
     <div class="sectional home-accordions">
@@ -1085,7 +1123,7 @@ body:has(.navbar .w--open) {
       <div class="container-flex relative">
         <div class="col-3">
           <div class="image-with-artifact">
-            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ images.5372fab9.url }}" alt="{{ images.5372fab9.alt | trim | escape }}" class="home-image-1">
+            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.5372fab9.alt | trim | escape }}" src="{{ images.5372fab9.url }}" class="home-image-1">
             <div class="image-artifact home"></div>
           </div>
         </div>
@@ -1097,7 +1135,7 @@ body:has(.navbar .w--open) {
           </div>
         </div>
         <div class="col-3">
-          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ images.527b6d35.url }}" alt="{{ images.527b6d35.alt | trim | escape }}" class="home-image-2"></div>
+          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.527b6d35.alt | trim | escape }}" src="{{ images.527b6d35.url }}" class="home-image-2"></div>
         </div>
         <div class="image-artifact-home left-image"></div>
         <div class="image-artifact-home right-image purple"></div>
@@ -1131,7 +1169,7 @@ body:has(.navbar .w--open) {
     </div>
     <div id="collaborators" class="sectional home-get-involved-section">
       <div class="collaborators-container">
-        <div class="collaborators_panel-left"><img src="{{ images.4320d2a0.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" alt="{{ images.4320d2a0.alt | trim | escape }}"></div>
+        <div class="collaborators_panel-left"><img src="{{ images.4320d2a0.url }}" alt="{{ images.4320d2a0.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 767px) 344.69793701171875px, (max-width: 1919px) 45vw, 648px" loading="lazy"></div>
         <div class="get-involved_panel-right gradient-purple-green home">
           <div class="collaborators_panel-right-text-container">
             <div class="collaborators-title">{{ texts.4422b111 }}</div>
@@ -1145,7 +1183,7 @@ body:has(.navbar .w--open) {
           </div>
           <div class="home-subscribe-wrapper">
             <div class="form-wrapper w-form">
-              <form id="email-form" name="email-form" data-name="email" redirect="/contact/?submit=success" data-redirect="/contact/?submit=success" method="get" class="subscription-form" data-wf-page-id="64c1876d8c7b9aa0bb54dae0" data-wf-element-id="bcb37c7a-4c91-cbd9-6092-61f74cacb00d" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+              <form id="email-form" name="email-form" data-name="email" redirect="/contact/?submit=success" data-redirect="/contact/?submit=success" method="get" class="subscription-form" data-wf-page-id="6532861bb26a790ad5166c25" data-wf-element-id="bcb37c7a-4c91-cbd9-6092-61f74cacb00d" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
                 <div class="form_field"><input type="email" class="form_input black w-input" maxlength="256" name="email" data-name="Email" placeholder="Email" id="email" required="">
                   <div class="form_input_border gradient-red-purple"></div>
                 </div><input type="submit" value="Submit >" data-wait="Please wait..." class="submit-button black w-button">
@@ -1369,7 +1407,7 @@ html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
                 </a>
               </div>
               <div class="footer_link-wrapper">
-                <a href="{{ links.-11cf5dd6 }}" class="footer-link inline-flex w-inline-block">
+                <a href="{{ links.5c7d819 }}" class="footer-link inline-flex w-inline-block">
                   <div class="finger-icon disable-pointer-events w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="22.689" height="24.137" viewBox="0 0 22.689 24.137">
                       <g transform="translate(-2369.093 -884)">
                         <g transform="translate(2369.093 884)">
@@ -1390,7 +1428,7 @@ html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
                         </g>
                       </g>
                     </svg></div>
-                  <div class="button-text primary-links-list">{{ texts.75a5bdd6 }}</div>
+                  <div class="button-text primary-links-list">{{ texts.13ede05 }}</div>
                 </a>
               </div>
               <div class="footer_link-wrapper">
@@ -1613,8 +1651,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   });
 });
+document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
 </script>
-  <script>document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")</script>
   <script>
 document.querySelectorAll('.blog-card_tags-wrapper .w-dyn-item').forEach( tag => {
   const wrapper = tag.closest('.blog-post').querySelector('.blog-card_information');
