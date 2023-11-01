@@ -286,9 +286,9 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-  - name: dweb_impact_resources
-    label: DWeb Impact Resources
-    folder: cms/dweb-impact-resources
+  - name: resources
+    label: Resources
+    folder: cms/resources
     create: true
     identifier_field: name
     extension: md
@@ -325,6 +325,11 @@ collections:
         widget: string
         required: true
       - hint: ''
+        name: f_organization
+        label: Organization
+        widget: string
+        required: true
+      - hint: ''
         name: f_description
         label: Description
         widget: string
@@ -333,7 +338,7 @@ collections:
         name: f_type
         label: Type
         widget: relation
-        required: false
+        required: true
         collection: resource_type
         value_field: cms/resource-type/{{slug}}.md
         search_fields:
@@ -360,11 +365,6 @@ collections:
         label: Keywords
         widget: string
         required: false
-      - hint: ''
-        name: f_organization
-        label: Organization
-        widget: string
-        required: true
       - hint: 1 to 3
         name: f_technicality-3
         label: Technicality
@@ -395,11 +395,11 @@ collections:
       - label: Tags
         widget: hidden
         name: tags
-        default: dweb-impact-resources
+        default: resources
       - label: Layout
         widget: hidden
         name: layout
-        default: '[dweb-impact-resources].html'
+        default: '[resources].html'
       - label: Publish Date
         name: date
         widget: datetime
@@ -757,6 +757,10 @@ collections:
             label: Text
             name: 13ede05
             widget: string
+          - hint: 'Original text: Contribute, key: -6388b573'
+            label: Text
+            name: '-6388b573'
+            widget: string
           - hint: 'Original text: Get Involved, key: 4422b111'
             label: Text
             name: 4422b111
@@ -765,10 +769,6 @@ collections:
             label: Text
             name: 39869d1f
             widget: string
-          - hint: 'Original text: Awards, key: 75a5bdd6'
-            label: Text
-            name: 75a5bdd6
-            widget: string
           - hint: 'Original text: Collaborators, key: 4bd3410d'
             label: Text
             name: 4bd3410d
@@ -776,10 +776,6 @@ collections:
           - hint: 'Original text: DWeb Impact Resources, key: 4b61157b'
             label: Text
             name: 4b61157b
-            widget: string
-          - hint: 'Original text: Contribute, key: -6388b573'
-            label: Text
-            name: '-6388b573'
             widget: string
           - hint: 'Original text: Rebuilding, key: 69401a07'
             label: Text
@@ -951,6 +947,10 @@ collections:
           - hint: "Original text: EXPLORE\_THE\_DWEB, key: 1ce71aec"
             label: Text
             name: 1ce71aec
+            widget: string
+          - hint: 'Original text: Awards, key: 75a5bdd6'
+            label: Text
+            name: 75a5bdd6
             widget: string
           - hint: >-
               Original text: We exist to ensure the power of humanity’s most
@@ -2836,90 +2836,6 @@ collections:
             label: Text
             name: '-17bd96e1'
             widget: text
-          - hint: >-
-              Original text: Welcome to the DWeb Impact Resource Hub! Explore
-              the intersection of decentralized technologies and social good
-              with blog posts, research papers, news, tutorials, and more from
-              FFDW and beyond., key: -27ce7a1
-            label: Text
-            name: '-27ce7a1'
-            widget: text
-          - hint: 'Original text: Topic, key: 4d3dd0f'
-            label: Text
-            name: 4d3dd0f
-            widget: string
-          - hint: 'Original text: Resource Type, key: 667cb80c'
-            label: Text
-            name: 667cb80c
-            widget: string
-          - hint: 'Original text: Filter, key: 7d6db798'
-            label: Text
-            name: 7d6db798
-            widget: string
-          - hint: 'Original text: Filter by:, key: 1a28363b'
-            label: Text
-            name: 1a28363b
-            widget: string
-          - hint: 'Original text: Clear All, key: 2b99750e'
-            label: Text
-            name: 2b99750e
-            widget: string
-          - hint: 'Original text: Done, key: 2097a2'
-            label: Text
-            name: 2097a2
-            widget: string
-          - hint: 'Original text: Sort, key: 2769be'
-            label: Text
-            name: 2769be
-            widget: string
-          - hint: 'Original text: Date (Newest), key: -4d4f0033'
-            label: Text
-            name: '-4d4f0033'
-            widget: string
-          - hint: 'Original text: Date (Oldest), key: -d82972c'
-            label: Text
-            name: '-d82972c'
-            widget: string
-          - hint: 'Original text: Title (A/Z), key: 26edafdd'
-            label: Text
-            name: 26edafdd
-            widget: string
-          - hint: 'Original text: Title (Z/A), key: 26f90a1d'
-            label: Text
-            name: 26f90a1d
-            widget: string
-          - hint: 'Original text: Source (A/Z), key: -25cfc60'
-            label: Text
-            name: '-25cfc60'
-            widget: string
-          - hint: 'Original text: Source (Z/A), key: -251a220'
-            label: Text
-            name: '-251a220'
-            widget: string
-          - hint: >-
-              Original text: This is some text inside of a div block., key:
-              7635fb4f
-            label: Text
-            name: 7635fb4f
-            widget: string
-          - hint: 'Original text: Tag template, key: 74472e60'
-            label: Text
-            name: '74472e60'
-            widget: string
-          - hint: 'Original text: No results found., key: 6846475'
-            label: Text
-            name: '6846475'
-            widget: string
-          - hint: >-
-              Original text: Have something great to add to the DWeb Impact
-              Resources? We want to know!, key: 1ddcf9aa
-            label: Text
-            name: 1ddcf9aa
-            widget: string
-          - hint: 'Original text: Submit a Resource, key: -3b1a420b'
-            label: Text
-            name: '-3b1a420b'
-            widget: string
           - hint: 'Original text: Style Guide, key: -7aba473'
             label: Text
             name: '-7aba473'
@@ -3197,6 +3113,90 @@ collections:
           - hint: 'Original text: .gradient:green-red, key: -1fac5055'
             label: Text
             name: '-1fac5055'
+            widget: string
+          - hint: >-
+              Original text: Welcome to the DWeb Impact Resource Hub! Explore
+              the intersection of decentralized technologies and social good
+              with blog posts, research papers, news, tutorials, and more from
+              FFDW and beyond., key: -27ce7a1
+            label: Text
+            name: '-27ce7a1'
+            widget: text
+          - hint: 'Original text: Topic, key: 4d3dd0f'
+            label: Text
+            name: 4d3dd0f
+            widget: string
+          - hint: 'Original text: Resource Type, key: 667cb80c'
+            label: Text
+            name: 667cb80c
+            widget: string
+          - hint: 'Original text: Filter, key: 7d6db798'
+            label: Text
+            name: 7d6db798
+            widget: string
+          - hint: 'Original text: Filter by:, key: 1a28363b'
+            label: Text
+            name: 1a28363b
+            widget: string
+          - hint: 'Original text: Clear All, key: 2b99750e'
+            label: Text
+            name: 2b99750e
+            widget: string
+          - hint: 'Original text: Done, key: 2097a2'
+            label: Text
+            name: 2097a2
+            widget: string
+          - hint: 'Original text: Sort, key: 2769be'
+            label: Text
+            name: 2769be
+            widget: string
+          - hint: 'Original text: Date (Newest), key: -4d4f0033'
+            label: Text
+            name: '-4d4f0033'
+            widget: string
+          - hint: 'Original text: Date (Oldest), key: -d82972c'
+            label: Text
+            name: '-d82972c'
+            widget: string
+          - hint: 'Original text: Title (A/Z), key: 26edafdd'
+            label: Text
+            name: 26edafdd
+            widget: string
+          - hint: 'Original text: Title (Z/A), key: 26f90a1d'
+            label: Text
+            name: 26f90a1d
+            widget: string
+          - hint: 'Original text: Source (A/Z), key: -25cfc60'
+            label: Text
+            name: '-25cfc60'
+            widget: string
+          - hint: 'Original text: Source (Z/A), key: -251a220'
+            label: Text
+            name: '-251a220'
+            widget: string
+          - hint: >-
+              Original text: This is some text inside of a div block., key:
+              7635fb4f
+            label: Text
+            name: 7635fb4f
+            widget: string
+          - hint: 'Original text: Tag template, key: 74472e60'
+            label: Text
+            name: '74472e60'
+            widget: string
+          - hint: 'Original text: No results found., key: 6846475'
+            label: Text
+            name: '6846475'
+            widget: string
+          - hint: >-
+              Original text: Have something great to add to the DWeb Impact
+              Resources? We want to know!, key: 1ddcf9aa
+            label: Text
+            name: 1ddcf9aa
+            widget: string
+          - hint: 'Original text: Submit a Resource, key: -3b1a420b'
+            label: Text
+            name: '-3b1a420b'
             widget: string
           - hint: 'Original text: Terms & Conditions, key: 4f912d2b'
             label: Text
@@ -3523,6 +3523,10 @@ collections:
             label: Link
             name: 5c7d819
             widget: string
+          - hint: 'Original link: /resources#contribute, key: 651c5a3a'
+            label: Link
+            name: 651c5a3a
+            widget: string
           - hint: 'Original link: /get-involved/, key: 7894e442'
             label: Link
             name: '7894e442'
@@ -3534,14 +3538,6 @@ collections:
           - hint: 'Original link: /get-involved#careers, key: f66fbbf'
             label: Link
             name: f66fbbf
-            widget: string
-          - hint: 'Original link: /awards/, key: -11cf5dd6'
-            label: Link
-            name: '-11cf5dd6'
-            widget: string
-          - hint: 'Original link: /resources#reach-out, key: -5a6e0d79'
-            label: Link
-            name: '-5a6e0d79'
             widget: string
           - hint: 'Original link: /contact/, key: 16bdc13e'
             label: Link
@@ -3710,6 +3706,10 @@ collections:
             label: Link
             name: 54ce0b32
             widget: string
+          - hint: 'Original link: /awards/, key: -11cf5dd6'
+            label: Link
+            name: '-11cf5dd6'
+            widget: string
           - hint: >-
               Original link:
               http://www.allaboutcookies.org/manage-cookies/index.html, key:
@@ -3721,16 +3721,16 @@ collections:
             label: Link
             name: 5fe860f1
             widget: string
+          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
+            label: Link
+            name: '-614d2a6e'
+            widget: string
           - hint: >-
               Original link:
               https://airtable.com/appqYx2g5gO6GX8jL/shrhkHIBbGxLnGGZh, key:
               -463eb30a
             label: Link
             name: '-463eb30a'
-            widget: string
-          - hint: 'Original link: https://www.google.com, key: -614d2a6e'
-            label: Link
-            name: '-614d2a6e'
             widget: string
       - label: Images
         name: images
@@ -4807,7 +4807,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 44c3be01
+            name: 154fb0f9
             widget: object
             fields:
               - name: url
@@ -4820,7 +4820,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 154fb0f9
+            name: 44c3be01
             widget: object
             fields:
               - name: url
