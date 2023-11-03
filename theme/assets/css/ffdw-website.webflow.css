@@ -2472,6 +2472,7 @@ blockquote {
 .home-subscribe-wrapper {
   color: var(--cararra);
   margin-top: 3rem;
+  display: none;
 }
 
 .subscription-form {
@@ -3956,6 +3957,8 @@ blockquote {
 
 .filter-form_button-link-to-top-icon {
   width: 1rem;
+  transform-style: preserve-3d;
+  transform: rotateX(180deg)rotateY(0)rotateZ(0);
 }
 
 @media screen and (min-width: 1920px) {
