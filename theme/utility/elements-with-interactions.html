@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="sg-wrapper">
     <h1>{{ texts.-83633f5 }}</h1>
@@ -238,7 +241,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content"><img src="{{ images.317f733b.url }}" loading="lazy" alt="{{ images.317f733b.alt | trim | escape }}" class="square-image">
+        <div class="accordion_header-content">{%- image "https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg", "", '[]', 'loading="lazy" class="square-image"' -%}
           <div class="accordion_text-wrapper">
             <div class="accordion_title">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>
@@ -305,7 +308,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content reverse"><img src="{{ images.317f733b.url }}" loading="lazy" alt="{{ images.317f733b.alt | trim | escape }}" class="square-image">
+        <div class="accordion_header-content reverse">{%- image "https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg", "", '[]', 'loading="lazy" class="square-image"' -%}
           <div class="accordion_text-wrapper">
             <div class="accordion_title reverse">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>

@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="master-container theme-dark">
     <div class="w-embed">
@@ -338,13 +341,13 @@ body:has(.navbar .w--open) {
         <div class="navigation-grid w-container">
           <div class="navigation_content">
             <div class="brand-wrapper">
-              <a href="{{ links.2f }}" class="logo-button white w-inline-block"><img src="{{ images.27789c17.url }}" loading="lazy" alt="{{ images.27789c17.alt | trim | escape }}" class="logo"></a>
-              <a href="{{ links.2f }}" class="logo-button haiti w-inline-block"><img src="{{ images.-2a484e45.url }}" loading="lazy" alt="{{ images.-2a484e45.alt | trim | escape }}" class="logo"></a>
+              <a href="{{ links.2f }}" class="logo-button white w-inline-block">{%- image "/assets/images/logo-white.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
+              <a href="{{ links.2f }}" class="logo-button haiti w-inline-block">{%- image "/assets/images/logo.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
             </div>
             <div class="navbar_desktop-navigation">
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.61642f31 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current on-light"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
-                  <div>{{ texts.-377645da }}</div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-light"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.61642f31 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current on-light"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.-377645da }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-light"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.61642f31 }}" class="subnav-link">{{ texts.-377645da }}</a>
@@ -400,8 +403,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.-3a6846d5 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
-                  <div>{{ texts.15309273 }}</div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.-3a6846d5 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.15309273 }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.-3a6846d5 }}" class="subnav-link">{{ texts.-6d7bfef4 }}</a>
@@ -457,8 +460,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.5c7d819 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
-                  <div>{{ texts.13ede05 }}<br></div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.5c7d819 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.13ede05 }}<br></div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.5c7d819 }}" class="subnav-link">{{ texts.13ede05 }}</a>
@@ -478,8 +481,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.7894e442 }}" class="nav-link w-inline-block"><img src="{{ images.2ef02ade.url }}" loading="lazy" alt="{{ images.2ef02ade.alt | trim | escape }}" class="visible-on-current"><img src="{{ images.-1f07ec4c.url }}" loading="lazy" alt="{{ images.-1f07ec4c.alt | trim | escape }}" class="visible-on-current on-dark">
-                  <div>{{ texts.4422b111 }}</div><img src="{{ images.6d00a917.url }}" loading="lazy" alt="{{ images.6d00a917.alt | trim | escape }}" class="nav-link__icon opacity-on-hover"><img src="{{ images.1f0891ed.url }}" loading="lazy" alt="{{ images.1f0891ed.alt | trim | escape }}" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.7894e442 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.4422b111 }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.7894e442 }}" class="subnav-link">{{ texts.4422b111 }}</a>
@@ -704,7 +707,7 @@ body:has(.navbar .w--open) {
             <div class="menu-button w-nav-button">
               <div class="menu-line-wrapper">
                 <div class="menu-button_line1"></div>
-                <div class="menu-button_line2"></div><img src="{{ images.423ffbb4.url }}" loading="lazy" alt="{{ images.423ffbb4.alt | trim | escape }}" class="icon-close">
+                <div class="menu-button_line2"></div>{%- image "/assets/images/icon-close.svg", "", '[]', 'loading="lazy" class="icon-close"' -%}
               </div>
             </div>
           </div>
@@ -719,13 +722,13 @@ body:has(.navbar .w--open) {
       </div>
       <header class="header-variant-2">
         <div class="container-flex align-center">
-          <div class="col-push-left-1"><img class="header_mobile-image" src="{{ images.1e78f8c1.url }}" alt="{{ images.1e78f8c1.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 82vw, 100vw" loading="lazy">
+          <div class="col-push-left-1">{%- image "/assets/images/close-up-of-hands-typing-on-laptop.jpg", "", '[{"max":479,"size":"83vw"},{"max":10000,"size":"100vw"}]', 'class="header_mobile-image" loading="lazy"' -%}
             <h1 aria-label="Here's where you can find us" class="contact-desktop-title">{{ texts.3f87903 }}<span class="contact-title-image-1"> </span><br>{{ texts.38afe1 }}<span class="contact-title-arrow-1">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ texts.4a3b30 }}<span class="contact-title-arrow-2"> </span><br><span class="contact-find-us-spacer"> </span>{{ texts.-32db759b }}<br><span class="contact-title-image-3"> &nbsp;&nbsp;&nbsp;</span></h1>
           </div>
         </div>
         <section class="header_panel-bottom">
           <div class="container-flex align-center">
-            <div class="col-5"><img class="header_image-offset" src="{{ images.4aac9c41.url }}" alt="{{ images.4aac9c41.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;36vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;408.328125px&quot;}]" sizes="(max-width: 479px) 86vw, (max-width: 991px) 36vw, 408.328125px" loading="lazy"></div>
+            <div class="col-5">{%- image "/assets/images/person-standing-beside-another-person-at-desk.jpeg", "", '[{"max":479,"size":"86vw"},{"max":991,"size":"36vw"},{"max":10000,"size":"408.328125px"}]', 'class="header_image-offset" loading="lazy"' -%}</div>
             <div class="col-push-left-2 col-5">
               <div class="text-block-margin-medium">
                 <div class="header_description-variant-2">{{ texts.-72bf4c4a }}</div>
@@ -739,7 +742,7 @@ body:has(.navbar .w--open) {
       <section id="learn" class="sectional learn-sectional">
         <div class="container-flex">
           <div class="learn-section_col">
-            <div class="learn-section_col-content"><img src="{{ images.3aab6373.url }}" loading="lazy" alt="{{ images.3aab6373.alt | trim | escape }}" class="col-icon">
+            <div class="learn-section_col-content">{%- image "/assets/images/phonebook.svg", "", '[]', 'loading="lazy" class="col-icon"' -%}
               <h3 class="col-heading">{{ texts.-64104400 }}</h3>
               <div class="richtext-content white w-richtext">
                 <p>{{ texts.-45128f13 }}<a href="{{ links.-306942a8 }}">{{ texts.3d7df860 }}</a>
@@ -748,7 +751,7 @@ body:has(.navbar .w--open) {
             </div>
           </div>
           <div class="learn-section_col padding-left">
-            <div class="learn-section_col-content"><img src="{{ images.5042d6c8.url }}" loading="lazy" alt="{{ images.5042d6c8.alt | trim | escape }}" class="col-icon">
+            <div class="learn-section_col-content">{%- image "/assets/images/pixel-twitter.svg", "", '[]', 'loading="lazy" class="col-icon"' -%}
               <h3 class="col-heading">{{ texts.-6c12fc73 }}</h3>
               <div class="richtext-content white w-richtext">
                 <p>
@@ -772,7 +775,7 @@ body:has(.navbar .w--open) {
             </div>
           </div>
           <div class="learn-section_col last">
-            <div class="learn-section_col-content"><img src="{{ images.-11887599.url }}" loading="lazy" alt="{{ images.-11887599.alt | trim | escape }}" class="col-icon">
+            <div class="learn-section_col-content">{%- image "/assets/images/box.svg", "", '[]', 'loading="lazy" class="col-icon"' -%}
               <h3 class="col-heading">{{ texts.-7bc27f6b }}</h3>
               <div class="richtext-content white w-richtext">
                 <p>{{ texts.-29f21189 }}</p>
@@ -798,7 +801,7 @@ body:has(.navbar .w--open) {
             </div>
             <div class="col-heading h1">{{ texts.397ad26d }}</div>
           </div>
-          <div class="col-2 relative"><img src="{{ images.-4a5124a.url }}" loading="lazy" alt="{{ images.-4a5124a.alt | trim | escape }}" sizes="(max-width: 767px) 57vw, (max-width: 991px) 43vw, 326.65625px" class="col-image"></div>
+          <div class="col-2 relative">{%- image "/assets/images/person-working-at-computer.png", "", '[]', 'loading="lazy" class="col-image"' -%}</div>
         </div>
       </div>
       <div class="sectional form-sectional">
@@ -844,7 +847,7 @@ body:has(.navbar .w--open) {
       <section class="footer_panel-top">
         <div class="footer_grid">
           <div class="footer_col-4">
-            <a href="{{ links.2f }}" class="logo-button--footer w-inline-block"><img src="{{ images.-2a484e45.url }}" loading="lazy" alt="{{ images.-2a484e45.alt | trim | escape }}" class="footer_logo"></a>
+            <a href="{{ links.2f }}" class="logo-button--footer w-inline-block">{%- image "/assets/images/logo.svg", "", '[]', 'loading="lazy" class="footer_logo"' -%}</a>
           </div>
           <div class="footer_col-6">
             <div class="footer_links-list">

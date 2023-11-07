@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="w-embed">
     <style>
@@ -351,7 +354,7 @@ a:hover .move-on-hover {
                 <a href="{{ links.-614d2a6e }}">{{ texts.3610230d }}</a>
               </p>
               <figure class="w-richtext-align-center w-richtext-figure-type-image">
-                <div><img src="{{ images.154fb0f9.url }}" loading="lazy" alt="{{ images.154fb0f9.alt | trim | escape }}"></div>
+                <div>{%- image "/assets/images/ffdw-general-open-graph-image.png", "", '[]', 'loading="lazy"' -%}</div>
               </figure>
             </div>
           </div>
