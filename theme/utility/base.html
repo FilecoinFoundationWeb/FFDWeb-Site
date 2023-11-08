@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="sg-wrapper">
     <div class="w-embed">
@@ -240,14 +243,14 @@ a:hover .move-on-hover {
       <div class="sg-section_content">
         <div class="sg-element-wrapper">
           <div class="sg-element">
-            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="{{ images.27789c17.url }}" loading="lazy" alt="{{ images.27789c17.alt | trim | escape }}" class="logo"></a>
+            <a href="{{ links.2f }}" class="logo-button w-inline-block">{%- image "/assets/images/logo-white.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
           </div>
           <div class="divider"></div>
           <div>{{ texts.-39839a8c }}</div>
         </div>
         <div class="sg-element-wrapper">
           <div class="sg-element bg-green-yellow">
-            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="{{ images.-2a484e45.url }}" loading="lazy" alt="{{ images.-2a484e45.alt | trim | escape }}" class="logo"></a>
+            <a href="{{ links.2f }}" class="logo-button w-inline-block">{%- image "/assets/images/logo.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
           </div>
           <div class="divider"></div>
           <div>{{ texts.-3a5a29b0 }}</div>
