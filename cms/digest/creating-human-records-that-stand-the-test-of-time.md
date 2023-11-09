@@ -6,9 +6,11 @@ published-on: 2023-10-16T17:14:41.958Z
 f_issue: 1
 f_article: 3
 f_description: How blockchains are preserving evidence for the long term
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Adam Rose and Basile Simon
 f_author-profile:
-  url: ""
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:14:41.964Z
