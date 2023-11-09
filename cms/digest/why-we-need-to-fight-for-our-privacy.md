@@ -8,7 +8,11 @@ f_article: 10
 f_description: In this digital age, we need to learn the importance of privacy
   and change our attitudes about our data, instead of just accepting the
   conventional wisdom.
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Naomi Brockwell
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z
