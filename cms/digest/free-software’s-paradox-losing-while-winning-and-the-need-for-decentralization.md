@@ -9,7 +9,11 @@ f_article: 5
 f_description: Free and open source projects have been successful, but have not
   achieved the goal of giving users true access and control over the code they
   use. To get there, projects need to embrace decentralization.
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Holmes Wilson
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:52:37.945Z
