@@ -6,7 +6,11 @@ published-on: 2023-09-15T17:01:01.693Z
 f_issue: 1
 f_article: 2
 f_description: Your inalienable right to live rent-free inside your own head
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Danny O'Brien
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-09-15T17:01:01.699Z
@@ -82,7 +86,3 @@ The place where everything about human nature starts, and ends, is within our ow
 Our own consciousness cannot be rented from others, or temporarily conceded to us, with built-in police or backdoors or hidden ad men. We need to seize the means of computation, and that means ejecting all of these interlopers, and relocating it back into the personal domain we control: whether that's physically, or by using tools like encryption and zero-knowledge proofs to preserve our control when our data and processing power sits on others' hardware.
 
 That's the pyramid of digital rights for me: a firm foundation of decentralized, user-controlled technology, giving us broader cognitive liberty, internal privacy, freedom of self-expression, and freedom of self-determination. On top of that solid ground, we can build a society that's free and fair. And then we can have the ability and freedom to self-reflect, to talk, and to plot our better shared future together, free at last in our digital environment.
-
-
-
->
