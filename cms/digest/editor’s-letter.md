@@ -5,7 +5,11 @@ updated-on: 2023-09-06T17:57:51.625Z
 published-on: 2023-09-06T17:57:51.681Z
 f_issue: 1
 f_article: 1
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Mike Masnick
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-09-06T17:57:51.721Z
