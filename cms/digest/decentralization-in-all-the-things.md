@@ -8,7 +8,11 @@ f_article: 7
 f_description: Decentralization isn’t just a technological concept, but a
   framework that we can use to re-envision how society works today and in the
   future.
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Mike Masnick
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T18:18:29.424Z
