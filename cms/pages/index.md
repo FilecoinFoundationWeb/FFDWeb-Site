@@ -6,7 +6,7 @@ slug: ''
 tags: pages
 seo:
   noindex: false
-  title: ffdw-website
+  title: FFDWeb
 ---
 
 

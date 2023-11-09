@@ -4154,7 +4154,6 @@ blockquote {
 }
 
 .header-variant-4_image-3 {
-  width: 100%;
   margin-top: 40px;
   display: block;
 }
@@ -4503,6 +4502,7 @@ blockquote {
 }
 
 .title-digest {
+  min-height: 120px;
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 2rem;
