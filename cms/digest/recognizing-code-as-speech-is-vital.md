@@ -8,7 +8,11 @@ f_article: 8
 f_description: A more distributed web requires a global recognition that code is
   protected speech. Without it, our ability to build a decentralized world is
   greatly limited.
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Kurt Opsahl
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:44:40.696Z
