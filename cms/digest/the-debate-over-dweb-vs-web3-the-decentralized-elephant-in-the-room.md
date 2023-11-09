@@ -8,7 +8,11 @@ f_article: 4
 f_description: What matters in this discussion – in any discussion about
   technology, really – is who’s designing it, who controls it, and who stands to
   benefit?
+f_image:
+  url: /assets/images/digest-placeholder.png
 f_author: Mai Ishikawa Sutton
+f_author-profile:
+  url: /assets/images/profile-placeholder.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:27:25.391Z
