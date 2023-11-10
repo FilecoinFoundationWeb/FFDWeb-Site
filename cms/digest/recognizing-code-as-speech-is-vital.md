@@ -12,7 +12,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Kurt Opsahl
 f_author-profile:
-  url: /assets/images/profile-placeholder.jpeg
+  url: /assets/images/kurt_opsahl.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:44:40.696Z
