@@ -13,7 +13,7 @@ f_image:
 f_author: Farzaneh Badiei
 f_author-profile:
   alt: ""
-  url: /assets/images/profile-placeholder.jpeg
+  url: /assets/images/farazenah.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:47:09.140Z
