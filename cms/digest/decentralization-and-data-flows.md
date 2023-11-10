@@ -4,7 +4,7 @@ created-on: 2023-10-18T19:00:51.708Z
 updated-on: 2023-10-18T19:00:51.715Z
 published-on: 2023-10-18T19:00:51.722Z
 f_issue: 1
-f_article: 7
+f_article: 11
 f_description: There is more to decentralization than just where the data is
   stored. How the data flows and whether it is portable is important to
   achieving the true benefits of decentralization.
