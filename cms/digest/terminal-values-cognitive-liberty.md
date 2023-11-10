@@ -10,7 +10,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Danny O'Brien
 f_author-profile:
-  url: /assets/images/profile-placeholder.jpeg
+  url: /assets/images/danny-2.jpg
 tags: digest
 layout: "[digest].html"
 date: 2023-09-15T17:01:01.699Z
