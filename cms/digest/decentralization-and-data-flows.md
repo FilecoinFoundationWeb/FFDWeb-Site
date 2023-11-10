@@ -12,7 +12,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Chris Riley
 f_author-profile:
-  url: /assets/images/profile-placeholder.jpeg
+  url: /assets/images/chris-riley.jpeg
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:00:51.728Z
