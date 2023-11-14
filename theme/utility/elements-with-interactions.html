@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="654e2319fac1a92339313121" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="65522bc7afaffb04e9fc7cdb" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="sg-wrapper">
     <h1>{{ texts.-83633f5 }}</h1>
@@ -143,6 +146,12 @@ input:invalid(:not(:placeholder-shown)) + .validation-message,
 textarea:invalid(:not(:placeholder-shown)) + .validation-message {
   display: block;
 }
+picture {
+ width: 100%;
+}
+picture > img {
+ width: 100%;
+}
 .submitted input:invalid + .error-message {
   display: block;
 }
@@ -238,7 +247,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content"><img src="/assets/external/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="square-image">
+        <div class="accordion_header-content">{%- image "/assets/external/placeholder.60f9b1840c.svg", "", '[]', 'loading="lazy" class="square-image"' -%}
           <div class="accordion_text-wrapper">
             <div class="accordion_title">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>
@@ -305,7 +314,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content reverse"><img src="/assets/external/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="square-image">
+        <div class="accordion_header-content reverse">{%- image "/assets/external/placeholder.60f9b1840c.svg", "", '[]', 'loading="lazy" class="square-image"' -%}
           <div class="accordion_text-wrapper">
             <div class="accordion_title reverse">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>
@@ -450,6 +459,12 @@ document.addEventListener('DOMContentLoaded', () => {
   	el.addEventListener('input', () => {
       el.classList.remove('submitted');
     })
+  });
+  const pictureElements = document.querySelectorAll('picture');
+  pictureElements.forEach(pictureElement => {
+    [...pictureElement.attributes].forEach(attr => {
+      pictureElement.removeAttribute(attr.name);
+    });
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")

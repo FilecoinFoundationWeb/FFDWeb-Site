@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="654e2319fac1a92339313126" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="65522bc7afaffb04e9fc7ce0" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -18,7 +18,10 @@
   <!--  Plausible  -->
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div id="modal" class="modal-wrapper closed">
     <div class="modal-content">
@@ -99,6 +102,12 @@ document.addEventListener('DOMContentLoaded', () => {
   	el.addEventListener('input', () => {
       el.classList.remove('submitted');
     })
+  });
+  const pictureElements = document.querySelectorAll('picture');
+  pictureElements.forEach(pictureElement => {
+    [...pictureElement.attributes].forEach(attr => {
+      pictureElement.removeAttribute(attr.name);
+    });
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")

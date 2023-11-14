@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="654e2319fac1a92339313117" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="65522bc7afaffb04e9fc7cd1" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -23,7 +23,10 @@
 </style>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="master-container">
     <div class="w-embed">
@@ -147,6 +150,12 @@ input:invalid(:not(:placeholder-shown)) + .validation-message,
 textarea:invalid(:not(:placeholder-shown)) + .validation-message {
   display: block;
 }
+picture {
+ width: 100%;
+}
+picture > img {
+ width: 100%;
+}
 .submitted input:invalid + .error-message {
   display: block;
 }
@@ -221,6 +230,58 @@ a:hover .move-on-hover {
     max-width: 100%;
   }
 }
+</style>
+    </div>
+    <div class="w-embed">
+      <style>
+  .blog-card {
+    padding: 1rem calc(50% - 30.125rem);
+  }
+  .blog-card_information .w-dyn-item:last-of-type div:last-of-type {
+    display: none;
+  }
+  .blog-card_image {
+    width: 14.5rem;
+  }
+  .blog-post:nth-of-type(odd) .arrow-image {
+    transform: rotate(180deg);
+  }
+  .blog-post:nth-of-type(even) .blog-card_content {
+    grid-template-columns: 1fr auto;
+  }
+  .blog-post:hover .arrow-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_image {
+    width: 19.5rem;
+  }
+  .blog-post:hover .blog-card_background {
+    opacity: 1;
+  }
+  .blog-post:last-of-type .blog-card-border-bottom {
+    display: block;
+  }
+  .blog-card_image {
+    grid-area: image;
+  }
+  .blog-card_panel-text {
+    grid-area: text; 
+  }
+  @media screen and (min-width: 768px) {
+    .blog-post:nth-of-type(even) .blog-card_content {
+      grid-template-areas: "text image";
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .blog-post:nth-of-type(odd) .arrow-image {
+      transform: rotate(0deg);
+    }
+  }
+  html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
+    display: none;
+  }
 </style>
     </div>
     <div class="header-selector">
@@ -343,13 +404,13 @@ body:has(.navbar .w--open) {
         <div class="navigation-grid w-container">
           <div class="navigation_content">
             <div class="brand-wrapper">
-              <a href="{{ links.2f }}" class="logo-button white w-inline-block"><img src="/assets/images/logo-white.svg" loading="lazy" alt="" class="logo"></a>
-              <a href="{{ links.2f }}" class="logo-button haiti w-inline-block"><img src="/assets/images/logo.svg" loading="lazy" alt="" class="logo"></a>
+              <a href="{{ links.2f }}" class="logo-button white w-inline-block">{%- image "/assets/images/logo-white.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
+              <a href="{{ links.2f }}" class="logo-button haiti w-inline-block">{%- image "/assets/images/logo.svg", "", '[]', 'loading="lazy" class="logo"' -%}</a>
             </div>
             <div class="navbar_desktop-navigation">
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.61642f31 }}" class="nav-link w-inline-block"><img src="/assets/images/icon-star-white.svg" loading="lazy" alt="" class="visible-on-current on-light"><img src="/assets/images/icon-star-black.svg" loading="lazy" alt="" class="visible-on-current on-dark">
-                  <div>{{ texts.-377645da }}</div><img src="/assets/images/icon-finger-up-white.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover on-light"><img src="/assets/images/icon-finger-up-black.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.61642f31 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current on-light"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.-377645da }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-light"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.61642f31 }}" class="subnav-link">{{ texts.-377645da }}</a>
@@ -405,8 +466,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.-3a6846d5 }}" class="nav-link w-inline-block"><img src="/assets/images/icon-star-white.svg" loading="lazy" alt="" class="visible-on-current"><img src="/assets/images/icon-star-black.svg" loading="lazy" alt="" class="visible-on-current on-dark">
-                  <div>{{ texts.15309273 }}</div><img src="/assets/images/icon-finger-up-white.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover"><img src="/assets/images/icon-finger-up-black.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.-3a6846d5 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.15309273 }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.-3a6846d5 }}" class="subnav-link">{{ texts.-6d7bfef4 }}</a>
@@ -462,8 +523,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.5c7d819 }}" class="nav-link w-inline-block"><img src="/assets/images/icon-star-white.svg" loading="lazy" alt="" class="visible-on-current"><img src="/assets/images/icon-star-black.svg" loading="lazy" alt="" class="visible-on-current on-dark">
-                  <div>{{ texts.13ede05 }}<br></div><img src="/assets/images/icon-finger-up-white.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover"><img src="/assets/images/icon-finger-up-black.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.5c7d819 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.13ede05 }}<br></div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.5c7d819 }}" class="subnav-link">{{ texts.13ede05 }}</a>
@@ -483,8 +544,8 @@ body:has(.navbar .w--open) {
                 </div>
               </div>
               <div class="nav-link-wrapper-with-subnav">
-                <a href="{{ links.7894e442 }}" class="nav-link w-inline-block"><img src="/assets/images/icon-star-white.svg" loading="lazy" alt="" class="visible-on-current"><img src="/assets/images/icon-star-black.svg" loading="lazy" alt="" class="visible-on-current on-dark">
-                  <div>{{ texts.4422b111 }}</div><img src="/assets/images/icon-finger-up-white.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover"><img src="/assets/images/icon-finger-up-black.svg" loading="lazy" alt="" class="nav-link__icon opacity-on-hover on-dark">
+                <a href="{{ links.7894e442 }}" class="nav-link w-inline-block">{%- image "/assets/images/icon-star-white.svg", "", '[]', 'loading="lazy" class="visible-on-current"' -%}{%- image "/assets/images/icon-star-black.svg", "", '[]', 'loading="lazy" class="visible-on-current on-dark"' -%}
+                  <div>{{ texts.4422b111 }}</div>{%- image "/assets/images/icon-finger-up-white.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover"' -%}{%- image "/assets/images/icon-finger-up-black.svg", "", '[]', 'loading="lazy" class="nav-link__icon opacity-on-hover on-dark"' -%}
                 </a>
                 <div class="nav-link_subnav">
                   <a href="{{ links.7894e442 }}" class="subnav-link">{{ texts.4422b111 }}</a>
@@ -709,7 +770,7 @@ body:has(.navbar .w--open) {
             <div class="menu-button w-nav-button">
               <div class="menu-line-wrapper">
                 <div class="menu-button_line1"></div>
-                <div class="menu-button_line2"></div><img src="/assets/images/icon-close.svg" loading="lazy" alt="" class="icon-close">
+                <div class="menu-button_line2"></div>{%- image "/assets/images/icon-close.svg", "", '[]', 'loading="lazy" class="icon-close"' -%}
               </div>
             </div>
           </div>
@@ -719,7 +780,7 @@ body:has(.navbar .w--open) {
         <div class="breadcrumbs">
           <a href="{{ links.2f }}" class="breadcrumb_link">{{ texts.2268ff }}</a>
           <div class="breadcrumb_divider">{{ texts.7fc2 }}</div>
-          <div>{{ texts.15e596d4 }}</div>
+          <div>{{ texts.1fa3c2 }}</div>
         </div>
       </div>
       <div id="blog-header" class="sectional reach-sectional">
@@ -744,7 +805,7 @@ body:has(.navbar .w--open) {
     background-color: #bafe36;
 }
 </style>
-              </div><img loading="lazy" alt="" src="/assets/images/people-sitting-on-laptops-at-a-work-table.jpeg" sizes="(max-width: 767px) 57vw, (max-width: 991px) 43vw, 326.65625px" srcset="/assets/images/people-sitting-on-laptops-at-a-work-table-p-500.jpeg 500w, /assets/images/people-sitting-on-laptops-at-a-work-table-p-800.jpeg 800w, /assets/images/people-sitting-on-laptops-at-a-work-table.jpeg 1000w" class="col-image">
+              </div>{%- image "/assets/images/people-sitting-on-laptops-at-a-work-table.jpeg", "", '[]', 'loading="lazy" class="col-image"' -%}
             </div>
           </div>
         </div>
@@ -757,8 +818,8 @@ body:has(.navbar .w--open) {
         </div>
         <div class="col-5-left-1">
           <div class="inline-search-form w-form">
-            <form id="wf-form-Inline-Search-Form" name="wf-form-Inline-Search-Form" data-name="inline_search" action="https://search" method="get" class="search-filter-bar" data-wf-page-id="654e2319fac1a92339313117" data-wf-element-id="f078fc4a-753d-2369-7893-0df13c5116fc">
-              <div class="search-icon-container"><img src="/assets/images/search-icon.svg" loading="lazy" alt="" class="filter-form_search-icon"></div><input type="text" class="search-input w-input" maxlength="256" name="q" data-name="q" placeholder="Search" id="q">
+            <form id="wf-form-Inline-Search-Form" name="wf-form-Inline-Search-Form" data-name="inline_search" action="https://search" method="get" class="search-filter-bar" data-wf-page-id="65522bc7afaffb04e9fc7cd1" data-wf-element-id="f078fc4a-753d-2369-7893-0df13c5116fc">
+              <div class="search-icon-container">{%- image "/assets/images/search-icon.svg", "", '[]', 'loading="lazy" class="filter-form_search-icon"' -%}</div><input type="text" class="search-input w-input" maxlength="256" name="q" data-name="q" placeholder="Search" id="q">
             </form>
             <div class="hidden w-form-done">
               <div>{{ texts.5a0ea5a1 }}</div>
@@ -839,20 +900,20 @@ input.addEventListener('input', () => {
                 </div>{%- endfor -%}
               </div>{%- endunless -%}
             </div>
-            <a data-w-id="dfe154c1-070a-0066-69f0-256fec66fb5f" href="{{ item.url }}" class="blog-card_link w-inline-block">
+            <a data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c74" href="{{ item.url }}" class="blog-card_link w-inline-block">
               <div class="blog-card-border-top gradient-purple-green"></div>
               <div class="blog-card">
-                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;232px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
+                <div class="blog-card_content">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":479,"size":"86vw"},{"max":10000,"size":"232px"}]', 'loading="lazy" data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c78" class="blog-card_image"' -%}
                   <div class="blog-card_panel-text">
                     <div class="blog-card_title">{{ item.data.title }}</div>
                     <div class="blog-card_information">
                       <div>{{ item.data.f_post-date | formatDate: "MMMM d, yyyy" }}</div>
                       <div>{{ texts.7c }}</div>
                     </div>
-                    <div class="arrow-wrapper"><img src="/assets/images/icon-long-arrow-right.svg" loading="lazy" alt="" class="arrow-image"></div>
+                    <div data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c7f" class="arrow-wrapper">{%- image "/assets/images/icon-long-arrow-right.svg", "", '[]', 'loading="lazy" class="arrow-image"' -%}</div>
                   </div>
                 </div>
-                <div class="blog-card_background gradient-purple-green"></div>
+                <div data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c81" class="blog-card_background gradient-purple-green"></div>
               </div>
               <div class="blog-card-border-bottom gradient-purple-green"></div>
             </a>
@@ -866,20 +927,20 @@ input.addEventListener('input', () => {
                 </div>{%- endfor -%}
               </div>{%- endunless -%}
             </div>
-            <a data-w-id="dfe154c1-070a-0066-69f0-256fec66fb5f" href="{{ item.url }}" class="blog-card_link w-inline-block">
+            <a data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c74" href="{{ item.url }}" class="blog-card_link w-inline-block">
               <div class="blog-card-border-top gradient-purple-green"></div>
               <div class="blog-card">
-                <div class="blog-card_content"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;232px&quot;}]" loading="lazy" style="width:14.5rem" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-card_image">
+                <div class="blog-card_content">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":479,"size":"86vw"},{"max":10000,"size":"232px"}]', 'loading="lazy" data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c78" class="blog-card_image"' -%}
                   <div class="blog-card_panel-text">
                     <div class="blog-card_title">{{ item.data.title }}</div>
                     <div class="blog-card_information">
                       <div>{{ item.data.f_post-date | formatDate: "MMMM d, yyyy" }}</div>
                       <div>{{ texts.7c }}</div>
                     </div>
-                    <div class="arrow-wrapper"><img src="/assets/images/icon-long-arrow-right.svg" loading="lazy" alt="" class="arrow-image"></div>
+                    <div data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c7f" class="arrow-wrapper">{%- image "/assets/images/icon-long-arrow-right.svg", "", '[]', 'loading="lazy" class="arrow-image"' -%}</div>
                   </div>
                 </div>
-                <div class="blog-card_background gradient-purple-green"></div>
+                <div data-w-id="ad11a9fd-ed5f-b23f-0a34-bf3f9a364c81" class="blog-card_background gradient-purple-green"></div>
               </div>
               <div class="blog-card-border-bottom gradient-purple-green"></div>
             </a>
@@ -906,57 +967,12 @@ input.addEventListener('input', () => {
           <a pagination-action="last" href="{{ links.23 }}" class="pagination-button">{{ texts.2406b6 }}</a>
         </div>
       </div>
-      <div class="blog-custom-css w-embed">
-        <style>
-html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
- display: none;
-}
-.blog-card_information .w-dyn-item:last-of-type div:last-of-type {
-    display: none;
-}
-.blog-post:nth-of-type(odd) .arrow-image {
-  transform: rotate(180deg);
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.blog-post:hover .arrow-wrapper {
- opacity: 1;
-}
-.blog-post:hover .blog-card_image {
- width: 19.5rem;
-}
-.blog-post:hover .blog-card_background {
- opacity: 1;
-}
-.blog-card {
-    padding: 1rem calc(50% - 30.125rem);
-}
-.blog-post:last-of-type .blog-card-border-bottom {
- display: block;
-}
-@media screen and (min-width: 768px) {
-.blog-post:nth-of-type(even) .blog-card_content {
-	flex-direction: row-reverse;
-}
-.blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
- margin-right: 0;
- margin-left: 3rem;
-}
-}
-</style>
-      </div>
     </section>
     <footer id="site-footer" class="footer">
       <section class="footer_panel-top">
         <div class="footer_grid">
           <div class="footer_col-4">
-            <a href="{{ links.2f }}" class="logo-button--footer w-inline-block"><img src="/assets/images/logo.svg" loading="lazy" alt="" class="footer_logo"></a>
+            <a href="{{ links.2f }}" class="logo-button--footer w-inline-block">{%- image "/assets/images/logo.svg", "", '[]', 'loading="lazy" class="footer_logo"' -%}</a>
           </div>
           <div class="footer_col-6">
             <div class="footer_links-list">
@@ -1237,6 +1253,12 @@ document.addEventListener('DOMContentLoaded', () => {
   	el.addEventListener('input', () => {
       el.classList.remove('submitted');
     })
+  });
+  const pictureElements = document.querySelectorAll('picture');
+  pictureElements.forEach(pictureElement => {
+    [...pictureElement.attributes].forEach(attr => {
+      pictureElement.removeAttribute(attr.name);
+    });
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
