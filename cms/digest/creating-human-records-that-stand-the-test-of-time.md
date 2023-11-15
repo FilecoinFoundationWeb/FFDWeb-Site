@@ -10,7 +10,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Adam Rose and Basile Simon
 f_author-profile:
-  url: /assets/images/profile-placeholder.jpeg
+  url: /assets/images/dwd-profile-10.png
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:14:41.964Z
