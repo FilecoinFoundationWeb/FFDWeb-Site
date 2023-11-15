@@ -12,7 +12,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Naomi Brockwell
 f_author-profile:
-  url: /assets/images/nhb_p-0418w-1-copy.jpg
+  url: /assets/images/dwd-profile-07.png
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z
