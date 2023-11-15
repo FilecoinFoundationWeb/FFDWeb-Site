@@ -9,7 +9,7 @@ f_image:
   url: /assets/images/digest-placeholder.png
 f_author: Mike Masnick
 f_author-profile:
-  url: /assets/images/mike-masnick.png
+  url: /assets/images/dwd-profile-01.png
 tags: digest
 layout: "[digest].html"
 date: 2023-09-06T17:57:51.721Z
