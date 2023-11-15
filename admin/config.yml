@@ -188,6 +188,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: digest
     label: Digest Articles
     folder: cms/digest
@@ -286,6 +288,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: resources
     label: Resources
     folder: cms/resources
@@ -404,6 +408,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: project_partners
     label: Project Partners
     folder: cms/project-partners
@@ -482,6 +488,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: resource_topics
     label: Resource Topics
     folder: cms/resource-topics
@@ -522,6 +530,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: resource_type
     label: Resource Types
     folder: cms/resource-type
@@ -579,6 +589,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - name: tags
     label: Tags
     folder: cms/tags
@@ -619,6 +631,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - label: Theme Settings
     name: settings
     identifier_field: title
@@ -2015,18 +2029,6 @@ collections:
             label: Text
             name: 261dcf3
             widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
-              et arcu. Vivamus vitae vulputate elit. Fusce lobortis eleifend
-              commodo. Nulla sed nisl velit. Integer ante diam, tincidunt ut
-              blandit sed, vulputate vehicula mi. Proin sit amet tincidunt enim,
-              eu tincidunt mauris. Donec feugiat mollis pulvinar. Proin
-              tincidunt est ultrices ante ultricies, nec malesuada nunc
-              lacinia., key: -b380f47
-            label: Text
-            name: '-b380f47'
-            widget: text
           - hint: 'Original text: Together, let''s bring Web3 to life, key: 7465d535'
             label: Text
             name: 7465d535
@@ -2193,6 +2195,18 @@ collections:
             label: Text
             name: '-5230a9d2'
             widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
+              et arcu. Vivamus vitae vulputate elit. Fusce lobortis eleifend
+              commodo. Nulla sed nisl velit. Integer ante diam, tincidunt ut
+              blandit sed, vulputate vehicula mi. Proin sit amet tincidunt enim,
+              eu tincidunt mauris. Donec feugiat mollis pulvinar. Proin
+              tincidunt est ultrices ante ultricies, nec malesuada nunc
+              lacinia., key: -b380f47
+            label: Text
+            name: '-b380f47'
+            widget: text
           - hint: >-
               Original text: Filecoin Foundation and Filecoin Foundation for the
               Decentralized Web (collectively, "Filecoin Foundation," "we,"
