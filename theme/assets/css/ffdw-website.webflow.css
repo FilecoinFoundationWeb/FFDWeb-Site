@@ -3843,8 +3843,14 @@ blockquote {
   outline-style: solid;
 }
 
-.image-44, .image-45 {
-  opacity: 0;
+.image-44 {
+  opacity: 1;
+  outline-offset: 0px;
+  outline: 6px solid #070617;
+}
+
+.image-45 {
+  opacity: 1;
 }
 
 .resources-custom-css {
@@ -3960,6 +3966,11 @@ blockquote {
 .filter-form_button-link-to-top[data-wf-focus-visible] {
   outline-offset: .25rem;
   outline: .125rem solid #fb383f;
+}
+
+.filter-form_button-link-to-top.js-filter-form-button-link-to-top {
+  opacity: 0;
+  transition: opacity .2s;
 }
 
 .filter-form_button-link-to-top-text {
@@ -6744,17 +6755,17 @@ blockquote {
   }
 }
 
-#w-node-_10a95efa-0126-10cb-a48a-bbd6523ce511-39313129, #w-node-_854f2eca-160c-a470-ef23-a8d034d823b9-39313129, #w-node-_854f2eca-160c-a470-ef23-a8d034d823bb-39313129, #w-node-ef6a0f95-e4c0-9c2c-af0a-e684e0b37975-39313129 {
+#w-node-_10a95efa-0126-10cb-a48a-bbd6523ce511-79ec0b18, #w-node-_854f2eca-160c-a470-ef23-a8d034d823b9-79ec0b18, #w-node-_854f2eca-160c-a470-ef23-a8d034d823bb-79ec0b18, #w-node-ef6a0f95-e4c0-9c2c-af0a-e684e0b37975-79ec0b18 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-bebede71-dcda-205e-59e0-9ec1ced1e677-39313129 {
+#w-node-bebede71-dcda-205e-59e0-9ec1ced1e677-79ec0b18 {
   align-self: auto;
   justify-self: auto;
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-ef6a0f95-e4c0-9c2c-af0a-e684e0b37975-39313129 {
+  #w-node-ef6a0f95-e4c0-9c2c-af0a-e684e0b37975-79ec0b18 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
