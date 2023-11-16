@@ -10,6 +10,7 @@ f_image:
 f_author: Mike Masnick
 f_author-profile:
   url: /assets/images/dwd-profile-01.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-09-06T17:57:51.721Z
