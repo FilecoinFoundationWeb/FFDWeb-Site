@@ -13,6 +13,7 @@ f_image:
 f_author: Naomi Brockwell
 f_author-profile:
   url: /assets/images/dwd-profile-07.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z

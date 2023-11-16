@@ -13,6 +13,7 @@ f_image:
 f_author: Chris Riley
 f_author-profile:
   url: /assets/images/dwd-profile-08.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:00:51.728Z

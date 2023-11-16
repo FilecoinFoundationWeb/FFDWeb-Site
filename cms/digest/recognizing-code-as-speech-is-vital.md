@@ -13,6 +13,7 @@ f_image:
 f_author: Kurt Opsahl
 f_author-profile:
   url: /assets/images/dwd-profile-05.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:44:40.696Z

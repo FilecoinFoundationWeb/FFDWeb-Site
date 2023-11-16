@@ -11,6 +11,7 @@ f_image:
 f_author: Adam Rose and Basile Simon
 f_author-profile:
   url: /assets/images/dwd-profile-10.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:14:41.964Z

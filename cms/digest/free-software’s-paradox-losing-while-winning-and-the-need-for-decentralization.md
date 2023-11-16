@@ -14,6 +14,7 @@ f_image:
 f_author: Holmes Wilson
 f_author-profile:
   url: /assets/images/profile-placeholder.jpeg
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:52:37.945Z

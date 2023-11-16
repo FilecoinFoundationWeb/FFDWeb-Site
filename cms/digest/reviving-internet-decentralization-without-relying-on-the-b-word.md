@@ -14,6 +14,7 @@ f_author: Farzaneh Badiei
 f_author-profile:
   alt: ""
   url: /assets/images/dwd-profile-06.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:47:09.140Z

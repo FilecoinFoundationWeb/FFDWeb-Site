@@ -13,6 +13,7 @@ f_image:
 f_author: Mai Ishikawa Sutton
 f_author-profile:
   url: /assets/images/dwd-profile-03.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:27:25.391Z

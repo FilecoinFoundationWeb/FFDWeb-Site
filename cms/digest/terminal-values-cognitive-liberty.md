@@ -11,6 +11,7 @@ f_image:
 f_author: Danny O'Brien
 f_author-profile:
   url: /assets/images/dwd-profile-02.png
+f_author-bio: Lorem ipsum
 tags: digest
 layout: "[digest].html"
 date: 2023-09-15T17:01:01.699Z
