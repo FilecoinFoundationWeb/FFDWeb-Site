@@ -1269,6 +1269,7 @@ blockquote {
 .col-image {
   width: 100%;
   aspect-ratio: 1 / 1;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -4176,6 +4177,12 @@ blockquote {
   align-self: center;
 }
 
+.text-block-14 {
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 .col-2-digest-2 {
   flex-direction: column;
   flex: 0 33.3333%;
@@ -4552,6 +4559,13 @@ blockquote {
   aspect-ratio: 1 / 1;
 }
 
+.authorbio {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4375rem;
+}
+
 @media screen and (min-width: 1920px) {
   .icon-arrow.visible.move-on-hover {
     color: var(--haiti);
@@ -4693,6 +4707,10 @@ blockquote {
     justify-content: space-between;
     padding-left: .5rem;
     padding-right: .5rem;
+  }
+
+  .authorbio {
+    text-align: center;
   }
 }
 
@@ -6774,6 +6792,10 @@ blockquote {
 
   .image-47, .image-49 {
     margin-bottom: 10px;
+  }
+
+  .authorbio {
+    text-align: center;
   }
 }
 

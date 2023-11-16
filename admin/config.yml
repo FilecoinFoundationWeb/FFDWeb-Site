@@ -3,7 +3,7 @@ backend:
   accept_roles:
     - admin
     - editor
-  branch: digest
+  branch: main
 media_folder: theme/assets/images
 public_folder: /assets/images
 collections:
@@ -276,6 +276,11 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_author-bio
+        label: Author Bio
+        widget: string
+        required: false
       - label: Tags
         widget: hidden
         name: tags
