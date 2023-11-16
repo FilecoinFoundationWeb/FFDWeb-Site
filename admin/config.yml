@@ -1427,9 +1427,9 @@ collections:
             label: Text
             name: '-448d96a6'
             widget: text
-          - hint: 'Original text: GET IN TOUCH, key: -12b421f2'
+          - hint: 'Original text: Join Us, key: df13554'
             label: Text
-            name: '-12b421f2'
+            name: df13554
             widget: string
           - hint: 'Original text: FFDW Awards, key: 44beb143'
             label: Text
@@ -2196,10 +2196,6 @@ collections:
             label: Text
             name: 5838a7c4
             widget: text
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
-            label: Text
-            name: '-5230a9d2'
-            widget: string
           - hint: >-
               Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
@@ -3632,6 +3628,13 @@ collections:
           - hint: 'Original link: https://groundwork-consulting.com/, key: 51e648a0'
             label: Link
             name: 51e648a0
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.linkedin.com/company/filecoin-foundation/jobs/, key:
+              3595f33
+            label: Link
+            name: 3595f33
             widget: string
           - hint: >-
               Original link:
