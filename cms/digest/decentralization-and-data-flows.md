@@ -13,7 +13,7 @@ f_image:
 f_author: Chris Riley
 f_author-profile:
   url: /assets/images/dwd-profile-08.png
-f_author-bio: Lorem ipsum
+f_author-bio: Chris Riley is the executive director of the nonprofit Data Transfer Initiative and a distinguished research fellow at the Annenberg Public Policy Center at the University of Pennsylvania; he holds a Ph.D. in computer science from Johns Hopkins University and a J.D. from Yale Law School.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:00:51.728Z

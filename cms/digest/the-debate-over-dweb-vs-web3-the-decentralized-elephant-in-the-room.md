@@ -13,7 +13,7 @@ f_image:
 f_author: Mai Ishikawa Sutton
 f_author-profile:
   url: /assets/images/dwd-profile-03.png
-f_author-bio: Lorem ipsum
+f_author-bio: Mai Ishikawa Sutton is a senior organizer with DWeb projects, co-founder of Distributed.Press and COMPOST magazine, and contributor to Hypha Worker Co-op.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:27:25.391Z

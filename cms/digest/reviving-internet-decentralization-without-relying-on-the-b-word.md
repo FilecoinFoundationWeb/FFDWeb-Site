@@ -14,7 +14,7 @@ f_author: Farzaneh Badiei
 f_author-profile:
   alt: ""
   url: /assets/images/dwd-profile-06.png
-f_author-bio: Lorem ipsum
+f_author-bio: Farzaneh Badiei is a recovering academic and founded Digital Medusa to petrify the enemies of a global, interoperable Internet.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:47:09.140Z

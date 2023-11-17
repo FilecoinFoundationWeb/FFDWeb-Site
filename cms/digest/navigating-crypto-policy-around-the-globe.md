@@ -13,7 +13,7 @@ f_image:
 f_author: Kristin Smith
 f_author-profile:
   url: /assets/images/dwd-profile-04.png
-f_author-bio: Lorem ipsum
+f_author-bio: Kristin is CEO of Blockchain Association, the Washington, D.C.-based trade association representing more than 100 of the industry’s leading companies.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T18:01:20.051Z

@@ -13,7 +13,7 @@ f_image:
 f_author: Mike Masnick
 f_author-profile:
   url: /assets/images/dwd-profile-01.png
-f_author-bio: Lorem ipsum
+f_author-bio: Mike Masnick is the founder & editor of the popular Techdirt blog as well as the founder of the Silicon Valley think tank, the Copia Institute.  In both roles, he explores the intersection of technology, innovation, policy, law, civil liberties, and economics.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T18:18:29.424Z

@@ -13,7 +13,7 @@ f_image:
 f_author: Cory Doctorow
 f_author-profile:
   url: /assets/images/dwd-profile-09.png
-f_author-bio: Lorem ipsum
+f_author-bio: Cory Doctorow (craphound.com) is a science fiction author, activist and journalist. He is the author of many books, most recently RED TEAM BLUES, a science fiction crime thriller.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:06:45.805Z

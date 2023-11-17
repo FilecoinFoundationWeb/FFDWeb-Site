@@ -13,7 +13,7 @@ f_image:
 f_author: Naomi Brockwell
 f_author-profile:
   url: /assets/images/dwd-profile-07.png
-f_author-bio: Lorem ipsum
+f_author-bio: Naomi Brockwell is a tech journalist, creator of NBTV.media, and author of "Beginner's Introduction to Privacy"
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z
