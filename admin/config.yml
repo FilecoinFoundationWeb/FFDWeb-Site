@@ -234,7 +234,7 @@ collections:
         required: true
       - hint: ''
         name: f_description
-        label: Subtitle
+        label: Description
         widget: text
         required: false
       - hint: ''
@@ -736,17 +736,21 @@ collections:
             label: Text
             name: 645f0031
             widget: string
-          - hint: 'Original text: Promise > Vision, key: 506e07af'
+          - hint: 'Original text: Vision, key: -6741b7f8'
             label: Text
-            name: 506e07af
+            name: '-6741b7f8'
             widget: string
-          - hint: 'Original text: Board & Vision, key: 7455795c'
+          - hint: 'Original text: Board, key: 3d5fec6'
             label: Text
-            name: 7455795c
+            name: 3d5fec6
             widget: string
           - hint: 'Original text: Careers, key: -7bc27f6b'
             label: Text
             name: '-7bc27f6b'
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
             widget: string
           - hint: 'Original text: Explore, key: 15309273'
             label: Text
@@ -783,10 +787,6 @@ collections:
           - hint: 'Original text: Get Involved, key: 4422b111'
             label: Text
             name: 4422b111
-            widget: string
-          - hint: 'Original text: Apply for Awards, key: 39869d1f'
-            label: Text
-            name: 39869d1f
             widget: string
           - hint: 'Original text: Collaborators, key: 4bd3410d'
             label: Text
@@ -992,6 +992,12 @@ collections:
             label: Text
             name: 2e
             widget: string
+          - hint: >-
+              Original text: Introducing Starling Lab on YouTube., key:
+              -39119cbb
+            label: Text
+            name: '-39119cbb'
+            widget: string
           - hint: 'Original text: Introducing the Starling Lab, key: -613b9858'
             label: Text
             name: '-613b9858'
@@ -1022,6 +1028,18 @@ collections:
               key: -421fa511
             label: Text
             name: '-421fa511'
+            widget: string
+          - hint: 'Original text: Visit our Twitter page., key: 67c3f5e9'
+            label: Text
+            name: 67c3f5e9
+            widget: string
+          - hint: 'Original text: Visit our YouTube channel., key: -5051fdef'
+            label: Text
+            name: '-5051fdef'
+            widget: string
+          - hint: 'Original text: Visit our LinkedIn page., key: 6fe0e286'
+            label: Text
+            name: 6fe0e286
             widget: string
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
@@ -1145,6 +1163,10 @@ collections:
             label: Text
             name: '-208e8061'
             widget: text
+          - hint: 'Original text: Promise > Vision, key: 506e07af'
+            label: Text
+            name: 506e07af
+            widget: string
           - hint: >-
               Original text: We exist to advance humankind by bringing Web3 to
               life through education, research, and development., key: -68f4aae6
@@ -1657,10 +1679,6 @@ collections:
             label: Text
             name: 2406b6
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
           - hint: 'Original text: Here''s where, key: 3f87903'
             label: Text
             name: 3f87903
@@ -1759,10 +1777,6 @@ collections:
           - hint: 'Original text: Article, key: 379164d6'
             label: Text
             name: 379164d6
-            widget: string
-          - hint: 'Original text: Current Page, key: 5dd0e116'
-            label: Text
-            name: 5dd0e116
             widget: string
           - hint: 'Original text: Accordion - Variant 1, key: -83633f5'
             label: Text
@@ -2003,16 +2017,20 @@ collections:
             name: 2ac33ab9
             widget: string
           - hint: >-
+              Original text: Episode 1: Evolution of the Internet, key:
+              -70c263fe
+            label: Text
+            name: '-70c263fe'
+            widget: string
+          - hint: >-
               Original text: Episode 2: Return to Decentralization, key:
               37be95b8
             label: Text
             name: 37be95b8
             widget: string
-          - hint: >-
-              Original text: Episode 1: Evolution of the Internet, key:
-              -70c263fe
+          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
             label: Text
-            name: '-70c263fe'
+            name: 261dcf3
             widget: string
           - hint: >-
               Original text: Leveraging of the Dweb to Enhance Free Speech with
@@ -2029,10 +2047,6 @@ collections:
               -a40a887
             label: Text
             name: '-a40a887'
-            widget: string
-          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
-            label: Text
-            name: 261dcf3
             widget: string
           - hint: 'Original text: Together, let''s bring Web3 to life, key: 7465d535'
             label: Text
@@ -2196,6 +2210,10 @@ collections:
             label: Text
             name: 5838a7c4
             widget: text
+          - hint: 'Original text: Current Page, key: 5dd0e116'
+            label: Text
+            name: 5dd0e116
+            widget: string
           - hint: >-
               Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Nullam velit ipsum, tincidunt sit amet semper nec, fermentum
@@ -3526,6 +3544,10 @@ collections:
             label: Link
             name: '-7e16aa10'
             widget: string
+          - hint: 'Original link: /contact/, key: 16bdc13e'
+            label: Link
+            name: 16bdc13e
+            widget: string
           - hint: 'Original link: /explore/, key: -3a6846d5'
             label: Link
             name: '-3a6846d5'
@@ -3558,17 +3580,9 @@ collections:
             label: Link
             name: '7894e442'
             widget: string
-          - hint: 'Original link: /get-involved#grants, key: -5ade3973'
-            label: Link
-            name: '-5ade3973'
-            widget: string
           - hint: 'Original link: /get-involved#careers, key: f66fbbf'
             label: Link
             name: f66fbbf
-            widget: string
-          - hint: 'Original link: /contact/, key: 16bdc13e'
-            label: Link
-            name: 16bdc13e
             widget: string
           - hint: >-
               Original link:
@@ -3697,41 +3711,6 @@ collections:
               4976ef3
             label: Link
             name: 4976ef3
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeigofseri6ba3ygirfpdt65odyi47uv6fy2fr426rdsi4r2omekyje.ipfs.w3s.link/2)%20Return%20to%20Decentralization.mp4,
-              key: -3fda2f0
-            label: Link
-            name: '-3fda2f0'
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeiaa2akjjoci2hzbzu6ajo7mul6hdjaeikpdswssjoxcovyqvnqbaq.ipfs.w3s.link/1)%20Evolution%20of%20the%20Internet.mp4,
-              key: 79c1fc2f
-            label: Link
-            name: 79c1fc2f
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeihwrwffhx5dnkqrud7xdn4hs47fo64xpwjkp2hxuwvsse3kdmhdjq.ipfs.w3s.link/FFDW%20Announcement.mp4,
-              key: -43dcc8ea
-            label: Link
-            name: '-43dcc8ea'
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeich52deumizba45aw7id7ggsa6pyhwjngm4hwzenpibj5ui5jp5mi.ipfs.w3s.link/v4%20Exploring%20the%20Decentralized%20Web%20-%20Trailer.mp4,
-              key: 6035b89a
-            label: Link
-            name: 6035b89a
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeifocd5zkkvrawenxf4zqch32jtpzm3wcewcc47twu7f2hactjj6nm.ipfs.w3s.link/3)%20Data%20and%20User%20Control.mp4,
-              key: -63b2bdbb
-            label: Link
-            name: '-63b2bdbb'
             widget: string
           - hint: >-
               Original link:
