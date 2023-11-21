@@ -6,7 +6,7 @@ published-on: 2023-09-06T17:57:51.681Z
 f_issue: 1
 f_article: 1
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-01.png
 f_author: Mike Masnick
 f_author-profile:
   url: /assets/images/dwd-profile-01.png

@@ -7,7 +7,7 @@ f_issue: 1
 f_article: 2
 f_description: Your inalienable right to live rent-free inside your own head
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-02.png
 f_author: Danny O'Brien
 f_author-profile:
   url: /assets/images/dwd-profile-02.png

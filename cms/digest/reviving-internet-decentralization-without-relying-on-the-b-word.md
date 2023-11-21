@@ -9,7 +9,7 @@ f_description: Decentralization can come in all sorts of ways, and doesn’t
   always require some complex new technology. Thinking small can be effective
   too.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-09.png
 f_author: Farzaneh Badiei
 f_author-profile:
   alt: ""

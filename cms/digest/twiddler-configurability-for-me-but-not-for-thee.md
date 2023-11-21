@@ -9,7 +9,7 @@ f_description: Big centralized platforms twiddle the dials on our internet
   experience, while preventing users from configuring their own experience. It’s
   a key source of the “enshittification” of the internet.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-12.png
 f_author: Cory Doctorow
 f_author-profile:
   url: /assets/images/dwd-profile-09.png

@@ -7,11 +7,11 @@ f_issue: 1
 f_article: 3
 f_description: How blockchains are preserving evidence for the long term
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-03.png
 f_author: Adam Rose and Basile Simon
 f_author-profile:
   url: /assets/images/dwd-profile-10.png
-f_author-bio: Lorem ipsum
+f_author-bio: Adam Rose is the chief operating officer at Starling Lab, and serves as press rights chair for the Los Angeles Press Club. Basile Simon leads the Lab’s research in law and criminal accountability, and is co-founder and advisor to Airwars. Both have spent most of their careers in journalism.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:14:41.964Z

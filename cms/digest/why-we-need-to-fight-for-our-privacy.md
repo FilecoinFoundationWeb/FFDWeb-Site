@@ -9,7 +9,7 @@ f_description: In this digital age, we need to learn the importance of privacy
   and change our attitudes about our data, instead of just accepting the
   conventional wisdom.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-10.png
 f_author: Naomi Brockwell
 f_author-profile:
   url: /assets/images/dwd-profile-07.png

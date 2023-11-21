@@ -9,7 +9,7 @@ f_description: What matters in this discussion – in any discussion about
   technology, really – is who’s designing it, who controls it, and who stands to
   benefit?
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-04.png
 f_author: Mai Ishikawa Sutton
 f_author-profile:
   url: /assets/images/dwd-profile-03.png

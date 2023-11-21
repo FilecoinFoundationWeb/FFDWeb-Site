@@ -10,11 +10,11 @@ f_description: Free and open source projects have been successful, but have not
   achieved the goal of giving users true access and control over the code they
   use. To get there, projects need to embrace decentralization.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-05.png
 f_author: Holmes Wilson
 f_author-profile:
-  url: /assets/images/profile-placeholder.jpeg
-f_author-bio: Lorem ipsum
+  url: /assets/images/dwd-profile-10.png
+f_author-bio: Holmes Wilson is a co-founder of Fight for the Future and Quiet, a decentralized alternative to Slack and Discord built on Tor and IPFS.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:52:37.945Z

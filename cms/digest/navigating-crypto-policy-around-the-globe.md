@@ -9,7 +9,7 @@ f_description: A decentralized web3 world needs to have clear government
   policies that enhance decentralization, and show leadership towards
   innovation, rather than surveillance.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-01.png
 f_author: Kristin Smith
 f_author-profile:
   url: /assets/images/dwd-profile-04.png

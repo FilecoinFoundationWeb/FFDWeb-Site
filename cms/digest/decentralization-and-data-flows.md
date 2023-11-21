@@ -9,7 +9,7 @@ f_description: There is more to decentralization than just where the data is
   stored. How the data flows and whether it is portable is important to
   achieving the true benefits of decentralization.
 f_image:
-  url: /assets/images/digest-placeholder.png
+  url: /assets/images/DWD-Illustration-11.png
 f_author: Chris Riley
 f_author-profile:
   url: /assets/images/dwd-profile-08.png
