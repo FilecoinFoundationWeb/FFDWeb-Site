@@ -4047,6 +4047,7 @@ blockquote {
 
 .digest_header-title {
   margin-top: .5rem;
+  margin-bottom: .5rem;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 3.75rem;
@@ -4162,8 +4163,9 @@ blockquote {
 }
 
 .digest_author-name {
+  margin-bottom: .5rem;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .digest_author {

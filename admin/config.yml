@@ -3516,6 +3516,10 @@ collections:
             label: Text
             name: '-6714307e'
             widget: text
+          - hint: 'Original text: DWeb Digest, key: -144f286c'
+            label: Text
+            name: '-144f286c'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
