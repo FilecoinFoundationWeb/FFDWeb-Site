@@ -4162,7 +4162,6 @@ blockquote {
 }
 
 .digest_author-name {
-  text-align: left;
   font-size: 1.25rem;
   font-weight: 400;
 }
@@ -4697,10 +4696,6 @@ blockquote {
     align-self: center;
   }
 
-  .digest_author-name {
-    text-align: center;
-  }
-
   .digest_author {
     flex-basis: 25%;
   }
@@ -4713,10 +4708,6 @@ blockquote {
     justify-content: space-between;
     padding-left: .5rem;
     padding-right: .5rem;
-  }
-
-  .digest_author-bio, .digest_header-description {
-    text-align: center;
   }
 }
 
@@ -6375,7 +6366,7 @@ blockquote {
   }
 
   .digest_author-profile {
-    width: 40%;
+    width: 50%;
     align-self: center;
   }
 
@@ -6764,6 +6755,10 @@ blockquote {
     flex-basis: 100%;
   }
 
+  .digest_author-name {
+    text-align: center;
+  }
+
   .digest_author {
     flex-direction: column;
   }
@@ -6819,6 +6814,10 @@ blockquote {
 
   .image-47, .digestcard_top-image {
     margin-bottom: 10px;
+  }
+
+  .digest_author-bio {
+    text-align: left;
   }
 }
 
