@@ -13,7 +13,7 @@ f_image:
   url: /assets/images/DWD-Illustration-05.png
 f_author: Holmes Wilson
 f_author-profile:
-  url: /assets/images/dwd-profile-10.png
+  url: /assets/images/DWD-Profile-11.png
 f_author-bio: Holmes Wilson is a co-founder of Fight for the Future and Quiet, a decentralized alternative to Slack and Discord built on Tor and IPFS.
 tags: digest
 layout: "[digest].html"
