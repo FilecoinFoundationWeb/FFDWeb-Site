@@ -732,9 +732,9 @@ body:has(.navbar .w--open) {
         <div class="header-variant-4_mobile-image"><img class="absolute-image" src="/assets/images/engineer-coding.jpg" alt="A engineer coding in on two monitors." data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;84vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 991px) 86vw, 100vw" loading="lazy" srcset="/assets/images/engineer-coding-p-500.jpg 500w, /assets/images/engineer-coding-p-800.jpg 800w, /assets/images/engineer-coding.jpg 1000w"></div>
       </div>
       <div id="blog-header" class="sectional blog-header-sectional">
-        <div class="container-flex-digest">
-          <div class="col-6-digest-2">
-            <div class="post-metadata">
+        <div class="digest_top">
+          <div class="digest_header">
+            <div class="digest_header-metadata">
               <div class="div-block-110-digest">
                 <div>{{ texts.43ab8b9 }}</div>
                 <div class="label-1">{{ f_issue }}</div>
@@ -744,27 +744,13 @@ body:has(.navbar .w--open) {
                 <div class="text-block-16">{{ f_article }}</div>
               </div>
             </div>
-            <div class="blog-post_title-2">{{ title }}</div>
-            <div class="digest-description">{{ f_description }}</div>
+            <div class="digest_header-title">{{ title }}</div>
+            <div class="digest_header-description">{{ f_description }}</div>
           </div>
-          <div class="col-2-digest-2">
-            <div class="blog-post_col-image-artifact">
-              <div class="custom-css w-embed">
-                <style>
-.blog-post_col-image-artifact:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 2.3125rem;
-    height: 2.3125rem;
-    transform: translateY(-100%);
-    background-color: #bafe36;
-}
-</style>
-              </div><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;57vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" alt="{{ f_author-profile.alt }}" src="{{ f_author-profile.url }}" class="col-image">
-              <div class="text-block-14">{{ f_author }}</div>
-              <div class="digest-description">{{ f_author-bio }}</div>
+          <div class="digest_author"><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;57vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" alt="{{ f_author-profile.alt }}" src="{{ f_author-profile.url }}" class="digest_author-profile">
+            <div class="digest_author-details">
+              <div class="digest_author-name">{{ f_author }}</div>
+              <div class="digest_author-bio">{{ f_author-bio }}</div>
             </div>
           </div>
         </div>
