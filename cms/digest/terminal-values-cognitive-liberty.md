@@ -11,7 +11,7 @@ f_image:
 f_author: Danny O'Brien
 f_author-profile:
   url: /assets/images/dwd-profile-02.png
-f_author-bio: Lorem ipsum
+f_author-bio: Danny O'Brien is Senior Fellow and DWeb Strategy at Filecoin Foundation and Filecoin Foundation for the Decentralized Web. He has been a tech journalist, developer and defender of online free speech, privacy and an open internet for more than 20 years, including over a decade's activism at the Electronic Frontier Foundation.
 tags: digest
 layout: "[digest].html"
 date: 2023-09-15T17:01:01.699Z
