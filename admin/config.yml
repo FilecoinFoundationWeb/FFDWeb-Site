@@ -188,8 +188,109 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
+  - name: digest
+    label: Digest Articles
+    folder: cms/digest
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - label: Content
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: Which issue does this article belong to?
+        name: f_issue
+        label: Issue
+        widget: number
+        required: true
+      - hint: 'Enter the article number to '
+        name: f_article
+        label: Article
+        widget: number
+        required: true
+      - hint: ''
+        name: f_description
+        label: Description
+        widget: text
+        required: false
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_author
+        label: Author
+        widget: string
+        required: true
+      - hint: ''
+        name: f_author-profile
+        label: Author Profile
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_author-bio
+        label: Author Bio
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: digest
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[digest].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
   - name: resources
     label: Resources
     folder: cms/resources
@@ -308,8 +409,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: project_partners
     label: Project Partners
     folder: cms/project-partners
@@ -388,8 +487,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: resource_topics
     label: Resource Topics
     folder: cms/resource-topics
@@ -430,8 +527,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: resource_type
     label: Resource Types
     folder: cms/resource-type
@@ -489,8 +584,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: tags
     label: Tags
     folder: cms/tags
@@ -531,8 +624,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - label: Theme Settings
     name: settings
     identifier_field: title
@@ -631,17 +722,21 @@ collections:
             label: Text
             name: 645f0031
             widget: string
-          - hint: 'Original text: Promise > Vision, key: 506e07af'
+          - hint: 'Original text: Vision, key: -6741b7f8'
             label: Text
-            name: 506e07af
+            name: '-6741b7f8'
             widget: string
-          - hint: 'Original text: Board & Vision, key: 7455795c'
+          - hint: 'Original text: Board, key: 3d5fec6'
             label: Text
-            name: 7455795c
+            name: 3d5fec6
             widget: string
           - hint: 'Original text: Careers, key: -7bc27f6b'
             label: Text
             name: '-7bc27f6b'
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
             widget: string
           - hint: 'Original text: Explore, key: 15309273'
             label: Text
@@ -667,6 +762,10 @@ collections:
             label: Text
             name: 1fa3c2
             widget: string
+          - hint: 'Original text: DWeb Digest, key: -144f286c'
+            label: Text
+            name: '-144f286c'
+            widget: string
           - hint: 'Original text: Resources, key: 13ede05'
             label: Text
             name: 13ede05
@@ -678,10 +777,6 @@ collections:
           - hint: 'Original text: Get Involved, key: 4422b111'
             label: Text
             name: 4422b111
-            widget: string
-          - hint: 'Original text: Apply for Awards, key: 39869d1f'
-            label: Text
-            name: 39869d1f
             widget: string
           - hint: 'Original text: Collaborators, key: 4bd3410d'
             label: Text
@@ -887,6 +982,12 @@ collections:
             label: Text
             name: 2e
             widget: string
+          - hint: >-
+              Original text: Introducing Starling Lab on YouTube., key:
+              -39119cbb
+            label: Text
+            name: '-39119cbb'
+            widget: string
           - hint: 'Original text: Introducing the Starling Lab, key: -613b9858'
             label: Text
             name: '-613b9858'
@@ -917,6 +1018,18 @@ collections:
               key: -421fa511
             label: Text
             name: '-421fa511'
+            widget: string
+          - hint: 'Original text: Visit our Twitter page., key: 67c3f5e9'
+            label: Text
+            name: 67c3f5e9
+            widget: string
+          - hint: 'Original text: Visit our YouTube channel., key: -5051fdef'
+            label: Text
+            name: '-5051fdef'
+            widget: string
+          - hint: 'Original text: Visit our LinkedIn page., key: 6fe0e286'
+            label: Text
+            name: 6fe0e286
             widget: string
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
@@ -1040,6 +1153,10 @@ collections:
             label: Text
             name: '-208e8061'
             widget: text
+          - hint: 'Original text: Promise > Vision, key: 506e07af'
+            label: Text
+            name: 506e07af
+            widget: string
           - hint: >-
               Original text: We exist to advance humankind by bringing Web3 to
               life through education, research, and development., key: -68f4aae6
@@ -1322,9 +1439,9 @@ collections:
             label: Text
             name: '-448d96a6'
             widget: text
-          - hint: 'Original text: GET IN TOUCH, key: -12b421f2'
+          - hint: 'Original text: Join Us, key: df13554'
             label: Text
-            name: '-12b421f2'
+            name: df13554
             widget: string
           - hint: 'Original text: FFDW Awards, key: 44beb143'
             label: Text
@@ -1552,10 +1669,6 @@ collections:
             label: Text
             name: 2406b6
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
           - hint: 'Original text: Here''s where, key: 3f87903'
             label: Text
             name: 3f87903
@@ -1654,10 +1767,6 @@ collections:
           - hint: 'Original text: Article, key: 379164d6'
             label: Text
             name: 379164d6
-            widget: string
-          - hint: 'Original text: Current Page, key: 5dd0e116'
-            label: Text
-            name: 5dd0e116
             widget: string
           - hint: 'Original text: Accordion - Variant 1, key: -83633f5'
             label: Text
@@ -1898,16 +2007,20 @@ collections:
             name: 2ac33ab9
             widget: string
           - hint: >-
+              Original text: Episode 1: Evolution of the Internet, key:
+              -70c263fe
+            label: Text
+            name: '-70c263fe'
+            widget: string
+          - hint: >-
               Original text: Episode 2: Return to Decentralization, key:
               37be95b8
             label: Text
             name: 37be95b8
             widget: string
-          - hint: >-
-              Original text: Episode 1: Evolution of the Internet, key:
-              -70c263fe
+          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
             label: Text
-            name: '-70c263fe'
+            name: 261dcf3
             widget: string
           - hint: >-
               Original text: Leveraging of the Dweb to Enhance Free Speech with
@@ -1924,10 +2037,6 @@ collections:
               -a40a887
             label: Text
             name: '-a40a887'
-            widget: string
-          - hint: 'Original text: Episode 3: Data and User Control, key: 261dcf3'
-            label: Text
-            name: 261dcf3
             widget: string
           - hint: 'Original text: Together, let''s bring Web3 to life, key: 7465d535'
             label: Text
@@ -2091,9 +2200,9 @@ collections:
             label: Text
             name: 5838a7c4
             widget: text
-          - hint: 'Original text: Get in touch, key: -5230a9d2'
+          - hint: 'Original text: Current Page, key: 5dd0e116'
             label: Text
-            name: '-5230a9d2'
+            name: 5dd0e116
             widget: string
           - hint: >-
               Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -3425,6 +3534,10 @@ collections:
             label: Link
             name: '-7e16aa10'
             widget: string
+          - hint: 'Original link: /contact/, key: 16bdc13e'
+            label: Link
+            name: 16bdc13e
+            widget: string
           - hint: 'Original link: /explore/, key: -3a6846d5'
             label: Link
             name: '-3a6846d5'
@@ -3445,6 +3558,10 @@ collections:
             label: Link
             name: 55cb89fe
             widget: string
+          - hint: 'Original link: /digest/, key: 754e57dc'
+            label: Link
+            name: 754e57dc
+            widget: string
           - hint: 'Original link: /resources/, key: 5c7d819'
             label: Link
             name: 5c7d819
@@ -3457,17 +3574,9 @@ collections:
             label: Link
             name: '7894e442'
             widget: string
-          - hint: 'Original link: /get-involved#grants, key: -5ade3973'
-            label: Link
-            name: '-5ade3973'
-            widget: string
           - hint: 'Original link: /get-involved#careers, key: f66fbbf'
             label: Link
             name: f66fbbf
-            widget: string
-          - hint: 'Original link: /contact/, key: 16bdc13e'
-            label: Link
-            name: 16bdc13e
             widget: string
           - hint: >-
               Original link:
@@ -3530,6 +3639,13 @@ collections:
             widget: string
           - hint: >-
               Original link:
+              https://www.linkedin.com/company/filecoin-foundation/jobs/, key:
+              3595f33
+            label: Link
+            name: 3595f33
+            widget: string
+          - hint: >-
+              Original link:
               https://ffdweb.org/FFDW-proposal-narrative-template-2022.zip, key:
               737bb10e
             label: Link
@@ -3555,10 +3671,6 @@ collections:
               key: -54074316
             label: Link
             name: '-54074316'
-            widget: string
-          - hint: 'Original link: /digest/, key: 754e57dc'
-            label: Link
-            name: 754e57dc
             widget: string
           - hint: >-
               Original link: https://proto.school/content-addressing/, key:
@@ -3589,41 +3701,6 @@ collections:
               4976ef3
             label: Link
             name: 4976ef3
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeigofseri6ba3ygirfpdt65odyi47uv6fy2fr426rdsi4r2omekyje.ipfs.w3s.link/2)%20Return%20to%20Decentralization.mp4,
-              key: -3fda2f0
-            label: Link
-            name: '-3fda2f0'
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeiaa2akjjoci2hzbzu6ajo7mul6hdjaeikpdswssjoxcovyqvnqbaq.ipfs.w3s.link/1)%20Evolution%20of%20the%20Internet.mp4,
-              key: 79c1fc2f
-            label: Link
-            name: 79c1fc2f
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeihwrwffhx5dnkqrud7xdn4hs47fo64xpwjkp2hxuwvsse3kdmhdjq.ipfs.w3s.link/FFDW%20Announcement.mp4,
-              key: -43dcc8ea
-            label: Link
-            name: '-43dcc8ea'
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeich52deumizba45aw7id7ggsa6pyhwjngm4hwzenpibj5ui5jp5mi.ipfs.w3s.link/v4%20Exploring%20the%20Decentralized%20Web%20-%20Trailer.mp4,
-              key: 6035b89a
-            label: Link
-            name: 6035b89a
-            widget: string
-          - hint: >-
-              Original link:
-              https://bafybeifocd5zkkvrawenxf4zqch32jtpzm3wcewcc47twu7f2hactjj6nm.ipfs.w3s.link/3)%20Data%20and%20User%20Control.mp4,
-              key: -63b2bdbb
-            label: Link
-            name: '-63b2bdbb'
             widget: string
           - hint: >-
               Original link:

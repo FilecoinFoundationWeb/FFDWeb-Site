@@ -206,6 +206,17 @@ a:hover .move-on-hover {
 .master-container {
   overflow-x: hidden;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 @media screen and (max-width: 25.9375rem) {
   .ti-hidden {
     display: none;
@@ -216,6 +227,48 @@ a:hover .move-on-hover {
     max-width: 100%;
   }
 }
+</style>
+    </div>
+    <div class="w-embed">
+      <style>
+  .blog-card {
+    padding: 1rem calc(50% - 30.125rem);
+  }
+  .blog-post:nth-of-type(odd) .arrow-image {
+    transform: rotate(180deg);
+  }
+  .blog-post:last-of-type .blog-card-border-bottom {
+    display: block;
+  }
+  html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
+    display: none;
+  }
+  .blog-card_information .w-dyn-item:last-of-type div:last-of-type {
+    display: none;
+  }
+  .blog-post:hover .arrow-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_image {
+    width: 19.5rem;
+  }
+  .blog-post:hover .blog-card_background {
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_content {
+    color: #070517;
+  }
+  @media screen and (min-width: 768px) {
+    .blog-post:nth-of-type(even) .blog-card_content {
+      flex-direction: row-reverse;
+    }
+    .blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
+      margin-right: 0;
+      margin-left: 3rem;
+    }
+  }
 </style>
     </div>
     <div class="custom-css w-embed">
@@ -377,7 +430,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -389,7 +442,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -402,6 +455,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                   <div class="subnav-artifacts"></div>
                 </div>
@@ -460,6 +525,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                   <div class="subnav-artifacts"></div>
                 </div>
               </div>
@@ -501,18 +578,6 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
-                  </a>
-                  <a href="{{ links.-5ade3973 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
                   </a>
                   <a href="{{ links.f66fbbf }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -556,7 +621,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -568,7 +633,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -581,6 +646,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                 </div>
               </div>
@@ -635,6 +712,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                 </div>
               </div>
               <div class="tablet-subnav">
@@ -681,18 +770,6 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
-                  <a href="{{ links.7894e442 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
-                  </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                         <g transform="translate(-1044 -997)">
@@ -732,8 +809,8 @@ body:has(.navbar .w--open) {
             <div aria-label="Explore the DWeb" class="h1-variant-4">{{ texts.15309273 }}</div>
             <div aria-hidden="true" class="h2-variant-4"><span class="h2-variant-4-artifact gradient-red-green"> </span>{{ texts.3dcd0abf }}</div>
             <div class="content-artifacts-1"></div>
-            <div class="content-artifacts-2"></div><img class="header-variant-4_image" src="/assets/images/engineer-coding.jpg" alt="" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;800.65625px&quot;}]" sizes="(max-width: 991px) 100vw, 800.65625px" loading="lazy" srcset="/assets/images/engineer-coding-p-500.jpg 500w, /assets/images/engineer-coding-p-800.jpg 800w, /assets/images/engineer-coding.jpg 1000w">
-            <div class="header-variant-4_mobile-image"><img class="absolute-image" src="/assets/images/engineer-coding.jpg" alt="" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;84vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 82vw, (max-width: 991px) 84vw, 100vw" loading="lazy" srcset="/assets/images/engineer-coding-p-500.jpg 500w, /assets/images/engineer-coding-p-800.jpg 800w, /assets/images/engineer-coding.jpg 1000w"></div>
+            <div class="content-artifacts-2"></div><img class="header-variant-4_image" src="/assets/images/engineer-coding.jpg" alt="A engineer coding in on two monitors." data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;800.65625px&quot;}]" sizes="(max-width: 991px) 100vw, 800.6640625px" loading="lazy" srcset="/assets/images/engineer-coding-p-500.jpg 500w, /assets/images/engineer-coding-p-800.jpg 800w, /assets/images/engineer-coding.jpg 1000w">
+            <div class="header-variant-4_mobile-image"><img class="absolute-image" src="/assets/images/engineer-coding.jpg" alt="A engineer coding in on two monitors." data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;84vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="(max-width: 479px) 82vw, (max-width: 991px) 84vw, 100vw" loading="lazy" srcset="/assets/images/engineer-coding-p-500.jpg 500w, /assets/images/engineer-coding-p-800.jpg 800w, /assets/images/engineer-coding.jpg 1000w"></div>
           </div>
         </div>
       </div>
@@ -828,7 +905,7 @@ body:has(.navbar .w--open) {
       <div class="container-flex">
         <div class="col-3">
           <div class="image-with-artifact">
-            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" alt="" src="/assets/images/person-sitting-on-chair-with-laptop-1.jpeg" class="hide-mobile">
+            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" alt="A person sitting in a chair using a laptop. " src="/assets/images/person-sitting-on-chair-with-laptop-1.jpeg" class="hide-mobile">
             <div class="image-artifact hide-mobile"></div>
           </div>
         </div>
@@ -842,7 +919,7 @@ body:has(.navbar .w--open) {
           </div>
         </div>
         <div class="col-3">
-          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" alt="" src="/assets/images/person-leg.jpeg" class="hide-mobile">
+          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;69vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;20vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;229px&quot;}]" alt="A persons foot resting on their opposite leg. " src="/assets/images/person-leg.jpeg" class="hide-mobile">
             <div class="image-artifact bottom-artifact"></div>
             <div class="image-artifact right-image"></div>
           </div>
@@ -869,13 +946,13 @@ body:has(.navbar .w--open) {
     </section>
     <div id="collaborators" class="sectional collaborators-section">
       <div class="collaborators-container hidden">
-        <div class="collaborators_panel-left"><img src="/assets/images/person-sitting-on-chair-with-laptop-2.jpeg" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/person-sitting-on-chair-with-laptop-2-p-500.jpeg 500w, /assets/images/person-sitting-on-chair-with-laptop-2-p-800.jpeg 800w, /assets/images/person-sitting-on-chair-with-laptop-2-p-1080.jpeg 1080w, /assets/images/person-sitting-on-chair-with-laptop-2.jpeg 1200w"></div>
+        <div class="collaborators_panel-left"><img src="/assets/images/person-sitting-on-chair-with-laptop-2.jpeg" alt="A person sitting in a chair using a laptop." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/person-sitting-on-chair-with-laptop-2-p-500.jpeg 500w, /assets/images/person-sitting-on-chair-with-laptop-2-p-800.jpeg 800w, /assets/images/person-sitting-on-chair-with-laptop-2-p-1080.jpeg 1080w, /assets/images/person-sitting-on-chair-with-laptop-2.jpeg 1200w"></div>
         <div class="collaborators_panel-right gradient-red-green">
           <div class="collaborators_panel-right-text-container">
             <div class="collaborators-title">{{ texts.4bd3410d }}</div>
           </div>
           <div class="h1 text-block-margin-small">{{ texts.-512908cc }}<br>{{ texts.-58579366 }}<br>{{ texts.30f69a06 }}<br>{{ texts.-5960f494 }}</div>
-          <div class="logo-wrapper"><img class="logo-image" src="/assets/images/freedom-of-the-press-foundation-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/freedom-of-the-press-foundation-logo-p-500.png 500w, /assets/images/freedom-of-the-press-foundation-logo.png 600w"><img class="logo-image" src="/assets/images/hrdag-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/hrdag-logo-p-500.png 500w, /assets/images/hrdag-logo.png 600w"><img class="logo-image" src="/assets/images/guardian-project-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/guardian-project-logo-p-500.png 500w, /assets/images/guardian-project-logo.png 600w"><img class="logo-image" src="/assets/images/starling-lab-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/starling-lab-logo-p-500.png 500w, /assets/images/starling-lab-logo.png 600w"><img class="logo-image" src="/assets/images/dfc-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/dfc-logo-p-500.png 500w, /assets/images/dfc-logo.png 600w"><img class="logo-image" src="/assets/images/eff-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/eff-logo-p-500.png 500w, /assets/images/eff-logo.png 664w"><img class="logo-image" src="/assets/images/open-archive-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/open-archive-logo-p-500.png 500w, /assets/images/open-archive-logo.png 600w"><img class="logo-image" src="/assets/images/witness-logo.png" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/witness-logo-p-500.png 500w, /assets/images/witness-logo.png 707w"></div>
+          <div class="logo-wrapper"><img class="logo-image" src="/assets/images/freedom-of-the-press-foundation-logo.png" alt="Freedom of the Press Foundation logo." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/freedom-of-the-press-foundation-logo-p-500.png 500w, /assets/images/freedom-of-the-press-foundation-logo.png 600w"><img class="logo-image" src="/assets/images/hrdag-logo.png" alt="Hrdag company logo." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/hrdag-logo-p-500.png 500w, /assets/images/hrdag-logo.png 600w"><img class="logo-image" src="/assets/images/guardian-project-logo.png" alt="The Guardian Project logo. " data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/guardian-project-logo-p-500.png 500w, /assets/images/guardian-project-logo.png 600w"><img class="logo-image" src="/assets/images/starling-lab-logo.png" alt="The Starling Lab logo." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/starling-lab-logo-p-500.png 500w, /assets/images/starling-lab-logo.png 600w"><img class="logo-image" src="/assets/images/dfc-logo.png" alt="The Decentralized Future Council logo. " data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/dfc-logo-p-500.png 500w, /assets/images/dfc-logo.png 600w"><img class="logo-image" src="/assets/images/eff-logo.png" alt="The EEFF logo." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/eff-logo-p-500.png 500w, /assets/images/eff-logo.png 664w"><img class="logo-image" src="/assets/images/open-archive-logo.png" alt="The Open Archive logo." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/open-archive-logo-p-500.png 500w, /assets/images/open-archive-logo.png 600w"><img class="logo-image" src="/assets/images/witness-logo.png" alt="The witness, see it, film it, change it logo. " data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/witness-logo-p-500.png 500w, /assets/images/witness-logo.png 707w"></div>
           <a href="{{ links.559d6ee1 }}" class="boards-link w-button">{{ texts.1c6d4f20 }}</a>
           <div class="collaborators-artifact-1"></div>
           <div class="collaborators-artifact-2"></div>
@@ -1040,11 +1117,11 @@ body:has(.navbar .w--open) {
     </section>
     <div class="sectional tutorials-sectional">
       <div class="container-flex tutorials-grid">
-        <div class="tutorial-card">
+        <a href="{{ links.-723f5559 }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.-18aacb0d }}</div>
           <div>{{ texts.6478ec0d }}</div>
-          <a href="{{ links.-723f5559 }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1055,13 +1132,13 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
-        <div class="tutorial-card">
+          </div>
+        </a>
+        <a href="{{ links.34b3b4f4 }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.-603be5c5 }}</div>
           <div>{{ texts.-7cb7500d }}</div>
-          <a href="{{ links.34b3b4f4 }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1072,13 +1149,13 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
-        <div class="tutorial-card">
+          </div>
+        </a>
+        <a href="{{ links.-b16077a }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.65d126f0 }}</div>
           <div>{{ texts.f08e01b }}<br></div>
-          <a href="{{ links.-b16077a }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1089,13 +1166,13 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
-        <div class="tutorial-card">
+          </div>
+        </a>
+        <a href="{{ links.7eda7f68 }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.312322cb }}</div>
           <div>{{ texts.be0ac8b }}<br></div>
-          <a href="{{ links.7eda7f68 }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1106,13 +1183,13 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
-        <div class="tutorial-card">
+          </div>
+        </a>
+        <a href="{{ links.319f284b }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.1b1e74a4 }}</div>
           <div>{{ texts.-1093fb8a }}<br></div>
-          <a href="{{ links.319f284b }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1123,13 +1200,13 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
-        <div class="tutorial-card">
+          </div>
+        </a>
+        <a href="{{ links.4976ef3 }}" target="_blank" class="tutorial-card old w-inline-block">
           <div class="difficulty-tag">{{ texts.58c70452 }}</div>
           <div class="tutorial-title">{{ texts.1a45f739 }}</div>
           <div>{{ texts.1b657b89 }}<br></div>
-          <a href="{{ links.4976ef3 }}" target="_blank" class="button-link-with-icon inline-flex green w-inline-block">
+          <div class="button-link-with-icon inline-flex green">
             <div class="button-text">{{ texts.690e201f }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                 <g transform="translate(-1044 -997)">
@@ -1140,8 +1217,8 @@ body:has(.navbar .w--open) {
                   <rect width="3" height="3" transform="translate(1050 1003)" fill="#bafe36"></rect>
                 </g>
               </svg></div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div class="tutorials-artifact-3 gradient-red-green"></div>
     </div>
@@ -1160,33 +1237,33 @@ body:has(.navbar .w--open) {
       <div class="video-section-artifact"></div>
       <div class="video-grid">
         <div class="video-card">
-          <a video-link="" href="{{ links.-3fda2f0 }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
-          <div class="video-title">{{ texts.37be95b8 }}</div>
-          <div class="video-artifact"></div>
-        </div>
-        <div class="video-card">
-          <a video-link="" href="{{ links.79c1fc2f }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FptdDPCstMJE%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DptdDPCstMJE&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FptdDPCstMJE%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Episode 1: Evolution of the Internet"></iframe></div>
           <div class="video-title">{{ texts.-70c263fe }}<br></div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.-43dcc8ea }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FsRAlwD5ScrY%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsRAlwD5ScrY&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FsRAlwD5ScrY%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Episode 2: Return to Decentralization"></iframe></div>
+          <div class="video-title">{{ texts.37be95b8 }}</div>
+          <div class="video-artifact"></div>
+        </div>
+        <div class="video-card">
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FTab_vJ6NNGw%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTab_vJ6NNGw&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FTab_vJ6NNGw%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Episode 3: Data and User Control"></iframe></div>
+          <div class="video-title">{{ texts.261dcf3 }}<br></div>
+          <div class="video-artifact"></div>
+        </div>
+        <div class="video-card">
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FjKqtShwTU00%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjKqtShwTU00&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FjKqtShwTU00%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Leveraging of the Dweb to Enhance Free Speech with the Latest FFDW Dev Grant"></iframe></div>
           <div class="video-title">{{ texts.-6aab7131 }}<br></div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.2d64286a }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FP0yfvedPY94%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP0yfvedPY94&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FP0yfvedPY94%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Introducing The Starling Lab"></iframe></div>
           <div class="video-title">{{ texts.6c88abc8 }}</div>
           <div class="video-artifact"></div>
         </div>
         <div class="video-card">
-          <a video-link="" href="{{ links.6035b89a }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FP0yfvedPY94%3Ffeature%3Doembed&amp;display_name=YouTube&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP0yfvedPY94&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FP0yfvedPY94%2Fhqdefault.jpg&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=youtube" width="940" height="528" scrolling="no" allowfullscreen="" title="Exploring the Decentralized Web - Trailer"></iframe></div>
           <div class="video-title">{{ texts.-a40a887 }}</div>
-          <div class="video-artifact"></div>
-        </div>
-        <div class="video-card">
-          <a video-link="" href="{{ links.-63b2bdbb }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;41vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;470.390625px&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
-          <div class="video-title">{{ texts.261dcf3 }}<br></div>
           <div class="video-artifact"></div>
         </div>
       </div>
@@ -1237,35 +1314,6 @@ body:has(.navbar .w--open) {
         {%- if collection.length == 0 -%}<div class="w-dyn-empty">
           <div>{{ texts.3d503d2b }}</div>
         </div>{%- endif -%}
-      </div>
-      <div class="blog-custom-css w-embed">
-        <style>
-html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
- display: none;
-}
-.blog-card_information .w-dyn-item:last-of-type div:last-of-type {
-    display: none;
-}
-.blog-post:nth-of-type(odd) .arrow-image {
-  transform: rotate(180deg);
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 0;
-}
-.blog-post:last-of-type .blog-card-border-bottom {
- display: block;
-}
-@media screen and (min-width: 768px) {
-.blog-post:nth-of-type(even) .blog-card_content {
-	flex-direction: row-reverse;
-}
-.blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
- margin-right: 0;
- margin-left: 3rem;
-}
-}
-</style>
       </div>
     </section>
     <div class="container-flex flex-center margin-top">
