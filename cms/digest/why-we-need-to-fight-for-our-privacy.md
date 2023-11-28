@@ -80,20 +80,20 @@ Snowden once said: *“It is, in a dark way, psychologically reassuring to say, 
 
 The erosion of privacy is not inevitable, and we ***must fight*** in order to prevent it. We can make better choices in our lives that safeguard our privacy. We can push back against those who would take our privacy from us. But most importantly, ***we must start to care***, and change the complacent culture around privacy. We must do this for our future because the stakes are too high.
 
-1. [Samuel Osborne “Iranian woman 'sentenced to 20 years in prison' for removing headscarf in protest” July 10, 2018, Independent.](https://www.independent.co.uk/news/world/middle-east/iran-woman-hijab-protest-arrest-jailed-prison-shapark-shajarizadeh-headscarf-white-wednesdays-a8439816.html)
+**1-** [Samuel Osborne “Iranian woman 'sentenced to 20 years in prison' for removing headscarf in protest” July 10, 2018, Independent.](https://www.independent.co.uk/news/world/middle-east/iran-woman-hijab-protest-arrest-jailed-prison-shapark-shajarizadeh-headscarf-white-wednesdays-a8439816.html)
 
-2. [Angeli Datt “Hong Kong Is Unrecognizable After 2 Years Under the National Security Law” June 20, 2022, The Diplomat.](https://thediplomat.com/2022/06/hong-kong-is-unrecognizable-after-2-years-under-the-national-security-law/)
+**2-** [Angeli Datt “Hong Kong Is Unrecognizable After 2 Years Under the National Security Law” June 20, 2022, The Diplomat.](https://thediplomat.com/2022/06/hong-kong-is-unrecognizable-after-2-years-under-the-national-security-law/)
 
-3. [Sankalp Phartiyal “India makes government tracing app mandatory for all workers” May 1, 2020, Reuters.](https://www.reuters.com/article/health-coronavirus-india-app/india-makes-government-tracing-app-mandatory-for-all-workers-idUSL1N2CK01S), [“China’s New Cybersecurity Measures Allow State Police to Remotely Access Company Systems” February 8, 2019 Insikt Group.](https://www.recordedfuture.com/china-cybersecurity-measures), [Luana Pascu “Australia to force tech companies to allow government access to encrypted messages” June 6, 2018, Bitdefender.](https://www.bitdefender.com/blog/hotforsecurity/australia-to-force-tech-companies-to-allow-government-access-to-encrypted-messages/)
+**3-** [Sankalp Phartiyal “India makes government tracing app mandatory for all workers” May 1, 2020, Reuters.](https://www.reuters.com/article/health-coronavirus-india-app/india-makes-government-tracing-app-mandatory-for-all-workers-idUSL1N2CK01S), [“China’s New Cybersecurity Measures Allow State Police to Remotely Access Company Systems” February 8, 2019 Insikt Group.](https://www.recordedfuture.com/china-cybersecurity-measures), [Luana Pascu “Australia to force tech companies to allow government access to encrypted messages” June 6, 2018, Bitdefender.](https://www.bitdefender.com/blog/hotforsecurity/australia-to-force-tech-companies-to-allow-government-access-to-encrypted-messages/)
 
-4. [Juan Angel “Privacy: The Hill to Die On” September 8, 2022.](https://thesovereignchimpanzee.substack.com/p/privacy-the-hill-to-die-on)
+**4-** [Juan Angel “Privacy: The Hill to Die On” September 8, 2022.](https://thesovereignchimpanzee.substack.com/p/privacy-the-hill-to-die-on)
 
-5. [Julija A. “Someone becomes the victim of identity fraud every 14 seconds.” December 16, 2022, Fortunly.](https://fortunly.com/statistics/identity-theft-statistics/)
+**5-** [Julija A. “Someone becomes the victim of identity fraud every 14 seconds.” December 16, 2022, Fortunly.](https://fortunly.com/statistics/identity-theft-statistics/)
 
-6. [Zack Whittaker “Despite promises to stop, US cell carriers are still selling your real-time phone location data” January 9, 2019, Tech Crunch.](https://techcrunch.com/2019/01/09/us-cell-carriers-still-selling-your-location-data/), [Richard Lawler “T-Mobile’s massive data breach leaked info for 5.3 million additional customers” August 20, 2021, The Verge.](https://www.theverge.com/2021/8/20/22633853/tmobile-data-breach-imei-sim-fcc)
+**6-** [Zack Whittaker “Despite promises to stop, US cell carriers are still selling your real-time phone location data” January 9, 2019, Tech Crunch.](https://techcrunch.com/2019/01/09/us-cell-carriers-still-selling-your-location-data/), [Richard Lawler “T-Mobile’s massive data breach leaked info for 5.3 million additional customers” August 20, 2021, The Verge.](https://www.theverge.com/2021/8/20/22633853/tmobile-data-breach-imei-sim-fcc)
 
-7. [Minyvonne Burke “Tennessee man, targeted for his Twitter handle, dies after 'swatting' call sends police to his home” July 22, 2021. NBC News.](https://www.nbcnews.com/news/us-news/tennessee-man-targeted-his-twitter-handle-dies-after-swatting-call-n1274747)
+**7-** [Minyvonne Burke “Tennessee man, targeted for his Twitter handle, dies after 'swatting' call sends police to his home” July 22, 2021. NBC News.](https://www.nbcnews.com/news/us-news/tennessee-man-targeted-his-twitter-handle-dies-after-swatting-call-n1274747)
 
-8. [“Facebook manipulated 689,003 users' emotions for science” June 28, 2014, Forbes.](https://www.forbes.com/sites/kashmirhill/2014/06/28/facebook-manipulated-689003-users-emotions-for-science/?sh=45825512197c)
+**8-** [“Facebook manipulated 689,003 users' emotions for science” June 28, 2014, Forbes.](https://www.forbes.com/sites/kashmirhill/2014/06/28/facebook-manipulated-689003-users-emotions-for-science/?sh=45825512197c)
 
-9. [Ed Snowden, Twitter, July 12, 2022.](https://twitter.com/Snowden/status/1546790812704440322)
+**9-** [Ed Snowden, Twitter, July 12, 2022.](https://twitter.com/Snowden/status/1546790812704440322)
