@@ -20,8 +20,8 @@ layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
   og:image: /assets/images/DWD-Illustration-10.png
   title: "FFDW DWeb Digest: Why We Need To Fight For Our Privacy"
 ---
