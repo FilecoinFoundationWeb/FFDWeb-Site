@@ -20,8 +20,8 @@ layout: "[digest].html"
 date: 2023-10-18T18:44:40.696Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
   title: "FFDW DWeb Digest: Recognizing Code as Speech is Vital"
   og:image: /assets/images/DWD-Illustration-08.png
 ---
