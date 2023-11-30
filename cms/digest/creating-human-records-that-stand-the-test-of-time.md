@@ -11,14 +11,19 @@ f_image:
 f_author: Adam Rose and Basile Simon
 f_author-profile:
   url: /assets/images/dwd-profile-10.png
-f_author-bio: Adam Rose is the chief operating officer at Starling Lab, and serves as press rights chair for the Los Angeles Press Club. Basile Simon leads the Lab’s research in law and criminal accountability, and is co-founder and advisor to Airwars. Both have spent most of their careers in journalism.
+f_author-bio: Adam Rose is the chief operating officer at Starling Lab, and
+  serves as press rights chair for the Los Angeles Press Club. Basile Simon
+  leads the Lab’s research in law and criminal accountability, and is co-founder
+  and advisor to Airwars. Both have spent most of their careers in journalism.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:14:41.964Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Creating Human Records that Stand the Test of Time"
+  og:image: /assets/images/DWD-Illustration-03.png
 ---
 As business rivalries go, the story of Suen-nada and Ennum-Ashur was pretty routine. They both claimed ownership of valuable intellectual property, wrestled over control of accounts, and accused each other of theft.
 
