@@ -11,14 +11,20 @@ f_image:
 f_author: Danny O'Brien
 f_author-profile:
   url: /assets/images/dwd-profile-02.png
-f_author-bio: Danny O'Brien is Senior Fellow and DWeb Strategy at Filecoin Foundation and Filecoin Foundation for the Decentralized Web. He has been a tech journalist, developer and defender of online free speech, privacy and an open internet for more than 20 years, including over a decade's activism at the Electronic Frontier Foundation.
+f_author-bio: Danny O'Brien is Senior Fellow and DWeb Strategy at Filecoin
+  Foundation and Filecoin Foundation for the Decentralized Web. He has been a
+  tech journalist, developer and defender of online free speech, privacy and an
+  open internet for more than 20 years, including over a decade's activism at
+  the Electronic Frontier Foundation.
 tags: digest
 layout: "[digest].html"
 date: 2023-09-15T17:01:01.699Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Terminal Values: Cognitive Liberty"
+  og:image: /assets/images/DWD-Illustration-02.png
 ---
 If you build and market new technologies to a global audience, you may occasionally reflect on how the use of those technologies align with your personal values and our collective human rights. Or you may not. Be warned, however: avoiding the topic entirely can lead to some uncomfortable situations down the line.
 
