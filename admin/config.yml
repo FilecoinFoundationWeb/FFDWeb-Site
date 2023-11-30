@@ -188,8 +188,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: digest
     label: Digest Articles
     folder: cms/digest
@@ -293,8 +291,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: resources
     label: Resources
     folder: cms/resources
@@ -413,8 +409,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: project_partners
     label: Project Partners
     folder: cms/project-partners
@@ -493,8 +487,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: resource_topics
     label: Resource Topics
     folder: cms/resource-topics
@@ -535,8 +527,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: resource_type
     label: Resource Types
     folder: cms/resource-type
@@ -594,8 +584,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - name: tags
     label: Tags
     folder: cms/tags
@@ -636,8 +624,6 @@ collections:
         name: date
         widget: datetime
       - *ref_0
-    editor:
-      preview: false
   - label: Theme Settings
     name: settings
     identifier_field: title
@@ -775,6 +761,10 @@ collections:
           - hint: 'Original text: Blog, key: 1fa3c2'
             label: Text
             name: 1fa3c2
+            widget: string
+          - hint: 'Original text: DWeb Digest, key: -144f286c'
+            label: Text
+            name: '-144f286c'
             widget: string
           - hint: 'Original text: Resources, key: 13ede05'
             label: Text
@@ -1633,10 +1623,6 @@ collections:
             label: Text
             name: '-7e90ea1c'
             widget: string
-          - hint: 'Original text: Blog Index, key: 15e596d4'
-            label: Text
-            name: 15e596d4
-            widget: string
           - hint: 'Original text: FFDW Blog, key: -6a377191'
             label: Text
             name: '-6a377191'
@@ -1761,6 +1747,10 @@ collections:
           - hint: 'Original text: *Must be at least 50 characters, key: -485217e5'
             label: Text
             name: '-485217e5'
+            widget: string
+          - hint: 'Original text: Blog Index, key: 15e596d4'
+            label: Text
+            name: 15e596d4
             widget: string
           - hint: 'Original text: Share, key: 4c25fbf'
             label: Text
@@ -3516,10 +3506,6 @@ collections:
             label: Text
             name: '-6714307e'
             widget: text
-          - hint: 'Original text: DWeb Digest, key: -144f286c'
-            label: Text
-            name: '-144f286c'
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3571,6 +3557,10 @@ collections:
           - hint: 'Original link: /blog/, key: 55cb89fe'
             label: Link
             name: 55cb89fe
+            widget: string
+          - hint: 'Original link: /digest/, key: 754e57dc'
+            label: Link
+            name: 754e57dc
             widget: string
           - hint: 'Original link: /resources/, key: 5c7d819'
             label: Link
@@ -3681,10 +3671,6 @@ collections:
               key: -54074316
             label: Link
             name: '-54074316'
-            widget: string
-          - hint: 'Original link: /digest/, key: 754e57dc'
-            label: Link
-            name: 754e57dc
             widget: string
           - hint: >-
               Original link: https://proto.school/content-addressing/, key:
