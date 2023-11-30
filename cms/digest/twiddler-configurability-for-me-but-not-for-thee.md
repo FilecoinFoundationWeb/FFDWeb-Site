@@ -13,14 +13,18 @@ f_image:
 f_author: Cory Doctorow
 f_author-profile:
   url: /assets/images/dwd-profile-09.png
-f_author-bio: Cory Doctorow (craphound.com) is a science fiction author, activist and journalist. He is the author of many books, most recently RED TEAM BLUES, a science fiction crime thriller.
+f_author-bio: Cory Doctorow (craphound.com) is a science fiction author,
+  activist and journalist. He is the author of many books, most recently RED
+  TEAM BLUES, a science fiction crime thriller.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:06:45.805Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Twiddler: Configurability for Me, But Not For Thee."
+  og:image: /assets/images/DWD-Illustration-12.png
 ---
 Tracking Exposed is a scrappy European nonprofit that attempts to understand how online recommendation algorithms work. They combine data from volunteers who install a plugin with data acquired through “headless browsers” to attempt to reverse-engineer the principles that determine what you see when you visit or search Tiktok, Amazon, YouTube, Facebook or Pornhub.
 
