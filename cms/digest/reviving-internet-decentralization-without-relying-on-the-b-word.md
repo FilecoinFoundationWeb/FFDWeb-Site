@@ -14,14 +14,18 @@ f_author: Farzaneh Badiei
 f_author-profile:
   alt: ""
   url: /assets/images/dwd-profile-06.png
-f_author-bio: Farzaneh Badiei is a recovering academic and founded Digital Medusa to petrify the enemies of a global, interoperable Internet.
+f_author-bio: Farzaneh Badiei is a recovering academic and founded Digital
+  Medusa to petrify the enemies of a global, interoperable Internet.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:47:09.140Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: 'FFDW DWeb Digest: Reviving Internet Decentralization Without Relying on
+    the "B word"!'
+  og:image: /assets/images/DWD-Illustration-09.png
 ---
 In the end, the fate of every technology is centralization. But we can change that. 
 
