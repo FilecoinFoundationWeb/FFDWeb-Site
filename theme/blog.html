@@ -211,6 +211,17 @@ a:hover .move-on-hover {
 .master-container {
   overflow-x: hidden;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 @media screen and (max-width: 25.9375rem) {
   .ti-hidden {
     display: none;
@@ -221,6 +232,48 @@ a:hover .move-on-hover {
     max-width: 100%;
   }
 }
+</style>
+    </div>
+    <div class="w-embed">
+      <style>
+  .blog-card {
+    padding: 1rem calc(50% - 30.125rem);
+  }
+  .blog-post:nth-of-type(odd) .arrow-image {
+    transform: rotate(180deg);
+  }
+  .blog-post:last-of-type .blog-card-border-bottom {
+    display: block;
+  }
+  html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
+    display: none;
+  }
+  .blog-card_information .w-dyn-item:last-of-type div:last-of-type {
+    display: none;
+  }
+  .blog-post:hover .arrow-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_image {
+    width: 19.5rem;
+  }
+  .blog-post:hover .blog-card_background {
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_content {
+    color: #070517;
+  }
+  @media screen and (min-width: 768px) {
+    .blog-post:nth-of-type(even) .blog-card_content {
+      flex-direction: row-reverse;
+    }
+    .blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
+      margin-right: 0;
+      margin-left: 3rem;
+    }
+  }
 </style>
     </div>
     <div class="header-selector">
@@ -375,7 +428,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -387,7 +440,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -400,6 +453,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                   <div class="subnav-artifacts"></div>
                 </div>
@@ -458,6 +523,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                   <div class="subnav-artifacts"></div>
                 </div>
               </div>
@@ -499,18 +576,6 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
-                  </a>
-                  <a href="{{ links.-5ade3973 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
                   </a>
                   <a href="{{ links.f66fbbf }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -554,7 +619,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -566,7 +631,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -579,6 +644,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                 </div>
               </div>
@@ -633,6 +710,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                 </div>
               </div>
               <div class="tablet-subnav">
@@ -679,18 +768,6 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
-                  <a href="{{ links.7894e442 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
-                  </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
                         <g transform="translate(-1044 -997)">
@@ -719,7 +796,7 @@ body:has(.navbar .w--open) {
         <div class="breadcrumbs">
           <a href="{{ links.2f }}" class="breadcrumb_link">{{ texts.2268ff }}</a>
           <div class="breadcrumb_divider">{{ texts.7fc2 }}</div>
-          <div>{{ texts.15e596d4 }}</div>
+          <div>{{ texts.1fa3c2 }}</div>
         </div>
       </div>
       <div id="blog-header" class="sectional reach-sectional">
@@ -744,7 +821,7 @@ body:has(.navbar .w--open) {
     background-color: #bafe36;
 }
 </style>
-              </div><img loading="lazy" alt="" src="/assets/images/people-sitting-on-laptops-at-a-work-table.jpeg" sizes="(max-width: 767px) 57vw, (max-width: 991px) 43vw, 326.65625px" srcset="/assets/images/people-sitting-on-laptops-at-a-work-table-p-500.jpeg 500w, /assets/images/people-sitting-on-laptops-at-a-work-table-p-800.jpeg 800w, /assets/images/people-sitting-on-laptops-at-a-work-table.jpeg 1000w" class="col-image">
+              </div><img loading="lazy" alt="" src="/assets/images/people-sitting-on-laptops-at-a-work-table.jpeg" sizes="(max-width: 767px) 57vw, (max-width: 991px) 43vw, 326.65625px" srcset="/assets/images/people-sitting-on-laptops-at-a-work-table-p-500.jpeg 500w, /assets/images/people-sitting-on-laptops-at-a-work-table-p-800.jpeg 800w, /assets/images/people-sitting-on-laptops-at-a-work-table.jpeg 1000w" class="digest_author-profile">
             </div>
           </div>
         </div>
@@ -905,51 +982,6 @@ input.addEventListener('input', () => {
           </a>{%- endif -%}
           <a pagination-action="last" href="{{ links.23 }}" class="pagination-button">{{ texts.2406b6 }}</a>
         </div>
-      </div>
-      <div class="blog-custom-css w-embed">
-        <style>
-html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
- display: none;
-}
-.blog-card_information .w-dyn-item:last-of-type div:last-of-type {
-    display: none;
-}
-.blog-post:nth-of-type(odd) .arrow-image {
-  transform: rotate(180deg);
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.blog-post:hover .arrow-wrapper {
- opacity: 1;
-}
-.blog-post:hover .blog-card_image {
- width: 19.5rem;
-}
-.blog-post:hover .blog-card_background {
- opacity: 1;
-}
-.blog-card {
-    padding: 1rem calc(50% - 30.125rem);
-}
-.blog-post:last-of-type .blog-card-border-bottom {
- display: block;
-}
-@media screen and (min-width: 768px) {
-.blog-post:nth-of-type(even) .blog-card_content {
-	flex-direction: row-reverse;
-}
-.blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
- margin-right: 0;
- margin-left: 3rem;
-}
-}
-</style>
       </div>
     </section>
     <footer id="site-footer" class="footer js-footer">

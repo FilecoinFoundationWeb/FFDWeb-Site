@@ -204,6 +204,17 @@ a:hover .move-on-hover {
 .master-container {
   overflow-x: hidden;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
 @media screen and (max-width: 25.9375rem) {
   .ti-hidden {
     display: none;
@@ -214,6 +225,48 @@ a:hover .move-on-hover {
     max-width: 100%;
   }
 }
+</style>
+    </div>
+    <div class="w-embed">
+      <style>
+  .blog-card {
+    padding: 1rem calc(50% - 30.125rem);
+  }
+  .blog-post:nth-of-type(odd) .arrow-image {
+    transform: rotate(180deg);
+  }
+  .blog-post:last-of-type .blog-card-border-bottom {
+    display: block;
+  }
+  html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
+    display: none;
+  }
+  .blog-card_information .w-dyn-item:last-of-type div:last-of-type {
+    display: none;
+  }
+  .blog-post:hover .arrow-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_image {
+    width: 19.5rem;
+  }
+  .blog-post:hover .blog-card_background {
+    opacity: 1;
+  }
+  .blog-post:hover .blog-card_content {
+    color: #070517;
+  }
+  @media screen and (min-width: 768px) {
+    .blog-post:nth-of-type(even) .blog-card_content {
+      flex-direction: row-reverse;
+    }
+    .blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
+      margin-right: 0;
+      margin-left: 3rem;
+    }
+  }
 </style>
     </div>
     <div class="header-selector gradient-purple-green">
@@ -368,7 +421,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -380,7 +433,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -393,6 +446,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                   <div class="subnav-artifacts"></div>
                 </div>
@@ -451,6 +516,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                   <div class="subnav-artifacts"></div>
                 </div>
               </div>
@@ -492,18 +569,6 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
-                  </a>
-                  <a href="{{ links.-5ade3973 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
                   </a>
                   <a href="{{ links.f66fbbf }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -547,7 +612,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.506e07af }}</div>
+                    <div class="button-text primary-links-list">{{ texts.-6741b7f8 }}</div>
                   </a>
                   <a href="{{ links.559d6ee1 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -559,7 +624,7 @@ body:has(.navbar .w--open) {
                           <rect width="3" height="3" transform="translate(1050 1003)"></rect>
                         </g>
                       </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.7455795c }}</div>
+                    <div class="button-text primary-links-list">{{ texts.3d5fec6 }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -572,6 +637,18 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.-7bc27f6b }}</div>
+                  </a>
+                  <a href="{{ links.16bdc13e }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-64104400 }}</div>
                   </a>
                 </div>
               </div>
@@ -626,6 +703,18 @@ body:has(.navbar .w--open) {
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
                   </a>
+                  <a href="{{ links.754e57dc }}" class="subnav-icon-link inline-flex w-inline-block">
+                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
+                        <g transform="translate(-1044 -997)">
+                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
+                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
+                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
+                        </g>
+                      </svg></div>
+                    <div class="button-text primary-links-list">{{ texts.-144f286c }}</div>
+                  </a>
                 </div>
               </div>
               <div class="tablet-subnav">
@@ -671,18 +760,6 @@ body:has(.navbar .w--open) {
                         </g>
                       </svg></div>
                     <div class="button-text primary-links-list">{{ texts.1fa3c2 }}</div>
-                  </a>
-                  <a href="{{ links.7894e442 }}" class="subnav-icon-link inline-flex w-inline-block">
-                    <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
-                        <g transform="translate(-1044 -997)">
-                          <rect width="3" height="3" transform="translate(1044 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1056 997)"></rect>
-                          <rect width="3" height="3" transform="translate(1047 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1053 1000)"></rect>
-                          <rect width="3" height="3" transform="translate(1050 1003)"></rect>
-                        </g>
-                      </svg></div>
-                    <div class="button-text primary-links-list">{{ texts.39869d1f }}</div>
                   </a>
                   <a href="{{ links.-7e16aa10 }}" class="subnav-icon-link inline-flex w-inline-block">
                     <div class="icon-arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -733,7 +810,7 @@ body:has(.navbar .w--open) {
       </div>
       <header class="header-home">
         <div class="container-home">
-          <div class="container-home_panel-left"><img class="home-header-image" src="/assets/images/woman-on-phone.jpg" alt="" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;66vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;80vw&quot;},{&quot;max&quot;:1919,&quot;size&quot;:&quot;33vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;526.875px&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 767px) 66vw, (max-width: 991px) 80vw, (max-width: 1919px) 33vw, 526.875px" loading="lazy" srcset="/assets/images/woman-on-phone-p-500.jpg 500w, /assets/images/woman-on-phone.jpg 700w"></div>
+          <div class="container-home_panel-left"><img class="home-header-image" src="/assets/images/woman-on-phone.jpg" alt="Woman on a phone and tablet." data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;83vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;66vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;80vw&quot;},{&quot;max&quot;:1919,&quot;size&quot;:&quot;33vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;526.875px&quot;}]" sizes="(max-width: 479px) 83vw, (max-width: 991px) 80vw, (max-width: 1919px) 33vw, 526.8844604492188px" loading="lazy" srcset="/assets/images/woman-on-phone-p-500.jpg 500w, /assets/images/woman-on-phone.jpg 700w"></div>
           <div class="container-home_panel-right">
             <div class="container-home_panel-right-inner-content">
               <h1 aria-label="Rebuilding the internet. For good." class="home-header">{{ texts.69401a07 }}<span class="homepage-image-1"> </span><br>{{ texts.-671413e2 }}<span class="homepage-image-2"> </span><br><span class="homepage-image-3"> </span>{{ texts.6059dcda }}</h1>
@@ -773,7 +850,7 @@ body:has(.navbar .w--open) {
         <div class="col-6-center hide-landscape">
           <div class="col-content-padding">
             <div class="richtext-content-small-margins w-richtext">
-              <h3>{{ texts.-51641a21 }}</h3>
+              <h2 class="heading-2-home">{{ texts.-51641a21 }}</h2>
               <p>{{ texts.200d }}</p>
               <p>{{ texts.7bc89277 }}</p>
             </div>
@@ -802,7 +879,7 @@ body:has(.navbar .w--open) {
           <div class="col-heading h1"><strong>{{ texts.6b11aa6d }}</strong></div>
           <div class="sectional_description padding-right-4">{{ texts.6fa3cd48 }}</div>
         </div>
-        <div class="col-2-home-image"><img class="col-image" src="/assets/images/person-speaking-at-conference.png" alt="" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" sizes="(max-width: 767px) 86vw, (max-width: 991px) 43vw, 326.6640625px" loading="lazy" srcset="/assets/images/person-speaking-at-conference-p-500.png 500w, /assets/images/person-speaking-at-conference-p-800.png 800w, /assets/images/person-speaking-at-conference.png 1200w"></div>
+        <div class="col-2-home-image"><img class="digest_author-profile" src="/assets/images/person-speaking-at-conference.png" alt="Lady speaking holding a microphone." data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;86vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;326.65625px&quot;}]" sizes="(max-width: 991px) 43vw, 326.65716552734375px" loading="lazy" srcset="/assets/images/person-speaking-at-conference-p-500.png 500w, /assets/images/person-speaking-at-conference-p-800.png 800w, /assets/images/person-speaking-at-conference.png 1200w"></div>
       </div>
     </div>
     <div class="sectional home-accordions">
@@ -1138,7 +1215,7 @@ body:has(.navbar .w--open) {
       <div class="container-flex relative">
         <div class="col-3">
           <div class="image-with-artifact">
-            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="" src="/assets/images/woman-outside-holding-an-ipad-on-a-sunny-day.jpg" class="home-image-1">
+            <div class="image-artifact left-image"></div><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="A woman walking with a notebook. " src="/assets/images/woman-outside-holding-an-ipad-on-a-sunny-day.jpg" class="home-image-1">
             <div class="image-artifact home"></div>
           </div>
         </div>
@@ -1150,7 +1227,7 @@ body:has(.navbar .w--open) {
           </div>
         </div>
         <div class="col-3">
-          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="" src="/assets/images/man-outside-holding-a-coffee-on-a-sunny-day.jpg" class="home-image-2"></div>
+          <div class="image-with-artifact"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="A person waling while holding a coffee mug. " src="/assets/images/man-outside-holding-a-coffee-on-a-sunny-day.jpg" class="home-image-2"></div>
         </div>
         <div class="image-artifact-home left-image"></div>
         <div class="image-artifact-home right-image purple"></div>
@@ -1159,7 +1236,9 @@ body:has(.navbar .w--open) {
     <div class="sectional">
       <div class="container-flex starling-section">
         <div class="video-card relative starling">
-          <a video-link="" href="{{ links.2d64286a }}" class="video-image-wrapper w-inline-block"><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon"></a>
+          <a video-link="" href="{{ links.2d64286a }}" class="video-image-wrapper w-inline-block">
+            <div class="visually-hidden">{{ texts.-39119cbb }}</div><img src="/assets/images/video-background.png" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt=""><img src="/assets/images/play-icon-black.svg" loading="lazy" alt="" class="play-icon">
+          </a>
           <a video-link="" href="{{ links.2d64286a }}" target="_blank" class="button-link-with-icon inline-flex small w-inline-block">
             <div class="button-text primary-links-list">{{ texts.-613b9858 }}</div>
             <div class="icon-arrow visible move-on-hover w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9">
@@ -1184,15 +1263,21 @@ body:has(.navbar .w--open) {
     </div>
     <div id="collaborators" class="sectional home-get-involved-section">
       <div class="collaborators-container">
-        <div class="collaborators_panel-left"><img src="/assets/images/man-sitting-in-a-boardroom-looking-in-the-camera.jpg" alt="" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/man-sitting-in-a-boardroom-looking-in-the-camera-p-500.jpg 500w, /assets/images/man-sitting-in-a-boardroom-looking-in-the-camera.jpg 800w"></div>
+        <div class="collaborators_panel-left"><img src="/assets/images/man-sitting-in-a-boardroom-looking-in-the-camera.jpg" alt="A person sitting at a table smiling at the camera." data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/man-sitting-in-a-boardroom-looking-in-the-camera-p-500.jpg 500w, /assets/images/man-sitting-in-a-boardroom-looking-in-the-camera.jpg 800w"></div>
         <div class="get-involved_panel-right gradient-purple-green home">
           <div class="collaborators_panel-right-text-container">
             <div class="collaborators-title">{{ texts.4422b111 }}</div>
             <div class="home-get-involved-description">{{ texts.-421fa511 }}</div>
             <div class="socials-wrapper-home">
-              <a href="{{ links.-4cea8318 }}" target="_blank" class="w-inline-block"><img src="/assets/images/twitter-black.svg" loading="lazy" alt=""></a>
-              <a href="{{ links.294cd9ba }}" target="_blank" class="w-inline-block"><img src="/assets/images/youtube-black.svg" loading="lazy" alt=""></a>
-              <a href="{{ links.5cf48067 }}" target="_blank" class="w-inline-block"><img src="/assets/images/linkedin-black.svg" loading="lazy" alt=""></a>
+              <a href="{{ links.-4cea8318 }}" target="_blank" class="w-inline-block">
+                <div class="visually-hidden">{{ texts.67c3f5e9 }}</div><img src="/assets/images/twitter-black.svg" loading="lazy" alt="">
+              </a>
+              <a href="{{ links.294cd9ba }}" target="_blank" class="w-inline-block">
+                <div class="visually-hidden">{{ texts.-5051fdef }}</div><img src="/assets/images/youtube-black.svg" loading="lazy" alt="YouTube icon">
+              </a>
+              <a href="{{ links.5cf48067 }}" target="_blank" class="w-inline-block">
+                <div class="visually-hidden">{{ texts.6fe0e286 }}</div><img src="/assets/images/linkedin-black.svg" loading="lazy" alt="LinkedIn icon">
+              </a>
             </div>
             <div class="home-get-involved-description"></div>
           </div>
@@ -1261,47 +1346,6 @@ body:has(.navbar .w--open) {
         {%- if collection.length == 0 -%}<div class="w-dyn-empty">
           <div>{{ texts.3d503d2b }}</div>
         </div>{%- endif -%}
-      </div>
-      <div class="blog-custom-css w-embed">
-        <style>
-html.wf-design-mode .blog-post .w-dyn-list.wf-no-items {
- display: none;
-}
-.blog-card_information .w-dyn-item:last-of-type div:last-of-type {
-    display: none;
-}
-.blog-post:nth-of-type(odd) .arrow-image {
-  transform: rotate(180deg);
-}
-.blog-post:hover .arrow-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.blog-post:hover .arrow-wrapper {
- opacity: 1;
-}
-.blog-post:hover .blog-card_image {
- width: 19.5rem;
-}
-.blog-post:hover .blog-card_background {
- opacity: 1;
-}
-.blog-card {
-    padding: 1rem calc(50% - 30.125rem);
-}
-.blog-post:last-of-type .blog-card-border-bottom {
- display: block;
-}
-@media screen and (min-width: 768px) {
-.blog-post:nth-of-type(even) .blog-card_content {
-	flex-direction: row-reverse;
-}
-.blog-post:nth-of-type(even) .blog-card_content .blog-card_image {
- margin-right: 0;
- margin-left: 3rem;
-}
-}
-</style>
       </div>
     </section>
     <div class="container-flex flex-center margin-top">
