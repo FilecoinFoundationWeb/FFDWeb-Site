@@ -13,7 +13,8 @@ f_image:
 f_author: Naomi Brockwell
 f_author-profile:
   url: /assets/images/dwd-profile-07.png
-f_author-bio: Naomi Brockwell is a tech journalist, creator of NBTV.media, and author of "Beginner's Introduction to Privacy"
+f_author-bio: Naomi Brockwell is a tech journalist, creator of NBTV.media, and
+  author of "Beginner's Introduction to Privacy"
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:48:49.099Z
@@ -21,6 +22,8 @@ seo:
   noindex: false
   twitter:title: summary
   twitter:card: summary
+  og:image: /assets/images/DWD-Illustration-10.png
+  title: "FFDW DWeb Digest: Why We Need To Fight For Our Privacy"
 ---
 We all love good sci-fi films, such as those that show us some dystopian future surveillance state where the government monitors its citizens' every move. We eagerly follow the story, and enjoy the protagonist’s quest to restore privacy and freedom of speech, and bring down the centralized powers. We’re comforted by the belief that “it’s just a film — that could never happen here. Our freedoms are secure.”
 
