@@ -13,14 +13,17 @@ f_image:
 f_author: Kurt Opsahl
 f_author-profile:
   url: /assets/images/dwd-profile-05.png
-f_author-bio: Kurt Opsahl works to help build the legal and policy space in which the decentralized web can thrive.
+f_author-bio: Kurt Opsahl works to help build the legal and policy space in
+  which the decentralized web can thrive.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T18:44:40.696Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Recognizing Code as Speech is Vital"
+  og:image: /assets/images/DWD-Illustration-08.png
 ---
 Strong protection for code as speech is **critical** to the development of software around the world, especially open-source projects essential for the distributed web, which rely on many authors and contributors to build, improve, and secure a codebase. These projects’ developers often consist of a community of volunteers, contributing to the project’s collective goal of building a better tool that aligns with their dream of designing a more equitable decentralized future.  
 
