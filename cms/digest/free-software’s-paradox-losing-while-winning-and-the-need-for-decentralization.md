@@ -14,14 +14,18 @@ f_image:
 f_author: Holmes Wilson
 f_author-profile:
   url: /assets/images/DWD-Profile-11.png
-f_author-bio: Holmes Wilson is a co-founder of Fight for the Future and Quiet, a decentralized alternative to Slack and Discord built on Tor and IPFS.
+f_author-bio: Holmes Wilson is a co-founder of Fight for the Future and Quiet, a
+  decentralized alternative to Slack and Discord built on Tor and IPFS.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:52:37.945Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Free Software’s Paradox: Losing While Winning and the
+    Need for Decentralization"
+  og:image: /assets/images/DWD-Illustration-05.png
 ---
 In today's digital landscape, free and open source software has become more ubiquitous than ever. Unfortunately, at the same time, it appears extraordinarily far from achieving its stated goals of giving users access to and control over code. 
 
