@@ -13,14 +13,18 @@ f_image:
 f_author: Kristin Smith
 f_author-profile:
   url: /assets/images/dwd-profile-04.png
-f_author-bio: Kristin is CEO of Blockchain Association, the Washington, D.C.-based trade association representing more than 100 of the industry’s leading companies.
+f_author-bio: Kristin is CEO of Blockchain Association, the Washington,
+  D.C.-based trade association representing more than 100 of the industry’s
+  leading companies.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T18:01:20.051Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Navigating Crypto Policy Around the Globe"
+  og:image: /assets/images/DWD-Illustration-06.png
 ---
 In the wake of sustained market turmoil in the crypto ecosystem, federal regulators in the United States and relevant authorities abroad are reassessing the fundamental question: how much should we integrate or corral this emerging technology? 
 
