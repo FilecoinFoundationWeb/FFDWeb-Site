@@ -13,14 +13,19 @@ f_image:
 f_author: Mai Ishikawa Sutton
 f_author-profile:
   url: /assets/images/dwd-profile-03.png
-f_author-bio: Mai Ishikawa Sutton is a senior organizer with DWeb projects, co-founder of Distributed.Press and COMPOST magazine, and contributor to Hypha Worker Co-op.
+f_author-bio: Mai Ishikawa Sutton is a senior organizer with DWeb projects,
+  co-founder of Distributed.Press and COMPOST magazine, and contributor to Hypha
+  Worker Co-op.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-16T17:27:25.391Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: The Debate Over DWeb vs. Web3 & The Decentralized
+    Elephant in the Room"
+  og:image: /assets/images/DWD-Illustration-04.png
 ---
 This article started off as one that would delineate the difference between the terms “DWeb” (as in decentralized Web) and “Web3” (as in Web 3.0). It seemed like a useful exercise to tease out the communities that implicitly or explicitly support these terms. But the more I dug into it, the more I realized this wasn’t that interesting in itself.
 
