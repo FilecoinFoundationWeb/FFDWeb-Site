@@ -13,14 +13,20 @@ f_image:
 f_author: Chris Riley
 f_author-profile:
   url: /assets/images/dwd-profile-08.png
-f_author-bio: Chris Riley is the executive director of the nonprofit Data Transfer Initiative and a distinguished research fellow at the Annenberg Public Policy Center at the University of Pennsylvania; he holds a Ph.D. in computer science from Johns Hopkins University and a J.D. from Yale Law School.
+f_author-bio: Chris Riley is the executive director of the nonprofit Data
+  Transfer Initiative and a distinguished research fellow at the Annenberg
+  Public Policy Center at the University of Pennsylvania; he holds a Ph.D. in
+  computer science from Johns Hopkins University and a J.D. from Yale Law
+  School.
 tags: digest
 layout: "[digest].html"
 date: 2023-10-18T19:00:51.728Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Decentralization and Data Flows"
+  og:image: /assets/images/DWD-Illustration-11.png
 ---
 Decentralized is the new disruptive; a large piece of the narrative power motivating enthusiasm around distributed ledger technologies (or blockchain, or Web3, depending on the author and context) is the potential for transforming power dynamics and resources as compared to existing ecosystems. But as Charley Johnson wrote in [Untangled](https://untangled.substack.com/p/crypto-is-not-decentralized?utm_source=profile&utm_medium=reader2), “Technical decentralization does not decentralize power.” More is needed to realize the normative goals under the concept of decentralization than merely setting up servers in a different way. Notably, like the proverbial spice, the data must flow — both in and out, as users dictate. Where data flows are unduly limited, so too is decentralized infrastructure. Data portability reflects a particular way in which data can flow or be blocked, and designing policy around data portability to maximize the control of technology users and data subjects — including promoting reciprocity of transfers — ultimately promotes both effective data flow and meaningful decentralization.
 
