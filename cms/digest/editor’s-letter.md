@@ -10,14 +10,19 @@ f_image:
 f_author: Mike Masnick
 f_author-profile:
   url: /assets/images/dwd-profile-01.png
-f_author-bio: Mike Masnick is the founder & editor of the popular Techdirt blog as well as the founder of the Silicon Valley think tank, the Copia Institute.  In both roles, he explores the intersection of technology, innovation, policy, law, civil liberties, and economics.
+f_author-bio: Mike Masnick is the founder & editor of the popular Techdirt blog
+  as well as the founder of the Silicon Valley think tank, the Copia
+  Institute.  In both roles, he explores the intersection of technology,
+  innovation, policy, law, civil liberties, and economics.
 tags: digest
 layout: "[digest].html"
 date: 2023-09-06T17:57:51.721Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: ""
+  twitter:card: ""
+  title: "FFDW DWeb Digest: Editor’s Letter"
+  og:image: /assets/images/DWD-Illustration-01.png
 ---
 I am thrilled to have had a chance to edit and shape this special magazine on decentralization for the Filecoin Foundation for the Decentralized Web. For many of us, increasing decentralization has always been an important focus and goal, but it hasn’t always been clear to others why decentralization matters so much, or even what should be decentralized. The collection of articles in this magazine will help provide some perspective on these questions.
 
