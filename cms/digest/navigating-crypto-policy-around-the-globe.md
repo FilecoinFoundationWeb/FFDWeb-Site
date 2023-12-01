@@ -42,7 +42,7 @@ An alternative option, one that might both support the U.S.-led global financial
 
 
 
-The European Union has taken a more comprehensive perspective, [pioneering the MiCA legislation](https://www.coindesk.com/consensus-magazine/2023/01/24/european-union-mica-crypto-regulation/), which would create a licensing regime for digital asset businesses. While the legislation would place new requirements on crypto businesses, including insurance, the level of comprehensiveness is a welcome sign that, at the very least, the EU has accepted that crypto is here for good. The MiCA legislation does not offer a complete embrace of decentralization’s core properties — far from it. It does, however, offer an implicit recommendation: Web3 is big enough and permanent enough that we feel the need to regulate it. Ironically, the EU may become a more attractive jurisdiction than the United States for decentralized technologies to flourish.
+The European Union has taken a more comprehensive perspective, [pioneering the MiCA legislation](https://www.coindesk.com/learn/mica-eus-comprehensive-new-crypto-regulation-explained/), which creates a licensing regime for digital asset businesses. While the legislation places new requirements on crypto businesses, the level of comprehensiveness is a welcome sign that, at the very least, the EU has accepted that crypto is here for good. The MiCA legislation does not offer a complete embrace of decentralization’s core properties — far from it. It does, however, offer an implicit recommendation: Web3 is big enough and permanent enough that we feel the need to regulate it. Ironically, the EU may become a more attractive jurisdiction than the United States for decentralized technologies to flourish.
 
 
 
