@@ -646,7 +646,6 @@ collections:
             name: domain
             label: Domain
             widget: string
-            required: false
           - name: favicon
             label: Favicon
             widget: image
