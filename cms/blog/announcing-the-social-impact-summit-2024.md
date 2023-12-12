@@ -20,7 +20,7 @@ seo:
 * The Summit will feature experts from across law, policy, tech, and human rights, including: Crypto Council for Innovation, Ripple, Starling Labs, TechSoup, California Department of Justice, Creative Commons, Africa Blockchain Institute, the City of Berkeley, and more. 
 
 \
-Filecoin Foundation for the Decentralized Web (FFDW) today announced the inaugural Social Impact Summit 2024, hosted with Blockchain Law for Social good Center (BL4SG). The Social Impact Summit will take place on Tuesday, February 27, 2024, at the University of San Francisco, and will bring together experts and leaders from across human rights, law, policy, and technology to discuss how decentralized and emerging technologies can drive innovation for social impact .
+Filecoin Foundation for the Decentralized Web (FFDW) today announced the inaugural Social Impact Summit 2024, hosted with Blockchain Law for Social good Center (BL4SG). The Social Impact Summit will take place on Tuesday, February 27, 2024, at the University of San Francisco, and will bring together experts and leaders from across human rights, law, policy, and technology to discuss how decentralized and emerging technologies can drive innovation for social impact.
 
 A snapshot of Social Impact Summit 2024 speakers includes: 
 
