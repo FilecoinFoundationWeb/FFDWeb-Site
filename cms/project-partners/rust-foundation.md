@@ -8,6 +8,7 @@ f_blurb: The Rust Foundation is an independent non-profit organization dedicated
   supporting the set of maintainers governing and developing the project.
 f_logo:
   url: /assets/images/rust-foundation-logo-new-black.png
+f_external-link: https://foundation.rust-lang.org/
 f_past-collaborations: false
 tags: project-partners
 layout: "[project-partners].html"
