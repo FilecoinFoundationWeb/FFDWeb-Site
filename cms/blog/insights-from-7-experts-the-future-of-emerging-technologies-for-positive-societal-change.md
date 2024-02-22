@@ -61,8 +61,9 @@ Today’s internet is centralized: the vast majority of data is stored by just a
 
 **Enrique Crespo Peñaherrera, Regional Digital Advisor for Latin America and the Caribbean, United Nations Development Programme (UNDP)** 
 
-Embracing frontier technologies (like AI and blockchain) isn't just about staying ahead; it's about leveraging innovation to pave the path towards sustainable development. These cutting-edge tools empower us to transcend traditional barriers, fostering inclusivity, transparency, and efficiency in pursuing a better world. Embracing these technologies isn't merely an option; it's an imperative for building a future where every individual and community can thrive, leaving no one behind. **\
-Rainey Reitman, President of the Board of Directors, Freedom of the Press Foundation**
+Embracing frontier technologies (like AI and blockchain) isn't just about staying ahead; it's about leveraging innovation to pave the path towards sustainable development. These cutting-edge tools empower us to transcend traditional barriers, fostering inclusivity, transparency, and efficiency in pursuing a better world. Embracing these technologies isn't merely an option; it's an imperative for building a future where every individual and community can thrive, leaving no one behind. 
+
+**Rainey Reitman, President of the Board of Directors, Freedom of the Press Foundation**
 
 Over the last few decades, online power has centralized. A handful of corporate giants are siloing our data, blocking our access to knowledge, and gatekeeping our digital experience. In the movement to decentralize technology, I see a return to the ethos of an earlier internet era, when creativity and experimentation were the norm. It gives me hope. The future of technology can still be a force for uplifting humankind and bettering the world, especially when paired with the right policies and laws, but we will only get there when we give sovereignty back to technology users.
 
