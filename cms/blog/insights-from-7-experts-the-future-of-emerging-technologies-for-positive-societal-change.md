@@ -22,9 +22,14 @@ layout: "[blog].html"
 date: 2024-02-22T18:09:50.583Z
 seo:
   noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  twitter:title: "Insights from 7 Experts: The Future of Emerging Technologies for
+    Positive Societal Change"
+  twitter:card: ""
   og:image: /assets/images/022124-sis.png
+  og:title: "Insights from 7 Experts: The Future of Emerging Technologies for
+    Positive Societal Change"
+  title: "Insights from 7 Experts: The Future of Emerging Technologies for
+    Positive Societal Change"
 ---
 * **Uncertainty lingers regarding the equitable distribution of benefits from decentralized and AI technologies.**
 * **Technology isn't just a random collection of isolated tools like blockchain, AI, and quantum; it's an interconnected ecosystem that shapes our world.** 
