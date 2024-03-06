@@ -98,5 +98,7 @@ Notably, some of the files are encrypted to keep parts of the investigation priv
 
 ### Conclusion
 
-Starling Lab is constantly innovating on the capture, storage, and verification of media and digital information. This includes projects bringing those approaches to real-world workflows, like a recent [collaboration with Canon and Reuters](https://www.reutersagency.com/authenticity-poc). As technology reshapes the way we communicate, collaborate, and inform, Starling Lab strives to keep pace with the technology and authentication methods that can enable us to verify and trust digital information.\
+Starling Lab is constantly innovating on the capture, storage, and verification of media and digital information. This includes projects bringing those approaches to real-world workflows, like a recent [collaboration with Canon and Reuters](https://www.reutersagency.com/authenticity-poc). As technology reshapes the way we communicate, collaborate, and inform, Starling Lab strives to keep pace with the technology and authentication methods that can enable us to verify and trust digital information.
+
+\
 Connect with Starling Lab on [LinkedIn](https://www.linkedin.com/company/starlinglab/) to stay up to date about new projects and announcements, find our open-source tools on [Github](https://github.com/starlinglab), and learn more about our Lab’s latest collaborations and innovations on our website at <https://www.starlinglab.org/>.
