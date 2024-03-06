@@ -64,7 +64,7 @@ Web3 technology offers a number of powerful tools to help establish and preserve
 
 ### Capture
 
-Following Starling Labs’ approach of Authenticity-by-Design, we look for ways to secure metadata from the moment a digital asset is created. We focus on information that can establish provenance such as date- and timestamps, as well as GPS coordinates and device metadata. We recognize the importance of privacy and put creators in control of which data is released. 
+Following Starling Lab's approach of Authenticity-by-Design, we look for ways to secure metadata from the moment a digital asset is created. We focus on information that can establish provenance such as date- and timestamps, as well as GPS coordinates and device metadata. We recognize the importance of privacy and put creators in control of which data is released. 
 
 [Project Dokaz](https://www.cnn.com/2022/06/10/tech/ukraine-war-crimes-blockchain/index.html), the Ukrainian word for ‘Proof,’ is a set of accountability efforts in Ukraine that applies our work with especially vulnerable digital records. Starling Lab and our collaborator Hala Systems filed submissions to the Office of the Prosecutor (OTP) of the International Criminal Court (ICC) about alleged war crimes by Russia in Ukraine, detailing our methodologies to establish credibility of the evidence. A similar submission to the United Nations was cited by the Human Rights Council as an emerging good practice.
 
