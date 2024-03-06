@@ -82,7 +82,7 @@ The Starling Integrity Pipeline is a storage workflow that processes assets such
 
 ![Award-winning and Emmy-nominated journalism, The DJ and the War Crimes from Rolling Stone and Starling Lab](/assets/images/012923-starling.png)
 
-Starling Lab embraces a distinctly human and digital approach to verification. Our workflows capture the attestations of both experts and the people who were there when an asset was created, allowing audiences a better opportunity to evaluate the evidence for themselves.
+Starling Lab embraces a distinctly human *and* digital approach to verification. Our workflows capture the attestations of both experts and the people who were there when an asset was created, allowing audiences a better opportunity to evaluate the evidence for themselves.
 
 A collaboration between Starling Lab and [Numbers Protocol](https://www.numbersprotocol.io/) with the [Mom I See War](https://www.misw.org/) collections demonstrates the use of Web3 technologies including IPFS, Filecoin, and registration on the NEAR blockchain. Explore the collection using [Numbers Explorer](https://verify.numbersprotocol.io/asset-profile/1709746624212x390139549239738400?nid=bafkreicmjmzr4l44iyytetlgnjxoizhu3snieuavqfre4tr6inxh4wkdwy) to see the archive and registrations, as well as the images injected with C2PA metadata, which enables tracking changes and establishing the provenance if edits are made with Photoshop. 
 
