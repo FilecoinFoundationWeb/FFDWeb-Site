@@ -10,6 +10,8 @@ f_description: "Starling Lab develops technology and protocols for digital
   Capture, Store, Verify with fellows and collaborators in journalism, law,
   history, and technology. The purpose of its work is to establish trust in
   digital assets such as photographs, websites, audio, and video. "
+f_image:
+  url: /assets/images/081123-starling-1.png
 tags: blog
 layout: "[blog].html"
 date: 2024-03-06T16:46:52.633Z
