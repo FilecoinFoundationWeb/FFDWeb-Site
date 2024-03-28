@@ -6,6 +6,14 @@ updated-on: 2024-03-28T17:04:06.083Z
 published-on: 2024-03-28T17:04:06.088Z
 f_post-date: 2024-03-28T17:04:06.094Z
 f_featured: false
+f_description: This month, the Social Impact Summit 2024, co-hosted by
+  Blockchain Law for Social Good Center and Filecoin Foundation for the
+  Decentralized Web (FFDW), brought together changemakers to explore how
+  emerging technologies can influence trust in the web. Read on to learn more
+  about the sessions and themes that emerged from the inaugural Social Impact
+  Summit 2024.
+f_image:
+  url: /assets/images/031224-sis-retro.png
 tags: blog
 layout: "[blog].html"
 date: 2024-03-28T17:04:06.099Z
