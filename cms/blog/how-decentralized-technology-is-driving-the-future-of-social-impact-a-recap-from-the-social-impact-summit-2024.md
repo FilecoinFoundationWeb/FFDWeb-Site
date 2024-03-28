@@ -28,7 +28,7 @@ The Summit was also a moment to promote collaboration across the DWeb and FFDW c
 
 Read on to learn more about the sessions and themes that emerged from the inaugural Social Impact Summit 2024. 
 
-### **The Importance of Decentralization in a Centralized World** 
+##### **The Importance of Decentralization in a Centralized World** 
 
 The Summit opened with a keynote from [Rainey Reitman](https://twitter.com/RaineyReitman), Board President at Freedom of the Press Foundation. Through three real-world stories, she captured the essence of decentralization as a beacon of transparency, community empowerment, and protection of freedom.
 
@@ -46,8 +46,7 @@ Rainey’s compelling illustrations of how decentralized technologies improve li
 
 ![](/assets/images/socialimpactsummit-a_89.jpg)
 
-### **\
-Global Outlook on Blockchain and Tech Innovation **
+##### Global Outlook on Blockchain and Tech Innovation 
 
 Head of Global Social Impact Programs at FFDW, Hunter Treseder, led a discussion around blockchain’s global potential to drive transformation. Featuring members of BL4SG’s first cohort of the FFDW [International Affiliated Scholars](https://ffdweb.org/blog/introducing-the-first-international-affiliated-scholars-cohort/) program, the panel explored the merits of digital currencies from different geographical and socio-economic perspectives. 
 
@@ -55,7 +54,7 @@ Head of Global Social Impact Programs at FFDW, Hunter Treseder, led a discussion
 
 These diverse perspectives underscored the challenge of redesigning financial institutions' infrastructure in a way that benefits everyone.
 
-### **Blockchain’s Role in Global Equity**
+##### **Blockchain’s Role in Global Equity**
 
 [Sam Gregory](https://twitter.com/SamGregory), Executive Director of WITNESS, led a panel on how blockchain and decentralized web technologies can foster global equity. The panel brought together [Enrique Crespo Peñaherrera](https://twitter.com/we_crespo?lang=en) from the United Nations Development Program, [Alex Esenler](https://www.linkedin.com/in/aesenler/) from Open Archive, and [Candace Kelly](https://www.linkedin.com/in/candace-kelly-793492119/) from Stellar Development Foundation, who all shared insights on integrating emerging tech into various sectors to address critical issues ranging from financial inclusion to human rights documentation.
 
@@ -63,23 +62,21 @@ Enrique discussed the UNDP's efforts to harness digitalization to cultivate deve
 
 The conversation centered on the crucial theme of co-designing technology with the communities it aims to serve. In contrast to Big Tech’s approach of “move fast and break things,” the panelist emphasized the need to move slowly and thoroughly understand any implications before deploying new technologies. 
 
-
-
 ![](/assets/images/socialimpactsummit-a_204.jpg)
 
-### A Balance between Law and Innovation
+##### Finding Balance between Law and Innovation
 
 The panel, moderated by [Nik De](https://twitter.com/nikhileshde) of CoinDesk, dove into the pressing issue of how existing laws often fall short of addressing current needs. Johnette Jauron of the CA Department of Justice and [Debroah McCrimmon](https://www.linkedin.com/in/deborah-mccrimmon-35361551/) from Ripple both discussed the enforcement and legal challenges arising from a lack of regulatory clarity in the digital asset space. [Travis Moore](https://twitter.com/travismoore) of TechCongress called attention to the importance of integrating technological expertise into the legislative process to address the evolving landscape. And Kat Walsh from Creative Commons, spoke on the parallels between blockchain and open-source software, stressing the need for legal systems to adapt to new models of content distribution and ownership.
 
 The conversation highlighted the need for regulatory frameworks that accommodate emerging technologies, and the panelists advocated for proactive, inclusive legislation that is forward-looking, rather than reactive –– merely responding to past incidents. The discussion emphasized the significance of involving both lawmakers and the public to better understand blockchain's benefits beyond finance, suggesting that personal stories and practical uses could help connect complex technology with effective legislation.
 
-### A Fireside Chat with Marta Belcher
+##### A Fireside Chat with Marta Belcher
 
 [Marta Belcher](https://twitter.com/MartaBelcher), President and Chair of FFDW, was initially drawn to cryptocurrency for its capacity to bring civil liberties protections like financial privacy into the online realm. In her fireside chat with [Evîn Cheikosman](https://twitter.com/e_cheikos), she emphasized the importance of decentralized technologies that do not concentrate power within the hands of a few corporations, thus fostering a more inclusive and equitable digital future.
 
 Marta introduced the audience to the world’s largest decentralized file storage network, Filecoin, and the broader mission of Filecoin Foundation and its sister organization FFDW –– to leverage decentralized web technologies to preserve humanity’s most important information and bring trust and transparency to an increasingly AI-driven world. She envisions decentralized storage and compute as underpinning the next generation of the internet, offering an alternative path to Big Tech and enhancing users’ control over their data. 
 
-### Innovations in Tech Integrity
+##### Innovations in Tech Integrity
 
 [Brittan Heller](https://twitter.com/brittanheller), a professor at Stanford University specializing in international law, human rights, and tech policy, led an engaging panel on the gravity of building trust and integrating integrity within the tech stack. The discussion brought together experts from diverse initiatives, each sharing their unique approach to embedding authenticity and provenance into current technologies –– all aimed at creating a web that is both trustworthy and robust. 
 
@@ -89,7 +86,7 @@ The panel underscored decentralization’s pivotal role in advancing a digital e
 
 ![](/assets/images/socialimpactsummit-b_404.jpg)
 
-### Bridging the Digital Divide 
+##### Bridging the Digital Divide 
 
 To close the day, Crypto Council for Innovation CEO [Sheila Warren](https://twitter.com/sheila_warren) delivered the closing keynote, sharing insights on the current state of technology, policy, and social change. In a fireside chat with Evîn, she highlighted her work to bridge the digital divide, shape inclusive policies, and foster community engagement in technology –– all through a lens that protects civil liberties and social justice. 
 
