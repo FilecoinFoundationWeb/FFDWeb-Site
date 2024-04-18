@@ -33,7 +33,7 @@ Records of the fight for human rights can be some of the most vulnerable data in
 
 One way to remember – and safeguard – the data is to replicate it outside of the traditional web, on services that promise resilience to data loss, whether through centralization or single points of failure.
 
-### Exploring Decentralized Storage Solutions 
+#### Exploring Decentralized Storage Solutions 
 
 With FFDW’s support, HRDAG has been experimenting with new mechanisms for data storage, including IPFS and the Filecoin network. 
 
@@ -41,7 +41,7 @@ IPFS, which stands for the InterPlanetary File System, is a decentralized conten
 
 Filecoin combines IPFS with economic incentives –– to provide certainty that data is being stored. With cryptographic proofs, Filecoin ensures storage providers continue storing and serving the data. And because there is redundancy in who is storing and sharing the data, if one node goes down, the data is still accessible. By design, decentralized storage ensures redundancy and resilience, in contrast to the vulnerability of data on centralized servers. 
 
-### HRDAG’s Approach and Insights  
+#### HRDAG’s Approach and Insights  
 
 Decentralized storage is a new approach to data longevity –– for the Internet broadly and for HRDAG. 
 
@@ -49,7 +49,7 @@ Some of the information our team at HRDAG has uploaded to IPFS and Filecoin is p
 
 The nature of the data that HRDAG stewards, such as the truth commission data, raises novel questions as we explore how to best leverage decentralized technology to store and share important human rights work
 
-*How should we provide data on the web?* 
+##### *How should we provide data on the web?* 
 
 With the usual approach, we put a link to the data files on a page to allow access, and that’s it. On the decentralized web, how to best share stored data is still under discussion. How do you link to data stored on IPFS on a web page? How do you point people to data on IPFS and help them to understand what they’ve found when they locate it? Unlike https links, CID links are not as widely accessible and require an IPFS node or gateway. 
 
@@ -57,7 +57,7 @@ HRDAG’s experiment with decentralized storage began 18 months ago when we put 
 
 At its core, IPFS is as its name implies: a file system. One of the easiest and fastest ways to put data onto the network is to just upload files and directories from your laptop. So we created a script that downloaded the datasets from the HRDAG website, put them into a directory, and put that directory onto IPFS with CID links. There’s nothing fancy about this method, and it may not be the best way to organize a long-term archive. But when time is of the essence, as it often is during human rights crises, this can be an effective way to ensure critical data is remembered rather than forgotten. 
 
-*How to host the data?* 
+##### *How to host the data?* 
 
 IPFS works by having people host data for you, which introduces the question – who should host our data?
 
