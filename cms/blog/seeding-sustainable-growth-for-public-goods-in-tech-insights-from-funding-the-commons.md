@@ -18,13 +18,11 @@ seo:
 ---
 Imagine a scenario where a local government is looking to support a community garden but lacks resources, so motivated gardeners plant seeds and cultivate the garden because they recognize this public good is needed. The community comes together to fund and support a shared resource, and everyone benefits. This is an example of public goods funding.
 
-Last month, leaders from across Web2, Web3, research, and philanthropy came together at Funding the Commons, an event in Berkeley, California, to seek solutions for funding public goods, including Open Source Software (OSS) development. The event featured several Filecoin Foundation for the Decentralized Web (FFDW) project partners, who shared their visions for the path forward for public goods and OSS funding in domains from human rights to visual art.
+Last month, leaders from across Web2, Web3, research, and philanthropy came together at [Funding the Commons](https://fundingthecommons.io/), an event in Berkeley, California, to seek solutions for funding public goods, including Open Source Software (OSS) development. The event featured several Filecoin Foundation for the Decentralized Web (FFDW) project partners, who shared their visions for the path forward for public goods and OSS funding in domains from human rights to visual art.
 
 The decentralized web (DWeb) has been advanced largely from open source and public contributions, but the infrastructure to fund the work of such contributors has lagged behind the pace of innovation; this challenge is magnified for particularly under-resourced fields that serve the public good, such as software for human rights defenders.
 
 ### Early Builders of the Internet Pursue Public Goods Solutions for the DWeb
-
-
 
 Brian Behlendorf, Chief AI Strategist at the Linux Foundation and an FFDW board member, delivered a keynote on the structure of the Linux Foundation –– a steward and funder of some of the most widely-used OSS on the Internet. Drawing on his expertise as a long-term builder of the open web, Behlendorf talked about the importance of preserving trust as a reliable, behind-the-scenes facilitator of OSS development, expressing that “trust and persistence make projects that last decades.”
 
@@ -38,8 +36,6 @@ O’Brien led the second workshop on a voyage through the ancient history of web
 
 ### Deliberately Designing Tools for Good
 
-
-
 Natalie Cadranel, founder and executive director of [OpenArchive](https://ffdweb.org/blog/decentralized-technology-for-human-rights-archiving-and-activism/), shared her philosophy for building human rights-centered tech that serves people, not centralized powers. Drawing on her years of research experience, she dove deep into the usability and privacy challenges faced by activists performing critical, on-the-ground work to document and archive evidence of human rights abuses. She outlined OpenArchive’s culture of [researching and iteratively designing tools alongside the activist communities](https://www.humanrightscentered.design/) they aim to serve. This methodology informed the design of the [Save app](https://open-archive.org/save), a mobile application that authenticates and safeguards media uploaded by human rights defenders using decentralized backends. Preaching a thoughtful approach to toolmaking that infuses harm reduction for vulnerable users from the beginning, Cadranel cautioned against a culture that builds tech that breaks:
 
 “We do not move fast and break things. We deliberately move slowly and learn things. We take the time to put things back together.”
@@ -47,8 +43,6 @@ Natalie Cadranel, founder and executive director of [OpenArchive](https://ffdweb
 Touching on the challenges of obtaining funding for public goods and OSS for human rights use cases, Cadranel took a few moments to recognize her positive experience working with FFDW. “\[Filecoin Foundation for the Decentralized Web’s] funding model is the most effective I have been lucky enough to explore,” praised Cadranel. “They really center on organizations instead of red tape.”
 
 ### Bridging Technology and the Arts
-
-
 
 [Gray Area](https://ffdweb.org/blog/empowering-creators-with-decentralized-web-technology/) Executive and Artistic Director Barry Threw sat down with [TRANSFER](https://fil.org/blog/ecosystem-spotlight-transfer-q-a-on-preserving-artistic-value-with-decentralized-technology-data-sovereignty-and-harnessing-value-of-data/) Founder Kelani Nichole to discuss building a cultural infrastructure that connects artists with technology for fruitful and sustainable creation.
 
