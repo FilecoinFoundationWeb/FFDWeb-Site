@@ -8,6 +8,8 @@ f_post-date: 2024-05-03T18:12:47.400Z
 f_featured: false
 f_image:
   url: /assets/images/043024_fundingthecommons_recap.png
+  alt: "Seeding Sustainable Growth for Public Goods in Tech: Insights from Funding
+    the Commons "
 tags: blog
 layout: "[blog].html"
 date: 2024-05-03T18:12:47.409Z
@@ -15,6 +17,9 @@ seo:
   noindex: false
   twitter:title: summary
   twitter:card: summary
+  title: "Seeding Sustainable Growth for Public Goods in Tech: Insights from
+    Funding the Commons "
+  og:image: /assets/images/043024_fundingthecommons_recap.png
 ---
 Imagine a scenario where a local government is looking to support a community garden but lacks resources, so motivated gardeners plant seeds and cultivate the garden because they recognize this public good is needed. The community comes together to fund and support a shared resource, and everyone benefits. This is an example of public goods funding.
 
