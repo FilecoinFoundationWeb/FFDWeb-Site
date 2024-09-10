@@ -22,7 +22,8 @@ f_type: cms/resource-type/blog.md
 f_topics:
   - cms/resource-topics/social-impact.md
   - cms/resource-topics/publishing-hosting.md
-f_keywords: whistleblowers
+f_keywords: whistleblower, journalism, freedom of the press, Edward Snowden,
+  Aaron Schwartz, privacy, anonymity, signal, securedrop
 f_technicality-3: "3"
 f_language-2: English
 tags: resources
