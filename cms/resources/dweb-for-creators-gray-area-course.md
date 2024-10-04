@@ -1,5 +1,5 @@
 ---
-title: DWeb for Creators Gray Area Course
+title: DWeb for Creators
 created-on: 2023-10-20T15:21:35.392Z
 updated-on: 2023-10-20T15:21:35.392Z
 published-on: 2023-10-20T15:22:08.074Z
