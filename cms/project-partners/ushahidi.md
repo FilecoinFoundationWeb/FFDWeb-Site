@@ -11,7 +11,7 @@ f_blurb: "Ushahidi's Election Data Resilience Initiative aims to make election
 f_logo:
   url: /assets/images/ushahidi-logo_black_1x-1-.png
 f_external-link: https://www.ushahidi.com/
-f_past-collaborations: false
+f_past-collaborations: true
 tags: project-partners
 layout: "[project-partners].html"
 date: 2024-02-23T23:59:13.840Z
