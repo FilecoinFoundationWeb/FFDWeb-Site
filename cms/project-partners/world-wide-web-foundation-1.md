@@ -13,6 +13,7 @@ f_blurb: The Web Foundation advances Sir Tim Berners-Lee's original vision for
   and in what areas a course correction is needed.
 f_logo:
   url: /assets/images/web-foundation-hi-res-logo.jpeg
+f_external-link: https://webfoundation.org/
 f_past-collaborations: false
 tags: project-partners
 layout: "[project-partners].html"
