@@ -60,7 +60,7 @@ But one of the challenges that we’re up against is stories that uncritically n
 
 These stories explore new perspectives when it comes to writing about centralized surveillance technologies. The first step is gathering short stories from authors who are already doing the work and telling stories that further human rights narratives around tech. 
 
-**How does this project incorporate decentralized technologies, including IPFS and Filecoin?** 
+**How will this project incorporate decentralized technologies, including IPFS and Filecoin?** 
 
 From these stories, we’ll create an accessible, decentralized toolkit for writers and readers that will be published in [COMPOST](https://three.compost.digital/), a DWeb native magazine that leverages the Interplanetary File System (IPFS) to empower authors and amplify free expression worldwide. Any storyteller will be able to tap into this toolkit to explore how they might craft narratives that challenge common assumptions and more closely reflect our lived experience. As storytellers, we should invest collectively in making room for a more rights-affirming future that encourages privacy, choice, and many voices. 
 
