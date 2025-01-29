@@ -196,6 +196,8 @@ The Smithsonian’s National Museum of American History is working with FFDW to 
 
 TRANSFER Data Trust is a decentralized, artist-owned archive and cooperative value exchange network for time-based media art. FFDW’s collaboration with TRANSFER brings 10 years of new media and virtual artworks across five studios onto the Filecoin network. The Data Trust is a proof-of-concept prototype of open culture infrastructure for galleries, libraries, archives, and museums.
 
+![](/assets/images/policy.webp)
+
 ### Government Datasets and Policy 
 
 #### [Authors Alliance](https://www.authorsalliance.org/)
@@ -232,6 +234,8 @@ Public Knowledge is a nonprofit shaping policy to promote freedom of expression,
 
 TechCongress is an organization that provides one-year fellowships to bridge the informational gap between technologists and policymakers in Congress by placing technologists on Capitol Hill to serve as Congressional technology advisors. Funding from FFDW has supported fellowship participation, with technologists placed in offices including Sen. Cynthia Lummis (R-WY); Sen. Ron Wyden (D-OR); the Senate Finance Committee; the House Science, Space, and Technology Committee; and elsewhere.
 
+![](/assets/images/science-and-environment.webp)
+
 ### Science and Environment 
 
 #### [Earth Species Project](https://www.earthspecies.org/)
@@ -245,6 +249,8 @@ The EASIER Data Initiative at the University of Maryland leverages decentralized
 In 2024, the EASIER Data Initiative expanded its work on the [Web3 Geospatial Dashboard](https://dashboard.easierdata.org/map), which lets users click on Landsat scenes and see key Filecoin and IPFS metadata. They published compelling new decentralized geospatial use cases for [crop classification data](https://easierdata.org/updates/2024/2024-12-6-crop-classification-on-dweb) and [GEDI tutorials](https://easierdata.org/notebooks/accessing-gedi-data) and hosted a workshop bringing together over 30 experts to [explore the intersection](https://workshop.easierdata.org/) of geospatial sciences, open science best practices, and the decentralized web. The EASIER Data Initiative also continues to steward the world's first [Decentralized Geospatial Web Working Group (dGWWG)](https://easierdata.org/dgwwg), a community of individuals passionate about decentralized applications for geospatial data.
 
 ## Building the DWeb Community 
+
+![](/assets/images/2024-social-impact-summit.webp)
 
 ### 2024 Social Impact Summit
 
