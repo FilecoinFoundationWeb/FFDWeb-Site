@@ -13,7 +13,7 @@ seo:
   twitter:title: summary
   twitter:card: summary
 ---
-### Welcoming the Decentralized Web 
+## Welcoming the Decentralized Web 
 
 Filecoin Foundation for the Decentralized Web (FFDW) is the sister nonprofit of Filecoin Foundation. FFDW is a 501(c)(3) nonprofit committed to preserving humanity’s most important information and supporting the development and adoption of decentralized technologies. While Filecoin Foundation stewards the Filecoin network’s future, FFDW promotes the broader development of the decentralized web (DWeb).  
 
@@ -28,9 +28,7 @@ Some of FFDW’s work in 2024: 
 
 In this report, you’ll see the progress achieved by FFDW and our exceptional roster of project partners over the last year. 
 
-
-
-### FFDW’s Impact Areas 
+## FFDW’s Impact Areas 
 
 FFDW’s efforts span the critical areas listed below. Each of these domains is vital in its own right, and FFDW’s breadth of work reflects its commitment to driving meaningful change not just in one industry but across the expanse of the web. 
 
@@ -116,200 +114,126 @@ HRDAG has been turning raw human rights data into usable findings for nearly 30 
 
 OpenArchive is a nonprofit committed to protecting our histories to advance human rights. Co-created by and for archivists and human rights defenders, they develop privacy-first, decentralized, easy-to-use archiving tools and resources to advance justice and accountability. Their flagship app, [Save](https://open-archive.org/save) helps people securely archive, verify, and encrypt their evidentiary mobile media. Through the collaboration with FFDW, OpenArchive is implementing decentralized backends into the Save app to enhance verification, redundancy, and provenance of the media. This will enable people to preserve their media with decentralized storage via their mobile devices. Additionally, OpenArchive’s [Decentralized Archivist Community Program](https://open-archive.org/programs) –– which includes seven international communities –– jointly supports, stewards, and leverages archiving, research, and decentralization to ensure their documentation is safe and accessible for the long term.
 
-
-
-[Starling Lab ](https://www.starlinglab.org/)
+#### [Starling Lab ](https://www.starlinglab.org/)
 
 Starling Lab is using Filecoin and other DWeb protocols to capture, store, and verify sensitive digital records, like evidence of war crimes and genocide survivor testimony. In 2024, the Lab hosted the “Trusting Digital Content in the Age of AI” conference, coinciding with the opening of the “To Trust or Not To Trust” exhibit at Stanford University’s Green Library. This museum-style exhibit explores the evolution of digital authenticity and preservation, showcasing everything from 9th-century cryptography to 20th-century storage devices and cutting-edge Web3 projects. The Lab wrapped up the first edition of its “Designing for Authenticity” class at Stanford, which was expanded to an even larger offering the following academic year. Additionally, Starling collaborated with Numbers Protocol to develop authentication approaches, tested by photojournalists [during the Taiwan election](https://votetw2024.numbersprotocol.io/En).
 
-
-
-[Ushahidi](https://www.ushahidi.com/)
+#### [Ushahidi](https://www.ushahidi.com/)
 
 Ushahidi's mission is to help people everywhere easily gather data and generate insights that help tackle the issues that matter most to them. Since its founding in 2008 as a tool to monitor and map post-election violence in Kenya, Ushahidi’s open source crowdsourcing tools have been used by millions of people and thousands of groups to raise voices, inform decisions, stop suffering, and influence change. Recognizing the deep value of maintaining historical records of election-related data, FFDW collaborated with Ushahidi on the Election Data Resilience Initiative to use the Filecoin network’s distributed storage to provide a resilient and verifiable [repository of historical election data](https://www.ushahidi.com/datadownload/). 
 
-
-
-[WITNESS](https://www.witness.org/)
+#### [WITNESS](https://www.witness.org/)
 
 WITNESS is an international nonprofit organization that helps people use video and technology to protect and defend human rights. With the rapid evolution of generative AI and synthetic media, FFDW and WITNESS are working together to secure the next generation of trustworthy human rights information by creating, preserving, and protecting human rights documentation and other public interest information. As part of this work, WITNESS is exploring how the DWeb can assist the work of activists, civic journalists, and smartphone witnesses who go to great lengths to capture human rights evidence. WITNESS creates and shares tried-and-tested [guidance and resources](https://library.witness.org/) in a free library for anyone anywhere using video for human rights. 
 
 #### Cultural Preservation 
 
-
-
-[Artizen](https://artizen.fund/index/leaderboard/?season=4)
+#### [Artizen](https://artizen.fund/index/leaderboard/?season=4)
 
 Artizen’s mission is to unlock human creativity by reinventing how society funds art, science, technology, and design. Artizen leads a program that facilitates participatory funding of projects selected by its diverse community. With Artizen, FFDW co-funds the “Filecoin Fund for Cultural Preservation,” a match fund that supports projects using decentralized storage technologies, including Filecoin, to archive, preserve, and disseminate cultural works.  
 
-
-
-[Digital Public Library of America ](https://dp.la/)
+#### [Digital Public Library of America ](https://dp.la/)
 
 The Digital Public Library of America (DPLA) amplifies the value of libraries and cultural organizations as Americans’ most trusted sources of shared knowledge. It does this by collaborating with partners to accelerate innovative tools and ideas that equip libraries to make information more accessible.
 
-
-
 With FFDW’s support, DPLA is uploading a dataset of 2.25 million archival government records with visual historical material to the Filecoin network. DPLA is also convening conversations with its partners about the impact of decentralized technology on the preservation of digital media.
 
-
-
-[Flickr Foundation](https://www.flickr.org/)
+#### [Flickr Foundation](https://www.flickr.org/)
 
 FFDW provided funding to launch a new cultural organization, Flickr Foundation, to develop and sustain a social and technical infrastructure to steward the invaluable Flickr collection for future generations. The nonprofit is striving to ensure this treasure remains available for people to contribute to, learn from, and enjoy for the next 100 years. In 2025, the team will launch an alpha of its Data Lifeboat concept, exploring how decentralized methodology can underpin such an enormous system. 
 
-
-
-[MIT Open Learning](https://openlearning.mit.edu/)
+#### [MIT Open Learning](https://openlearning.mit.edu/)
 
 MIT Open Learning at the Massachusetts Institute of Technology is transforming teaching and learning through the innovative use of digital technologies. MIT Open Learning makes educational resources and courses available to learners around the globe.
 
-
-
 With FFDW’s support, Open Learning is exploring how decentralized technology can bolster its programs, including MIT OpenCourseWare (OCW). A core component of FFDW’s work with Open Learning is exploring avenues to utilize IPFS and the Filecoin network to store and distribute OCW content. This could enable broader access to OCW’s 2,500+ MIT courses that have reached more than 500 million people worldwide since the program launched in 2002.  
 
- 
-
-[MuckRock ](https://www.muckrock.com/)
+#### [MuckRock ](https://www.muckrock.com/)
 
 MuckRock is a vital resource for public records requests on the local, state, and federal level; a collaborative news site; and a long-term store for the data behind the news, backed up on IPFS and Filecoin.
 
-
-
 MuckRock integrated IPFS and Filecoin into DocumentCloud, a platform hosting over 5.5 million verified documents. To date, over 500,000 files –– including key documents from newsrooms, nonprofits, and researchers –– have been uploaded to the Filecoin network through this collaboration. 
-
-
 
 Over the course of its collaboration with FFDW, MuckRock has conducted three rounds of Gateway Grants to assist over a dozen global projects to analyze, preserve, and increase access to critical documents by leveraging decentralized storage technology. This initiative has helped newsrooms, researchers, and community groups upload and analyze a record number of materials, ranging from [tracking governmental spending](https://www.muckrock.com/news/archives/2023/may/11/second-cohort-of-gateway-grantees-launch-projects-to-help-organizations-worldwide-better-carry-out-their-role-as-watchdog/) to [FEMA housing reports](https://www.muckrock.com/news/archives/2023/jan/10/initial-gateway-grantees-launch-projects-to-help-p/). 
 
-
-
-[Prelinger Archives ](https://archive.org/details/prelinger)
+#### [Prelinger Archives ](https://archive.org/details/prelinger)
 
 The Prelinger Archives is digitizing and preserving a vast collection of archival 8mm, 16mm, and 35mm film footage to further its mission to make rare and one-of-a-kind films, especially films by and about members of underrepresented communities, accessible to the public. 
 
-
-
 Prelinger Archives has scanned nearly 5 million feet and over 3,000 hours of film. Prelinger Archives’ collaboration with FFDW explores methods for uploading and accessing motion picture datasets to Filecoin at scale. The project currently uploads roughly one terabyte of new motion picture data to Filecoin every day.   
 
-
-
-[Rohingya Project](https://rohingyaproject.com/)
+#### [Rohingya Project](https://rohingyaproject.com/)
 
 Rohingya Project champions stateless Rohingya, using blockchain-based technologies to equip them with a virtual community that can encourage collaboration and entrepreneurship. FFDW’s collaboration with Rohingya Project supports digitization and archiving efforts to preserve the collective identity of the Rohingya –– safeguarding cultural artifacts for education, research, community building, and advocacy purposes –– along with the use of decentralized technologies such as Filecoin to advance the project’s mission. Rohingya Project is also training Rohingya youth on decentralized archival methods.
 
-
-
-[Shift Collective ](https://www.shiftcollective.us/)
+#### [Shift Collective ](https://www.shiftcollective.us/)
 
 Shift Collective is a non-profit consulting and design group that helps organizations better engage, collaborate with, and reflect their local communities. FFDW’s support enables Shift to explore decentralized storage solutions for [Historypin.org](http://historypin.org) and map the ethical and material digital storage needs of community-based archives. This includes work to build a pilot storage network in collaboration with institutional and community archive partners. The goal is to design a prototype for community-centered, affordable, and accessible long-term, decentralized storage that is also ethical, autonomous, and sustainable. 
 
-
-
-[Smithsonian Institution](https://www.si.edu/)
+#### [Smithsonian Institution](https://www.si.edu/)
 
 The Smithsonian Institution is the world’s largest museum, education, and research complex. The Smithsonian seeks to shape the future by preserving heritage, discovering new knowledge, and sharing resources with the world.
 
-
-
 The Smithsonian’s National Museum of American History is working with FFDW to upload nearly 300 digitized sound recordings from Alexander Graham Bell to IPFS and Filecoin. Famous for patenting the first practical telephone in 1876, Bell also pioneered recorded sound. Experimental recordings from his Volta Laboratory in Washington, D.C., dating from 1881 to 1889, are some of the earliest recordings ever made. The surviving collection of about 300 records was considered unplayable until new technologies in the 21st century made it possible to hear them.
 
-
-
-[TRANSFER Data Trust](https://transfergallery.com/data-trust/)
+#### [TRANSFER Data Trust](https://transfergallery.com/data-trust/)
 
 TRANSFER Data Trust is a decentralized, artist-owned archive and cooperative value exchange network for time-based media art. FFDW’s collaboration with TRANSFER brings 10 years of new media and virtual artworks across five studios onto the Filecoin network. The Data Trust is a proof-of-concept prototype of open culture infrastructure for galleries, libraries, archives, and museums.
 
-#### Government Datasets and Policy 
+### Government Datasets and Policy 
 
-
-
-[Authors Alliance](https://www.authorsalliance.org/)
+#### [Authors Alliance](https://www.authorsalliance.org/)
 
 Authors Alliance seeks to advance the interests of authors who want to serve the public good by sharing their creations broadly. The Alliance creates resources to help authors understand and enjoy their rights while championing policies that make knowledge and culture available and discoverable. FFDW backs the Alliance in its work to address restrictions on preservation and access to knowledge, especially concerning limitations on new technological use cases.  
 
-
-
-[Creative Commons](https://creativecommons.org/)
+#### [Creative Commons](https://creativecommons.org/)
 
 Creative Commons (CC) is a nonprofit organization dedicated to helping build and sustain a thriving commons of shared knowledge and culture online. As part of its work, CC helps overcome legal obstacles to knowledge sharing and creativity to address the world’s most pressing challenges. FFDW promotes CC’s work through financial aid, technical advising, and communications amplification.  
 
-
-
-[Democracy’s Library ](https://archive.org/details/democracys-library)
+#### [Democracy’s Library ](https://archive.org/details/democracys-library)
 
 The Internet Archive is a nonprofit digital library that has archived the web for decades and preserves other cultural artifacts in digital form. Democracy’s Library is an Internet Archive initiative to preserve government research and publications from around the world. Since 2022, FFDW has supported the Democracy’s Library project, which has also received funding from Filecoin Foundation. 
 
-
-
 As the Democracy’s Library collection grows, the initiative is focusing on the preservation and accessibility of U.S. and Canadian government documents, including uploading collections to the Filecoin network. In addition, the project is exploring how it can empower countries that are currently under-resourced for public digital record keeping.   
 
-
-
-[Fight for the Future](https://www.fightforthefuture.org/)
+#### [Fight for the Future](https://www.fightforthefuture.org/)
 
 Fight for the Future (FFtF) is an activist group focused on digital rights. Through its collaboration with FFDW, FFtF advocates for human rights-centered technology regulations and frameworks to promote data privacy, the right to code, and the preservation and distribution of knowledge and culture. Additionally, the project organizes privacy-preserving financial and data systems in new constituencies. 
 
-
-
-[Foundation for American Innovation ](https://www.thefai.org/)
+#### [Foundation for American Innovation ](https://www.thefai.org/)
 
 Foundation for American Innovation’s (FAI) mission is to develop technology, talent, and ideas that champion a better, freer, and more abundant future. FFDW works with FAI to inform and educate American policymakers and leaders on the benefits and values of open, decentralized technologies. The project seeks to bridge the divide between the tech and policy communities through coalition building, educational outreach, translational research, and both in-person and online events.  
 
-
-
-[Institute for Education](https://ife.edu.mt/)
+#### [Institute for Education](https://ife.edu.mt/)
 
 The Institute for Education (IFE) is a nonprofit organization committed to helping the global community through the powers of data, innovation, and soft diplomacy. FFDW backs IFE in its partnerships with diplomats, entrepreneurs, technologists, journalists, and leaders across the political and technology spectrums to promote better understandings of next-generation technologies, like blockchain and distributed storage. IFE also works to educate students of all backgrounds in computer science through its CS@SC coding camp. Basic CS skills are integral to ensuring that every child has equal access to future opportunities.
 
-
-
-[Public Knowledge](https://publicknowledge.org/)
+#### [Public Knowledge](https://publicknowledge.org/)
 
 Public Knowledge is a nonprofit shaping policy to promote freedom of expression, an open internet, and access to technology to benefit the public. FFDW supported the 2024 Emerging Tech Conference that convened industry leaders, policymakers, innovators, researchers, and technologists to [exchange ideas](https://www.youtube.com/watch?v=3L207sS7pow) and learn about cutting-edge technology, including the DWeb. 
 
-
-
-[TechCongress ](https://techcongress.io/)
+#### [TechCongress ](https://techcongress.io/)
 
 TechCongress is an organization that provides one-year fellowships to bridge the informational gap between technologists and policymakers in Congress by placing technologists on Capitol Hill to serve as Congressional technology advisors. Funding from FFDW has supported fellowship participation, with technologists placed in offices including Sen. Cynthia Lummis (R-WY); Sen. Ron Wyden (D-OR); the Senate Finance Committee; the House Science, Space, and Technology Committee; and elsewhere.
 
+### Science and Environment 
 
-
-#### Science and Environment 
-
-
-
-[Earth Species Project](https://www.earthspecies.org/)
+#### [Earth Species Project](https://www.earthspecies.org/)
 
 Earth Species Project (ESP) is a nonprofit dedicated to using artificial intelligence to decode non-human communication. ESP is building open-access machine learning tools to assist researchers as they endeavor to make meaning of their data. FFDW supports ESP’s core work, including its explorations in using distributed storage technologies to redundantly store researchers’ datasets.  
 
-
-
-[The EASIER Data Initiative ](https://easierdata.org/)
+#### [The EASIER Data Initiative ](https://easierdata.org/)
 
 The EASIER Data Initiative at the University of Maryland leverages decentralized storage technologies, including Filecoin and IPFS, to transform data access and computation in the geospatial field. 
 
-
-
 In 2024, the EASIER Data Initiative expanded its work on the [Web3 Geospatial Dashboard](https://dashboard.easierdata.org/map), which lets users click on Landsat scenes and see key Filecoin and IPFS metadata. They published compelling new decentralized geospatial use cases for [crop classification data](https://easierdata.org/updates/2024/2024-12-6-crop-classification-on-dweb) and [GEDI tutorials](https://easierdata.org/notebooks/accessing-gedi-data) and hosted a workshop bringing together over 30 experts to [explore the intersection](https://workshop.easierdata.org/) of geospatial sciences, open science best practices, and the decentralized web. The EASIER Data Initiative also continues to steward the world's first [Decentralized Geospatial Web Working Group (dGWWG)](https://easierdata.org/dgwwg), a community of individuals passionate about decentralized applications for geospatial data.
 
+## Building the DWeb Community 
 
-
-- - -
-
-### Building the DWeb Community 
-
-
-
-2024 Social Impact Summit
-
-
+### 2024 Social Impact Summit
 
 The Social Impact Summit, hosted by FFDW and the University of San Francisco School of Law’s Center for Law Tech and Social Good, gathered leaders to explore how emerging and decentralized technologies may enhance trust in the digital age. The day-long event [featured discussions](https://www.youtube.com/watch?v=C7lkMwl9RUg) on various applications of blockchain and DWeb technologies, including document preservation through platforms like DocumentCloud, community-driven internet infrastructure, safe communication tools like SecureDrop, and applications for humanitarian aid distribution. Talks throughout the day highlighted how decentralized technologies are being used to address global challenges in financial inclusion, human rights documentation, and digital equity. The Summit emphasized the importance of thoughtful technology deployment that prioritizes community needs; regulatory frameworks that encourage innovation; and the critical role of decentralization in creating a more transparent, resilient, and equitable digital future.
 
-### Looking Forward 
-
-
+## Looking Forward 
 
 We invite you to join us as FFDW continues to work toward broader DWeb adoption and development. Whether by engaging with our ongoing projects or staying informed about our efforts, the community’s involvement is crucial to building a robust and decentralized web. Together, we can shape a more interconnected and empowered digital future.
