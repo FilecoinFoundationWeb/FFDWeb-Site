@@ -30,7 +30,7 @@ FFDW’s work in 2024 showcases the benefits of decentralized technology at a mo
 Some of FFDW’s work in 2024: 
 
 * 500,000+ cultural artifacts preserved on the Filecoin network 
-* 5,000+ builders and creators educated on decentralized technology 
+* 5,000+ creators educated on decentralized technology 
 
 In this report, you’ll see the progress achieved by FFDW and our exceptional roster of project partners over the last year. 
 
