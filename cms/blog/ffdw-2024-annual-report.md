@@ -34,6 +34,8 @@ Some of FFDW’s work in 2024: 
 
 In this report, you’ll see the progress achieved by FFDW and our exceptional roster of project partners over the last year. 
 
+![](/assets/images/snapshot2.webp)
+
 ## FFDW’s Impact Areas 
 
 FFDW’s efforts span the critical areas listed below. Each of these domains is vital in its own right, and FFDW’s breadth of work reflects its commitment to driving meaningful change not just in one industry but across the expanse of the web. 
@@ -51,6 +53,8 @@ Government Datasets and Policy: FFDW educates policymakers about the promise of 
 Science and Environment: Scientific research produces large amounts of data, but there are limited systems in place to preserve this information publicly and for the long term. FFDW is working with universities and other scientific institutions to preserve scientific data by leveraging the reliability of decentralized storage.
 
 ## Impact Areas  
+
+![](/assets/images/dweb-research-and-development.webp)
 
 ### DWeb Research and Development
 
@@ -78,6 +82,8 @@ Two of Spritely’s core projects are Spritely Goblins and [OCapN, the Object Ca
 
 The Web Foundation advanced Sir Tim Berners-Lee's original vision for an open web that is safe, trusted, and empowering for all its users. FFDW’s award helped Web Foundation to assess the current state of the web and determine how to use its voice to advocate for a better, re-decentralized future for the web. 
 
+![](/assets/images/education-1-.webp)
+
 ### Education 
 
 #### [Center for Law Tech and Social Good ](https://www.usfca.edu/law/school-life-careers/centers/center-law-tech-social-good)
@@ -97,6 +103,8 @@ Also in 2024, Gray Area’s annual festival programming heavily featured DWeb cr
 TechSoup equips changemakers worldwide with access to solutions and strategies, skills development, and peer-to-peer community support that help them better use technology to make their organizations more flexible and resilient to the challenges of our world today.
 
 TechSoup launched [Accelerating Makers](https://acceleratingmakers.publicgoodapphouse.org/), a DWeb education program designed to help early career civil society makers explore and develop potential use cases for decentralized technologies, then build and integrate decentralized applications into the civil society tech stack. Insights from this program inspired the launch of the [Cultural Memory Lab](https://grayarea.org/initiative/cultural-memory-lab/), a learning incubator to empower libraries, museums, community archives, and other cultural organizations to put their learnings on decentralized technology and storage into practice.
+
+![](/assets/images/human-rights.webp)
 
 ### Human Rights 
 
@@ -131,6 +139,8 @@ Ushahidi's mission is to help people everywhere easily gather data and generate 
 #### [WITNESS](https://www.witness.org/)
 
 WITNESS is an international nonprofit organization that helps people use video and technology to protect and defend human rights. With the rapid evolution of generative AI and synthetic media, FFDW and WITNESS are working together to secure the next generation of trustworthy human rights information by creating, preserving, and protecting human rights documentation and other public interest information. As part of this work, WITNESS is exploring how the DWeb can assist the work of activists, civic journalists, and smartphone witnesses who go to great lengths to capture human rights evidence. WITNESS creates and shares tried-and-tested [guidance and resources](https://library.witness.org/) in a free library for anyone anywhere using video for human rights. 
+
+![](/assets/images/cultural-preservation.webp)
 
 #### Cultural Preservation 
 
