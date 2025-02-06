@@ -6,6 +6,8 @@ updated-on: 2025-02-06T21:12:58.480Z
 published-on: 2025-02-06T21:12:58.493Z
 f_post-date: 2025-02-06T21:12:58.510Z
 f_featured: false
+f_image:
+  url: /assets/images/techsoup-q-a.webp
 tags: blog
 layout: "[blog].html"
 date: 2025-02-06T21:12:58.523Z
