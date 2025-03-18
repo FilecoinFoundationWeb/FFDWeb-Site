@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="6554b935970dbbc479ec0b19" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="6582ec9219a48dcb25a4f28f" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -362,7 +362,7 @@ a:hover .move-on-hover {
                 <a href="{{ links.-614d2a6e }}">{{ texts.3610230d }}</a>
               </p>
               <figure class="w-richtext-align-center w-richtext-figure-type-image">
-                <div><img src="/assets/images/ffdw-general-open-graph-image.png" loading="lazy" alt=""></div>
+                <div><img src="{{ images.154fb0f9.url }}" loading="lazy" alt="{{ images.154fb0f9.alt | escape }}"></div>
               </figure>
             </div>
           </div>
@@ -375,15 +375,15 @@ a:hover .move-on-hover {
         <div class="sg-element-wrapper full">
           <div class="sg-element">
             <div class="form-wrapper w-form">
-              <form id="email-form" name="email-form" data-name="email" method="get" data-wf-page-id="6554b935970dbbc479ec0b19" data-wf-element-id="83e71f3b-b15b-05b4-84df-16b9f01ebd73" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-                <div class="form_field"><input type="text" class="form_input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name" id="name">
+              <form id="email-form" name="email-form" data-name="email" method="get" data-wf-page-id="6582ec9219a48dcb25a4f28f" data-wf-element-id="83e71f3b-b15b-05b4-84df-16b9f01ebd73" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+                <div class="form_field"><input class="form_input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name" type="text" id="name">
                   <div class="validation-message">{{ texts.3fa5c5e9 }}</div>
                   <div class="form_input_border gradient-red-purple"></div>
                 </div>
                 <div class="form_field"><textarea class="form_input textarea w-input" maxlength="5000" name="field" data-name="Field" pattern=".{50,25000}" placeholder="Example Text" id="field"></textarea>
                   <div class="validation-message">{{ texts.3fa5c5e9 }}</div>
                   <div class="form_input_border gradient-red-purple"></div>
-                </div><input type="submit" value="Submit >" data-wait="Please wait..." class="submit-button w-button">
+                </div><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit >">
               </form>
               <div class="success-message w-form-done">
                 <div>{{ texts.5a0ea5a1 }}</div>
@@ -567,6 +567,22 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
+document.querySelectorAll('a[href*="watch"]').forEach( link => link.setAttribute('target', '_blank'));
+document.querySelectorAll('[share]').forEach(el => {
+const type= el.getAttribute('share');
+el.setAttribute('target', '_blank');
+switch (type) {
+case "reddit":
+el.setAttribute('href', 'https://www.reddit.com/submit?url=' + el.href);
+break;
+  case "twitter":
+   el.setAttribute('href', 'https://twitter.com/intent/tweet?url=' + el.href);
+  break;
+  case "linkedin":
+   el.setAttribute('href', 'https://www.linkedin.com/sharing/share-offsite/?url=' + el.href);
+  break;
+}
+});
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

@@ -1,7 +1,13 @@
 {
-  "domain": "https://ffdweb.org",
+  "domain": "",
   "images_optimization": {
-    "formats": ["webp"],
-    "dimensions": [800, 1080, 1600]
+    "formats": [
+      "webp"
+    ],
+    "dimensions": [
+      800,
+      1080,
+      1600
+    ]
   }
 }

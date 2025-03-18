@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="6554b935970dbbc479ec0add" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="6582ec9219a48dcb25a4f251" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -251,14 +251,14 @@ a:hover .move-on-hover {
       <div class="sg-section_content">
         <div class="sg-element-wrapper">
           <div class="sg-element">
-            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="/assets/images/logo-white.svg" loading="lazy" alt="" class="logo"></a>
+            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="{{ images.27789c17.url }}" loading="lazy" alt="{{ images.27789c17.alt | escape }}" class="logo"></a>
           </div>
           <div class="divider"></div>
           <div>{{ texts.-39839a8c }}</div>
         </div>
         <div class="sg-element-wrapper">
           <div class="sg-element bg-green-yellow">
-            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="/assets/images/logo.svg" loading="lazy" alt="" class="logo"></a>
+            <a href="{{ links.2f }}" class="logo-button w-inline-block"><img src="{{ images.-2a484e45.url }}" loading="lazy" alt="{{ images.-2a484e45.alt | escape }}" class="logo"></a>
           </div>
           <div class="divider"></div>
           <div>{{ texts.-3a5a29b0 }}</div>
@@ -437,6 +437,22 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
+document.querySelectorAll('a[href*="watch"]').forEach( link => link.setAttribute('target', '_blank'));
+document.querySelectorAll('[share]').forEach(el => {
+const type= el.getAttribute('share');
+el.setAttribute('target', '_blank');
+switch (type) {
+case "reddit":
+el.setAttribute('href', 'https://www.reddit.com/submit?url=' + el.href);
+break;
+  case "twitter":
+   el.setAttribute('href', 'https://twitter.com/intent/tweet?url=' + el.href);
+  break;
+  case "linkedin":
+   el.setAttribute('href', 'https://www.linkedin.com/sharing/share-offsite/?url=' + el.href);
+  break;
+}
+});
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

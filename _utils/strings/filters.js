@@ -23,6 +23,9 @@ module.exports = {
     trim: function(s) {
         return ('' + s).trim();
     },
+    precision: function(s, p) {
+        return Number(s).toFixed(p)
+    },
     escape: function (s) {
         return ('' + s) /* Forces the conversion to string. */
             .replace(/\\/g, '\\\\') /* This MUST be the 1st replacement. */

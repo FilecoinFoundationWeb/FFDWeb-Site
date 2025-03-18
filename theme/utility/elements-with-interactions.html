@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="6554b935970dbbc479ec0afc" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="6582ec9219a48dcb25a4f272" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -249,7 +249,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content"><img src="/assets/external/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="square-image">
+        <div class="accordion_header-content"><img src="{{ images.-3cbca8bd.url }}" loading="lazy" alt="{{ images.-3cbca8bd.alt | escape }}" class="square-image">
           <div class="accordion_text-wrapper">
             <div class="accordion_title">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>
@@ -316,7 +316,7 @@ a:hover .move-on-hover {
     <div class="accordion">
       <div class="background gradient-red-purple opacity-on-hover"></div>
       <div class="accordion_header">
-        <div class="accordion_header-content reverse"><img src="/assets/external/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="square-image">
+        <div class="accordion_header-content reverse"><img src="{{ images.-3cbca8bd.url }}" loading="lazy" alt="{{ images.-3cbca8bd.alt | escape }}" class="square-image">
           <div class="accordion_text-wrapper">
             <div class="accordion_title reverse">{{ texts.4d13238 }}</div>
             <div class="accordion_subtitle">{{ texts.-76f64fc8 }}</div>
@@ -464,6 +464,22 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
+document.querySelectorAll('a[href*="watch"]').forEach( link => link.setAttribute('target', '_blank'));
+document.querySelectorAll('[share]').forEach(el => {
+const type= el.getAttribute('share');
+el.setAttribute('target', '_blank');
+switch (type) {
+case "reddit":
+el.setAttribute('href', 'https://www.reddit.com/submit?url=' + el.href);
+break;
+  case "twitter":
+   el.setAttribute('href', 'https://twitter.com/intent/tweet?url=' + el.href);
+  break;
+  case "linkedin":
+   el.setAttribute('href', 'https://www.linkedin.com/sharing/share-offsite/?url=' + el.href);
+  break;
+}
+});
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

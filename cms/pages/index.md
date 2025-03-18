@@ -7,6 +7,8 @@ tags: pages
 seo:
   noindex: false
   title: FFDWeb
+  og:title: FFDWeb
+  twitter:title: FFDWeb
 ---
 
 

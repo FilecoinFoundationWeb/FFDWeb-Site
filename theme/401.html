@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="6554b935970dbbc479ec0a9e" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
+<html data-wf-page="6582ec9219a48dcb25a4f24d" data-wf-site="643e91257b7faead4d5d968e"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -22,8 +22,8 @@
 <body>
   <div class="utility-page-wrap">
     <div class="utility-page-content w-password-page w-form">
-      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility-page-form w-password-page" data-wf-page-id="6554b935970dbbc479ec0a9e" data-wf-element-id="6536375f16ae8e5f4d4ce8cb00000000000c" data-ajax="true"><img src="/assets/external/utility-lock.ae54711958.svg" alt="">
-        <h2>{{ texts.-11d4bbff }}</h2><label for="pass" class="w-password-page">{{ texts.4c641ebb }}</label><input type="password" class="w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Enter your password" id="pass"><input type="submit" value="Submit" data-wait="Please wait..." class="w-password-page w-button">
+      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility-page-form w-password-page" data-wf-page-id="6582ec9219a48dcb25a4f24d" data-wf-element-id="6536375f16ae8e5f4d4ce8cb00000000000c" data-ajax="true"><img src="{{ images.-7a700be7.url }}" alt="{{ images.-7a700be7.alt | escape }}">
+        <h2>{{ texts.-11d4bbff }}</h2><label for="pass" class="w-password-page">{{ texts.4c641ebb }}</label><input class="w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Enter your password" type="password" id="pass"><input type="submit" data-wait="Please wait..." class="w-password-page w-button" value="Submit">
         <div class="w-password-page w-form-fail">
           <div>{{ texts.-f5c4b5f }}</div>
         </div>
@@ -54,6 +54,22 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 document.querySelectorAll('[html\\3A attribute="target|_blank"]').forEach(el => el.target = "_blank")
+document.querySelectorAll('a[href*="watch"]').forEach( link => link.setAttribute('target', '_blank'));
+document.querySelectorAll('[share]').forEach(el => {
+const type= el.getAttribute('share');
+el.setAttribute('target', '_blank');
+switch (type) {
+case "reddit":
+el.setAttribute('href', 'https://www.reddit.com/submit?url=' + el.href);
+break;
+  case "twitter":
+   el.setAttribute('href', 'https://twitter.com/intent/tweet?url=' + el.href);
+  break;
+  case "linkedin":
+   el.setAttribute('href', 'https://www.linkedin.com/sharing/share-offsite/?url=' + el.href);
+  break;
+}
+});
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

@@ -35,6 +35,51 @@ function htmlEntities(str) {
 
 module.exports = function (eleventyConfig) {
 
+    eleventyConfig.addShortcode('embedVideoJSON', async function(video) {
+        if (!video || !video.url) {
+            return ""
+        }
+        
+        let oembedUrl = null;
+        if (video.url.includes("vimeo")) {
+            oembedUrl = "https://vimeo.com/api/oembed.json?url=" + video.url;
+            
+        } else if (video.url.includes("you")) {
+          oembedUrl = `https://youtube.com/oembed?url=${video.url}&format=json`;
+        }
+
+        if (oembedUrl != null) {
+            try {
+                const response = await fetch(oembedUrl);
+                const oembedRes = await response.json();
+                if (oembedRes.html) {
+                    return JSON.stringify({
+                        "items": [
+                            {
+                                "type": "video",
+                                "url": video.url,
+                                "html": oembedRes.html,
+                                "width": 900,
+                                "height": 480
+                            }
+                        ],
+                        "group": ""
+                    })
+                } else {
+                    return JSON.stringify({
+                        "items": []
+                    })
+                }
+                
+            } catch (error) {
+                console.error("Error fetching oEmbed response: ", error);
+                return "";
+            }
+        }
+
+        return "";
+    });
+
     eleventyConfig.addShortcode('embedVideo', async function(video) {
         if (!video || !video.url) {
             return ""
@@ -49,8 +94,14 @@ module.exports = function (eleventyConfig) {
         }
 
         if (oembedUrl != null) {
-            const oembedRes = await (await fetch(oembedUrl)).json()
-            return oembedRes.html;
+            try {
+                const response = await fetch(oembedUrl);
+                const oembedRes = await response.json();
+                return oembedRes.html ? oembedRes.html : "";
+            } catch (error) {
+                console.error("Error fetching oEmbed response: ", error);
+                return "";
+            }
         }
 
         return "";
@@ -127,6 +178,17 @@ module.exports = function (eleventyConfig) {
 
     const buildTime = new Date().toUTCString();
     eleventyConfig.addShortcode('seo', function (seo) {
+        let domain = "";
+        try {
+            domain = this.ctx.environments.settings.site.domain
+            if (domain.endsWith('/')) {
+                domain = domain.substring(0, domain.length - 1);
+            }
+        } catch(e) {
+
+        }
+        
+        
         let seoString = '';
         for (let key in seo) {
             switch (key) {
@@ -141,16 +203,40 @@ module.exports = function (eleventyConfig) {
                 case 'description':
                     seoString += `<meta name="description" content="${htmlEntities(seo.description)}">`;
                     break;
+                case "twitter:image":
+                        let content = htmlEntities(seo[key]);
+                        if (!content.startsWith("http")) {
+                            if (content.startsWith("/")) {
+                                content = domain + content;
+                            } else {
+                                content = domain + "/" + content;
+                            }
+                        }
+                            seoString += `<meta name="${escape(key)}" content="${content}">`;
+                break;
                 default: {
                     if (key == 'additional_tags') {
                         seoString += seo.additional_tags;
                     } else if (key.startsWith('og:')) {
-                        seoString += `<meta property="${escape(key)}" content="${htmlEntities(seo[key])}">`;
+                    
+                        let content = htmlEntities(seo[key]);
+                        if (key == "og:image") {
+                            if (!content.startsWith("http")) {
+                                if (content.startsWith("/")) {
+                                    content = domain + content;
+                                } else {
+                                    content = domain + "/" + content;
+                                }
+                            }
+                          
+                        }
+                        seoString += `<meta property="${escape(key)}" content="${content}">`;
                     } else {
                         seoString += `<meta name="${escape(key)}" content="${htmlEntities(seo[key])}">`;
                     }
                     break;
                 }
+                
             }
         }
 
